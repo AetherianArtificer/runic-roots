@@ -1,0 +1,35 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:eye_color",
+  "display_name": {
+    "translate": "gene.runic_roots.terra_drake.eye_color"
+  },
+  "description": {
+    "translate": "gene.runic_roots.terra_drake.eye_color.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "amethyst": {
+      "display_name": {
+        "translate": "gene.runic_roots.terra_drake.eye_color.amethyst"
+      },
+      "weight": 5,
+      "tint": "#E040E0"
+    },
+    "topaz": {
+      "display_name": {
+        "translate": "gene.runic_roots.terra_drake.eye_color.topaz"
+      },
+      "weight": 2,
+      "tint": "#F2B640"
+    },
+    "emerald": {
+      "display_name": {
+        "translate": "gene.runic_roots.terra_drake.eye_color.emerald"
+      },
+      "weight": 2,
+      "tint": "#40D080"
+    }
+  }
+}

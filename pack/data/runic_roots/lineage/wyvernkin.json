@@ -22,9 +22,36 @@
     "runic_roots:wyvernkin/stature",
     "runic_roots:wyvernkin/wings",
     "runic_roots:wyvernkin/ambience",
-    "runic_roots:wyvernkin/complexion"
+    "runic_roots:wyvernkin/horns",
+    "runic_roots:wyvernkin/tail",
+    "runic_roots:wyvernkin/scales",
+    "runic_roots:wyvernkin/complexion",
+    "runic_roots:wyvernkin/eyes",
+    "runic_roots:wyvernkin/eye_color"
   ],
   "spawn_bias": {
     "default": 0.25
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#2A2A2E",
+        "to": "#B8BCC4",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#5A5A3A",
+        "to": "#E8E0C8",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#141414",
+        "to": "#9AC040",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
   }
 }

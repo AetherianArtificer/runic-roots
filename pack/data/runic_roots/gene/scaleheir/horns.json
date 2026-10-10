@@ -1,0 +1,123 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.scaleheir.horns"
+  },
+  "description": {
+    "translate": "gene.runic_roots.scaleheir.horns.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:horns",
+  "variants": {
+    "crown": {
+      "display_name": {
+        "translate": "gene.runic_roots.scaleheir.horns.crown"
+      },
+      "weight": 4,
+      "attachments": [
+        "runic_roots:scaleheir_horns_crown_male",
+        "runic_roots:scaleheir_horns_crown_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.scaleheir.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:draconic",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.scaleheir.horns.color"
+        },
+        "palette": [
+          "#2A2A33",
+          "#7A8496",
+          "#D8DEE8",
+          "#3A4A7A"
+        ]
+      }
+    },
+    "regal": {
+      "display_name": {
+        "translate": "gene.runic_roots.scaleheir.horns.regal"
+      },
+      "weight": 3,
+      "attachments": [
+        "runic_roots:scaleheir_horns_regal_male",
+        "runic_roots:scaleheir_horns_regal_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.scaleheir.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:draconic",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.scaleheir.horns.color"
+        },
+        "palette": [
+          "#2A2A33",
+          "#7A8496",
+          "#D8DEE8",
+          "#3A4A7A"
+        ]
+      }
+    },
+    "nubs": {
+      "display_name": {
+        "translate": "gene.runic_roots.scaleheir.horns.nubs"
+      },
+      "weight": 2,
+      "attachments": [
+        "runic_roots:scaleheir_horns_nubs_male",
+        "runic_roots:scaleheir_horns_nubs_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.scaleheir.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:draconic",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.scaleheir.horns.color"
+        },
+        "palette": [
+          "#2A2A33",
+          "#7A8496",
+          "#D8DEE8",
+          "#3A4A7A"
+        ]
+      }
+    }
+  }
+}

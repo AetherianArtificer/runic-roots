@@ -1,0 +1,49 @@
+{
+  "schema": "townstead:attachment/v2",
+  "geometry": "runic_roots:wyvernkin_horns_nubs",
+  "texture": "runic_roots:wyvernkin_horns_nubs",
+  "target": {
+    "tag": "horn"
+  },
+  "offset": [
+    0,
+    0,
+    0
+  ],
+  "scale": 0.85,
+  "tint": "gene",
+  "tint_blend": "multiply",
+  "when": {
+    "type": "pheno:gender",
+    "is": "female"
+  },
+  "morph": {
+    "channels": {
+      "length": {
+        "bones": [
+          "horn_l",
+          "horn_r"
+        ],
+        "axes": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "stages": {
+    "baby": {
+      "scale": 0.0
+    },
+    "toddler": {
+      "scale": 0.25
+    },
+    "child": {
+      "scale": 0.5
+    },
+    "teen": {
+      "scale": 0.8
+    }
+  }
+}

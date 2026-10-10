@@ -10,7 +10,42 @@
   "category": "Appearance",
   "dominance": "dominant",
   "locus": "townstead_roots:skin",
-  "tint": "#4F8FA8",
-  "blend": "color",
-  "strength": 0.45
+  "variants": {
+    "lagoon": {
+      "display_name": {
+        "translate": "gene.runic_roots.sea_serpen.complexion.lagoon"
+      },
+      "weight": 5,
+      "tint": "#2FA8E0",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "deep": {
+      "display_name": {
+        "translate": "gene.runic_roots.sea_serpen.complexion.deep"
+      },
+      "weight": 3,
+      "tint": "#2A5FA8",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "teal": {
+      "display_name": {
+        "translate": "gene.runic_roots.sea_serpen.complexion.teal"
+      },
+      "weight": 2,
+      "tint": "#2A9A9A",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "abyss": {
+      "display_name": {
+        "translate": "gene.runic_roots.sea_serpen.complexion.abyss"
+      },
+      "weight": 1,
+      "tint": "#1E3A5A",
+      "blend": "color",
+      "strength": 0.45
+    }
+  }
 }

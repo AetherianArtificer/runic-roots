@@ -1,0 +1,31 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.wind_wyrm.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.wind_wyrm.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "streamlined": {
+      "display_name": {
+        "translate": "gene.runic_roots.wind_wyrm.scales.streamlined"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/wind_wyrm_scales_streamlined.png",
+      "tint": "#FFFFFF"
+    },
+    "feathered": {
+      "display_name": {
+        "translate": "gene.runic_roots.wind_wyrm.scales.feathered"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/wind_wyrm_scales_feathered.png",
+      "tint": "#FFFFFF"
+    }
+  }
+}

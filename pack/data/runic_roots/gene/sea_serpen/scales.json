@@ -1,0 +1,31 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.sea_serpen.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.sea_serpen.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "foamed": {
+      "display_name": {
+        "translate": "gene.runic_roots.sea_serpen.scales.foamed"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/sea_serpen_scales_foamed.png",
+      "tint": "#FFFFFF"
+    },
+    "spotted": {
+      "display_name": {
+        "translate": "gene.runic_roots.sea_serpen.scales.spotted"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/sea_serpen_scales_spotted.png",
+      "tint": "#FFFFFF"
+    }
+  }
+}

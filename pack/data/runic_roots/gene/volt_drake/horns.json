@@ -1,0 +1,123 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.volt_drake.horns"
+  },
+  "description": {
+    "translate": "gene.runic_roots.volt_drake.horns.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:horns",
+  "variants": {
+    "forked": {
+      "display_name": {
+        "translate": "gene.runic_roots.volt_drake.horns.forked"
+      },
+      "weight": 4,
+      "attachments": [
+        "runic_roots:volt_drake_horns_forked_male",
+        "runic_roots:volt_drake_horns_forked_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.volt_drake.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:draconic",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.volt_drake.horns.color"
+        },
+        "palette": [
+          "#E8C04A",
+          "#F2E08A",
+          "#B8702C",
+          "#E6EEF2"
+        ]
+      }
+    },
+    "swept": {
+      "display_name": {
+        "translate": "gene.runic_roots.volt_drake.horns.swept"
+      },
+      "weight": 3,
+      "attachments": [
+        "runic_roots:volt_drake_horns_swept_male",
+        "runic_roots:volt_drake_horns_swept_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.volt_drake.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:draconic",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.volt_drake.horns.color"
+        },
+        "palette": [
+          "#E8C04A",
+          "#F2E08A",
+          "#B8702C",
+          "#E6EEF2"
+        ]
+      }
+    },
+    "fins": {
+      "display_name": {
+        "translate": "gene.runic_roots.volt_drake.horns.fins"
+      },
+      "weight": 2,
+      "attachments": [
+        "runic_roots:volt_drake_horns_fins_male",
+        "runic_roots:volt_drake_horns_fins_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.volt_drake.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:draconic",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.volt_drake.horns.color"
+        },
+        "palette": [
+          "#E8C04A",
+          "#F2E08A",
+          "#B8702C",
+          "#E6EEF2"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:eye_color",
+  "display_name": {
+    "translate": "gene.runic_roots.wind_wyrm.eye_color"
+  },
+  "description": {
+    "translate": "gene.runic_roots.wind_wyrm.eye_color.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "sky": {
+      "display_name": {
+        "translate": "gene.runic_roots.wind_wyrm.eye_color.sky"
+      },
+      "weight": 4,
+      "tint": "#8AD0FF"
+    },
+    "storm": {
+      "display_name": {
+        "translate": "gene.runic_roots.wind_wyrm.eye_color.storm"
+      },
+      "weight": 2,
+      "tint": "#6A7A8A"
+    },
+    "gold": {
+      "display_name": {
+        "translate": "gene.runic_roots.wind_wyrm.eye_color.gold"
+      },
+      "weight": 2,
+      "tint": "#F2C84A"
+    }
+  }
+}

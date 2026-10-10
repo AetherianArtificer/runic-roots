@@ -22,7 +22,12 @@
     "runic_roots:volt_drake/stature",
     "runic_roots:volt_drake/wings",
     "runic_roots:volt_drake/ambience",
-    "runic_roots:volt_drake/complexion"
+    "runic_roots:volt_drake/horns",
+    "runic_roots:volt_drake/tail",
+    "runic_roots:volt_drake/scales",
+    "runic_roots:volt_drake/complexion",
+    "runic_roots:volt_drake/eyes",
+    "runic_roots:volt_drake/eye_color"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -30,5 +35,30 @@
       "minecraft:windswept_hills": 3,
       "minecraft:stony_peaks": 2
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "stops": [
+          "#4A2A8C",
+          "#8A4FD8",
+          "#F2D04A"
+        ],
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#2A4AB0",
+        "to": "#A0E8FF",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#E6DCF5",
+        "to": "#FFFFFF",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
   }
 }

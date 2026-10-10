@@ -10,7 +10,42 @@
   "category": "Appearance",
   "dominance": "dominant",
   "locus": "townstead_roots:skin",
-  "tint": "#A07A50",
-  "blend": "color",
-  "strength": 0.4
+  "variants": {
+    "onyx": {
+      "display_name": {
+        "translate": "gene.runic_roots.scaleheir.complexion.onyx"
+      },
+      "weight": 5,
+      "tint": "#1A1A22",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "midnight": {
+      "display_name": {
+        "translate": "gene.runic_roots.scaleheir.complexion.midnight"
+      },
+      "weight": 3,
+      "tint": "#1E2440",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "graphite": {
+      "display_name": {
+        "translate": "gene.runic_roots.scaleheir.complexion.graphite"
+      },
+      "weight": 2,
+      "tint": "#3A3A44",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "ash": {
+      "display_name": {
+        "translate": "gene.runic_roots.scaleheir.complexion.ash"
+      },
+      "weight": 1,
+      "tint": "#5A5A66",
+      "blend": "color",
+      "strength": 0.45
+    }
+  }
 }

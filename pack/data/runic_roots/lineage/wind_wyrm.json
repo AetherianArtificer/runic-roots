@@ -22,7 +22,12 @@
     "runic_roots:wind_wyrm/stature",
     "runic_roots:wind_wyrm/wings",
     "runic_roots:wind_wyrm/ambience",
-    "runic_roots:wind_wyrm/complexion"
+    "runic_roots:wind_wyrm/horns",
+    "runic_roots:wind_wyrm/tail",
+    "runic_roots:wind_wyrm/scales",
+    "runic_roots:wind_wyrm/complexion",
+    "runic_roots:wind_wyrm/eyes",
+    "runic_roots:wind_wyrm/eye_color"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -30,5 +35,27 @@
       "minecraft:jagged_peaks": 3,
       "minecraft:windswept_hills": 3
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#7A1A2A",
+        "to": "#E8586A",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#F2E2B8",
+        "to": "#D8A860",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#DDEFFF",
+        "to": "#8AB8E0",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
   }
 }

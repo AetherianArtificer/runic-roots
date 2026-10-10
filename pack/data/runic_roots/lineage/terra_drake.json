@@ -22,12 +22,39 @@
     "runic_roots:terra_drake/stature",
     "runic_roots:terra_drake/wings",
     "runic_roots:terra_drake/ambience",
-    "runic_roots:terra_drake/complexion"
+    "runic_roots:terra_drake/horns",
+    "runic_roots:terra_drake/tail",
+    "runic_roots:terra_drake/scales",
+    "runic_roots:terra_drake/complexion",
+    "runic_roots:terra_drake/eyes",
+    "runic_roots:terra_drake/eye_color"
   ],
   "spawn_bias": {
     "default": 0.25,
     "biome_tags": {
       "#minecraft:is_mountain": 3
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#1E1A18",
+        "to": "#C99A2E",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#5A3A22",
+        "to": "#B87333",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#3A3F46",
+        "to": "#A8B0B8",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
   }
 }

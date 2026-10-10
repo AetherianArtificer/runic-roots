@@ -1,0 +1,123 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.sea_serpen.horns"
+  },
+  "description": {
+    "translate": "gene.runic_roots.sea_serpen.horns.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:horns",
+  "variants": {
+    "sail": {
+      "display_name": {
+        "translate": "gene.runic_roots.sea_serpen.horns.sail"
+      },
+      "weight": 4,
+      "attachments": [
+        "runic_roots:sea_serpen_horns_sail_male",
+        "runic_roots:sea_serpen_horns_sail_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.sea_serpen.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:draconic",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.sea_serpen.horns.color"
+        },
+        "palette": [
+          "#F4FAFF",
+          "#2A9AD0",
+          "#E05A9A",
+          "#2A9A8A"
+        ]
+      }
+    },
+    "gills": {
+      "display_name": {
+        "translate": "gene.runic_roots.sea_serpen.horns.gills"
+      },
+      "weight": 3,
+      "attachments": [
+        "runic_roots:sea_serpen_horns_gills_male",
+        "runic_roots:sea_serpen_horns_gills_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.sea_serpen.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:draconic",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.sea_serpen.horns.color"
+        },
+        "palette": [
+          "#F4FAFF",
+          "#2A9AD0",
+          "#E05A9A",
+          "#2A9A8A"
+        ]
+      }
+    },
+    "nubs": {
+      "display_name": {
+        "translate": "gene.runic_roots.sea_serpen.horns.nubs"
+      },
+      "weight": 2,
+      "attachments": [
+        "runic_roots:sea_serpen_horns_nubs_male",
+        "runic_roots:sea_serpen_horns_nubs_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.sea_serpen.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:draconic",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.sea_serpen.horns.color"
+        },
+        "palette": [
+          "#F4FAFF",
+          "#2A9AD0",
+          "#E05A9A",
+          "#2A9A8A"
+        ]
+      }
+    }
+  }
+}

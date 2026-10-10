@@ -10,7 +10,42 @@
   "category": "Appearance",
   "dominance": "dominant",
   "locus": "townstead_roots:skin",
-  "tint": "#C8B860",
-  "blend": "color",
-  "strength": 0.4
+  "variants": {
+    "violet": {
+      "display_name": {
+        "translate": "gene.runic_roots.volt_drake.complexion.violet"
+      },
+      "weight": 5,
+      "tint": "#8A4FD8",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "amethyst": {
+      "display_name": {
+        "translate": "gene.runic_roots.volt_drake.complexion.amethyst"
+      },
+      "weight": 3,
+      "tint": "#6B3FA0",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "indigo": {
+      "display_name": {
+        "translate": "gene.runic_roots.volt_drake.complexion.indigo"
+      },
+      "weight": 2,
+      "tint": "#3F3A8C",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "lilac": {
+      "display_name": {
+        "translate": "gene.runic_roots.volt_drake.complexion.lilac"
+      },
+      "weight": 2,
+      "tint": "#B08AE0",
+      "blend": "color",
+      "strength": 0.45
+    }
+  }
 }

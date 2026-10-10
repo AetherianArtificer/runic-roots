@@ -1,0 +1,31 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.volt_drake.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.volt_drake.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "forked": {
+      "display_name": {
+        "translate": "gene.runic_roots.volt_drake.scales.forked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/volt_drake_scales_forked.png",
+      "tint": "#FFFFFF"
+    },
+    "striped": {
+      "display_name": {
+        "translate": "gene.runic_roots.volt_drake.scales.striped"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/volt_drake_scales_striped.png",
+      "tint": "#FFFFFF"
+    }
+  }
+}

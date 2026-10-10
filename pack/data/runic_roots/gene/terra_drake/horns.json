@@ -1,0 +1,123 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.terra_drake.horns"
+  },
+  "description": {
+    "translate": "gene.runic_roots.terra_drake.horns.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:horns",
+  "variants": {
+    "crown": {
+      "display_name": {
+        "translate": "gene.runic_roots.terra_drake.horns.crown"
+      },
+      "weight": 4,
+      "attachments": [
+        "runic_roots:terra_drake_horns_crown_male",
+        "runic_roots:terra_drake_horns_crown_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.terra_drake.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:draconic",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.terra_drake.horns.color"
+        },
+        "palette": [
+          "#D4A62A",
+          "#2A2622",
+          "#A8B0B8",
+          "#B87333"
+        ]
+      }
+    },
+    "ram": {
+      "display_name": {
+        "translate": "gene.runic_roots.terra_drake.horns.ram"
+      },
+      "weight": 3,
+      "attachments": [
+        "runic_roots:terra_drake_horns_ram_male",
+        "runic_roots:terra_drake_horns_ram_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.terra_drake.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:draconic",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.terra_drake.horns.color"
+        },
+        "palette": [
+          "#D4A62A",
+          "#2A2622",
+          "#A8B0B8",
+          "#B87333"
+        ]
+      }
+    },
+    "nubs": {
+      "display_name": {
+        "translate": "gene.runic_roots.terra_drake.horns.nubs"
+      },
+      "weight": 2,
+      "attachments": [
+        "runic_roots:terra_drake_horns_nubs_male",
+        "runic_roots:terra_drake_horns_nubs_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.terra_drake.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:draconic",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.terra_drake.horns.color"
+        },
+        "palette": [
+          "#D4A62A",
+          "#2A2622",
+          "#A8B0B8",
+          "#B87333"
+        ]
+      }
+    }
+  }
+}

@@ -10,7 +10,42 @@
   "category": "Appearance",
   "dominance": "dominant",
   "locus": "townstead_roots:skin",
-  "tint": "#C8D8E0",
-  "blend": "color",
-  "strength": 0.4
+  "variants": {
+    "rose": {
+      "display_name": {
+        "translate": "gene.runic_roots.wind_wyrm.complexion.rose"
+      },
+      "weight": 5,
+      "tint": "#D9586A",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "coral": {
+      "display_name": {
+        "translate": "gene.runic_roots.wind_wyrm.complexion.coral"
+      },
+      "weight": 3,
+      "tint": "#E8806A",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "crimson": {
+      "display_name": {
+        "translate": "gene.runic_roots.wind_wyrm.complexion.crimson"
+      },
+      "weight": 2,
+      "tint": "#A8324A",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "dusk": {
+      "display_name": {
+        "translate": "gene.runic_roots.wind_wyrm.complexion.dusk"
+      },
+      "weight": 2,
+      "tint": "#8A5A7A",
+      "blend": "color",
+      "strength": 0.45
+    }
+  }
 }

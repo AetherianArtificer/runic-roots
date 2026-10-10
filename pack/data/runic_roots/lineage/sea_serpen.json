@@ -21,7 +21,12 @@
     "runic_roots:sea_serpen/landbound_coils",
     "runic_roots:sea_serpen/stature",
     "runic_roots:sea_serpen/ambience",
-    "runic_roots:sea_serpen/complexion"
+    "runic_roots:sea_serpen/horns",
+    "runic_roots:sea_serpen/tail",
+    "runic_roots:sea_serpen/scales",
+    "runic_roots:sea_serpen/complexion",
+    "runic_roots:sea_serpen/eyes",
+    "runic_roots:sea_serpen/eye_color"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -29,5 +34,27 @@
       "#minecraft:is_ocean": 2,
       "#minecraft:is_beach": 3
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#E8FFF8",
+        "to": "#7FD8C8",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#1E3A6A",
+        "to": "#2FA8E0",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#F2A0C0",
+        "to": "#E05A9A",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
   }
 }

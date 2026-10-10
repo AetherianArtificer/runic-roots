@@ -21,9 +21,36 @@
     "runic_roots:scaleheir/demanding_blood",
     "runic_roots:scaleheir/stature",
     "runic_roots:scaleheir/ambience",
-    "runic_roots:scaleheir/complexion"
+    "runic_roots:scaleheir/horns",
+    "runic_roots:scaleheir/tail",
+    "runic_roots:scaleheir/scales",
+    "runic_roots:scaleheir/complexion",
+    "runic_roots:scaleheir/eyes",
+    "runic_roots:scaleheir/eye_color"
   ],
   "spawn_bias": {
     "default": 0.25
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#0E0E16",
+        "to": "#2A4A8A",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#8A90A0",
+        "to": "#E0E6F0",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#1A1430",
+        "to": "#5A3A8A",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
   }
 }

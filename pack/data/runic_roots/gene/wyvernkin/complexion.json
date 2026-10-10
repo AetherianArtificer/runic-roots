@@ -10,7 +10,42 @@
   "category": "Appearance",
   "dominance": "dominant",
   "locus": "townstead_roots:skin",
-  "tint": "#6E8A5A",
-  "blend": "color",
-  "strength": 0.45
+  "variants": {
+    "charcoal": {
+      "display_name": {
+        "translate": "gene.runic_roots.wyvernkin.complexion.charcoal"
+      },
+      "weight": 5,
+      "tint": "#3A3A3E",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "slate": {
+      "display_name": {
+        "translate": "gene.runic_roots.wyvernkin.complexion.slate"
+      },
+      "weight": 3,
+      "tint": "#4A5048",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "olive": {
+      "display_name": {
+        "translate": "gene.runic_roots.wyvernkin.complexion.olive"
+      },
+      "weight": 2,
+      "tint": "#5A5A3A",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "ash": {
+      "display_name": {
+        "translate": "gene.runic_roots.wyvernkin.complexion.ash"
+      },
+      "weight": 2,
+      "tint": "#6A6A6A",
+      "blend": "color",
+      "strength": 0.45
+    }
+  }
 }

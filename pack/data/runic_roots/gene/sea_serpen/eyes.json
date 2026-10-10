@@ -1,0 +1,15 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:eyes",
+  "display_name": {
+    "translate": "gene.runic_roots.sea_serpen.eyes"
+  },
+  "description": {
+    "translate": "gene.runic_roots.sea_serpen.eyes.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "texture": "runic_roots:textures/face/draconic_eyes.png",
+  "tint": "eye_color",
+  "glow": false
+}

@@ -10,7 +10,42 @@
   "category": "Appearance",
   "dominance": "dominant",
   "locus": "townstead_roots:skin",
-  "tint": "#8C7656",
-  "blend": "color",
-  "strength": 0.45
+  "variants": {
+    "obsidian": {
+      "display_name": {
+        "translate": "gene.runic_roots.terra_drake.complexion.obsidian"
+      },
+      "weight": 5,
+      "tint": "#2A2622",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "basalt": {
+      "display_name": {
+        "translate": "gene.runic_roots.terra_drake.complexion.basalt"
+      },
+      "weight": 3,
+      "tint": "#4A4440",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "umber": {
+      "display_name": {
+        "translate": "gene.runic_roots.terra_drake.complexion.umber"
+      },
+      "weight": 2,
+      "tint": "#6B5440",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "slate": {
+      "display_name": {
+        "translate": "gene.runic_roots.terra_drake.complexion.slate"
+      },
+      "weight": 2,
+      "tint": "#5A6068",
+      "blend": "color",
+      "strength": 0.45
+    }
+  }
 }

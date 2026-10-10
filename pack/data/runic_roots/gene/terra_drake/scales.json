@@ -1,0 +1,31 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.terra_drake.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.terra_drake.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "veined": {
+      "display_name": {
+        "translate": "gene.runic_roots.terra_drake.scales.veined"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/terra_drake_scales_veined.png",
+      "tint": "#FFFFFF"
+    },
+    "banded": {
+      "display_name": {
+        "translate": "gene.runic_roots.terra_drake.scales.banded"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/terra_drake_scales_banded.png",
+      "tint": "#FFFFFF"
+    }
+  }
+}

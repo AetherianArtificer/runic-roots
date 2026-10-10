@@ -1,7 +1,7 @@
 {
   "schema": "townstead:attachment/v2",
   "geometry": "runic_roots:wings_membrane",
-  "texture": "runic_roots:wyvern_wings",
+  "texture": "runic_roots:wind_wyrm_wings",
   "bone": "body",
   "offset": [
     0,
