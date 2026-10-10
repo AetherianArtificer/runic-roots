@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.feline.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.feline.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "striped": {
+      "display_name": {
+        "translate": "gene.runic_roots.feline.scales.striped"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/feline_scales_striped.png",
+      "tint": "#FFFFFF"
+    },
+    "spotted": {
+      "display_name": {
+        "translate": "gene.runic_roots.feline.scales.spotted"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/feline_scales_spotted.png",
+      "tint": "#FFFFFF"
+    },
+    "tabby": {
+      "display_name": {
+        "translate": "gene.runic_roots.feline.scales.tabby"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/feline_scales_tabby.png",
+      "tint": "#FFFFFF"
+    }
+  }
+}

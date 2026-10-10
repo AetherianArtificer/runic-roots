@@ -1,0 +1,14 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.feline.whiskers"
+  },
+  "description": {
+    "translate": "gene.runic_roots.feline.whiskers.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:whiskers",
+  "attachment": "runic_roots:feline_whiskers"
+}

@@ -1,0 +1,60 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.canine.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.canine.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "grey": {
+      "display_name": {
+        "translate": "gene.runic_roots.canine.complexion.grey"
+      },
+      "weight": 4,
+      "tint": "#8E8E8E",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "timber": {
+      "display_name": {
+        "translate": "gene.runic_roots.canine.complexion.timber"
+      },
+      "weight": 3,
+      "tint": "#8A6A4A",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "black": {
+      "display_name": {
+        "translate": "gene.runic_roots.canine.complexion.black"
+      },
+      "weight": 2,
+      "tint": "#2A2826",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "cream": {
+      "display_name": {
+        "translate": "gene.runic_roots.canine.complexion.cream"
+      },
+      "weight": 2,
+      "tint": "#E8DCC8",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "red": {
+      "display_name": {
+        "translate": "gene.runic_roots.canine.complexion.red"
+      },
+      "weight": 2,
+      "tint": "#B8643A",
+      "blend": "color",
+      "strength": 0.5
+    }
+  }
+}

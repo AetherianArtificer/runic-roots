@@ -1,0 +1,25 @@
+{
+  "schema": "townstead:attachment/v2",
+  "geometry": "runic_roots:feline_whiskers",
+  "texture": "runic_roots:feline_whiskers",
+  "target": {
+    "tag": "snout"
+  },
+  "offset": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1.0,
+  "stages": {
+    "baby": {
+      "scale": 0.6
+    },
+    "toddler": {
+      "scale": 0.7
+    },
+    "child": {
+      "scale": 0.85
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:eye_color",
+  "display_name": {
+    "translate": "gene.runic_roots.feline.eye_color"
+  },
+  "description": {
+    "translate": "gene.runic_roots.feline.eye_color.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "green": {
+      "display_name": {
+        "translate": "gene.runic_roots.feline.eye_color.green"
+      },
+      "weight": 4,
+      "tint": "#6ACB5A"
+    },
+    "amber": {
+      "display_name": {
+        "translate": "gene.runic_roots.feline.eye_color.amber"
+      },
+      "weight": 3,
+      "tint": "#E8A33A"
+    },
+    "gold": {
+      "display_name": {
+        "translate": "gene.runic_roots.feline.eye_color.gold"
+      },
+      "weight": 2,
+      "tint": "#F2D04A"
+    },
+    "blue": {
+      "display_name": {
+        "translate": "gene.runic_roots.feline.eye_color.blue"
+      },
+      "weight": 2,
+      "tint": "#6AB0F0"
+    }
+  }
+}

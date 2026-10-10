@@ -18,7 +18,13 @@
   "genes": [
     "runic_roots:canine/howl_of_the_pack",
     "runic_roots:canine/pack_hunter",
-    "runic_roots:canine/ravenous"
+    "runic_roots:canine/ravenous",
+    "runic_roots:canine/ears",
+    "runic_roots:canine/tail",
+    "runic_roots:canine/scales",
+    "runic_roots:canine/complexion",
+    "runic_roots:canine/eyes",
+    "runic_roots:canine/eye_color"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -26,5 +32,33 @@
       "#minecraft:is_taiga": 4,
       "#minecraft:is_forest": 2
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#5A5A5E",
+        "to": "#C8CCD0",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#4A3220",
+        "to": "#A87A50",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#141414",
+        "to": "#3A3634",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#C8B89A",
+        "to": "#F2EAD8",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
   }
 }

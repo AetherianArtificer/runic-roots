@@ -1,0 +1,60 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.feline.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.feline.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "tiger": {
+      "display_name": {
+        "translate": "gene.runic_roots.feline.complexion.tiger"
+      },
+      "weight": 4,
+      "tint": "#D9822F",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "tawny": {
+      "display_name": {
+        "translate": "gene.runic_roots.feline.complexion.tawny"
+      },
+      "weight": 3,
+      "tint": "#C8A060",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "snow": {
+      "display_name": {
+        "translate": "gene.runic_roots.feline.complexion.snow"
+      },
+      "weight": 2,
+      "tint": "#E6E2DA",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "shadow": {
+      "display_name": {
+        "translate": "gene.runic_roots.feline.complexion.shadow"
+      },
+      "weight": 2,
+      "tint": "#2E2A28",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "ash": {
+      "display_name": {
+        "translate": "gene.runic_roots.feline.complexion.ash"
+      },
+      "weight": 2,
+      "tint": "#8E8C8A",
+      "blend": "color",
+      "strength": 0.5
+    }
+  }
+}

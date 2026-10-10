@@ -20,7 +20,14 @@
     "runic_roots:feline/nine_lives",
     "runic_roots:feline/hydrophobia",
     "runic_roots:feline/stature",
-    "runic_roots:feline/ambience"
+    "runic_roots:feline/ambience",
+    "runic_roots:feline/ears",
+    "runic_roots:feline/whiskers",
+    "runic_roots:feline/tail",
+    "runic_roots:feline/scales",
+    "runic_roots:feline/complexion",
+    "runic_roots:feline/eyes",
+    "runic_roots:feline/eye_color"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -28,5 +35,33 @@
       "minecraft:jungle": 3,
       "minecraft:savanna": 3
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#A84E14",
+        "to": "#F0A050",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#8A6A3A",
+        "to": "#E0C080",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#C8C4BC",
+        "to": "#FFFFFF",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#141212",
+        "to": "#4A4440",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
   }
 }

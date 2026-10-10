@@ -1,0 +1,496 @@
+{
+ "meta": {
+  "format_version": "5.0",
+  "model_format": "free",
+  "box_uv": true
+ },
+ "name": "canine_ears_folded",
+ "model_identifier": "canine_ears_folded",
+ "visible_box": [
+  1,
+  1,
+  0
+ ],
+ "resolution": {
+  "width": 32,
+  "height": 32
+ },
+ "elements": [
+  {
+   "name": "ear0",
+   "box_uv": true,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -3.0,
+    4.0,
+    -1.0
+   ],
+   "to": [
+    0.0,
+    6.0,
+    1.0
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    0,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      2,
+      0,
+      5,
+      2
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      5,
+      0,
+      8,
+      2
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      0,
+      2,
+      2,
+      4
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      2,
+      2,
+      5,
+      4
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      5,
+      2,
+      7,
+      4
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      7,
+      2,
+      10,
+      4
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "c5c3fb1b-8cc4-5763-89b4-0a4d66f509c6"
+  },
+  {
+   "name": "ear1",
+   "box_uv": true,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -3.0,
+    6.0,
+    -0.5
+   ],
+   "to": [
+    0.0,
+    7.0,
+    0.5
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    10,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      11,
+      0,
+      14,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      14,
+      0,
+      17,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      10,
+      1,
+      11,
+      2
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      11,
+      1,
+      14,
+      2
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      14,
+      1,
+      15,
+      2
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      15,
+      1,
+      18,
+      2
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "c12a351e-4720-5942-bc13-37e2b5608b7b"
+  },
+  {
+   "name": "ear2",
+   "box_uv": true,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -2.5,
+    7.0,
+    -0.5
+   ],
+   "to": [
+    -0.5,
+    8.0,
+    0.5
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    18,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      19,
+      0,
+      21,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      21,
+      0,
+      23,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      18,
+      1,
+      19,
+      2
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      19,
+      1,
+      21,
+      2
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      21,
+      1,
+      22,
+      2
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      22,
+      1,
+      24,
+      2
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "9243f739-e982-5246-9bdb-80a8af6663fb"
+  },
+  {
+   "name": "ear3",
+   "box_uv": true,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -2.0,
+    8.0,
+    -0.5
+   ],
+   "to": [
+    -1.0,
+    9.0,
+    0.5
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    24,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      25,
+      0,
+      26,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      26,
+      0,
+      27,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      24,
+      1,
+      25,
+      2
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      25,
+      1,
+      26,
+      2
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      26,
+      1,
+      27,
+      2
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      27,
+      1,
+      28,
+      2
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "cbfdf722-9d15-579c-97eb-319045efbfc3"
+  }
+ ],
+ "groups": [
+  {
+   "name": "ear_fold",
+   "origin": [
+    -1.5,
+    7.0,
+    0.0
+   ],
+   "rotation": [
+    -68.0,
+    0.0,
+    0.0
+   ],
+   "color": 0,
+   "uuid": "b9ccf0c9-ea23-5b71-a3d2-cd1cab23ef4b",
+   "export": true,
+   "mirror_uv": false,
+   "isOpen": true,
+   "locked": false,
+   "visibility": true,
+   "autouv": 0,
+   "selected": false
+  },
+  {
+   "name": "ear",
+   "origin": [
+    -1.5,
+    5.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    -10.0
+   ],
+   "color": 0,
+   "uuid": "fdbade08-cfbb-59fb-abbe-805e7bd6f91b",
+   "export": true,
+   "mirror_uv": false,
+   "isOpen": true,
+   "locked": false,
+   "visibility": true,
+   "autouv": 0,
+   "selected": false
+  }
+ ],
+ "outliner": [
+  {
+   "uuid": "fdbade08-cfbb-59fb-abbe-805e7bd6f91b",
+   "isOpen": true,
+   "children": [
+    "c5c3fb1b-8cc4-5763-89b4-0a4d66f509c6",
+    "c12a351e-4720-5942-bc13-37e2b5608b7b",
+    {
+     "uuid": "b9ccf0c9-ea23-5b71-a3d2-cd1cab23ef4b",
+     "isOpen": true,
+     "children": [
+      "9243f739-e982-5246-9bdb-80a8af6663fb",
+      "cbfdf722-9d15-579c-97eb-319045efbfc3"
+     ]
+    }
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "name": "canine_ears_folded.png",
+   "folder": "",
+   "namespace": "",
+   "id": "0",
+   "width": 32,
+   "height": 32,
+   "uv_width": 32,
+   "uv_height": 32,
+   "particle": false,
+   "render_mode": "default",
+   "render_sides": "auto",
+   "visible": true,
+   "internal": true,
+   "saved": true,
+   "uuid": "721ebca4-03e6-5871-8fff-3adb23685e64",
+   "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABCUlEQVR4nO3Qv2qDUBQG8O8WcQgxIjHYIYTWoUM79WWCqE8lPkEGZx8hGczqLqgQiiAUxxIT9JZ7qIHQtd3OD8Tj4Tv3jwI/uq6T8/mc6iRJMJvNqN5ut2LKtG0rLcu6ZQzDwPl8RhAElGmaRtq2jd1uR/O+71M/SRJ5PB4Rx/FtrYmYisvlIqWUEEIgTVMMw0C153mUORwO8v3tGR+nE+z1C+q6Rp7nWK1W6PserutCXUB9F0VBz2KxQFmW9FYZNRNF0d0hRJZlcrlcYvz6pMbj0yuqqqLF9vs9DY/jiDAMf53+Lzw4jqNuj/VmQ43r9QrTNKFpGtTvVHRd/4+9GWOMMcYYY4wxKN9LomIJY6k7NwAAAABJRU5ErkJggg=="
+  },
+  {
+   "name": "canine_ears_folded_glow.png",
+   "folder": "",
+   "namespace": "",
+   "id": "1",
+   "width": 32,
+   "height": 32,
+   "uv_width": 32,
+   "uv_height": 32,
+   "particle": false,
+   "render_mode": "default",
+   "render_sides": "auto",
+   "visible": true,
+   "internal": true,
+   "saved": true,
+   "uuid": "54f8beea-6fec-5e48-969f-3db6937cc181",
+   "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGklEQVR4nO3BAQEAAACCIP+vbkhAAQAAAO8GECAAARlDNO4AAAAASUVORK5CYII="
+  },
+  {
+   "name": "canine_ears_folded_tint_mask.png",
+   "folder": "",
+   "namespace": "",
+   "id": "2",
+   "width": 32,
+   "height": 32,
+   "uv_width": 32,
+   "uv_height": 32,
+   "particle": false,
+   "render_mode": "default",
+   "render_sides": "auto",
+   "visible": true,
+   "internal": true,
+   "saved": true,
+   "uuid": "84769a99-db59-525e-bd1d-adc15abb6b0e",
+   "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAR0lEQVR4nO3OMQoAIAxD0cb737kuKqWoKOj236hpiKxxd7cJSTrN5P/8HrtGxi7K+/0ieiSPUFi3LZ+tf6H8KAUAAAAAwC5UsTUiBoTiff8AAAAASUVORK5CYII="
+  }
+ ]
+}

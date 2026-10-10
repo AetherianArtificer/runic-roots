@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.canine.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.canine.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "saddle": {
+      "display_name": {
+        "translate": "gene.runic_roots.canine.scales.saddle"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/canine_scales_saddle.png",
+      "tint": "#FFFFFF"
+    },
+    "husky": {
+      "display_name": {
+        "translate": "gene.runic_roots.canine.scales.husky"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/canine_scales_husky.png",
+      "tint": "#FFFFFF"
+    },
+    "patched": {
+      "display_name": {
+        "translate": "gene.runic_roots.canine.scales.patched"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/canine_scales_patched.png",
+      "tint": "#FFFFFF"
+    }
+  }
+}
