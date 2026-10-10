@@ -88,5 +88,6 @@
         "priority": 60
       }
     }
-  }
+  },
+  "locus": "runic_roots:power/active"
 }

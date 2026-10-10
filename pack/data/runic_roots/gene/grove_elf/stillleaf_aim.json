@@ -93,5 +93,6 @@
         "type": "pheno:projectile"
       }
     }
-  }
+  },
+  "locus": "runic_roots:power/active"
 }

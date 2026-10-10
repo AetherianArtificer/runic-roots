@@ -20,5 +20,6 @@
         "type": "pheno:magic"
       }
     }
-  }
+  },
+  "locus": "runic_roots:power/passive"
 }

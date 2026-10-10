@@ -43,5 +43,6 @@
       }
     ]
   },
+  "locus": "runic_roots:power/drawback",
   "drawback": true
 }

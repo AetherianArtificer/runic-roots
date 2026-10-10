@@ -10,7 +10,42 @@
   "category": "Appearance",
   "dominance": "dominant",
   "locus": "townstead_roots:skin",
-  "tint": "#9CC8E0",
-  "blend": "color",
-  "strength": 0.45
+  "variants": {
+    "glacier": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_drake.complexion.glacier"
+      },
+      "weight": 5,
+      "tint": "#7FB0CC",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "steel": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_drake.complexion.steel"
+      },
+      "weight": 4,
+      "tint": "#3D7FA0",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "frost": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_drake.complexion.frost"
+      },
+      "weight": 2,
+      "tint": "#B8D4E2",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "abyss": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_drake.complexion.abyss"
+      },
+      "weight": 1,
+      "tint": "#2E4A66",
+      "blend": "color",
+      "strength": 0.45
+    }
+  }
 }

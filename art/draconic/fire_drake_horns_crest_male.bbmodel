@@ -25,12 +25,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -1.5,
-    -1.0,
+    0.0,
     -2.0
    ],
    "to": [
     1.5,
-    2.0,
+    3.0,
     0.0
    ],
    "autouv": 0,
@@ -114,12 +114,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -0.5,
-    2.0,
+    3.0,
     -1.0
    ],
    "to": [
     1.5,
-    3.0,
+    4.0,
     0.0
    ],
    "autouv": 0,
@@ -203,12 +203,12 @@
    "allow_mirror_modeling": true,
    "from": [
     0.5,
-    3.0,
+    4.0,
     -1.0
    ],
    "to": [
     1.5,
-    4.0,
+    5.0,
     0.0
    ],
    "autouv": 0,
@@ -292,12 +292,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -1.0,
-    -1.0,
+    0.0,
     0.0
    ],
    "to": [
     1.0,
-    3.0,
+    4.0,
     2.0
    ],
    "autouv": 0,
@@ -381,12 +381,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -1.0,
-    3.0,
+    4.0,
     1.0
    ],
    "to": [
     0.0,
-    5.0,
+    6.0,
     2.0
    ],
    "autouv": 0,
@@ -470,12 +470,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -1.0,
-    5.0,
+    6.0,
     1.0
    ],
    "to": [
     0.0,
-    6.0,
+    7.0,
     2.0
    ],
    "autouv": 0,
@@ -559,12 +559,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -1.5,
-    -1.0,
+    0.0,
     2.0
    ],
    "to": [
     1.5,
-    3.0,
+    4.0,
     4.0
    ],
    "autouv": 0,
@@ -648,12 +648,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -0.5,
-    3.0,
+    4.0,
     3.0
    ],
    "to": [
     1.5,
-    5.0,
+    6.0,
     4.0
    ],
    "autouv": 0,
@@ -737,12 +737,12 @@
    "allow_mirror_modeling": true,
    "from": [
     0.5,
-    5.0,
+    6.0,
     3.0
    ],
    "to": [
     1.5,
-    6.0,
+    7.0,
     4.0
    ],
    "autouv": 0,
@@ -826,12 +826,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -1.0,
-    -1.0,
+    0.0,
     4.0
    ],
    "to": [
     1.0,
-    2.0,
+    3.0,
     6.0
    ],
    "autouv": 0,
@@ -915,12 +915,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -1.0,
-    2.0,
+    3.0,
     5.0
    ],
    "to": [
     0.0,
-    4.0,
+    5.0,
     6.0
    ],
    "autouv": 0,
@@ -1004,12 +1004,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -1.0,
-    4.0,
+    5.0,
     5.0
    ],
    "to": [
     0.0,
-    5.0,
+    6.0,
     6.0
    ],
    "autouv": 0,
@@ -1093,12 +1093,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -0.5,
-    -1.0,
+    0.0,
     6.0
    ],
    "to": [
     0.5,
-    1.0,
+    2.0,
     7.0
    ],
    "autouv": 0,
@@ -1182,12 +1182,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -0.5,
-    1.0,
+    2.0,
     6.0
    ],
    "to": [
     0.5,
-    2.0,
+    3.0,
     7.0
    ],
    "autouv": 0,
@@ -1271,12 +1271,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -0.5,
-    2.0,
+    3.0,
     6.0
    ],
    "to": [
     0.5,
-    3.0,
+    4.0,
     7.0
    ],
    "autouv": 0,
@@ -1360,12 +1360,12 @@
    "allow_mirror_modeling": true,
    "from": [
     1.5,
-    -1.0,
+    0.0,
     -1.0
    ],
    "to": [
     2.5,
-    1.0,
+    2.0,
     0.0
    ],
    "autouv": 0,
@@ -1449,12 +1449,12 @@
    "allow_mirror_modeling": true,
    "from": [
     1.5,
-    1.0,
+    2.0,
     -1.0
    ],
    "to": [
     2.5,
-    2.0,
+    3.0,
     0.0
    ],
    "autouv": 0,
@@ -1538,12 +1538,12 @@
    "allow_mirror_modeling": true,
    "from": [
     1.5,
-    2.0,
+    3.0,
     -1.0
    ],
    "to": [
     2.5,
-    3.0,
+    4.0,
     0.0
    ],
    "autouv": 0,
@@ -1627,12 +1627,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -2.5,
-    -1.0,
+    0.0,
     1.0
    ],
    "to": [
     -1.5,
-    1.0,
+    2.0,
     2.0
    ],
    "autouv": 0,
@@ -1716,12 +1716,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -2.5,
-    1.0,
+    2.0,
     1.0
    ],
    "to": [
     -1.5,
-    2.0,
+    3.0,
     2.0
    ],
    "autouv": 0,
@@ -1805,12 +1805,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -2.5,
-    2.0,
+    3.0,
     1.0
    ],
    "to": [
     -1.5,
-    3.0,
+    4.0,
     2.0
    ],
    "autouv": 0,
@@ -1894,12 +1894,12 @@
    "allow_mirror_modeling": true,
    "from": [
     1.5,
-    -1.0,
+    0.0,
     3.0
    ],
    "to": [
     2.5,
-    1.0,
+    2.0,
     4.0
    ],
    "autouv": 0,
@@ -1983,12 +1983,12 @@
    "allow_mirror_modeling": true,
    "from": [
     1.5,
-    1.0,
+    2.0,
     3.0
    ],
    "to": [
     2.5,
-    2.0,
+    3.0,
     4.0
    ],
    "autouv": 0,
@@ -2072,12 +2072,12 @@
    "allow_mirror_modeling": true,
    "from": [
     1.5,
-    2.0,
+    3.0,
     3.0
    ],
    "to": [
     2.5,
-    3.0,
+    4.0,
     4.0
    ],
    "autouv": 0,
@@ -2161,12 +2161,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -2.5,
-    -1.0,
+    0.0,
     4.0
    ],
    "to": [
     -1.5,
-    1.0,
+    2.0,
     5.0
    ],
    "autouv": 0,
@@ -2250,12 +2250,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -2.5,
-    1.0,
+    2.0,
     4.0
    ],
    "to": [
     -1.5,
-    2.0,
+    3.0,
     5.0
    ],
    "autouv": 0,
@@ -2339,12 +2339,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -2.5,
-    2.0,
+    3.0,
     4.0
    ],
    "to": [
     -1.5,
-    3.0,
+    4.0,
     5.0
    ],
    "autouv": 0,
@@ -2428,12 +2428,12 @@
    "allow_mirror_modeling": true,
    "from": [
     2.5,
-    -1.0,
+    0.0,
     -1.5
    ],
    "to": [
     4.5,
-    1.0,
+    2.0,
     0.5
    ],
    "autouv": 0,
@@ -2517,12 +2517,12 @@
    "allow_mirror_modeling": true,
    "from": [
     3.0,
-    1.0,
+    2.0,
     -1.0
    ],
    "to": [
     4.0,
-    3.0,
+    4.0,
     0.0
    ],
    "autouv": 0,
@@ -2606,12 +2606,12 @@
    "allow_mirror_modeling": true,
    "from": [
     3.0,
-    3.0,
+    4.0,
     -1.0
    ],
    "to": [
     4.0,
-    4.0,
+    5.0,
     0.0
    ],
    "autouv": 0,
@@ -2695,12 +2695,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -4.5,
-    -1.0,
+    0.0,
     -1.5
    ],
    "to": [
     -2.5,
-    1.0,
+    2.0,
     0.5
    ],
    "autouv": 0,
@@ -2784,12 +2784,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -4.0,
-    1.0,
+    2.0,
     -1.0
    ],
    "to": [
     -3.0,
-    3.0,
+    4.0,
     0.0
    ],
    "autouv": 0,
@@ -2873,12 +2873,12 @@
    "allow_mirror_modeling": true,
    "from": [
     -4.0,
-    3.0,
+    4.0,
     -1.0
    ],
    "to": [
     -3.0,
-    4.0,
+    5.0,
     0.0
    ],
    "autouv": 0,
@@ -2959,7 +2959,7 @@
    "name": "flame0",
    "origin": [
     0.0,
-    0.0,
+    1.0,
     -1.0
    ],
    "rotation": [
@@ -2981,7 +2981,7 @@
    "name": "flame1",
    "origin": [
     0.0,
-    0.0,
+    1.0,
     1.0
    ],
    "rotation": [
@@ -3003,7 +3003,7 @@
    "name": "flame2",
    "origin": [
     0.0,
-    0.0,
+    1.0,
     3.0
    ],
    "rotation": [
@@ -3025,7 +3025,7 @@
    "name": "flame3",
    "origin": [
     0.0,
-    0.0,
+    1.0,
     5.0
    ],
    "rotation": [
@@ -3047,7 +3047,7 @@
    "name": "flame4",
    "origin": [
     0.0,
-    0.0,
+    1.0,
     6.5
    ],
    "rotation": [
@@ -3069,7 +3069,7 @@
    "name": "flick0",
    "origin": [
     2.0,
-    0.0,
+    1.0,
     -0.5
    ],
    "rotation": [
@@ -3091,7 +3091,7 @@
    "name": "flick1",
    "origin": [
     -2.0,
-    0.0,
+    1.0,
     1.5
    ],
    "rotation": [
@@ -3113,7 +3113,7 @@
    "name": "flick2",
    "origin": [
     2.0,
-    0.0,
+    1.0,
     3.5
    ],
    "rotation": [
@@ -3135,7 +3135,7 @@
    "name": "flick3",
    "origin": [
     -2.0,
-    0.0,
+    1.0,
     4.5
    ],
    "rotation": [
@@ -3157,7 +3157,7 @@
    "name": "crest",
    "origin": [
     0.0,
-    0.0,
+    1.0,
     0.0
    ],
    "rotation": [
@@ -3179,7 +3179,7 @@
    "name": "horn_l_seg2",
    "origin": [
     3.5,
-    3.0,
+    4.0,
     -0.5
    ],
    "rotation": [
@@ -3201,7 +3201,7 @@
    "name": "horn_l_seg1",
    "origin": [
     3.5,
-    1.0,
+    2.0,
     -0.5
    ],
    "rotation": [
@@ -3223,7 +3223,7 @@
    "name": "horn_l",
    "origin": [
     3.0,
-    0.0,
+    1.0,
     0.0
    ],
    "rotation": [
@@ -3245,7 +3245,7 @@
    "name": "horn_r_seg2",
    "origin": [
     -3.5,
-    3.0,
+    4.0,
     -0.5
    ],
    "rotation": [
@@ -3267,7 +3267,7 @@
    "name": "horn_r_seg1",
    "origin": [
     -3.5,
-    1.0,
+    2.0,
     -0.5
    ],
    "rotation": [
@@ -3289,7 +3289,7 @@
    "name": "horn_r",
    "origin": [
     -3.0,
-    0.0,
+    1.0,
     0.0
    ],
    "rotation": [

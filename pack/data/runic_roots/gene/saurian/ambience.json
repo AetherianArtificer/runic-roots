@@ -17,5 +17,6 @@
   "condition": {
     "type": "pheno:in_fluid",
     "fluid_tag": "minecraft:powder_snow"
-  }
+  },
+  "locus": "runic_roots:ambience"
 }

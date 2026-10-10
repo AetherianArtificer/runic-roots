@@ -14,5 +14,6 @@
     "type": "pheno:in_tag",
     "tag": "minecraft:is_fire"
   },
+  "locus": "runic_roots:power/drawback",
   "drawback": true
 }

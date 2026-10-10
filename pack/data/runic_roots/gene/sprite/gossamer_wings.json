@@ -113,5 +113,6 @@
         "priority": 55
       }
     }
-  }
+  },
+  "locus": "runic_roots:power/passive"
 }

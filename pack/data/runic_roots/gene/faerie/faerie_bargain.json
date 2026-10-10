@@ -79,5 +79,6 @@
         "radius": 0.6
       }
     ]
-  }
+  },
+  "locus": "runic_roots:power/active"
 }

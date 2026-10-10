@@ -1,0 +1,31 @@
+{
+  "schema": "townstead:heritage/v1",
+  "display_name": {
+    "translate": "heritage.runic_roots.tundra_drake"
+  },
+  "demonym": {
+    "singular": {
+      "translate": "heritage.runic_roots.tundra_drake.demonym.singular"
+    },
+    "plural": {
+      "translate": "heritage.runic_roots.tundra_drake.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "heritage.runic_roots.tundra_drake.backstory"
+  },
+  "priority": 20,
+  "lineages": {
+    "runic_roots:ice_drake": {
+      "min": 0.3,
+      "max": 0.7
+    },
+    "runic_roots:terra_drake": {
+      "min": 0.3,
+      "max": 0.7
+    }
+  },
+  "genes": [
+    "runic_roots:tundra_drake/frozen_ground"
+  ]
+}

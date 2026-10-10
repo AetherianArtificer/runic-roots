@@ -20,5 +20,6 @@
       "type": "pheno:movement",
       "movement": "moving"
     }
-  }
+  },
+  "locus": "runic_roots:ambience"
 }

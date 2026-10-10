@@ -17,5 +17,6 @@
   "condition": {
     "type": "pheno:movement",
     "movement": "sneaking"
-  }
+  },
+  "locus": "runic_roots:ambience"
 }

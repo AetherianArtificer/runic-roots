@@ -30,6 +30,13 @@
       },
       "weight": 2,
       "tint": "#D8452A"
+    },
+    "soot": {
+      "display_name": {
+        "translate": "gene.runic_roots.fire_drake.eye_color.soot"
+      },
+      "weight": 3,
+      "tint": "#3A2A22"
     }
   }
 }

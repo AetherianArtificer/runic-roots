@@ -21,5 +21,6 @@
       "type": "pheno:in_tag",
       "tag": "minecraft:campfires"
     }
-  }
+  },
+  "locus": "runic_roots:ambience"
 }

@@ -21,5 +21,6 @@
       "type": "pheno:fluid",
       "fluid": "water"
     }
-  }
+  },
+  "locus": "runic_roots:ambience"
 }

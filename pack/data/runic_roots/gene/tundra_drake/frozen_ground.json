@@ -1,0 +1,63 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.tundra_drake.frozen_ground"
+  },
+  "description": {
+    "translate": "gene.runic_roots.tundra_drake.frozen_ground.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "cooldown": 800,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:cloud",
+        "radius": 3,
+        "duration": 120,
+        "wait_time": 0,
+        "reapply_delay": 10,
+        "particle": "minecraft:snowflake",
+        "where": {
+          "type": "pheno:not",
+          "condition": {
+            "type": "pheno:allied"
+          }
+        },
+        "do": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:slowness",
+              "duration": 20,
+              "amplifier": 4
+            },
+            {
+              "type": "pheno:freeze",
+              "amount": 30
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:snowflake",
+        "count": 24,
+        "speed": 0.12,
+        "shape": "dome",
+        "radius": 1.2
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:block.glass.break",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "slot": 2
+}

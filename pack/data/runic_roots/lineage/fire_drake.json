@@ -35,5 +35,27 @@
       "minecraft:badlands": 3,
       "minecraft:savanna_plateau": 3
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#7A1A10",
+        "to": "#D8452A",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#E8641A",
+        "to": "#F2C04A",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#2A1A16",
+        "to": "#8A2A18",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
   }
 }

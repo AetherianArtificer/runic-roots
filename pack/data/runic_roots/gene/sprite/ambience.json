@@ -17,5 +17,6 @@
   "condition": {
     "type": "pheno:movement",
     "movement": "fall_flying"
-  }
+  },
+  "locus": "runic_roots:ambience"
 }

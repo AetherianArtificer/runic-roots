@@ -26,5 +26,6 @@
         "movement": "sprinting"
       }
     ]
-  }
+  },
+  "locus": "runic_roots:ambience"
 }

@@ -102,5 +102,6 @@
       "regen": 1,
       "regen_interval": 36000
     }
-  }
+  },
+  "locus": "runic_roots:power/passive"
 }

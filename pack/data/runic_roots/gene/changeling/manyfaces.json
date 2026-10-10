@@ -19,5 +19,6 @@
       "amount": 1,
       "operation": "add"
     }
-  }
+  },
+  "locus": "runic_roots:power/passive"
 }

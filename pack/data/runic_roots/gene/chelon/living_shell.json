@@ -25,5 +25,6 @@
         "fluid": "minecraft:water"
       }
     }
-  }
+  },
+  "locus": "runic_roots:power/passive"
 }

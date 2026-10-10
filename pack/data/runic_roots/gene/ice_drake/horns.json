@@ -1,0 +1,123 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.ice_drake.horns"
+  },
+  "description": {
+    "translate": "gene.runic_roots.ice_drake.horns.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:horns",
+  "variants": {
+    "shards": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_drake.horns.shards"
+      },
+      "weight": 4,
+      "attachments": [
+        "runic_roots:ice_drake_horns_shards_male",
+        "runic_roots:ice_drake_horns_shards_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.ice_drake.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:draconic",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.ice_drake.horns.color"
+        },
+        "palette": [
+          "#EEF7FC",
+          "#9CC8E0",
+          "#4F7FA8",
+          "#B9C3CC"
+        ]
+      }
+    },
+    "swept": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_drake.horns.swept"
+      },
+      "weight": 3,
+      "attachments": [
+        "runic_roots:ice_drake_horns_swept_male",
+        "runic_roots:ice_drake_horns_swept_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.ice_drake.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:draconic",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.ice_drake.horns.color"
+        },
+        "palette": [
+          "#EEF7FC",
+          "#9CC8E0",
+          "#4F7FA8",
+          "#B9C3CC"
+        ]
+      }
+    },
+    "nubs": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_drake.horns.nubs"
+      },
+      "weight": 2,
+      "attachments": [
+        "runic_roots:ice_drake_horns_nubs_male",
+        "runic_roots:ice_drake_horns_nubs_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.ice_drake.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:draconic",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.ice_drake.horns.color"
+        },
+        "palette": [
+          "#EEF7FC",
+          "#9CC8E0",
+          "#4F7FA8",
+          "#B9C3CC"
+        ]
+      }
+    }
+  }
+}

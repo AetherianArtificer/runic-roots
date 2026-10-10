@@ -50,5 +50,6 @@
       "scale": 0.8
     }
   },
-  "emissive": "runic_roots:fire_drake_horns_crest_male_glow"
+  "emissive": "runic_roots:fire_drake_horns_crest_male_glow",
+  "tint_mask": "runic_roots:fire_drake_horns_crest_male_tint_mask"
 }

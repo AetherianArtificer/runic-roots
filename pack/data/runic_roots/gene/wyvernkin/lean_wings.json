@@ -26,5 +26,6 @@
         "tag": "minecraft:is_fall"
       }
     }
-  }
+  },
+  "locus": "runic_roots:power/passive"
 }

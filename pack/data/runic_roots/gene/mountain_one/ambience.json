@@ -26,5 +26,6 @@
         "movement": "grounded"
       }
     ]
-  }
+  },
+  "locus": "runic_roots:ambience"
 }

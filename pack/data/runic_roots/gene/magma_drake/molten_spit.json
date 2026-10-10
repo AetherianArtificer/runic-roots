@@ -1,0 +1,124 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.magma_drake.molten_spit"
+  },
+  "description": {
+    "translate": "gene.runic_roots.magma_drake.molten_spit.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "cooldown": 800,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:and",
+        "actions": [
+          {
+            "type": "pheno:area_of_effect",
+            "radius": 5,
+            "target": "all",
+            "action": {
+              "type": "pheno:and",
+              "actions": [
+                {
+                  "type": "pheno:damage",
+                  "amount": 4,
+                  "source": "other"
+                },
+                {
+                  "type": "pheno:ignite",
+                  "seconds": 4
+                }
+              ]
+            },
+            "bientity_condition": {
+              "type": "pheno:and",
+              "conditions": [
+                {
+                  "type": "pheno:relative_rotation",
+                  "max_angle": 25
+                },
+                {
+                  "type": "pheno:can_see"
+                },
+                {
+                  "type": "pheno:not",
+                  "condition": {
+                    "type": "pheno:allied"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "pheno:spawn_particles",
+            "particle": "minecraft:lava",
+            "count": 40,
+            "speed": 0.35,
+            "shape": "cone",
+            "length": 5,
+            "radius": 2.33,
+            "anchor": "eyes"
+          },
+          {
+            "type": "pheno:spawn_particles",
+            "particle": "minecraft:lava",
+            "count": 20,
+            "speed": 0.25,
+            "shape": "cone",
+            "delay": 4,
+            "length": 5,
+            "radius": 2.33,
+            "anchor": "eyes"
+          },
+          {
+            "type": "pheno:screen_effect",
+            "effect": "vignette",
+            "intensity": 0.4,
+            "duration": 16,
+            "color": "#FF5A1A"
+          },
+          {
+            "type": "pheno:play_sound",
+            "sound": "minecraft:entity.ender_dragon.shoot",
+            "volume": 1.0,
+            "pitch": 0.9
+          }
+        ]
+      },
+      {
+        "type": "pheno:cloud",
+        "radius": 2.5,
+        "duration": 100,
+        "wait_time": 0,
+        "reapply_delay": 10,
+        "particle": "minecraft:lava",
+        "where": {
+          "type": "pheno:not",
+          "condition": {
+            "type": "pheno:allied"
+          }
+        },
+        "do": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:damage",
+              "amount": 2,
+              "source": "other"
+            },
+            {
+              "type": "pheno:ignite",
+              "seconds": 2
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "slot": 2
+}

@@ -49,5 +49,6 @@
         "minecraft:sweet_berry_bush"
       ]
     }
-  }
+  },
+  "locus": "runic_roots:power/passive"
 }

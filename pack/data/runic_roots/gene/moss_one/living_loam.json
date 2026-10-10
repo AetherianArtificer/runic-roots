@@ -27,5 +27,6 @@
         "tag": "runic_roots:mushroom_nourishment"
       }
     }
-  }
+  },
+  "locus": "runic_roots:power/passive"
 }

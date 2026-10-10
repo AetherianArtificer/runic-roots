@@ -9,5 +9,6 @@
   },
   "category": "Appearance",
   "dominance": "dominant",
-  "scale": 1.02
+  "scale": 1.02,
+  "locus": "runic_roots:stature"
 }

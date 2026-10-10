@@ -1,0 +1,85 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.dust_drake.sandstorm"
+  },
+  "description": {
+    "translate": "gene.runic_roots.dust_drake.sandstorm.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "cooldown": 800,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:invisibility",
+        "duration": 100,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 6,
+        "target": "all",
+        "action": {
+          "type": "pheno:apply_effect",
+          "effect": "minecraft:blindness",
+          "duration": 60,
+          "amplifier": 0
+        },
+        "bientity_condition": {
+          "type": "pheno:and",
+          "conditions": [
+            {
+              "type": "pheno:can_see"
+            },
+            {
+              "type": "pheno:not",
+              "condition": {
+                "type": "pheno:allied"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:cloud",
+        "radius": 3,
+        "duration": 80,
+        "wait_time": 0,
+        "reapply_delay": 10,
+        "particle": "minecraft:dust_plume",
+        "where": {
+          "type": "pheno:not",
+          "condition": {
+            "type": "pheno:allied"
+          }
+        },
+        "do": {
+          "type": "pheno:apply_effect",
+          "effect": "minecraft:blindness",
+          "duration": 40,
+          "amplifier": 0
+        }
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:dust_plume",
+        "count": 24,
+        "speed": 0.12,
+        "shape": "dome",
+        "radius": 1.2
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:block.sand.break",
+        "volume": 1.0,
+        "pitch": 0.6
+      }
+    ]
+  },
+  "slot": 2
+}

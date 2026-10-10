@@ -19,5 +19,6 @@
       "ability": "night_vision",
       "mode": "passive"
     }
-  }
+  },
+  "locus": "runic_roots:power/passive"
 }

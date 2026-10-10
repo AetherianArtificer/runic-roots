@@ -12,5 +12,6 @@
   "attribute": "minecraft:generic.max_health",
   "amount": -3,
   "operation": "add",
+  "locus": "runic_roots:power/drawback",
   "drawback": true
 }

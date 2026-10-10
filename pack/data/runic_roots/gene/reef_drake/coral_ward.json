@@ -1,0 +1,62 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.reef_drake.coral_ward"
+  },
+  "description": {
+    "translate": "gene.runic_roots.reef_drake.coral_ward.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "cooldown": 800,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:ward",
+        "id": "coral",
+        "amount": 6,
+        "duration": 160,
+        "fraction": 0.6,
+        "on_absorb": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:target_action",
+              "action": {
+                "type": "pheno:damage",
+                "amount": 3,
+                "source": "other"
+              }
+            },
+            {
+              "type": "pheno:spawn_particles",
+              "particle": "minecraft:bubble",
+              "count": 10,
+              "speed": 0.1,
+              "shape": "dome",
+              "radius": 0.6
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:bubble",
+        "count": 24,
+        "speed": 0.12,
+        "shape": "dome",
+        "radius": 1.2
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:block.coral_block.place",
+        "volume": 1.0,
+        "pitch": 0.8
+      }
+    ]
+  },
+  "slot": 2
+}

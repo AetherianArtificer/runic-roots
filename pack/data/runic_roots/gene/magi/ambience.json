@@ -20,5 +20,6 @@
     "item_condition": {
       "type": "pheno:enchantment"
     }
-  }
+  },
+  "locus": "runic_roots:ambience"
 }

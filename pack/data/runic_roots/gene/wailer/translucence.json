@@ -9,5 +9,6 @@
   },
   "category": "Appearance",
   "dominance": "dominant",
-  "alpha": 0.85
+  "alpha": 0.85,
+  "locus": "runic_roots:translucence"
 }

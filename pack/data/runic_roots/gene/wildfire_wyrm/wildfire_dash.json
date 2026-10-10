@@ -1,0 +1,73 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.wildfire_wyrm.wildfire_dash"
+  },
+  "description": {
+    "translate": "gene.runic_roots.wildfire_wyrm.wildfire_dash.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "cooldown": 600,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:dash",
+        "distance": 7,
+        "ticks": 8,
+        "horizontal": true,
+        "on_hit": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:damage",
+              "amount": 5,
+              "source": "other"
+            },
+            {
+              "type": "pheno:ignite",
+              "seconds": 5
+            }
+          ]
+        },
+        "max_hits": 4
+      },
+      {
+        "type": "pheno:cloud",
+        "radius": 1.5,
+        "duration": 60,
+        "wait_time": 0,
+        "reapply_delay": 10,
+        "particle": "minecraft:flame",
+        "where": {
+          "type": "pheno:not",
+          "condition": {
+            "type": "pheno:allied"
+          }
+        },
+        "do": {
+          "type": "pheno:ignite",
+          "seconds": 3
+        }
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:flame",
+        "count": 24,
+        "speed": 0.12,
+        "shape": "dome",
+        "radius": 1.2
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:item.firecharge.use",
+        "volume": 1.0,
+        "pitch": 0.9
+      }
+    ]
+  },
+  "slot": 2
+}

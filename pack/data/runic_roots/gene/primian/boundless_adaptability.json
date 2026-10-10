@@ -151,5 +151,6 @@
         "type": "pheno:food"
       }
     }
-  }
+  },
+  "locus": "runic_roots:power/passive"
 }

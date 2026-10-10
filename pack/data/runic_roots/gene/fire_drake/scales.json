@@ -17,7 +17,7 @@
       },
       "weight": 3,
       "texture": "runic_roots:textures/skin/fire_drake_scales_scaled.png",
-      "tint": "#5E1B0F"
+      "tint": "#A3261A"
     },
     "streaked": {
       "display_name": {
@@ -25,7 +25,7 @@
       },
       "weight": 2,
       "texture": "runic_roots:textures/skin/fire_drake_scales_streaked.png",
-      "tint": "#5E1B0F"
+      "tint": "#A3261A"
     }
   }
 }

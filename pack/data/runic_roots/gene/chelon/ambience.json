@@ -17,5 +17,6 @@
   "condition": {
     "type": "pheno:in_fluid",
     "fluid": "minecraft:water"
-  }
+  },
+  "locus": "runic_roots:ambience"
 }

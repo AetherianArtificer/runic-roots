@@ -12,5 +12,6 @@
   "modifier": 1.15,
   "damage_condition": {
     "type": "pheno:magic"
-  }
+  },
+  "locus": "runic_roots:power/passive"
 }

@@ -1,0 +1,81 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.blizzard_wyrm.whiteout"
+  },
+  "description": {
+    "translate": "gene.runic_roots.blizzard_wyrm.whiteout.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "cooldown": 900,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 7,
+        "target": "all",
+        "action": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:blindness",
+              "duration": 80,
+              "amplifier": 0
+            },
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:slowness",
+              "duration": 80,
+              "amplifier": 2
+            },
+            {
+              "type": "pheno:freeze",
+              "amount": 80
+            }
+          ]
+        },
+        "bientity_condition": {
+          "type": "pheno:and",
+          "conditions": [
+            {
+              "type": "pheno:can_see"
+            },
+            {
+              "type": "pheno:not",
+              "condition": {
+                "type": "pheno:allied"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:snowflake",
+        "count": 24,
+        "speed": 0.12,
+        "shape": "dome",
+        "radius": 1.2
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.player.hurt_freeze",
+        "volume": 1.0,
+        "pitch": 0.8
+      },
+      {
+        "type": "pheno:screen_effect",
+        "effect": "vignette",
+        "intensity": 0.4,
+        "duration": 16,
+        "color": "#FFFFFF"
+      }
+    ]
+  },
+  "slot": 2
+}

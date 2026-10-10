@@ -18,5 +18,6 @@
     "type": "pheno:state",
     "state": "runic_roots:adaptation",
     "min": 1
-  }
+  },
+  "locus": "runic_roots:ambience"
 }

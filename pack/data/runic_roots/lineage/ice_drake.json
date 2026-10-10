@@ -22,7 +22,12 @@
     "runic_roots:ice_drake/stature",
     "runic_roots:ice_drake/wings",
     "runic_roots:ice_drake/ambience",
-    "runic_roots:ice_drake/complexion"
+    "runic_roots:ice_drake/horns",
+    "runic_roots:ice_drake/tail",
+    "runic_roots:ice_drake/scales",
+    "runic_roots:ice_drake/complexion",
+    "runic_roots:ice_drake/eyes",
+    "runic_roots:ice_drake/eye_color"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -30,5 +35,27 @@
       "#forge:is_cold": 3,
       "#c:is_cold": 3
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#F4FAFF",
+        "to": "#BFE4F4",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#9CC8E0",
+        "to": "#3F6E96",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#C9D1D8",
+        "to": "#6E7C88",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
   }
 }

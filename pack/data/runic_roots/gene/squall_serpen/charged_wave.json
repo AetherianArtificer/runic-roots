@@ -1,0 +1,92 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.squall_serpen.charged_wave"
+  },
+  "description": {
+    "translate": "gene.runic_roots.squall_serpen.charged_wave.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "cooldown": 700,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 5,
+        "target": "all",
+        "action": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:damage",
+              "amount": 4,
+              "source": "other"
+            },
+            {
+              "type": "pheno:add_velocity",
+              "x": 0.0,
+              "y": 0.2,
+              "z": 0.0,
+              "away_from_other": 1.4
+            },
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:slowness",
+              "duration": 60,
+              "amplifier": 0
+            }
+          ]
+        },
+        "bientity_condition": {
+          "type": "pheno:and",
+          "conditions": [
+            {
+              "type": "pheno:can_see"
+            },
+            {
+              "type": "pheno:not",
+              "condition": {
+                "type": "pheno:allied"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:splash",
+        "count": 24,
+        "speed": 0.12,
+        "shape": "dome",
+        "radius": 1.2
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.generic.splash",
+        "volume": 1.0,
+        "pitch": 0.8
+      },
+      {
+        "type": "pheno:screen_effect",
+        "effect": "flash",
+        "intensity": 0.4,
+        "duration": 16,
+        "color": "#BFE4FF"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:electric_spark",
+        "count": 20,
+        "speed": 0.2,
+        "shape": "ring",
+        "radius": 2.0,
+        "anchor": "feet"
+      }
+    ]
+  },
+  "slot": 2
+}

@@ -138,5 +138,6 @@
         "state": "runic_roots:shell"
       }
     }
-  }
+  },
+  "locus": "runic_roots:power/active"
 }

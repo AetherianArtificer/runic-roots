@@ -1,0 +1,35 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:eye_color",
+  "display_name": {
+    "translate": "gene.runic_roots.ice_drake.eye_color"
+  },
+  "description": {
+    "translate": "gene.runic_roots.ice_drake.eye_color.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "cyan": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_drake.eye_color.cyan"
+      },
+      "weight": 5,
+      "tint": "#5FE6FF"
+    },
+    "ice": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_drake.eye_color.ice"
+      },
+      "weight": 2,
+      "tint": "#BFF4FF"
+    },
+    "sapphire": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_drake.eye_color.sapphire"
+      },
+      "weight": 2,
+      "tint": "#3F7FFF"
+    }
+  }
+}

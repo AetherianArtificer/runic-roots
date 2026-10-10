@@ -1,0 +1,53 @@
+{
+  "schema": "townstead:heritage/v1",
+  "display_name": {
+    "translate": "heritage.runic_roots.steam_drake"
+  },
+  "demonym": {
+    "singular": {
+      "translate": "heritage.runic_roots.steam_drake.demonym.singular"
+    },
+    "plural": {
+      "translate": "heritage.runic_roots.steam_drake.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "heritage.runic_roots.steam_drake.backstory"
+  },
+  "priority": 20,
+  "lineages": {
+    "runic_roots:fire_drake": {
+      "min": 0.3,
+      "max": 0.7
+    },
+    "runic_roots:ice_drake": {
+      "min": 0.3,
+      "max": 0.7
+    }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#F2F4F6",
+        "to": "#B9C6D0",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#E8E2DC",
+        "to": "#D8452A",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#DDEFF7",
+        "to": "#7FB0CC",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
+  },
+  "genes": [
+    "runic_roots:steam_drake/scalding_breath"
+  ]
+}
