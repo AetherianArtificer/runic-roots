@@ -1,0 +1,25 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.nymph.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.nymph.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "minecraft:falling_water",
+  "count": 1,
+  "spread": 0.4,
+  "speed": 0.0,
+  "y_offset": 1.2,
+  "condition": {
+    "type": "pheno:block_in_radius",
+    "radius": 3,
+    "block_condition": {
+      "type": "pheno:fluid",
+      "fluid": "water"
+    }
+  }
+}

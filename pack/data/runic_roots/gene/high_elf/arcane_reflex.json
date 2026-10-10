@@ -1,0 +1,68 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.high_elf.arcane_reflex"
+  },
+  "description": {
+    "translate": "gene.runic_roots.high_elf.arcane_reflex.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/high_elf/arcane_reflex.png",
+  "cooldown": 800,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:absorption",
+        "duration": 100,
+        "amplifier": 1
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:resistance",
+        "duration": 100,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 4,
+        "target": "hostile",
+        "action": {
+          "type": "pheno:apply_effect",
+          "effect": "minecraft:weakness",
+          "duration": 60,
+          "amplifier": 0
+        }
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:block.enchantment_table.use",
+        "volume": 1.0,
+        "pitch": 1.3
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:arcane_glint",
+        "count": 20,
+        "speed": 0.1,
+        "shape": "ring_in",
+        "radius": 1.8,
+        "anchor": "feet"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:arcane_glint",
+        "count": 24,
+        "speed": 0.18,
+        "shape": "burst_up",
+        "delay": 5,
+        "radius": 0.5,
+        "height": 2
+      }
+    ]
+  }
+}

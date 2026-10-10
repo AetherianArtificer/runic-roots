@@ -1,0 +1,60 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:ability",
+  "display_name": {
+    "translate": "gene.runic_roots.demon.infernal_blood"
+  },
+  "description": {
+    "translate": "gene.runic_roots.demon.infernal_blood.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "ability": "fire_immunity",
+  "mode": "passive",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": 0.15,
+      "operation": "multiply_total"
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 0.05,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:or",
+        "conditions": [
+          {
+            "type": "pheno:biome",
+            "biome_tag": "forge:is_hot"
+          },
+          {
+            "type": "pheno:biome",
+            "biome_tag": "c:is_hot"
+          }
+        ]
+      }
+    },
+    "part_3": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": 0.08,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:or",
+        "conditions": [
+          {
+            "type": "pheno:biome",
+            "biome_tag": "forge:is_hot"
+          },
+          {
+            "type": "pheno:biome",
+            "biome_tag": "c:is_hot"
+          }
+        ]
+      }
+    }
+  }
+}

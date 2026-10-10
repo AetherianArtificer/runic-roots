@@ -1,0 +1,50 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:life_cycle",
+  "display_name": {
+    "translate": "gene.runic_roots.family.undead_ageless"
+  },
+  "description": {
+    "translate": "gene.runic_roots.family.undead_ageless.desc"
+  },
+  "category": "Lifespan",
+  "dominance": "dominant",
+  "locus": "townstead_roots:life_cycle",
+  "variance": 0.15,
+  "ageless": true,
+  "stages": [
+    {
+      "id": "baby",
+      "label": {
+        "translate": "origin.townstead_roots.stage.baby"
+      },
+      "presents_as": "baby",
+      "days": 4
+    },
+    {
+      "id": "child",
+      "label": {
+        "translate": "origin.townstead_roots.stage.child"
+      },
+      "presents_as": "child",
+      "days": 9
+    },
+    {
+      "id": "teen",
+      "label": {
+        "translate": "origin.townstead_roots.stage.teen"
+      },
+      "presents_as": "teen",
+      "days": 5
+    },
+    {
+      "id": "adult",
+      "label": {
+        "translate": "origin.townstead_roots.stage.adult"
+      },
+      "presents_as": "adult",
+      "days": 60,
+      "on_end": "stay"
+    }
+  ]
+}

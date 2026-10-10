@@ -1,0 +1,155 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.primian.boundless_adaptability"
+  },
+  "description": {
+    "translate": "gene.runic_roots.primian.boundless_adaptability.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.max_health",
+  "amount": 2,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.luck",
+      "amount": 1,
+      "operation": "add"
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 0.05,
+      "operation": "multiply_total"
+    },
+    "part_3": {
+      "type": "pheno:trigger",
+      "trigger": "when_kill",
+      "target": "self",
+      "action": {
+        "type": "pheno:and",
+        "actions": [
+          {
+            "type": "pheno:add_state",
+            "state": "runic_roots:adaptation",
+            "amount": 1
+          },
+          {
+            "type": "pheno:spawn_particles",
+            "particle": "minecraft:end_rod",
+            "count": 6,
+            "speed": 0.05,
+            "shape": "dome",
+            "radius": 0.5
+          }
+        ]
+      }
+    },
+    "part_4": {
+      "type": "pheno:action_over_time",
+      "interval": 1200,
+      "action": {
+        "type": "pheno:add_state",
+        "state": "runic_roots:adaptation",
+        "amount": -1
+      },
+      "condition": {
+        "type": "pheno:state",
+        "state": "runic_roots:adaptation",
+        "min": 1
+      }
+    },
+    "part_5": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 0.01,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:state",
+        "state": "runic_roots:adaptation",
+        "min": 1
+      }
+    },
+    "part_6": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 0.01,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:state",
+        "state": "runic_roots:adaptation",
+        "min": 2
+      }
+    },
+    "part_7": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 0.01,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:state",
+        "state": "runic_roots:adaptation",
+        "min": 3
+      }
+    },
+    "part_8": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 0.01,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:state",
+        "state": "runic_roots:adaptation",
+        "min": 4
+      }
+    },
+    "part_9": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 0.01,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:state",
+        "state": "runic_roots:adaptation",
+        "min": 5
+      }
+    },
+    "part_10": {
+      "type": "pheno:trigger",
+      "trigger": "when_item_use",
+      "target": "self",
+      "action": {
+        "type": "pheno:and",
+        "actions": [
+          {
+            "type": "pheno:clear_effect",
+            "effect": "minecraft:hunger"
+          },
+          {
+            "type": "pheno:clear_effect",
+            "effect": "minecraft:poison"
+          },
+          {
+            "type": "pheno:clear_effect",
+            "effect": "minecraft:nausea"
+          },
+          {
+            "type": "pheno:clear_effect",
+            "effect": "minecraft:weakness"
+          },
+          {
+            "type": "pheno:feed",
+            "food": 0,
+            "saturation": 2
+          }
+        ]
+      },
+      "item_condition": {
+        "type": "pheno:food"
+      }
+    }
+  }
+}

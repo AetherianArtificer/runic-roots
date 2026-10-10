@@ -1,0 +1,48 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.astral_elf"
+  },
+  "ancestry": "runic_roots:elf",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.astral_elf.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.astral_elf.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.astral_elf.backstory"
+  },
+  "genes": [
+    "runic_roots:astral_elf/starbound_thread",
+    "runic_roots:astral_elf/astral_poise",
+    "runic_roots:astral_elf/thin_tether",
+    "runic_roots:astral_elf/stature",
+    "runic_roots:astral_elf/ambience"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biomes": {
+      "minecraft:meadow": 2
+    },
+    "biome_tags": {
+      "#minecraft:is_mountain": 3
+    }
+  },
+  "overrides": [
+    {
+      "requires": {
+        "namespace": "townstead_classic"
+      },
+      "ancestry": "townstead_classic:elf",
+      "genes": [
+        "runic_roots:astral_elf/starbound_thread",
+        "runic_roots:astral_elf/astral_poise",
+        "runic_roots:astral_elf/thin_tether",
+        "runic_roots:astral_elf/ambience"
+      ]
+    }
+  ]
+}

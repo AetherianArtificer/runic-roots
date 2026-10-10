@@ -1,0 +1,50 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.sky_one.thin_air_lungs"
+  },
+  "description": {
+    "translate": "gene.runic_roots.sky_one.thin_air_lungs.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.max_health",
+  "amount": -2,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": -0.1,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:not",
+        "condition": {
+          "type": "pheno:environment",
+          "exposure": [
+            "sky"
+          ]
+        }
+      }
+    },
+    "part_2": {
+      "type": "pheno:damage_modifier",
+      "modifier": 1.1,
+      "damage_condition": {
+        "type": "pheno:constant",
+        "value": true
+      },
+      "condition": {
+        "type": "pheno:not",
+        "condition": {
+          "type": "pheno:environment",
+          "exposure": [
+            "sky"
+          ]
+        }
+      }
+    }
+  },
+  "drawback": true
+}

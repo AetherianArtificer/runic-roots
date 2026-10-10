@@ -1,0 +1,40 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:effect_immunity",
+  "display_name": {
+    "translate": "gene.runic_roots.wailer.deathwatch"
+  },
+  "description": {
+    "translate": "gene.runic_roots.wailer.deathwatch.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "effects": [
+    "minecraft:poison"
+  ],
+  "companions": {
+    "part_1": {
+      "type": "pheno:action_over_time",
+      "interval": 20,
+      "action": {
+        "type": "pheno:area_of_effect",
+        "radius": 8,
+        "target": "hostile",
+        "action": {
+          "type": "pheno:spawn_particles",
+          "particle": "runic_roots:soul_wisp",
+          "count": 3,
+          "speed": 0.01
+        },
+        "bientity_condition": {
+          "type": "pheno:target_condition",
+          "condition": {
+            "type": "pheno:health",
+            "max": 0.5,
+            "relative": true
+          }
+        }
+      }
+    }
+  }
+}

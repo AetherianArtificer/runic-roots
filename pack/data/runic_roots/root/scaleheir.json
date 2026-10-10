@@ -1,0 +1,9 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.scaleheir"
+  },
+  "ancestry": "runic_roots:draconic",
+  "lineage": "runic_roots:scaleheir",
+  "icon": "runic_roots:textures/root/scaleheir.png"
+}

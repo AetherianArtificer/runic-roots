@@ -1,0 +1,34 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.nymph"
+  },
+  "ancestry": "runic_roots:fae",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.nymph.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.nymph.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.nymph.backstory"
+  },
+  "genes": [
+    "runic_roots:nymph/sirens_charm",
+    "runic_roots:nymph/spirit_of_spring",
+    "runic_roots:nymph/bound_to_water",
+    "runic_roots:nymph/stature",
+    "runic_roots:nymph/ambience"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biomes": {
+      "minecraft:swamp": 3
+    },
+    "biome_tags": {
+      "#minecraft:is_river": 4
+    }
+  }
+}

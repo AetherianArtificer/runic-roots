@@ -1,0 +1,114 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.colossan.colossal_heave"
+  },
+  "description": {
+    "translate": "gene.runic_roots.colossan.colossal_heave.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/colossan/colossal_heave.png",
+  "cooldown": 700,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:set_state",
+        "state": "runic_roots:heave",
+        "amount": 1,
+        "duration": 100
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.iron_golem.attack",
+        "volume": 1.0,
+        "pitch": 0.8
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:rock_chip",
+        "count": 18,
+        "speed": 0.06,
+        "shape": "dome",
+        "radius": 0.8
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:rock_chip",
+        "count": 12,
+        "speed": 0.12,
+        "shape": "ring",
+        "delay": 3,
+        "radius": 1.0,
+        "anchor": "feet"
+      }
+    ]
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:trigger",
+      "trigger": "when_attack",
+      "target": "self",
+      "action": {
+        "type": "pheno:and",
+        "actions": [
+          {
+            "type": "pheno:target_action",
+            "action": {
+              "type": "pheno:and",
+              "actions": [
+                {
+                  "type": "pheno:damage",
+                  "amount": 3,
+                  "source": "other"
+                },
+                {
+                  "type": "pheno:add_velocity",
+                  "x": 0.0,
+                  "y": 0.2,
+                  "z": 0.0,
+                  "away_from_other": 0.4
+                }
+              ]
+            }
+          },
+          {
+            "type": "pheno:clear_state",
+            "state": "runic_roots:heave"
+          }
+        ]
+      },
+      "condition": {
+        "type": "pheno:and",
+        "conditions": [
+          {
+            "type": "pheno:state",
+            "state": "runic_roots:heave"
+          },
+          {
+            "type": "pheno:attack_strength",
+            "min": 0.9
+          }
+        ]
+      },
+      "damage_condition": {
+        "type": "pheno:and",
+        "conditions": [
+          {
+            "type": "pheno:projectile",
+            "inverted": true
+          },
+          {
+            "type": "pheno:attacker",
+            "condition": {
+              "type": "pheno:alive"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

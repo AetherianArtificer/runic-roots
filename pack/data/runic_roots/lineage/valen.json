@@ -1,0 +1,27 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.valen"
+  },
+  "ancestry": "townstead_roots:human",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.valen.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.valen.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.valen.backstory"
+  },
+  "genes": [
+    "runic_roots:valen/unbreakable_stand",
+    "runic_roots:valen/fortitude",
+    "runic_roots:valen/stalwart_not_swift",
+    "runic_roots:valen/stature"
+  ],
+  "spawn_bias": {
+    "default": 0.25
+  }
+}

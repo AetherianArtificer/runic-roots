@@ -1,0 +1,45 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.deep_one"
+  },
+  "ancestry": "runic_roots:dwarf",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.deep_one.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.deep_one.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.deep_one.backstory"
+  },
+  "genes": [
+    "runic_roots:deep_one/tremorsense",
+    "runic_roots:deep_one/deep_dweller",
+    "runic_roots:deep_one/sunlight_blindness",
+    "runic_roots:deep_one/stature"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biomes": {
+      "minecraft:dripstone_caves": 6,
+      "minecraft:lush_caves": 4,
+      "minecraft:deep_dark": 2
+    }
+  },
+  "overrides": [
+    {
+      "requires": {
+        "namespace": "townstead_classic"
+      },
+      "ancestry": "townstead_classic:dwarf",
+      "genes": [
+        "runic_roots:deep_one/tremorsense",
+        "runic_roots:deep_one/deep_dweller",
+        "runic_roots:deep_one/sunlight_blindness"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.grove_elf.canopy_strider"
+  },
+  "description": {
+    "translate": "gene.runic_roots.grove_elf.canopy_strider.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.movement_speed",
+  "amount": 0.1,
+  "operation": "multiply_total",
+  "condition": {
+    "type": "pheno:and",
+    "conditions": [
+      {
+        "type": "pheno:or",
+        "conditions": [
+          {
+            "type": "pheno:biome",
+            "biome_tag": "minecraft:is_forest"
+          },
+          {
+            "type": "pheno:biome",
+            "biome_tag": "minecraft:is_taiga"
+          }
+        ]
+      },
+      {
+        "type": "pheno:movement",
+        "movement": "grounded"
+      }
+    ]
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:damage_modifier",
+      "modifier": 0,
+      "damage_condition": {
+        "type": "pheno:type",
+        "damage_type": "minecraft:sweet_berry_bush"
+      }
+    },
+    "part_2": {
+      "type": "pheno:stuck_immunity",
+      "blocks": [
+        "minecraft:sweet_berry_bush"
+      ]
+    }
+  }
+}

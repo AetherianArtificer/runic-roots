@@ -1,0 +1,25 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.wyvernkin.exposed_membranes"
+  },
+  "description": {
+    "translate": "gene.runic_roots.wyvernkin.exposed_membranes.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.max_health",
+  "amount": -2,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:damage_modifier",
+      "modifier": 1.15,
+      "damage_condition": {
+        "type": "pheno:projectile"
+      }
+    }
+  },
+  "drawback": true
+}

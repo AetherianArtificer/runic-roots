@@ -1,0 +1,17 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.skeleton"
+  },
+  "ancestry": "runic_roots:revenant",
+  "lineage": "runic_roots:skeleton",
+  "icon": "runic_roots:textures/root/skeleton.png",
+  "overrides": [
+    {
+      "requires": {
+        "namespace": "townstead_skeleton"
+      },
+      "ancestry": "townstead_skeleton:skeletownies"
+    }
+  ]
+}

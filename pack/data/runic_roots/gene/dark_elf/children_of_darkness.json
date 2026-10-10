@@ -1,0 +1,68 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:ability",
+  "display_name": {
+    "translate": "gene.runic_roots.dark_elf.children_of_darkness"
+  },
+  "description": {
+    "translate": "gene.runic_roots.dark_elf.children_of_darkness.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "ability": "night_vision",
+  "mode": "passive",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 0.1,
+      "operation": "multiply_total"
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": -0.05,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:and",
+        "conditions": [
+          {
+            "type": "pheno:environment",
+            "time": [
+              "day"
+            ]
+          },
+          {
+            "type": "pheno:environment",
+            "exposure": [
+              "sky"
+            ]
+          }
+        ]
+      }
+    },
+    "part_3": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": 0.1,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:and",
+        "conditions": [
+          {
+            "type": "pheno:environment",
+            "time": [
+              "night"
+            ]
+          },
+          {
+            "type": "pheno:environment",
+            "exposure": [
+              "sky"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

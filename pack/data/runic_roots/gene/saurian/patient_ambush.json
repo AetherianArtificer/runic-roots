@@ -1,0 +1,121 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.saurian.patient_ambush"
+  },
+  "description": {
+    "translate": "gene.runic_roots.saurian.patient_ambush.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/saurian/patient_ambush.png",
+  "cooldown": 600,
+  "ai_trigger": "never",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:set_state",
+        "state": "runic_roots:ambush",
+        "amount": 1,
+        "duration": 100
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.turtle.ambient_land",
+        "volume": 1.0,
+        "pitch": 0.6
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:crit",
+        "count": 16,
+        "speed": 0.25,
+        "shape": "cone",
+        "length": 2.5,
+        "radius": 1.0
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:crit",
+        "count": 14,
+        "speed": 0.1,
+        "shape": "ring",
+        "delay": 3,
+        "radius": 0.8,
+        "anchor": "feet"
+      }
+    ]
+  },
+  "condition": {
+    "type": "pheno:not",
+    "condition": {
+      "type": "pheno:movement",
+      "movement": "moving"
+    }
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:trigger",
+      "trigger": "when_attack",
+      "target": "self",
+      "action": {
+        "type": "pheno:and",
+        "actions": [
+          {
+            "type": "pheno:target_action",
+            "action": {
+              "type": "pheno:and",
+              "actions": [
+                {
+                  "type": "pheno:damage",
+                  "amount": 3,
+                  "source": "other"
+                },
+                {
+                  "type": "pheno:apply_effect",
+                  "effect": "minecraft:slowness",
+                  "duration": 40,
+                  "amplifier": 0
+                }
+              ]
+            }
+          },
+          {
+            "type": "pheno:clear_state",
+            "state": "runic_roots:ambush"
+          }
+        ]
+      },
+      "condition": {
+        "type": "pheno:and",
+        "conditions": [
+          {
+            "type": "pheno:state",
+            "state": "runic_roots:ambush"
+          },
+          {
+            "type": "pheno:attack_strength",
+            "min": 0.9
+          }
+        ]
+      },
+      "damage_condition": {
+        "type": "pheno:and",
+        "conditions": [
+          {
+            "type": "pheno:projectile",
+            "inverted": true
+          },
+          {
+            "type": "pheno:attacker",
+            "condition": {
+              "type": "pheno:alive"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

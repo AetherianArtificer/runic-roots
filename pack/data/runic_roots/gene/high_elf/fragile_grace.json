@@ -1,0 +1,63 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.high_elf.fragile_grace"
+  },
+  "description": {
+    "translate": "gene.runic_roots.high_elf.fragile_grace.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.max_health",
+  "amount": -4,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:damage_modifier",
+      "modifier": 1.15,
+      "damage_condition": {
+        "type": "pheno:or",
+        "conditions": [
+          {
+            "type": "pheno:or",
+            "conditions": [
+              {
+                "type": "pheno:name",
+                "name": "player"
+              },
+              {
+                "type": "pheno:name",
+                "name": "mob"
+              },
+              {
+                "type": "pheno:name",
+                "name": "arrow"
+              },
+              {
+                "type": "pheno:name",
+                "name": "trident"
+              },
+              {
+                "type": "pheno:name",
+                "name": "thrown"
+              },
+              {
+                "type": "pheno:name",
+                "name": "mob_projectile"
+              },
+              {
+                "type": "pheno:name",
+                "name": "sting"
+              }
+            ]
+          },
+          {
+            "type": "pheno:projectile"
+          }
+        ]
+      }
+    }
+  },
+  "drawback": true
+}

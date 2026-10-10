@@ -1,0 +1,23 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.scaleheir.inherited_scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.scaleheir.inherited_scales.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.armor",
+  "amount": 2,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "amount": 0.2,
+      "operation": "add"
+    }
+  }
+}

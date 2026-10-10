@@ -1,0 +1,45 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.moon_elf"
+  },
+  "ancestry": "runic_roots:elf",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.moon_elf.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.moon_elf.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.moon_elf.backstory"
+  },
+  "genes": [
+    "runic_roots:moon_elf/moonlit_veil",
+    "runic_roots:moon_elf/tidecallers_grace",
+    "runic_roots:moon_elf/waning_by_day",
+    "runic_roots:moon_elf/stature",
+    "runic_roots:moon_elf/ambience"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biome_tags": {
+      "#minecraft:is_beach": 4
+    }
+  },
+  "overrides": [
+    {
+      "requires": {
+        "namespace": "townstead_classic"
+      },
+      "ancestry": "townstead_classic:elf",
+      "genes": [
+        "runic_roots:moon_elf/moonlit_veil",
+        "runic_roots:moon_elf/tidecallers_grace",
+        "runic_roots:moon_elf/waning_by_day",
+        "runic_roots:moon_elf/ambience"
+      ]
+    }
+  ]
+}

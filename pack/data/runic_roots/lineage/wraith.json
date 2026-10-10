@@ -1,0 +1,30 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.wraith"
+  },
+  "ancestry": "runic_roots:revenant",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.wraith.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.wraith.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.wraith.backstory"
+  },
+  "genes": [
+    "runic_roots:wraith/spectral_phase",
+    "runic_roots:wraith/soul_touched",
+    "runic_roots:wraith/half_bound",
+    "runic_roots:wraith/stature",
+    "runic_roots:wraith/ambience",
+    "runic_roots:wraith/complexion",
+    "runic_roots:wraith/translucence"
+  ],
+  "spawn_bias": {
+    "default": 0.25
+  }
+}

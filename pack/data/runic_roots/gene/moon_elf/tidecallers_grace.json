@@ -1,0 +1,35 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:ability",
+  "display_name": {
+    "translate": "gene.runic_roots.moon_elf.tidecallers_grace"
+  },
+  "description": {
+    "translate": "gene.runic_roots.moon_elf.tidecallers_grace.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "ability": "water_breathing",
+  "mode": "passive",
+  "companions": {
+    "part_1": {
+      "type": "pheno:ability",
+      "ability": "night_vision",
+      "mode": "passive"
+    },
+    "part_2": {
+      "type": "pheno:action_over_time",
+      "interval": 100,
+      "action": {
+        "type": "pheno:heal",
+        "amount": 1
+      },
+      "condition": {
+        "type": "pheno:environment",
+        "time": [
+          "night"
+        ]
+      }
+    }
+  }
+}

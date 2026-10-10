@@ -1,0 +1,16 @@
+{
+  "texture": "runic_roots:textures/particle/ember_scale.png",
+  "frames": 3,
+  "frame_time": 0,
+  "fade_out_fraction": 0.34,
+  "lifetime": [
+    30,
+    39
+  ],
+  "gravity": 0.02,
+  "drag": 0.96,
+  "size": 0.1,
+  "glow": true,
+  "sway": 0.001,
+  "sway_rate": 0.45
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "townstead:attachment/v2",
+  "geometry": "runic_roots:fire_drake_horns_swept_male",
+  "texture": "runic_roots:fire_drake_horns_swept_male",
+  "target": {
+    "tag": "horn"
+  },
+  "offset": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1.0,
+  "tint": "gene",
+  "tint_blend": "multiply",
+  "when": {
+    "type": "pheno:not",
+    "condition": {
+      "type": "pheno:gender",
+      "is": "female"
+    }
+  },
+  "morph": {
+    "channels": {
+      "length": {
+        "bones": [
+          "horn_l",
+          "horn_r"
+        ],
+        "axes": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "stages": {
+    "baby": {
+      "scale": 0.0
+    },
+    "toddler": {
+      "scale": 0.25
+    },
+    "child": {
+      "scale": 0.5
+    },
+    "teen": {
+      "scale": 0.8
+    }
+  }
+}

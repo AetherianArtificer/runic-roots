@@ -1,0 +1,22 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.primian.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.primian.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "minecraft:end_rod",
+  "count": 1,
+  "spread": 0.5,
+  "speed": 0.0,
+  "y_offset": 1.0,
+  "condition": {
+    "type": "pheno:state",
+    "state": "runic_roots:adaptation",
+    "min": 1
+  }
+}

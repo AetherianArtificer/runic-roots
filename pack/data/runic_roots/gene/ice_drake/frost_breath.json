@@ -1,0 +1,97 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.ice_drake.frost_breath"
+  },
+  "description": {
+    "translate": "gene.runic_roots.ice_drake.frost_breath.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/ice_drake/frost_breath.png",
+  "cooldown": 800,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 7,
+        "target": "all",
+        "action": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:damage",
+              "amount": 6,
+              "source": "other"
+            },
+            {
+              "type": "pheno:freeze",
+              "amount": 140
+            },
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:slowness",
+              "duration": 80,
+              "amplifier": 2
+            }
+          ]
+        },
+        "bientity_condition": {
+          "type": "pheno:and",
+          "conditions": [
+            {
+              "type": "pheno:relative_rotation",
+              "max_angle": 22
+            },
+            {
+              "type": "pheno:can_see"
+            },
+            {
+              "type": "pheno:not",
+              "condition": {
+                "type": "pheno:allied"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:frost_mote",
+        "count": 40,
+        "speed": 0.35,
+        "shape": "cone",
+        "length": 7,
+        "radius": 2.83,
+        "anchor": "eyes"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:frost_mote",
+        "count": 20,
+        "speed": 0.25,
+        "shape": "cone",
+        "delay": 4,
+        "length": 7,
+        "radius": 2.83,
+        "anchor": "eyes"
+      },
+      {
+        "type": "pheno:screen_effect",
+        "effect": "vignette",
+        "intensity": 0.4,
+        "duration": 16,
+        "color": "#BFE8FF"
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.ender_dragon.shoot",
+        "volume": 1.0,
+        "pitch": 0.9
+      }
+    ]
+  }
+}

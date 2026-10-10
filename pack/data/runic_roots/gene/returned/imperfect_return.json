@@ -1,0 +1,18 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:modifier",
+  "display_name": {
+    "translate": "gene.runic_roots.returned.imperfect_return"
+  },
+  "description": {
+    "translate": "gene.runic_roots.returned.imperfect_return.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "target": "healing",
+  "modify": {
+    "operation": "multiply",
+    "value": 0.75
+  },
+  "drawback": true
+}

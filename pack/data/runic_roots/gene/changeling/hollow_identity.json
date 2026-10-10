@@ -1,0 +1,24 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.changeling.hollow_identity"
+  },
+  "description": {
+    "translate": "gene.runic_roots.changeling.hollow_identity.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.max_health",
+  "amount": -2,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": -0.05,
+      "operation": "multiply_total"
+    }
+  },
+  "drawback": true
+}

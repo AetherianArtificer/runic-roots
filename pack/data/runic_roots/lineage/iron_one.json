@@ -1,0 +1,45 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.iron_one"
+  },
+  "ancestry": "runic_roots:dwarf",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.iron_one.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.iron_one.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.iron_one.backstory"
+  },
+  "genes": [
+    "runic_roots:iron_one/shield_wall",
+    "runic_roots:iron_one/forged_to_endure",
+    "runic_roots:iron_one/heavy_as_the_mountain",
+    "runic_roots:iron_one/stature",
+    "runic_roots:iron_one/ambience"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biome_tags": {
+      "#minecraft:is_mountain": 3
+    }
+  },
+  "overrides": [
+    {
+      "requires": {
+        "namespace": "townstead_classic"
+      },
+      "ancestry": "townstead_classic:dwarf",
+      "genes": [
+        "runic_roots:iron_one/shield_wall",
+        "runic_roots:iron_one/forged_to_endure",
+        "runic_roots:iron_one/heavy_as_the_mountain",
+        "runic_roots:iron_one/ambience"
+      ]
+    }
+  ]
+}

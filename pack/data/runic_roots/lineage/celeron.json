@@ -1,0 +1,28 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.celeron"
+  },
+  "ancestry": "townstead_roots:human",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.celeron.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.celeron.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.celeron.backstory"
+  },
+  "genes": [
+    "runic_roots:celeron/messengers_dash",
+    "runic_roots:celeron/fleet_and_sure",
+    "runic_roots:celeron/featherweight_frame",
+    "runic_roots:celeron/stature",
+    "runic_roots:celeron/ambience"
+  ],
+  "spawn_bias": {
+    "default": 0.25
+  }
+}

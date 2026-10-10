@@ -1,0 +1,77 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.reaper.soul_harvest"
+  },
+  "description": {
+    "translate": "gene.runic_roots.reaper.soul_harvest.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/reaper/soul_harvest.png",
+  "cooldown": 800,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 6,
+        "target": "hostile",
+        "action": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:wither",
+              "duration": 100,
+              "amplifier": 1
+            },
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:glowing",
+              "duration": 100,
+              "amplifier": 0
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:heal",
+        "amount": 4
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:regeneration",
+        "duration": 100,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:particle.soul_escape",
+        "volume": 1.0,
+        "pitch": 0.6
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:soul_wisp",
+        "count": 24,
+        "speed": 0.06,
+        "shape": "ring_in",
+        "radius": 1.6,
+        "anchor": "feet"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:soul_wisp",
+        "count": 12,
+        "speed": 0.02,
+        "shape": "helix",
+        "delay": 4,
+        "radius": 0.6,
+        "height": 1.8
+      }
+    ]
+  }
+}

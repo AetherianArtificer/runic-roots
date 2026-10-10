@@ -1,0 +1,62 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.ice_elf.frostbind"
+  },
+  "description": {
+    "translate": "gene.runic_roots.ice_elf.frostbind.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/ice_elf/frostbind.png",
+  "cooldown": 800,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 6,
+        "target": "hostile",
+        "action": {
+          "type": "pheno:apply_effect",
+          "effect": "minecraft:slowness",
+          "duration": 120,
+          "amplifier": 2
+        }
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:speed",
+        "duration": 80,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:block.glass.break",
+        "volume": 1.0,
+        "pitch": 1.4
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:frost_mote",
+        "count": 20,
+        "speed": 0.1,
+        "shape": "ring_in",
+        "radius": 1.8,
+        "anchor": "feet"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:frost_mote",
+        "count": 24,
+        "speed": 0.18,
+        "shape": "burst_up",
+        "delay": 5,
+        "radius": 0.5,
+        "height": 2
+      }
+    ]
+  }
+}

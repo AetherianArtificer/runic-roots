@@ -1,0 +1,32 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.feline"
+  },
+  "ancestry": "runic_roots:bestial",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.feline.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.feline.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.feline.backstory"
+  },
+  "genes": [
+    "runic_roots:feline/pounce",
+    "runic_roots:feline/nine_lives",
+    "runic_roots:feline/hydrophobia",
+    "runic_roots:feline/stature",
+    "runic_roots:feline/ambience"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biomes": {
+      "minecraft:jungle": 3,
+      "minecraft:savanna": 3
+    }
+  }
+}

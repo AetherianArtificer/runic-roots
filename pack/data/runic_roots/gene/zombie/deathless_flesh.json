@@ -1,0 +1,36 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.zombie.deathless_flesh"
+  },
+  "description": {
+    "translate": "gene.runic_roots.zombie.deathless_flesh.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.max_health",
+  "amount": 6,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.armor",
+      "amount": 1,
+      "operation": "add"
+    },
+    "part_2": {
+      "type": "pheno:effect_immunity",
+      "effects": [
+        "minecraft:poison",
+        "minecraft:hunger"
+      ]
+    },
+    "part_3": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "amount": 0.3,
+      "operation": "add"
+    }
+  }
+}

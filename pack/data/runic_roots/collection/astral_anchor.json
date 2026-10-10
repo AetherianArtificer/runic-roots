@@ -1,0 +1,6 @@
+{
+  "of": "block",
+  "max": 1,
+  "on_full": "evict_oldest",
+  "forget_after": 160
+}

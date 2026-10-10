@@ -1,0 +1,29 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.scaleheir"
+  },
+  "ancestry": "runic_roots:draconic",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.scaleheir.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.scaleheir.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.scaleheir.backstory"
+  },
+  "genes": [
+    "runic_roots:scaleheir/dominion_roar",
+    "runic_roots:scaleheir/inherited_scales",
+    "runic_roots:scaleheir/demanding_blood",
+    "runic_roots:scaleheir/stature",
+    "runic_roots:scaleheir/ambience",
+    "runic_roots:scaleheir/complexion"
+  ],
+  "spawn_bias": {
+    "default": 0.25
+  }
+}

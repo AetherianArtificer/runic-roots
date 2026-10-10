@@ -1,0 +1,17 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.grove_elf"
+  },
+  "ancestry": "runic_roots:elf",
+  "lineage": "runic_roots:grove_elf",
+  "icon": "runic_roots:textures/root/grove_elf.png",
+  "overrides": [
+    {
+      "requires": {
+        "namespace": "townstead_classic"
+      },
+      "ancestry": "townstead_classic:elf"
+    }
+  ]
+}

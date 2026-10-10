@@ -1,0 +1,83 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.faerie.faerie_bargain"
+  },
+  "description": {
+    "translate": "gene.runic_roots.faerie.faerie_bargain.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/faerie/faerie_bargain.png",
+  "cooldown": 1000,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:regeneration",
+        "duration": 120,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:absorption",
+        "duration": 120,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 7,
+        "target": "hostile",
+        "action": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:slowness",
+              "duration": 120,
+              "amplifier": 1
+            },
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:blindness",
+              "duration": 120,
+              "amplifier": 0
+            },
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:levitation",
+              "duration": 40,
+              "amplifier": 0
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:block.amethyst_block.resonate",
+        "volume": 1.0,
+        "pitch": 1.6
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:fae_sparkle",
+        "count": 24,
+        "speed": 0.12,
+        "shape": "orbit",
+        "radius": 1.1
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:fae_sparkle",
+        "count": 20,
+        "speed": 0.14,
+        "shape": "dome",
+        "delay": 6,
+        "radius": 0.6
+      }
+    ]
+  }
+}

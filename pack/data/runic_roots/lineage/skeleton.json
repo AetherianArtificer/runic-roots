@@ -1,0 +1,42 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.skeleton"
+  },
+  "ancestry": "runic_roots:revenant",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.skeleton.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.skeleton.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.skeleton.backstory"
+  },
+  "genes": [
+    "runic_roots:skeleton/conscript_the_dead",
+    "runic_roots:skeleton/marrow_deep_aim",
+    "runic_roots:skeleton/brittle_bones",
+    "runic_roots:skeleton/stature",
+    "runic_roots:skeleton/complexion"
+  ],
+  "spawn_bias": {
+    "default": 0.25
+  },
+  "overrides": [
+    {
+      "requires": {
+        "namespace": "townstead_skeleton"
+      },
+      "ancestry": "townstead_skeleton:skeletownies",
+      "genes": [
+        "runic_roots:skeleton/conscript_the_dead",
+        "runic_roots:skeleton/marrow_deep_aim",
+        "runic_roots:skeleton/brittle_bones",
+        "runic_roots:skeleton/stature"
+      ]
+    }
+  ]
+}

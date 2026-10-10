@@ -1,0 +1,9 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.sea_serpen"
+  },
+  "ancestry": "runic_roots:draconic",
+  "lineage": "runic_roots:sea_serpen",
+  "icon": "runic_roots:textures/root/sea_serpen.png"
+}

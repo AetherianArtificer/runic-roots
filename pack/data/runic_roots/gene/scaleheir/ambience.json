@@ -1,0 +1,21 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.scaleheir.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.scaleheir.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "runic_roots:ember_scale",
+  "count": 1,
+  "spread": 0.3,
+  "speed": 0.0,
+  "y_offset": 1.0,
+  "condition": {
+    "type": "pheno:movement",
+    "movement": "sneaking"
+  }
+}

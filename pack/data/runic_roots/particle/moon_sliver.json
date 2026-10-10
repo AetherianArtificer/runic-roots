@@ -1,0 +1,14 @@
+{
+  "texture": "runic_roots:textures/particle/moon_sliver.png",
+  "frames": 3,
+  "frame_time": 0,
+  "fade_out_fraction": 0.34,
+  "lifetime": [
+    26,
+    33
+  ],
+  "gravity": 0.015,
+  "drag": 0.94,
+  "size": 0.09,
+  "glow": true
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:chronotype",
+  "display_name": {
+    "translate": "gene.runic_roots.family.undead_chronotype"
+  },
+  "description": {
+    "translate": "gene.runic_roots.family.undead_chronotype.desc"
+  },
+  "category": "Activity",
+  "locus": "townstead_roots:chronotypes",
+  "variants": {
+    "night_owl": {
+      "weight": 40
+    },
+    "nocturnal": {
+      "weight": 60
+    }
+  }
+}

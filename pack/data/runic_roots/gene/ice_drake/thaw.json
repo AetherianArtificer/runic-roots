@@ -1,0 +1,28 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:damage_modifier",
+  "display_name": {
+    "translate": "gene.runic_roots.ice_drake.thaw"
+  },
+  "description": {
+    "translate": "gene.runic_roots.ice_drake.thaw.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "modifier": 1.3,
+  "damage_condition": {
+    "type": "pheno:in_tag",
+    "tag": "minecraft:is_fire"
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:modifier",
+      "target": "exhaustion",
+      "modify": {
+        "operation": "multiply",
+        "value": 1.2
+      }
+    }
+  },
+  "drawback": true
+}

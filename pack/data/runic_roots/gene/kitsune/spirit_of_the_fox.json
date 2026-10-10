@@ -1,0 +1,29 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attack_modifier",
+  "display_name": {
+    "translate": "gene.runic_roots.kitsune.spirit_of_the_fox"
+  },
+  "description": {
+    "translate": "gene.runic_roots.kitsune.spirit_of_the_fox.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "modifier": 1.15,
+  "damage_condition": {
+    "type": "pheno:magic"
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:ability",
+      "ability": "night_vision",
+      "mode": "passive"
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 0.1,
+      "operation": "multiply_total"
+    }
+  }
+}

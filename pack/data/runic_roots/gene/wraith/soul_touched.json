@@ -1,0 +1,48 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:ability",
+  "display_name": {
+    "translate": "gene.runic_roots.wraith.soul_touched"
+  },
+  "description": {
+    "translate": "gene.runic_roots.wraith.soul_touched.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "ability": "night_vision",
+  "mode": "passive",
+  "companions": {
+    "part_1": {
+      "type": "pheno:damage_modifier",
+      "modifier": 0,
+      "damage_condition": {
+        "type": "pheno:in_tag",
+        "tag": "minecraft:is_fall"
+      }
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": -0.05,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:environment",
+        "time": [
+          "day"
+        ]
+      }
+    },
+    "part_3": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": 0.15,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:environment",
+        "time": [
+          "night"
+        ]
+      }
+    }
+  }
+}

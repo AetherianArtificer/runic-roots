@@ -1,0 +1,34 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.kitsune"
+  },
+  "ancestry": "runic_roots:bestial",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.kitsune.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.kitsune.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.kitsune.backstory"
+  },
+  "genes": [
+    "runic_roots:kitsune/foxfire_illusion",
+    "runic_roots:kitsune/spirit_of_the_fox",
+    "runic_roots:kitsune/untamed_spirit",
+    "runic_roots:kitsune/stature",
+    "runic_roots:kitsune/ambience"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biomes": {
+      "minecraft:cherry_grove": 3
+    },
+    "biome_tags": {
+      "#minecraft:is_taiga": 2
+    }
+  }
+}

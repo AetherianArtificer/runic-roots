@@ -1,0 +1,34 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.ice_drake"
+  },
+  "ancestry": "runic_roots:draconic",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.ice_drake.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.ice_drake.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.ice_drake.backstory"
+  },
+  "genes": [
+    "runic_roots:ice_drake/frost_breath",
+    "runic_roots:ice_drake/rimescale_hide",
+    "runic_roots:ice_drake/thaw",
+    "runic_roots:ice_drake/stature",
+    "runic_roots:ice_drake/wings",
+    "runic_roots:ice_drake/ambience",
+    "runic_roots:ice_drake/complexion"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biome_tags": {
+      "#forge:is_cold": 3,
+      "#c:is_cold": 3
+    }
+  }
+}

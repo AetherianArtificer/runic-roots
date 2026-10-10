@@ -1,0 +1,28 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.reaper"
+  },
+  "ancestry": "runic_roots:revenant",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.reaper.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.reaper.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.reaper.backstory"
+  },
+  "genes": [
+    "runic_roots:reaper/soul_harvest",
+    "runic_roots:reaper/harbinger_of_death",
+    "runic_roots:reaper/touch_of_the_grave",
+    "runic_roots:reaper/stature",
+    "runic_roots:reaper/complexion"
+  ],
+  "spawn_bias": {
+    "default": 0.25
+  }
+}

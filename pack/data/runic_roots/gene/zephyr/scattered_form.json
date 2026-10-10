@@ -1,0 +1,26 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.zephyr.scattered_form"
+  },
+  "description": {
+    "translate": "gene.runic_roots.zephyr.scattered_form.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.max_health",
+  "amount": -4,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:modifier",
+      "target": "knockback_taken",
+      "modify": {
+        "operation": "multiply",
+        "value": 1.4
+      }
+    }
+  },
+  "drawback": true
+}

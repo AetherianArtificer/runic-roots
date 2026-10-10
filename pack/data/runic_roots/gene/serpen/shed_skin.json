@@ -1,0 +1,110 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.serpen.shed_skin"
+  },
+  "description": {
+    "translate": "gene.runic_roots.serpen.shed_skin.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/serpen/shed_skin.png",
+  "cooldown": 900,
+  "ai_trigger": "when_hurt",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:and",
+        "actions": [
+          {
+            "type": "pheno:clear_effect",
+            "effect": "minecraft:poison"
+          },
+          {
+            "type": "pheno:clear_effect",
+            "effect": "minecraft:wither"
+          },
+          {
+            "type": "pheno:clear_effect",
+            "effect": "minecraft:slowness"
+          },
+          {
+            "type": "pheno:clear_effect",
+            "effect": "minecraft:weakness"
+          },
+          {
+            "type": "pheno:clear_effect",
+            "effect": "minecraft:mining_fatigue"
+          },
+          {
+            "type": "pheno:clear_effect",
+            "effect": "minecraft:blindness"
+          },
+          {
+            "type": "pheno:clear_effect",
+            "effect": "minecraft:nausea"
+          },
+          {
+            "type": "pheno:clear_effect",
+            "effect": "minecraft:hunger"
+          },
+          {
+            "type": "pheno:clear_effect",
+            "effect": "minecraft:levitation"
+          },
+          {
+            "type": "pheno:clear_effect",
+            "effect": "minecraft:darkness"
+          },
+          {
+            "type": "pheno:clear_effect",
+            "effect": "minecraft:unluck"
+          },
+          {
+            "type": "pheno:clear_effect",
+            "effect": "minecraft:instant_damage"
+          }
+        ]
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:invisibility",
+        "duration": 100,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:speed",
+        "duration": 100,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.snow_golem.shear",
+        "volume": 1.0,
+        "pitch": 0.8
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:venom_drip",
+        "count": 16,
+        "speed": 0.25,
+        "shape": "cone",
+        "length": 2.5,
+        "radius": 1.0
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:venom_drip",
+        "count": 14,
+        "speed": 0.1,
+        "shape": "ring",
+        "delay": 3,
+        "radius": 0.8,
+        "anchor": "feet"
+      }
+    ]
+  }
+}

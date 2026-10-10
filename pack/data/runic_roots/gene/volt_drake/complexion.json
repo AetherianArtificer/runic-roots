@@ -1,0 +1,16 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.volt_drake.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.volt_drake.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "tint": "#C8B860",
+  "blend": "color",
+  "strength": 0.4
+}

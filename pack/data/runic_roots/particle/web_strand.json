@@ -1,0 +1,14 @@
+{
+  "texture": "runic_roots:textures/particle/web_strand.png",
+  "frames": 3,
+  "frame_time": 0,
+  "fade_out_fraction": 0.34,
+  "lifetime": [
+    40,
+    53
+  ],
+  "gravity": 0.004,
+  "drag": 0.72,
+  "size": 0.11,
+  "glow": true
+}

@@ -1,0 +1,24 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.valen.stalwart_not_swift"
+  },
+  "description": {
+    "translate": "gene.runic_roots.valen.stalwart_not_swift.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.movement_speed",
+  "amount": -0.08,
+  "operation": "multiply_total",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "amount": -0.08,
+      "operation": "multiply_total"
+    }
+  },
+  "drawback": true
+}

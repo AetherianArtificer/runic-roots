@@ -1,0 +1,17 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.runic_one"
+  },
+  "ancestry": "runic_roots:dwarf",
+  "lineage": "runic_roots:runic_one",
+  "icon": "runic_roots:textures/root/runic_one.png",
+  "overrides": [
+    {
+      "requires": {
+        "namespace": "townstead_classic"
+      },
+      "ancestry": "townstead_classic:dwarf"
+    }
+  ]
+}

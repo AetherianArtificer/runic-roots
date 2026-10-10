@@ -1,0 +1,46 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.frost_one"
+  },
+  "ancestry": "runic_roots:dwarf",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.frost_one.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.frost_one.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.frost_one.backstory"
+  },
+  "genes": [
+    "runic_roots:frost_one/glacial_resolve",
+    "runic_roots:frost_one/frostborn",
+    "runic_roots:frost_one/forged_for_cold",
+    "runic_roots:frost_one/stature",
+    "runic_roots:frost_one/ambience"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biome_tags": {
+      "#forge:is_cold": 4,
+      "#c:is_cold": 4
+    }
+  },
+  "overrides": [
+    {
+      "requires": {
+        "namespace": "townstead_classic"
+      },
+      "ancestry": "townstead_classic:dwarf",
+      "genes": [
+        "runic_roots:frost_one/glacial_resolve",
+        "runic_roots:frost_one/frostborn",
+        "runic_roots:frost_one/forged_for_cold",
+        "runic_roots:frost_one/ambience"
+      ]
+    }
+  ]
+}

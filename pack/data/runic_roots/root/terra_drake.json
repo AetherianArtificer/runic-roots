@@ -1,0 +1,9 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.terra_drake"
+  },
+  "ancestry": "runic_roots:draconic",
+  "lineage": "runic_roots:terra_drake",
+  "icon": "runic_roots:textures/root/terra_drake.png"
+}

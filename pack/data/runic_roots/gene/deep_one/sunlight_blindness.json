@@ -1,0 +1,42 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.deep_one.sunlight_blindness"
+  },
+  "description": {
+    "translate": "gene.runic_roots.deep_one.sunlight_blindness.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.movement_speed",
+  "amount": -0.05,
+  "operation": "multiply_total",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": -0.1,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:environment",
+        "exposure": [
+          "sun"
+        ]
+      }
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": -0.1,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:environment",
+        "exposure": [
+          "sun"
+        ]
+      }
+    }
+  },
+  "drawback": true
+}

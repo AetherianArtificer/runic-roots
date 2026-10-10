@@ -1,0 +1,31 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.chelon"
+  },
+  "ancestry": "runic_roots:bestial",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.chelon.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.chelon.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.chelon.backstory"
+  },
+  "genes": [
+    "runic_roots:chelon/shellfast",
+    "runic_roots:chelon/living_shell",
+    "runic_roots:chelon/unhurried",
+    "runic_roots:chelon/stature",
+    "runic_roots:chelon/ambience"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biome_tags": {
+      "#minecraft:is_beach": 6
+    }
+  }
+}

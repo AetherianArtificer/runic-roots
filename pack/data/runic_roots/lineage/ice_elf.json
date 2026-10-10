@@ -1,0 +1,46 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.ice_elf"
+  },
+  "ancestry": "runic_roots:elf",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.ice_elf.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.ice_elf.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.ice_elf.backstory"
+  },
+  "genes": [
+    "runic_roots:ice_elf/frostbind",
+    "runic_roots:ice_elf/winters_child",
+    "runic_roots:ice_elf/cold_blooded",
+    "runic_roots:ice_elf/stature",
+    "runic_roots:ice_elf/ambience"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biome_tags": {
+      "#forge:is_cold": 4,
+      "#c:is_cold": 4
+    }
+  },
+  "overrides": [
+    {
+      "requires": {
+        "namespace": "townstead_classic"
+      },
+      "ancestry": "townstead_classic:elf",
+      "genes": [
+        "runic_roots:ice_elf/frostbind",
+        "runic_roots:ice_elf/winters_child",
+        "runic_roots:ice_elf/cold_blooded",
+        "runic_roots:ice_elf/ambience"
+      ]
+    }
+  ]
+}

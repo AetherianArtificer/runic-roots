@@ -1,0 +1,18 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:damage_modifier",
+  "display_name": {
+    "translate": "gene.runic_roots.dryad.kindling"
+  },
+  "description": {
+    "translate": "gene.runic_roots.dryad.kindling.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "modifier": 3,
+  "damage_condition": {
+    "type": "pheno:in_tag",
+    "tag": "minecraft:is_fire"
+  },
+  "drawback": true
+}

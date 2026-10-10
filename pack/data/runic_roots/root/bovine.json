@@ -1,0 +1,9 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.bovine"
+  },
+  "ancestry": "runic_roots:bestial",
+  "lineage": "runic_roots:bovine",
+  "icon": "runic_roots:textures/root/bovine.png"
+}

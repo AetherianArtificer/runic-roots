@@ -1,0 +1,23 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.changeling.manyfaces"
+  },
+  "description": {
+    "translate": "gene.runic_roots.changeling.manyfaces.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.movement_speed",
+  "amount": 0.1,
+  "operation": "multiply_total",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.luck",
+      "amount": 1,
+      "operation": "add"
+    }
+  }
+}

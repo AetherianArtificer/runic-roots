@@ -1,0 +1,9 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.dryad"
+  },
+  "ancestry": "runic_roots:fae",
+  "lineage": "runic_roots:dryad",
+  "icon": "runic_roots:textures/root/dryad.png"
+}

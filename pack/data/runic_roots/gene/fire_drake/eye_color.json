@@ -1,0 +1,35 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:eye_color",
+  "display_name": {
+    "translate": "gene.runic_roots.fire_drake.eye_color"
+  },
+  "description": {
+    "translate": "gene.runic_roots.fire_drake.eye_color.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "amber": {
+      "display_name": {
+        "translate": "gene.runic_roots.fire_drake.eye_color.amber"
+      },
+      "weight": 4,
+      "tint": "#E8A33A"
+    },
+    "gold": {
+      "display_name": {
+        "translate": "gene.runic_roots.fire_drake.eye_color.gold"
+      },
+      "weight": 2,
+      "tint": "#F2D04A"
+    },
+    "ember": {
+      "display_name": {
+        "translate": "gene.runic_roots.fire_drake.eye_color.ember"
+      },
+      "weight": 2,
+      "tint": "#D8452A"
+    }
+  }
+}

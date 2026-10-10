@@ -1,0 +1,27 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.demon.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.demon.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "runic_roots:ember_scale",
+  "count": 1,
+  "spread": 0.4,
+  "speed": 0.0,
+  "y_offset": 1.0,
+  "companions": {
+    "part_1": {
+      "type": "pheno:particle",
+      "particle": "minecraft:smoke",
+      "count": 1,
+      "spread": 0.3,
+      "speed": 0.0,
+      "y_offset": 1.6
+    }
+  }
+}

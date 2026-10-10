@@ -1,0 +1,110 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.terra_drake.seismic_breath"
+  },
+  "description": {
+    "translate": "gene.runic_roots.terra_drake.seismic_breath.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/terra_drake/seismic_breath.png",
+  "cooldown": 800,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 6,
+        "target": "all",
+        "action": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:damage",
+              "amount": 7,
+              "source": "other"
+            },
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:mining_fatigue",
+              "duration": 120,
+              "amplifier": 2
+            },
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:slowness",
+              "duration": 60,
+              "amplifier": 2
+            }
+          ]
+        },
+        "bientity_condition": {
+          "type": "pheno:and",
+          "conditions": [
+            {
+              "type": "pheno:relative_rotation",
+              "max_angle": 28
+            },
+            {
+              "type": "pheno:can_see"
+            },
+            {
+              "type": "pheno:not",
+              "condition": {
+                "type": "pheno:allied"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 14,
+        "target": "hostile",
+        "action": {
+          "type": "pheno:apply_effect",
+          "effect": "minecraft:glowing",
+          "duration": 40,
+          "amplifier": 0
+        }
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:dust_plume",
+        "count": 40,
+        "speed": 0.35,
+        "shape": "cone",
+        "length": 6,
+        "radius": 3.19,
+        "anchor": "eyes"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:dust_plume",
+        "count": 20,
+        "speed": 0.25,
+        "shape": "cone",
+        "delay": 4,
+        "length": 6,
+        "radius": 3.19,
+        "anchor": "eyes"
+      },
+      {
+        "type": "pheno:screen_effect",
+        "effect": "shake",
+        "intensity": 0.4,
+        "duration": 16,
+        "color": "#A0805A"
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.ender_dragon.shoot",
+        "volume": 1.0,
+        "pitch": 0.9
+      }
+    ]
+  }
+}

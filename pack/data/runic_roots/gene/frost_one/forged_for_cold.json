@@ -1,0 +1,26 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:damage_modifier",
+  "display_name": {
+    "translate": "gene.runic_roots.frost_one.forged_for_cold"
+  },
+  "description": {
+    "translate": "gene.runic_roots.frost_one.forged_for_cold.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "modifier": 1.25,
+  "damage_condition": {
+    "type": "pheno:in_tag",
+    "tag": "minecraft:is_fire"
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": -0.05,
+      "operation": "multiply_total"
+    }
+  },
+  "drawback": true
+}

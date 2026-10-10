@@ -1,0 +1,92 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.magi.arcane_overflow"
+  },
+  "description": {
+    "translate": "gene.runic_roots.magi.arcane_overflow.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/magi/arcane_overflow.png",
+  "cooldown": 900,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:strength",
+        "duration": 160,
+        "amplifier": 1
+      },
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 6,
+        "target": "hostile",
+        "action": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:weakness",
+              "duration": 120,
+              "amplifier": 1
+            },
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:glowing",
+              "duration": 120,
+              "amplifier": 0
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:block.enchantment_table.use",
+        "volume": 1.0,
+        "pitch": 0.9
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:arcane_glint",
+        "count": 18,
+        "speed": 0.06,
+        "shape": "dome",
+        "radius": 0.8
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:arcane_glint",
+        "count": 12,
+        "speed": 0.12,
+        "shape": "ring",
+        "delay": 3,
+        "radius": 1.0,
+        "anchor": "feet"
+      }
+    ]
+  },
+  "resource_cost": {
+    "resource": "arcane_reserve",
+    "amount": 30
+  },
+  "resources": {
+    "arcane_reserve": {
+      "min": 0,
+      "max": 100,
+      "start": 100,
+      "regen": 1,
+      "regen_interval": 20,
+      "color": "#7F5FE6",
+      "display": {
+        "shape": "horizontal",
+        "anchor": "top_right",
+        "visibility": "when_referenced",
+        "priority": 60
+      }
+    }
+  }
+}

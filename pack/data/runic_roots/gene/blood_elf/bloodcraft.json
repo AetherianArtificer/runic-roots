@@ -1,0 +1,51 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.blood_elf.bloodcraft"
+  },
+  "description": {
+    "translate": "gene.runic_roots.blood_elf.bloodcraft.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.attack_damage",
+  "amount": 0.1,
+  "operation": "multiply_total",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attack_modifier",
+      "modifier": 1.1,
+      "damage_condition": {
+        "type": "pheno:magic"
+      }
+    },
+    "part_2": {
+      "type": "pheno:trigger",
+      "trigger": "when_attack",
+      "target": "self",
+      "action": {
+        "type": "pheno:heal",
+        "amount": {
+          "type": "pheno:event_damage",
+          "scale": 0.2
+        }
+      },
+      "damage_condition": {
+        "type": "pheno:and",
+        "conditions": [
+          {
+            "type": "pheno:projectile",
+            "inverted": true
+          },
+          {
+            "type": "pheno:attacker",
+            "condition": {
+              "type": "pheno:alive"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.wyvernkin"
+  },
+  "ancestry": "runic_roots:draconic",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.wyvernkin.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.wyvernkin.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.wyvernkin.backstory"
+  },
+  "genes": [
+    "runic_roots:wyvernkin/venom_swoop",
+    "runic_roots:wyvernkin/lean_wings",
+    "runic_roots:wyvernkin/exposed_membranes",
+    "runic_roots:wyvernkin/stature",
+    "runic_roots:wyvernkin/wings",
+    "runic_roots:wyvernkin/ambience",
+    "runic_roots:wyvernkin/complexion"
+  ],
+  "spawn_bias": {
+    "default": 0.25
+  }
+}

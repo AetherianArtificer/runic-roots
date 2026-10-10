@@ -1,0 +1,52 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.deep_one.tremorsense"
+  },
+  "description": {
+    "translate": "gene.runic_roots.deep_one.tremorsense.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/deep_one/tremorsense.png",
+  "cooldown": 300,
+  "ai_trigger": "always",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 18,
+        "target": "hostile",
+        "action": {
+          "type": "pheno:apply_effect",
+          "effect": "minecraft:glowing",
+          "duration": 60,
+          "amplifier": 0
+        }
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:dust_plume",
+        "count": 30,
+        "speed": 0.25,
+        "shape": "ring",
+        "radius": 1.0,
+        "anchor": "feet"
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.warden.heartbeat",
+        "volume": 1.0,
+        "pitch": 0.9
+      },
+      {
+        "type": "pheno:screen_effect",
+        "effect": "shake",
+        "intensity": 0.2,
+        "duration": 6
+      }
+    ]
+  }
+}

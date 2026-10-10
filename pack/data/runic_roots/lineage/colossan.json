@@ -1,0 +1,28 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.colossan"
+  },
+  "ancestry": "townstead_roots:human",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.colossan.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.colossan.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.colossan.backstory"
+  },
+  "genes": [
+    "runic_roots:colossan/colossal_heave",
+    "runic_roots:colossan/giants_bearing",
+    "runic_roots:colossan/heavy_limbs",
+    "runic_roots:colossan/stature",
+    "runic_roots:colossan/ambience"
+  ],
+  "spawn_bias": {
+    "default": 0.25
+  }
+}

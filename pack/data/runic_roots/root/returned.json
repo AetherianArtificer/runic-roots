@@ -1,0 +1,9 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.returned"
+  },
+  "ancestry": "runic_roots:revenant",
+  "lineage": "runic_roots:returned",
+  "icon": "runic_roots:textures/root/returned.png"
+}

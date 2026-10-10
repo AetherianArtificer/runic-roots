@@ -1,0 +1,14 @@
+{
+  "texture": "runic_roots:textures/particle/rune_glyph.png",
+  "frames": 3,
+  "frame_time": 0,
+  "fade_out_fraction": 0.34,
+  "lifetime": [
+    28,
+    35
+  ],
+  "gravity": -0.01,
+  "drag": 0.92,
+  "size": 0.14,
+  "glow": true
+}

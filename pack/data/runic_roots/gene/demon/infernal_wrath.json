@@ -1,0 +1,77 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.demon.infernal_wrath"
+  },
+  "description": {
+    "translate": "gene.runic_roots.demon.infernal_wrath.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/demon/infernal_wrath.png",
+  "cooldown": 1000,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:strength",
+        "duration": 160,
+        "amplifier": 1
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:fire_resistance",
+        "duration": 160,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 6,
+        "target": "hostile",
+        "action": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:weakness",
+              "duration": 100,
+              "amplifier": 0
+            },
+            {
+              "type": "pheno:ignite",
+              "seconds": 6
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.blaze.shoot",
+        "volume": 1.0,
+        "pitch": 0.7
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:flame",
+        "count": 24,
+        "speed": 0.06,
+        "shape": "ring_in",
+        "radius": 1.6,
+        "anchor": "feet"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:flame",
+        "count": 12,
+        "speed": 0.02,
+        "shape": "helix",
+        "delay": 4,
+        "radius": 0.6,
+        "height": 1.8
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.primian"
+  },
+  "ancestry": "townstead_roots:human",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.primian.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.primian.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.primian.backstory"
+  },
+  "genes": [
+    "runic_roots:primian/stroke_of_fortune",
+    "runic_roots:primian/boundless_adaptability",
+    "runic_roots:primian/jack_of_all_trades",
+    "runic_roots:primian/ambience"
+  ],
+  "spawn_bias": {
+    "default": 0.25
+  }
+}

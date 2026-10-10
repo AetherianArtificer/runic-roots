@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:skeleton",
+    "minecraft:stray",
+    "minecraft:wither_skeleton",
+    "minecraft:blaze",
+    "minecraft:iron_golem",
+    "minecraft:snow_golem",
+    "minecraft:slime",
+    "minecraft:magma_cube",
+    "minecraft:vex",
+    "minecraft:allay",
+    "minecraft:breeze",
+    "minecraft:shulker"
+  ]
+}

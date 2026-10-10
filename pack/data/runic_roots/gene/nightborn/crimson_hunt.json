@@ -1,0 +1,153 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.nightborn.crimson_hunt"
+  },
+  "description": {
+    "translate": "gene.runic_roots.nightborn.crimson_hunt.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/nightborn/crimson_hunt.png",
+  "cooldown": 900,
+  "ai_trigger": "never",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:set_state",
+        "state": "runic_roots:crimson_hunt",
+        "amount": 3,
+        "duration": 160
+      },
+      {
+        "type": "pheno:set_state",
+        "state": "runic_roots:crimson_hunt_speed",
+        "amount": 1,
+        "duration": 160
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.ravager.roar",
+        "volume": 1.0,
+        "pitch": 1.8
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:damage_indicator",
+        "count": 24,
+        "speed": 0.06,
+        "shape": "ring_in",
+        "radius": 1.6,
+        "anchor": "feet"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:damage_indicator",
+        "count": 12,
+        "speed": 0.02,
+        "shape": "helix",
+        "delay": 4,
+        "radius": 0.6,
+        "height": 1.8
+      }
+    ]
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 0.1,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:state",
+        "state": "runic_roots:crimson_hunt_speed"
+      }
+    },
+    "part_2": {
+      "type": "pheno:trigger",
+      "trigger": "when_attack",
+      "target": "self",
+      "action": {
+        "type": "pheno:and",
+        "actions": [
+          {
+            "type": "pheno:heal",
+            "amount": {
+              "type": "pheno:event_damage",
+              "scale": 0.25,
+              "max": 2
+            }
+          },
+          {
+            "type": "pheno:add_state",
+            "state": "runic_roots:crimson_hunt",
+            "amount": -1
+          },
+          {
+            "type": "pheno:set_state",
+            "state": "runic_roots:crimson_hunt_cooldown",
+            "amount": 1,
+            "duration": 20
+          }
+        ]
+      },
+      "condition": {
+        "type": "pheno:and",
+        "conditions": [
+          {
+            "type": "pheno:state",
+            "state": "runic_roots:crimson_hunt",
+            "min": 1
+          },
+          {
+            "type": "pheno:attack_strength",
+            "min": 0.9
+          },
+          {
+            "type": "pheno:not",
+            "condition": {
+              "type": "pheno:state",
+              "state": "runic_roots:crimson_hunt_cooldown"
+            }
+          }
+        ]
+      },
+      "damage_condition": {
+        "type": "pheno:and",
+        "conditions": [
+          {
+            "type": "pheno:projectile",
+            "inverted": true
+          },
+          {
+            "type": "pheno:attacker",
+            "condition": {
+              "type": "pheno:alive"
+            }
+          }
+        ]
+      },
+      "bientity_condition": {
+        "type": "pheno:target_condition",
+        "condition": {
+          "type": "pheno:not",
+          "condition": {
+            "type": "pheno:or",
+            "conditions": [
+              {
+                "type": "pheno:in_tag",
+                "tag": "runic_roots:cannot_bleed"
+              },
+              {
+                "type": "pheno:entity_group",
+                "group": "undead"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

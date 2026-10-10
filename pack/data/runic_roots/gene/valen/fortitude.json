@@ -1,0 +1,92 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.valen.fortitude"
+  },
+  "description": {
+    "translate": "gene.runic_roots.valen.fortitude.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.max_health",
+  "amount": 4,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.armor",
+      "amount": 2,
+      "operation": "add"
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "amount": 0.4,
+      "operation": "add"
+    },
+    "part_3": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": 0.1,
+      "operation": "multiply_total"
+    },
+    "part_4": {
+      "type": "pheno:trigger",
+      "trigger": "when_attack",
+      "target": "self",
+      "action": {
+        "type": "pheno:and",
+        "actions": [
+          {
+            "type": "pheno:target_action",
+            "action": {
+              "type": "pheno:add_velocity",
+              "x": 0.0,
+              "y": 0.25,
+              "z": 0.0,
+              "away_from_other": 0.6
+            }
+          },
+          {
+            "type": "pheno:set_state",
+            "state": "runic_roots:shoulder_spent",
+            "amount": 1,
+            "duration": 60
+          }
+        ]
+      },
+      "condition": {
+        "type": "pheno:and",
+        "conditions": [
+          {
+            "type": "pheno:movement",
+            "movement": "sprinting"
+          },
+          {
+            "type": "pheno:not",
+            "condition": {
+              "type": "pheno:state",
+              "state": "runic_roots:shoulder_spent"
+            }
+          }
+        ]
+      },
+      "damage_condition": {
+        "type": "pheno:and",
+        "conditions": [
+          {
+            "type": "pheno:projectile",
+            "inverted": true
+          },
+          {
+            "type": "pheno:attacker",
+            "condition": {
+              "type": "pheno:alive"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

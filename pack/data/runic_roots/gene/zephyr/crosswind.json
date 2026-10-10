@@ -1,0 +1,40 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.zephyr.crosswind"
+  },
+  "description": {
+    "translate": "gene.runic_roots.zephyr.crosswind.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/zephyr/crosswind.png",
+  "cooldown": 600,
+  "ai_trigger": "never",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:dash",
+        "distance": 5,
+        "ticks": 8,
+        "horizontal": true
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:gale_streak",
+        "count": 18,
+        "speed": 0.2,
+        "shape": "line",
+        "length": 5
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.breeze.wind_burst",
+        "volume": 1.0,
+        "pitch": 1.3
+      }
+    ]
+  }
+}

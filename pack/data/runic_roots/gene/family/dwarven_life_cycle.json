@@ -1,0 +1,65 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:life_cycle",
+  "display_name": {
+    "translate": "gene.runic_roots.family.dwarven_life_cycle"
+  },
+  "description": {
+    "translate": "gene.runic_roots.family.dwarven_life_cycle.desc"
+  },
+  "category": "Lifespan",
+  "dominance": "dominant",
+  "locus": "townstead_roots:life_cycle",
+  "variance": 0.15,
+  "stages": [
+    {
+      "id": "baby",
+      "label": {
+        "translate": "origin.townstead_roots.stage.baby"
+      },
+      "presents_as": "baby",
+      "days": 10
+    },
+    {
+      "id": "toddler",
+      "label": {
+        "translate": "origin.townstead_roots.stage.toddler"
+      },
+      "presents_as": "toddler",
+      "days": 15
+    },
+    {
+      "id": "child",
+      "label": {
+        "translate": "origin.townstead_roots.stage.child"
+      },
+      "presents_as": "child",
+      "days": 80
+    },
+    {
+      "id": "teen",
+      "label": {
+        "translate": "origin.townstead_roots.stage.teen"
+      },
+      "presents_as": "teen",
+      "days": 60
+    },
+    {
+      "id": "adult",
+      "label": {
+        "translate": "origin.townstead_roots.stage.adult"
+      },
+      "presents_as": "adult",
+      "days": 240
+    },
+    {
+      "id": "senior",
+      "label": {
+        "translate": "origin.townstead_roots.stage.senior"
+      },
+      "presents_as": "senior",
+      "days": 60,
+      "on_end": "stay"
+    }
+  ]
+}

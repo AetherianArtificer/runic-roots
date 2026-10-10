@@ -1,0 +1,34 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.forge_one.stone_heavy"
+  },
+  "description": {
+    "translate": "gene.runic_roots.forge_one.stone_heavy.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.movement_speed",
+  "amount": -0.1,
+  "operation": "multiply_total",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "amount": -0.1,
+      "operation": "multiply_total"
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": -0.2,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:submerged_in",
+        "fluid": "minecraft:water"
+      }
+    }
+  },
+  "drawback": true
+}

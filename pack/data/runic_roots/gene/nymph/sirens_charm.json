@@ -1,0 +1,75 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.nymph.sirens_charm"
+  },
+  "description": {
+    "translate": "gene.runic_roots.nymph.sirens_charm.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/nymph/sirens_charm.png",
+  "cooldown": 900,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 8,
+        "target": "hostile",
+        "action": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:slowness",
+              "duration": 160,
+              "amplifier": 1
+            },
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:weakness",
+              "duration": 160,
+              "amplifier": 0
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:regeneration",
+        "duration": 120,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:heal",
+        "amount": 2
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.allay.ambient_with_item",
+        "volume": 1.0,
+        "pitch": 0.9
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:falling_water",
+        "count": 24,
+        "speed": 0.12,
+        "shape": "orbit",
+        "radius": 1.1
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:falling_water",
+        "count": 20,
+        "speed": 0.14,
+        "shape": "dome",
+        "delay": 6,
+        "radius": 0.6
+      }
+    ]
+  }
+}

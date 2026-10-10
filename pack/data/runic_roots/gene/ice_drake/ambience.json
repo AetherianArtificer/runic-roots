@@ -1,0 +1,27 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.ice_drake.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.ice_drake.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "minecraft:snowflake",
+  "count": 1,
+  "spread": 0.4,
+  "speed": 0.0,
+  "y_offset": 1.0,
+  "companions": {
+    "part_1": {
+      "type": "pheno:particle",
+      "particle": "runic_roots:frost_mote",
+      "count": 1,
+      "spread": 0.4,
+      "speed": 0.0,
+      "y_offset": 1.4
+    }
+  }
+}

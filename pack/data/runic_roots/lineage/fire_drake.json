@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.fire_drake"
+  },
+  "ancestry": "runic_roots:draconic",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.fire_drake.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.fire_drake.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.fire_drake.backstory"
+  },
+  "genes": [
+    "runic_roots:fire_drake/dragonfire_breath",
+    "runic_roots:fire_drake/emberscale_hide",
+    "runic_roots:fire_drake/cold_quenches_fire",
+    "runic_roots:fire_drake/stature",
+    "runic_roots:fire_drake/wings",
+    "runic_roots:fire_drake/ambience",
+    "runic_roots:fire_drake/horns",
+    "runic_roots:fire_drake/tail",
+    "runic_roots:fire_drake/scales",
+    "runic_roots:fire_drake/complexion",
+    "runic_roots:fire_drake/eyes",
+    "runic_roots:fire_drake/eye_color"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biomes": {
+      "minecraft:badlands": 3,
+      "minecraft:savanna_plateau": 3
+    }
+  }
+}

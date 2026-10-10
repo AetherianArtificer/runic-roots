@@ -1,0 +1,16 @@
+{
+  "texture": "runic_roots:textures/particle/fae_sparkle.png",
+  "frames": 3,
+  "frame_time": 0,
+  "fade_out_fraction": 0.34,
+  "lifetime": [
+    16,
+    23
+  ],
+  "gravity": 0.0,
+  "drag": 0.9,
+  "size": 0.09,
+  "glow": true,
+  "pulse": 0.45,
+  "pulse_rate": 1.1
+}

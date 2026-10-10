@@ -1,0 +1,14 @@
+{
+  "texture": "runic_roots:textures/particle/venom_drip.png",
+  "frames": 3,
+  "frame_time": 0,
+  "fade_out_fraction": 0.34,
+  "lifetime": [
+    20,
+    25
+  ],
+  "gravity": 0.2,
+  "drag": 0.98,
+  "size": 0.08,
+  "collide": true
+}

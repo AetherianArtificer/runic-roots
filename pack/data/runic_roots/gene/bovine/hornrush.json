@@ -1,0 +1,77 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.bovine.hornrush"
+  },
+  "description": {
+    "translate": "gene.runic_roots.bovine.hornrush.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/bovine/hornrush.png",
+  "cooldown": 600,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:dash",
+        "distance": 5,
+        "ticks": 10,
+        "horizontal": true,
+        "on_hit": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:damage",
+              "amount": 6,
+              "source": "other"
+            },
+            {
+              "type": "pheno:add_velocity",
+              "x": 0.0,
+              "y": 0.3,
+              "z": 0.0,
+              "away_from_other": 1.0
+            }
+          ]
+        },
+        "max_hits": 1
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:dust_plume",
+        "count": 14,
+        "speed": 0.05,
+        "shape": "line",
+        "length": 3,
+        "anchor": "feet"
+      }
+    ]
+  },
+  "windup": {
+    "ticks": 6,
+    "slow": 0.2,
+    "action": {
+      "type": "pheno:and",
+      "actions": [
+        {
+          "type": "pheno:play_sound",
+          "sound": "minecraft:entity.ravager.step",
+          "volume": 1.0,
+          "pitch": 0.8
+        },
+        {
+          "type": "pheno:spawn_particles",
+          "particle": "runic_roots:rock_chip",
+          "count": 10,
+          "speed": 0.06,
+          "shape": "ring",
+          "radius": 0.6,
+          "anchor": "feet"
+        }
+      ]
+    }
+  }
+}

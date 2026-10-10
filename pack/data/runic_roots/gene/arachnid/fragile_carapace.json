@@ -1,0 +1,26 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.arachnid.fragile_carapace"
+  },
+  "description": {
+    "translate": "gene.runic_roots.arachnid.fragile_carapace.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.max_health",
+  "amount": -3,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:damage_modifier",
+      "modifier": 1.2,
+      "damage_condition": {
+        "type": "pheno:in_tag",
+        "tag": "minecraft:is_fire"
+      }
+    }
+  },
+  "drawback": true
+}

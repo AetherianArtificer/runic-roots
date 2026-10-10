@@ -1,0 +1,106 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:ability",
+  "display_name": {
+    "translate": "gene.runic_roots.terra_drake.stonescale_hide"
+  },
+  "description": {
+    "translate": "gene.runic_roots.terra_drake.stonescale_hide.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "ability": "elytra_flight",
+  "mode": "passive",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.armor",
+      "amount": 4,
+      "operation": "add"
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "amount": 1.0,
+      "operation": "add"
+    },
+    "part_3": {
+      "type": "pheno:effect_immunity",
+      "effects": [
+        "minecraft:mining_fatigue"
+      ]
+    },
+    "part_4": {
+      "type": "pheno:modifier",
+      "target": "break_speed",
+      "modify": {
+        "operation": "multiply",
+        "value": 1.15
+      }
+    },
+    "part_5": {
+      "type": "pheno:damage_modifier",
+      "modifier": 0,
+      "damage_condition": {
+        "type": "pheno:in_tag",
+        "tag": "minecraft:is_fall"
+      }
+    },
+    "part_6": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 0.06,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:or",
+        "conditions": [
+          {
+            "type": "pheno:biome",
+            "biome_tag": "minecraft:is_mountain"
+          },
+          {
+            "type": "pheno:or",
+            "conditions": [
+              {
+                "type": "pheno:biome",
+                "biome_tag": "forge:is_mountain"
+              },
+              {
+                "type": "pheno:biome",
+                "biome_tag": "c:is_mountain"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "part_7": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": 0.05,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:or",
+        "conditions": [
+          {
+            "type": "pheno:biome",
+            "biome_tag": "minecraft:is_mountain"
+          },
+          {
+            "type": "pheno:or",
+            "conditions": [
+              {
+                "type": "pheno:biome",
+                "biome_tag": "forge:is_mountain"
+              },
+              {
+                "type": "pheno:biome",
+                "biome_tag": "c:is_mountain"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

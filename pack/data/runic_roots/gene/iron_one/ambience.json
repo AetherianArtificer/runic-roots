@@ -1,0 +1,21 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.iron_one.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.iron_one.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "minecraft:enchanted_hit",
+  "count": 1,
+  "spread": 0.3,
+  "speed": 0.0,
+  "y_offset": 0.9,
+  "condition": {
+    "type": "pheno:movement",
+    "movement": "sneaking"
+  }
+}

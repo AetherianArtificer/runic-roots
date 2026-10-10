@@ -1,0 +1,57 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.dark_elf.shadowmeld"
+  },
+  "description": {
+    "translate": "gene.runic_roots.dark_elf.shadowmeld.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/dark_elf/shadowmeld.png",
+  "cooldown": 900,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:invisibility",
+        "duration": 120,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:speed",
+        "duration": 120,
+        "amplifier": 1
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.illusioner.mirror_move",
+        "volume": 1.0,
+        "pitch": 0.8
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:shadow_wisp",
+        "count": 20,
+        "speed": 0.1,
+        "shape": "ring_in",
+        "radius": 1.8,
+        "anchor": "feet"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:shadow_wisp",
+        "count": 24,
+        "speed": 0.18,
+        "shape": "burst_up",
+        "delay": 5,
+        "radius": 0.5,
+        "height": 2
+      }
+    ]
+  }
+}

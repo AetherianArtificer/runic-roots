@@ -1,0 +1,32 @@
+{
+  "schema": "townstead:ancestry/v1",
+  "display_name": {
+    "translate": "ancestry.runic_roots.draconic"
+  },
+  "species": "townstead_roots:humanoid",
+  "demonym": {
+    "singular": {
+      "translate": "ancestry.runic_roots.draconic.demonym.singular"
+    },
+    "plural": {
+      "translate": "ancestry.runic_roots.draconic.demonym.plural"
+    },
+    "adjective": {
+      "translate": "ancestry.runic_roots.draconic.demonym.adjective"
+    }
+  },
+  "backstory": {
+    "translate": "ancestry.runic_roots.draconic.backstory"
+  },
+  "genes": [
+    "townstead_roots:omnivore",
+    "townstead_roots:water_drinker",
+    "townstead_roots:human_thermal",
+    "townstead_roots:human_chronotype",
+    "runic_roots:family/draconic_life_cycle",
+    "runic_roots:family/draconic_clutch"
+  ],
+  "spawn_bias": {
+    "default": 0.25
+  }
+}

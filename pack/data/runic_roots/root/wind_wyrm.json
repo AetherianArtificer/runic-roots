@@ -1,0 +1,9 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.wind_wyrm"
+  },
+  "ancestry": "runic_roots:draconic",
+  "lineage": "runic_roots:wind_wyrm",
+  "icon": "runic_roots:textures/root/wind_wyrm.png"
+}

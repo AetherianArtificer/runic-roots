@@ -1,0 +1,25 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.feline.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.feline.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "minecraft:heart",
+  "count": 1,
+  "spread": 0.3,
+  "speed": 0.0,
+  "y_offset": 1.0,
+  "condition": {
+    "type": "pheno:block_in_radius",
+    "radius": 2,
+    "block_condition": {
+      "type": "pheno:in_tag",
+      "tag": "minecraft:campfires"
+    }
+  }
+}

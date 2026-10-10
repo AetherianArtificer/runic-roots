@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "Runic Roots: the 54 races of Runic Races, ported to Townstead Roots.",
+    "pack_format": 15,
+    "supported_formats": [
+      15,
+      48
+    ]
+  }
+}

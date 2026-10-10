@@ -1,0 +1,48 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.dark_elf"
+  },
+  "ancestry": "runic_roots:elf",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.dark_elf.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.dark_elf.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.dark_elf.backstory"
+  },
+  "genes": [
+    "runic_roots:dark_elf/shadowmeld",
+    "runic_roots:dark_elf/children_of_darkness",
+    "runic_roots:dark_elf/sunlight_sensitivity",
+    "runic_roots:dark_elf/stature",
+    "runic_roots:dark_elf/ambience"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biomes": {
+      "minecraft:dark_forest": 6
+    },
+    "biome_tags": {
+      "#minecraft:is_forest": 2
+    }
+  },
+  "overrides": [
+    {
+      "requires": {
+        "namespace": "townstead_classic"
+      },
+      "ancestry": "townstead_classic:elf",
+      "genes": [
+        "runic_roots:dark_elf/shadowmeld",
+        "runic_roots:dark_elf/children_of_darkness",
+        "runic_roots:dark_elf/sunlight_sensitivity",
+        "runic_roots:dark_elf/ambience"
+      ]
+    }
+  ]
+}

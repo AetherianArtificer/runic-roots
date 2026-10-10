@@ -1,0 +1,99 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.volt_drake.lightning_breath"
+  },
+  "description": {
+    "translate": "gene.runic_roots.volt_drake.lightning_breath.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/volt_drake/lightning_breath.png",
+  "cooldown": 800,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 8,
+        "target": "all",
+        "action": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:damage",
+              "amount": 8,
+              "source": "other"
+            },
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:slowness",
+              "duration": 40,
+              "amplifier": 4
+            },
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:glowing",
+              "duration": 80,
+              "amplifier": 0
+            }
+          ]
+        },
+        "bientity_condition": {
+          "type": "pheno:and",
+          "conditions": [
+            {
+              "type": "pheno:relative_rotation",
+              "max_angle": 18
+            },
+            {
+              "type": "pheno:can_see"
+            },
+            {
+              "type": "pheno:not",
+              "condition": {
+                "type": "pheno:allied"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:electric_spark",
+        "count": 40,
+        "speed": 0.35,
+        "shape": "cone",
+        "length": 8,
+        "radius": 2.6,
+        "anchor": "eyes"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:electric_spark",
+        "count": 20,
+        "speed": 0.25,
+        "shape": "cone",
+        "delay": 4,
+        "length": 8,
+        "radius": 2.6,
+        "anchor": "eyes"
+      },
+      {
+        "type": "pheno:screen_effect",
+        "effect": "flash",
+        "intensity": 0.4,
+        "duration": 16,
+        "color": "#E6F2FF"
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.ender_dragon.shoot",
+        "volume": 1.0,
+        "pitch": 0.9
+      }
+    ]
+  }
+}

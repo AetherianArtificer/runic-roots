@@ -1,0 +1,70 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.mountain_one.quarry_rhythm"
+  },
+  "description": {
+    "translate": "gene.runic_roots.mountain_one.quarry_rhythm.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/mountain_one/quarry_rhythm.png",
+  "cooldown": 900,
+  "ai_trigger": "never",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:set_state",
+        "state": "runic_roots:quarry",
+        "amount": 1,
+        "duration": 120
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:block.anvil.land",
+        "volume": 1.0,
+        "pitch": 0.8
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:rock_chip",
+        "count": 24,
+        "speed": 0.16,
+        "shape": "ring",
+        "radius": 0.6,
+        "anchor": "feet"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:rock_chip",
+        "count": 14,
+        "speed": 0.22,
+        "shape": "burst_up",
+        "delay": 2,
+        "radius": 0.8
+      },
+      {
+        "type": "pheno:screen_effect",
+        "effect": "shake",
+        "intensity": 0.25,
+        "duration": 6
+      }
+    ]
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:modifier",
+      "target": "break_speed",
+      "modify": {
+        "operation": "multiply",
+        "value": 1.4
+      },
+      "when": {
+        "type": "pheno:state",
+        "state": "runic_roots:quarry"
+      }
+    }
+  }
+}

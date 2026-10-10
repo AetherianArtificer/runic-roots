@@ -1,0 +1,15 @@
+{
+  "texture": "runic_roots:textures/particle/mirror_shard.png",
+  "frames": 3,
+  "frame_time": 0,
+  "fade_out_fraction": 0.34,
+  "lifetime": [
+    22,
+    29
+  ],
+  "gravity": 0.18,
+  "drag": 0.98,
+  "size": 0.08,
+  "collide": true,
+  "spin": 25.8
+}

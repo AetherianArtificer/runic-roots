@@ -1,0 +1,32 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.terra_drake.ponderous"
+  },
+  "description": {
+    "translate": "gene.runic_roots.terra_drake.ponderous.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.movement_speed",
+  "amount": -0.1,
+  "operation": "multiply_total",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "amount": -0.1,
+      "operation": "multiply_total"
+    },
+    "part_2": {
+      "type": "pheno:modifier",
+      "target": "exhaustion",
+      "modify": {
+        "operation": "multiply",
+        "value": 1.2
+      }
+    }
+  },
+  "drawback": true
+}

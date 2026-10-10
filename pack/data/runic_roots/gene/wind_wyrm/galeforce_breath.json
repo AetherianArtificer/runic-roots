@@ -1,0 +1,106 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.wind_wyrm.galeforce_breath"
+  },
+  "description": {
+    "translate": "gene.runic_roots.wind_wyrm.galeforce_breath.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/wind_wyrm/galeforce_breath.png",
+  "cooldown": 900,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 7,
+        "target": "all",
+        "action": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:damage",
+              "amount": 6,
+              "source": "other"
+            },
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:levitation",
+              "duration": 30,
+              "amplifier": 0
+            },
+            {
+              "type": "pheno:add_velocity",
+              "x": 0.0,
+              "y": 0.3,
+              "z": 0.0,
+              "away_from_other": 1.0
+            }
+          ]
+        },
+        "bientity_condition": {
+          "type": "pheno:and",
+          "conditions": [
+            {
+              "type": "pheno:relative_rotation",
+              "max_angle": 30
+            },
+            {
+              "type": "pheno:can_see"
+            },
+            {
+              "type": "pheno:not",
+              "condition": {
+                "type": "pheno:allied"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:add_velocity",
+        "x": 0.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:gale_streak",
+        "count": 40,
+        "speed": 0.35,
+        "shape": "cone",
+        "length": 7,
+        "radius": 4.04,
+        "anchor": "eyes"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:gale_streak",
+        "count": 20,
+        "speed": 0.25,
+        "shape": "cone",
+        "delay": 4,
+        "length": 7,
+        "radius": 4.04,
+        "anchor": "eyes"
+      },
+      {
+        "type": "pheno:screen_effect",
+        "effect": "vignette",
+        "intensity": 0.4,
+        "duration": 16,
+        "color": "#F2F7FF"
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.ender_dragon.shoot",
+        "volume": 1.0,
+        "pitch": 0.9
+      }
+    ]
+  }
+}

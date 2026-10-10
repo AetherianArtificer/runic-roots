@@ -1,0 +1,31 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.mountain_one.bedrock_bearing"
+  },
+  "description": {
+    "translate": "gene.runic_roots.mountain_one.bedrock_bearing.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.armor",
+  "amount": 2,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "amount": 0.25,
+      "operation": "add",
+      "condition": {
+        "type": "pheno:block",
+        "y": -1,
+        "block_condition": {
+          "type": "pheno:in_tag",
+          "tag": "runic_roots:stone_support"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.sprite"
+  },
+  "ancestry": "runic_roots:fae",
+  "lineage": "runic_roots:sprite",
+  "icon": "runic_roots:textures/root/sprite.png"
+}

@@ -1,0 +1,15 @@
+{
+  "texture": "runic_roots:textures/particle/shadow_wisp.png",
+  "frames": 3,
+  "frame_time": 0,
+  "fade_out_fraction": 0.34,
+  "lifetime": [
+    36,
+    47
+  ],
+  "gravity": 0.008,
+  "drag": 0.95,
+  "size": 0.12,
+  "sway": 0.0015,
+  "sway_rate": 0.35
+}

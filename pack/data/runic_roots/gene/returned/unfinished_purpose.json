@@ -1,0 +1,150 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.returned.unfinished_purpose"
+  },
+  "description": {
+    "translate": "gene.runic_roots.returned.unfinished_purpose.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/returned/unfinished_purpose.png",
+  "cooldown": 800,
+  "ai_trigger": "when_hurt",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 16,
+        "target": "all",
+        "action": {
+          "type": "pheno:apply_effect",
+          "effect": "minecraft:glowing",
+          "duration": 200,
+          "amplifier": 0
+        },
+        "bientity_condition": {
+          "type": "pheno:and",
+          "conditions": [
+            {
+              "type": "pheno:attacker"
+            },
+            {
+              "type": "pheno:can_see"
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:set_state",
+        "state": "runic_roots:unfinished_purpose",
+        "amount": 1,
+        "duration": 200
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.vex.charge",
+        "volume": 1.0,
+        "pitch": 0.7
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:soul_wisp",
+        "count": 24,
+        "speed": 0.06,
+        "shape": "ring_in",
+        "radius": 1.6,
+        "anchor": "feet"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:soul_wisp",
+        "count": 12,
+        "speed": 0.02,
+        "shape": "helix",
+        "delay": 4,
+        "radius": 0.6,
+        "height": 1.8
+      }
+    ]
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 0.15,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:and",
+        "conditions": [
+          {
+            "type": "pheno:state",
+            "state": "runic_roots:unfinished_purpose"
+          },
+          {
+            "type": "pheno:movement",
+            "movement": "grounded"
+          }
+        ]
+      }
+    },
+    "part_2": {
+      "type": "pheno:trigger",
+      "trigger": "when_attack",
+      "target": "self",
+      "action": {
+        "type": "pheno:and",
+        "actions": [
+          {
+            "type": "pheno:target_action",
+            "action": {
+              "type": "pheno:damage",
+              "amount": 2,
+              "source": "other"
+            }
+          },
+          {
+            "type": "pheno:clear_state",
+            "state": "runic_roots:unfinished_purpose"
+          }
+        ]
+      },
+      "condition": {
+        "type": "pheno:and",
+        "conditions": [
+          {
+            "type": "pheno:state",
+            "state": "runic_roots:unfinished_purpose"
+          },
+          {
+            "type": "pheno:attack_strength",
+            "min": 0.9
+          }
+        ]
+      },
+      "damage_condition": {
+        "type": "pheno:and",
+        "conditions": [
+          {
+            "type": "pheno:projectile",
+            "inverted": true
+          },
+          {
+            "type": "pheno:attacker",
+            "condition": {
+              "type": "pheno:alive"
+            }
+          }
+        ]
+      },
+      "bientity_condition": {
+        "type": "pheno:target_condition",
+        "condition": {
+          "type": "pheno:glowing"
+        }
+      }
+    }
+  }
+}

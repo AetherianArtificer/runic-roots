@@ -1,0 +1,32 @@
+{
+  "schema": "townstead:ancestry/v1",
+  "display_name": {
+    "translate": "ancestry.runic_roots.revenant"
+  },
+  "species": "townstead_roots:humanoid",
+  "demonym": {
+    "singular": {
+      "translate": "ancestry.runic_roots.revenant.demonym.singular"
+    },
+    "plural": {
+      "translate": "ancestry.runic_roots.revenant.demonym.plural"
+    },
+    "adjective": {
+      "translate": "ancestry.runic_roots.revenant.demonym.adjective"
+    }
+  },
+  "backstory": {
+    "translate": "ancestry.runic_roots.revenant.backstory"
+  },
+  "genes": [
+    "townstead_roots:omnivore",
+    "townstead_roots:water_drinker",
+    "townstead_roots:human_thermal",
+    "runic_roots:family/undead_chronotype",
+    "runic_roots:family/undead_ageless",
+    "runic_roots:family/undead_sterile"
+  ],
+  "spawn_bias": {
+    "default": 0.25
+  }
+}

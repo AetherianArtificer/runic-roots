@@ -1,0 +1,92 @@
+{
+  "schema": "townstead:attachment/v2",
+  "geometry": "runic_roots:wings_membrane",
+  "texture": "runic_roots:fire_drake_wings",
+  "bone": "body",
+  "offset": [
+    0,
+    -24,
+    2
+  ],
+  "rotation": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1.4,
+  "poses": {
+    "gliding": {
+      "bones": {
+        "left_membrane_arm": {
+          "rotation": [
+            0,
+            0,
+            65.0
+          ]
+        },
+        "right_membrane_arm": {
+          "rotation": [
+            0,
+            0,
+            -65.0
+          ]
+        }
+      },
+      "transition": 6
+    },
+    "sneaking": {
+      "bones": {
+        "left_membrane_arm": {
+          "rotation": [
+            0,
+            0,
+            -0.0
+          ]
+        },
+        "right_membrane_arm": {
+          "rotation": [
+            0,
+            0,
+            0.0
+          ]
+        }
+      },
+      "transition": 6
+    }
+  },
+  "animations": {
+    "when": [
+      {
+        "if": {
+          "type": "pheno:and",
+          "conditions": [
+            {
+              "type": "pheno:movement",
+              "movement": "fall_flying"
+            },
+            {
+              "type": "pheno:movement",
+              "movement": "ascending"
+            }
+          ]
+        },
+        "animation": "runic_wings#animation.runic_wings.fire_drake_flap",
+        "transition": 2
+      }
+    ]
+  },
+  "stages": {
+    "baby": {
+      "scale": 0.3
+    },
+    "toddler": {
+      "scale": 0.4
+    },
+    "child": {
+      "scale": 0.55
+    },
+    "teen": {
+      "scale": 0.75
+    }
+  }
+}

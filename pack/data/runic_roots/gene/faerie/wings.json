@@ -1,0 +1,14 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.faerie.wings"
+  },
+  "description": {
+    "translate": "gene.runic_roots.faerie.wings.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:wings",
+  "attachment": "runic_roots:faerie_wings"
+}

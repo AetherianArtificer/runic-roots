@@ -1,0 +1,50 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.sky_one.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.sky_one.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "minecraft:cloud",
+  "count": 1,
+  "spread": 0.4,
+  "speed": 0.0,
+  "y_offset": 0.2,
+  "condition": {
+    "type": "pheno:and",
+    "conditions": [
+      {
+        "type": "pheno:or",
+        "conditions": [
+          {
+            "type": "pheno:biome",
+            "biome_tag": "minecraft:is_mountain"
+          },
+          {
+            "type": "pheno:or",
+            "conditions": [
+              {
+                "type": "pheno:biome",
+                "biome_tag": "forge:is_mountain"
+              },
+              {
+                "type": "pheno:biome",
+                "biome_tag": "c:is_mountain"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "pheno:environment",
+        "exposure": [
+          "sky"
+        ]
+      }
+    ]
+  }
+}

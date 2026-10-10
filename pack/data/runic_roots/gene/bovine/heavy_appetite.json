@@ -1,0 +1,26 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:modifier",
+  "display_name": {
+    "translate": "gene.runic_roots.bovine.heavy_appetite"
+  },
+  "description": {
+    "translate": "gene.runic_roots.bovine.heavy_appetite.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "target": "exhaustion",
+  "modify": {
+    "operation": "multiply",
+    "value": 1.2
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "amount": -0.08,
+      "operation": "multiply_total"
+    }
+  },
+  "drawback": true
+}

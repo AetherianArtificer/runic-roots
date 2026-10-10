@@ -1,0 +1,62 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.primian.stroke_of_fortune"
+  },
+  "description": {
+    "translate": "gene.runic_roots.primian.stroke_of_fortune.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/primian/stroke_of_fortune.png",
+  "cooldown": 2000,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:luck",
+        "duration": 200,
+        "amplifier": 1
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:absorption",
+        "duration": 160,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:speed",
+        "duration": 160,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:block.amethyst_block.chime",
+        "volume": 1.0,
+        "pitch": 1.2
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:rune_glyph",
+        "count": 18,
+        "speed": 0.06,
+        "shape": "dome",
+        "radius": 0.8
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:rune_glyph",
+        "count": 12,
+        "speed": 0.12,
+        "shape": "ring",
+        "delay": 3,
+        "radius": 1.0,
+        "anchor": "feet"
+      }
+    ]
+  }
+}

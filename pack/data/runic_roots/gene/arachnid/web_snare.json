@@ -1,0 +1,92 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.arachnid.web_snare"
+  },
+  "description": {
+    "translate": "gene.runic_roots.arachnid.web_snare.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/arachnid/web_snare.png",
+  "cooldown": 700,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 5,
+        "target": "hostile",
+        "action": {
+          "type": "pheno:apply_effect",
+          "effect": "minecraft:slowness",
+          "duration": 120,
+          "amplifier": 3
+        }
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:slow_falling",
+        "duration": 100,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:cloud",
+        "radius": 1.2,
+        "duration": 1200,
+        "wait_time": 0,
+        "reapply_delay": 120,
+        "particle": "runic_roots:web_strand",
+        "where": {
+          "type": "pheno:not",
+          "condition": {
+            "type": "pheno:allied"
+          }
+        },
+        "do": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:slowness",
+              "duration": 100,
+              "amplifier": 2
+            },
+            {
+              "type": "pheno:damage",
+              "amount": 4,
+              "source": "other"
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.spider.ambient",
+        "volume": 1.0,
+        "pitch": 1.4
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:web_strand",
+        "count": 16,
+        "speed": 0.25,
+        "shape": "cone",
+        "length": 2.5,
+        "radius": 1.0
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:web_strand",
+        "count": 14,
+        "speed": 0.1,
+        "shape": "ring",
+        "delay": 3,
+        "radius": 0.8,
+        "anchor": "feet"
+      }
+    ]
+  }
+}

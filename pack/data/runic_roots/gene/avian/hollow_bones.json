@@ -1,0 +1,32 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.avian.hollow_bones"
+  },
+  "description": {
+    "translate": "gene.runic_roots.avian.hollow_bones.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.max_health",
+  "amount": -4,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": -0.1,
+      "operation": "multiply_total"
+    },
+    "part_2": {
+      "type": "pheno:modifier",
+      "target": "knockback_taken",
+      "modify": {
+        "operation": "multiply",
+        "value": 1.4
+      }
+    }
+  },
+  "drawback": true
+}

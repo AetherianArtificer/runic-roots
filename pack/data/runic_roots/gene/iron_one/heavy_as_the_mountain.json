@@ -1,0 +1,31 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.iron_one.heavy_as_the_mountain"
+  },
+  "description": {
+    "translate": "gene.runic_roots.iron_one.heavy_as_the_mountain.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.movement_speed",
+  "amount": -0.1,
+  "operation": "multiply_total",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "amount": -0.1,
+      "operation": "multiply_total"
+    },
+    "part_2": {
+      "type": "pheno:attack_modifier",
+      "modifier": 0.9,
+      "damage_condition": {
+        "type": "pheno:magic"
+      }
+    }
+  },
+  "drawback": true
+}

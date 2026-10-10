@@ -1,0 +1,75 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.auroran.dawnward"
+  },
+  "description": {
+    "translate": "gene.runic_roots.auroran.dawnward.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/auroran/dawnward.png",
+  "cooldown": 1100,
+  "ai_trigger": "when_hurt_nearby",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 6,
+        "target": "non_hostile",
+        "action": {
+          "type": "pheno:ward",
+          "id": "dawn",
+          "amount": 4,
+          "duration": 120,
+          "fraction": 1.0
+        },
+        "include_self": true,
+        "bientity_condition": {
+          "type": "pheno:and",
+          "conditions": [
+            {
+              "type": "pheno:can_see"
+            },
+            {
+              "type": "pheno:allied"
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:ward",
+        "id": "dawn",
+        "amount": 4,
+        "duration": 120,
+        "fraction": 1.0
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:block.beacon.power_select",
+        "volume": 1.0,
+        "pitch": 1.5
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:end_rod",
+        "count": 18,
+        "speed": 0.06,
+        "shape": "dome",
+        "radius": 0.8
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:end_rod",
+        "count": 12,
+        "speed": 0.12,
+        "shape": "ring",
+        "delay": 3,
+        "radius": 1.0,
+        "anchor": "feet"
+      }
+    ]
+  }
+}

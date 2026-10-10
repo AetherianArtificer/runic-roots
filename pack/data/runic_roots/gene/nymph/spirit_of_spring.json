@@ -1,0 +1,114 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:ability",
+  "display_name": {
+    "translate": "gene.runic_roots.nymph.spirit_of_spring"
+  },
+  "description": {
+    "translate": "gene.runic_roots.nymph.spirit_of_spring.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "ability": "water_breathing",
+  "mode": "passive",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attack_modifier",
+      "modifier": 1.1,
+      "damage_condition": {
+        "type": "pheno:magic"
+      }
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 0.06,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:or",
+        "conditions": [
+          {
+            "type": "pheno:biome",
+            "biome_tag": "minecraft:is_ocean"
+          },
+          {
+            "type": "pheno:biome",
+            "biome_tag": "minecraft:is_river"
+          },
+          {
+            "type": "pheno:biome",
+            "biome_tag": "minecraft:is_beach"
+          },
+          {
+            "type": "pheno:or",
+            "conditions": [
+              {
+                "type": "pheno:biome",
+                "biome_tag": "forge:is_swamp"
+              },
+              {
+                "type": "pheno:biome",
+                "biome_tag": "c:is_swamp"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "part_3": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": 0.05,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:or",
+        "conditions": [
+          {
+            "type": "pheno:biome",
+            "biome_tag": "minecraft:is_ocean"
+          },
+          {
+            "type": "pheno:biome",
+            "biome_tag": "minecraft:is_river"
+          },
+          {
+            "type": "pheno:biome",
+            "biome_tag": "minecraft:is_beach"
+          },
+          {
+            "type": "pheno:or",
+            "conditions": [
+              {
+                "type": "pheno:biome",
+                "biome_tag": "forge:is_swamp"
+              },
+              {
+                "type": "pheno:biome",
+                "biome_tag": "c:is_swamp"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "part_4": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": -0.1,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:or",
+        "conditions": [
+          {
+            "type": "pheno:biome",
+            "biome_tag": "forge:is_hot"
+          },
+          {
+            "type": "pheno:biome",
+            "biome_tag": "c:is_hot"
+          }
+        ]
+      }
+    }
+  }
+}

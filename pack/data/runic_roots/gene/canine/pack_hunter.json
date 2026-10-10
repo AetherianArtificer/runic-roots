@@ -1,0 +1,66 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.canine.pack_hunter"
+  },
+  "description": {
+    "translate": "gene.runic_roots.canine.pack_hunter.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.movement_speed",
+  "amount": 0.12,
+  "operation": "multiply_total",
+  "companions": {
+    "part_1": {
+      "type": "pheno:ability",
+      "ability": "night_vision",
+      "mode": "passive"
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": 0.1,
+      "operation": "multiply_total"
+    },
+    "part_3": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 0.06,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:or",
+        "conditions": [
+          {
+            "type": "pheno:biome",
+            "biome_tag": "minecraft:is_forest"
+          },
+          {
+            "type": "pheno:biome",
+            "biome_tag": "minecraft:is_taiga"
+          }
+        ]
+      }
+    },
+    "part_4": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": 0.05,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:or",
+        "conditions": [
+          {
+            "type": "pheno:biome",
+            "biome_tag": "minecraft:is_forest"
+          },
+          {
+            "type": "pheno:biome",
+            "biome_tag": "minecraft:is_taiga"
+          }
+        ]
+      }
+    }
+  }
+}

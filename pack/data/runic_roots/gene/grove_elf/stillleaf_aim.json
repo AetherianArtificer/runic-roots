@@ -1,0 +1,97 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.grove_elf.stillleaf_aim"
+  },
+  "description": {
+    "translate": "gene.runic_roots.grove_elf.stillleaf_aim.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/grove_elf/stillleaf_aim.png",
+  "cooldown": 700,
+  "ai_trigger": "never",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:set_state",
+        "state": "runic_roots:stillleaf",
+        "amount": 1,
+        "duration": 120
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:item.crossbow.loading_end",
+        "volume": 1.0,
+        "pitch": 1.2
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:leaf_petal",
+        "count": 20,
+        "speed": 0.1,
+        "shape": "ring_in",
+        "radius": 1.8,
+        "anchor": "feet"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:leaf_petal",
+        "count": 24,
+        "speed": 0.18,
+        "shape": "burst_up",
+        "delay": 5,
+        "radius": 0.5,
+        "height": 2
+      }
+    ]
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:trigger",
+      "trigger": "when_attack",
+      "target": "self",
+      "action": {
+        "type": "pheno:and",
+        "actions": [
+          {
+            "type": "pheno:target_action",
+            "action": {
+              "type": "pheno:and",
+              "actions": [
+                {
+                  "type": "pheno:damage",
+                  "amount": {
+                    "type": "pheno:event_damage",
+                    "scale": 0.2,
+                    "max": 2
+                  },
+                  "source": "other"
+                },
+                {
+                  "type": "pheno:apply_effect",
+                  "effect": "minecraft:glowing",
+                  "duration": 60,
+                  "amplifier": 0
+                }
+              ]
+            }
+          },
+          {
+            "type": "pheno:clear_state",
+            "state": "runic_roots:stillleaf"
+          }
+        ]
+      },
+      "condition": {
+        "type": "pheno:state",
+        "state": "runic_roots:stillleaf"
+      },
+      "damage_condition": {
+        "type": "pheno:projectile"
+      }
+    }
+  }
+}

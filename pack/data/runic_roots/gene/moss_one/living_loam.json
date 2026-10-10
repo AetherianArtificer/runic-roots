@@ -1,0 +1,31 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.moss_one.living_loam"
+  },
+  "description": {
+    "translate": "gene.runic_roots.moss_one.living_loam.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.armor",
+  "amount": 2,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:trigger",
+      "trigger": "when_item_use",
+      "target": "self",
+      "action": {
+        "type": "pheno:feed",
+        "food": 1,
+        "saturation": 1
+      },
+      "item_condition": {
+        "type": "pheno:ingredient",
+        "tag": "runic_roots:mushroom_nourishment"
+      }
+    }
+  }
+}

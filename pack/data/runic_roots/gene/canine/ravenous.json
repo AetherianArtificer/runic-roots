@@ -1,0 +1,26 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:modifier",
+  "display_name": {
+    "translate": "gene.runic_roots.canine.ravenous"
+  },
+  "description": {
+    "translate": "gene.runic_roots.canine.ravenous.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "target": "exhaustion",
+  "modify": {
+    "operation": "multiply",
+    "value": 1.25
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.armor",
+      "amount": -2,
+      "operation": "add"
+    }
+  },
+  "drawback": true
+}

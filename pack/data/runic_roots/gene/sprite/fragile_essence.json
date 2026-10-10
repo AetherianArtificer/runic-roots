@@ -1,0 +1,26 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.sprite.fragile_essence"
+  },
+  "description": {
+    "translate": "gene.runic_roots.sprite.fragile_essence.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.max_health",
+  "amount": -6,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:modifier",
+      "target": "knockback_taken",
+      "modify": {
+        "operation": "multiply",
+        "value": 1.5
+      }
+    }
+  },
+  "drawback": true
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "pheno:entity_state/v1",
+  "id": "runic_roots:crimson_hunt",
+  "min": 0,
+  "max": 3,
+  "initial": 0,
+  "merge": "latest",
+  "persistence": "session",
+  "death": "clear"
+}

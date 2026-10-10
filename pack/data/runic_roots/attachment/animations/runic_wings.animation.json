@@ -1,0 +1,559 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.runic_wings.zephyr_flap": {
+      "loop": true,
+      "animation_length": 0.4,
+      "bones": {
+        "left_forewing": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              50.0
+            ],
+            "0.12": [
+              0,
+              0,
+              80.0
+            ],
+            "0.4": [
+              0,
+              0,
+              50.0
+            ]
+          }
+        },
+        "left_hindwing": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              50.0
+            ],
+            "0.12": [
+              0,
+              0,
+              80.0
+            ],
+            "0.4": [
+              0,
+              0,
+              50.0
+            ]
+          }
+        },
+        "right_forewing": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              -50.0
+            ],
+            "0.12": [
+              0,
+              0,
+              -80.0
+            ],
+            "0.4": [
+              0,
+              0,
+              -50.0
+            ]
+          }
+        },
+        "right_hindwing": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              -50.0
+            ],
+            "0.12": [
+              0,
+              0,
+              -80.0
+            ],
+            "0.4": [
+              0,
+              0,
+              -50.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.runic_wings.wyvernkin_flap": {
+      "loop": true,
+      "animation_length": 0.55,
+      "bones": {
+        "left_membrane_arm": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              58.0
+            ],
+            "0.165": [
+              0,
+              0,
+              101.0
+            ],
+            "0.55": [
+              0,
+              0,
+              58.0
+            ]
+          }
+        },
+        "right_membrane_arm": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              -58.0
+            ],
+            "0.165": [
+              0,
+              0,
+              -101.0
+            ],
+            "0.55": [
+              0,
+              0,
+              -58.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.runic_wings.sprite_flap": {
+      "loop": true,
+      "animation_length": 0.4,
+      "bones": {
+        "left_forewing": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              55.0
+            ],
+            "0.12": [
+              0,
+              0,
+              95.0
+            ],
+            "0.4": [
+              0,
+              0,
+              55.0
+            ]
+          }
+        },
+        "left_hindwing": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              55.0
+            ],
+            "0.12": [
+              0,
+              0,
+              95.0
+            ],
+            "0.4": [
+              0,
+              0,
+              55.0
+            ]
+          }
+        },
+        "right_forewing": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              -55.0
+            ],
+            "0.12": [
+              0,
+              0,
+              -95.0
+            ],
+            "0.4": [
+              0,
+              0,
+              -55.0
+            ]
+          }
+        },
+        "right_hindwing": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              -55.0
+            ],
+            "0.12": [
+              0,
+              0,
+              -95.0
+            ],
+            "0.4": [
+              0,
+              0,
+              -55.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.runic_wings.faerie_flap": {
+      "loop": true,
+      "animation_length": 0.4,
+      "bones": {
+        "left_forewing": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              57.0
+            ],
+            "0.12": [
+              0,
+              0,
+              97.0
+            ],
+            "0.4": [
+              0,
+              0,
+              57.0
+            ]
+          }
+        },
+        "left_hindwing": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              57.0
+            ],
+            "0.12": [
+              0,
+              0,
+              97.0
+            ],
+            "0.4": [
+              0,
+              0,
+              57.0
+            ]
+          }
+        },
+        "right_forewing": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              -57.0
+            ],
+            "0.12": [
+              0,
+              0,
+              -97.0
+            ],
+            "0.4": [
+              0,
+              0,
+              -57.0
+            ]
+          }
+        },
+        "right_hindwing": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              -57.0
+            ],
+            "0.12": [
+              0,
+              0,
+              -97.0
+            ],
+            "0.4": [
+              0,
+              0,
+              -57.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.runic_wings.avian_flap": {
+      "loop": true,
+      "animation_length": 0.45,
+      "bones": {
+        "left_feather_arm": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              63.0
+            ],
+            "0.135": [
+              0,
+              0,
+              110.0
+            ],
+            "0.45": [
+              0,
+              0,
+              63.0
+            ]
+          }
+        },
+        "right_feather_arm": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              -63.0
+            ],
+            "0.135": [
+              0,
+              0,
+              -110.0
+            ],
+            "0.45": [
+              0,
+              0,
+              -63.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.runic_wings.wind_wyrm_flap": {
+      "loop": true,
+      "animation_length": 0.5,
+      "bones": {
+        "left_membrane_arm": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              60.0
+            ],
+            "0.15": [
+              0,
+              0,
+              105.0
+            ],
+            "0.5": [
+              0,
+              0,
+              60.0
+            ]
+          }
+        },
+        "right_membrane_arm": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              -60.0
+            ],
+            "0.15": [
+              0,
+              0,
+              -105.0
+            ],
+            "0.5": [
+              0,
+              0,
+              -60.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.runic_wings.fire_drake_flap": {
+      "loop": true,
+      "animation_length": 0.7,
+      "bones": {
+        "left_membrane_arm": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              65.0
+            ],
+            "0.21": [
+              0,
+              0,
+              115.0
+            ],
+            "0.7": [
+              0,
+              0,
+              65.0
+            ]
+          }
+        },
+        "right_membrane_arm": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              -65.0
+            ],
+            "0.21": [
+              0,
+              0,
+              -115.0
+            ],
+            "0.7": [
+              0,
+              0,
+              -65.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.runic_wings.ice_drake_flap": {
+      "loop": true,
+      "animation_length": 0.7,
+      "bones": {
+        "left_membrane_arm": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              65.0
+            ],
+            "0.21": [
+              0,
+              0,
+              115.0
+            ],
+            "0.7": [
+              0,
+              0,
+              65.0
+            ]
+          }
+        },
+        "right_membrane_arm": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              -65.0
+            ],
+            "0.21": [
+              0,
+              0,
+              -115.0
+            ],
+            "0.7": [
+              0,
+              0,
+              -65.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.runic_wings.terra_drake_flap": {
+      "loop": true,
+      "animation_length": 0.8,
+      "bones": {
+        "left_membrane_arm": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              67.0
+            ],
+            "0.24": [
+              0,
+              0,
+              117.0
+            ],
+            "0.8": [
+              0,
+              0,
+              67.0
+            ]
+          }
+        },
+        "right_membrane_arm": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              -67.0
+            ],
+            "0.24": [
+              0,
+              0,
+              -117.0
+            ],
+            "0.8": [
+              0,
+              0,
+              -67.0
+            ]
+          }
+        }
+      }
+    },
+    "animation.runic_wings.volt_drake_flap": {
+      "loop": true,
+      "animation_length": 0.6,
+      "bones": {
+        "left_membrane_arm": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              63.0
+            ],
+            "0.18": [
+              0,
+              0,
+              113.0
+            ],
+            "0.6": [
+              0,
+              0,
+              63.0
+            ]
+          }
+        },
+        "right_membrane_arm": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              -63.0
+            ],
+            "0.18": [
+              0,
+              0,
+              -113.0
+            ],
+            "0.6": [
+              0,
+              0,
+              -63.0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

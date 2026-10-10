@@ -1,0 +1,122 @@
+{
+  "schema": "townstead:attachment/v2",
+  "geometry": "runic_roots:wings_gossamer",
+  "texture": "runic_roots:zephyr_wings",
+  "bone": "body",
+  "offset": [
+    0,
+    -24,
+    2
+  ],
+  "rotation": [
+    0,
+    0,
+    0
+  ],
+  "scale": 0.72,
+  "poses": {
+    "gliding": {
+      "bones": {
+        "left_forewing": {
+          "rotation": [
+            0,
+            0,
+            50.0
+          ]
+        },
+        "left_hindwing": {
+          "rotation": [
+            0,
+            0,
+            50.0
+          ]
+        },
+        "right_forewing": {
+          "rotation": [
+            0,
+            0,
+            -50.0
+          ]
+        },
+        "right_hindwing": {
+          "rotation": [
+            0,
+            0,
+            -50.0
+          ]
+        }
+      },
+      "transition": 6
+    },
+    "sneaking": {
+      "bones": {
+        "left_forewing": {
+          "rotation": [
+            0,
+            0,
+            -3.0
+          ]
+        },
+        "left_hindwing": {
+          "rotation": [
+            0,
+            0,
+            -3.0
+          ]
+        },
+        "right_forewing": {
+          "rotation": [
+            0,
+            0,
+            3.0
+          ]
+        },
+        "right_hindwing": {
+          "rotation": [
+            0,
+            0,
+            3.0
+          ]
+        }
+      },
+      "transition": 6
+    }
+  },
+  "animations": {
+    "when": [
+      {
+        "if": {
+          "type": "pheno:and",
+          "conditions": [
+            {
+              "type": "pheno:movement",
+              "movement": "fall_flying"
+            },
+            {
+              "type": "pheno:movement",
+              "movement": "ascending"
+            }
+          ]
+        },
+        "animation": "runic_wings#animation.runic_wings.zephyr_flap",
+        "transition": 2
+      }
+    ]
+  },
+  "stages": {
+    "baby": {
+      "scale": 0.3
+    },
+    "toddler": {
+      "scale": 0.4
+    },
+    "child": {
+      "scale": 0.55
+    },
+    "teen": {
+      "scale": 0.75
+    }
+  },
+  "render": "translucent",
+  "emissive": "runic_roots:zephyr_wings"
+}

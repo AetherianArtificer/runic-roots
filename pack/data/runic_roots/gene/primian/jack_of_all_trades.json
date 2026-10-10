@@ -1,0 +1,25 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attack_modifier",
+  "display_name": {
+    "translate": "gene.runic_roots.primian.jack_of_all_trades"
+  },
+  "description": {
+    "translate": "gene.runic_roots.primian.jack_of_all_trades.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "modifier": 0.9,
+  "damage_condition": {
+    "type": "pheno:magic"
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": -0.05,
+      "operation": "multiply_total"
+    }
+  },
+  "drawback": true
+}

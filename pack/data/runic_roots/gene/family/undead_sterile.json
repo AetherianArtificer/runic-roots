@@ -1,0 +1,13 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:fertility",
+  "display_name": {
+    "translate": "gene.runic_roots.family.undead_sterile"
+  },
+  "description": {
+    "translate": "gene.runic_roots.family.undead_sterile.desc"
+  },
+  "category": "Reproduction",
+  "dominance": "dominant",
+  "fertility": 0.0
+}

@@ -1,0 +1,52 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.zombie.sunlight_decay"
+  },
+  "description": {
+    "translate": "gene.runic_roots.zombie.sunlight_decay.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.movement_speed",
+  "amount": -0.1,
+  "operation": "multiply_total",
+  "companions": {
+    "part_1": {
+      "type": "pheno:modifier",
+      "target": "healing",
+      "modify": {
+        "operation": "multiply",
+        "value": 0.85
+      }
+    },
+    "part_2": {
+      "type": "pheno:action_over_time",
+      "interval": 40,
+      "action": {
+        "type": "pheno:ignite",
+        "seconds": 2
+      },
+      "condition": {
+        "type": "pheno:and",
+        "conditions": [
+          {
+            "type": "pheno:environment",
+            "exposure": [
+              "sun"
+            ]
+          },
+          {
+            "type": "pheno:not",
+            "condition": {
+              "type": "pheno:equipped_item",
+              "slot": "head"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "drawback": true
+}

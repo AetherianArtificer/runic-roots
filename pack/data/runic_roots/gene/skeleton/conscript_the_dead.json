@@ -1,0 +1,85 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.skeleton.conscript_the_dead"
+  },
+  "description": {
+    "translate": "gene.runic_roots.skeleton.conscript_the_dead.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/skeleton/conscript_the_dead.png",
+  "cooldown": 1400,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:spawn_entity",
+        "entity": "minecraft:zombie",
+        "count": 2,
+        "radius": 2.5,
+        "owner": true,
+        "allied": true,
+        "follow": true,
+        "duration": 1200,
+        "burns_in_sun": false,
+        "nbt": {
+          "CustomName": "{\"translate\":\"entity.runic_roots.grave_servant\"}",
+          "Health": 30.0,
+          "CanPickUpLoot": false,
+          "PersistenceRequired": true,
+          "Attributes": [
+            {
+              "Name": "minecraft:generic.max_health",
+              "Base": 30.0
+            },
+            {
+              "Name": "minecraft:generic.attack_damage",
+              "Base": 6.0
+            },
+            {
+              "Name": "minecraft:generic.armor",
+              "Base": 4.0
+            }
+          ]
+        },
+        "on_spawn": {
+          "type": "pheno:spawn_particles",
+          "particle": "runic_roots:bone_chip",
+          "count": 16,
+          "speed": 0.15,
+          "shape": "burst_up",
+          "radius": 0.5,
+          "anchor": "feet"
+        }
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.skeleton.ambient",
+        "volume": 1.0,
+        "pitch": 0.7
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:bone_chip",
+        "count": 24,
+        "speed": 0.06,
+        "shape": "ring_in",
+        "radius": 1.6,
+        "anchor": "feet"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:bone_chip",
+        "count": 12,
+        "speed": 0.02,
+        "shape": "helix",
+        "delay": 4,
+        "radius": 0.6,
+        "height": 1.8
+      }
+    ]
+  }
+}

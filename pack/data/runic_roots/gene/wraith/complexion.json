@@ -1,0 +1,16 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.wraith.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.wraith.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "tint": "#A7B1C2",
+  "blend": "color",
+  "strength": 0.6
+}

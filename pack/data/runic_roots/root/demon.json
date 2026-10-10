@@ -1,0 +1,17 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.demon"
+  },
+  "ancestry": "runic_roots:fiend",
+  "lineage": "runic_roots:demon",
+  "icon": "runic_roots:textures/root/demon.png",
+  "overrides": [
+    {
+      "requires": {
+        "namespace": "townstead_classic"
+      },
+      "ancestry": "townstead_classic:tiefling"
+    }
+  ]
+}

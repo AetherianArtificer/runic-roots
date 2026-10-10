@@ -1,0 +1,23 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.astral_elf.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.astral_elf.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "runic_roots:moon_sliver",
+  "count": 1,
+  "spread": 0.5,
+  "speed": 0.0,
+  "y_offset": 1.0,
+  "condition": {
+    "type": "pheno:environment",
+    "time": [
+      "night"
+    ]
+  }
+}

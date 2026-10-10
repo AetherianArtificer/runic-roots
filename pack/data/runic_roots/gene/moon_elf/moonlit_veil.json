@@ -1,0 +1,67 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.moon_elf.moonlit_veil"
+  },
+  "description": {
+    "translate": "gene.runic_roots.moon_elf.moonlit_veil.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/moon_elf/moonlit_veil.png",
+  "cooldown": 1000,
+  "ai_trigger": "when_hurt",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:invisibility",
+        "duration": 120,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:slow_falling",
+        "duration": 200,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:regeneration",
+        "duration": 100,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:heal",
+        "amount": 4
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:block.amethyst_block.chime",
+        "volume": 1.0,
+        "pitch": 0.7
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:moon_sliver",
+        "count": 20,
+        "speed": 0.1,
+        "shape": "ring_in",
+        "radius": 1.8,
+        "anchor": "feet"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:moon_sliver",
+        "count": 24,
+        "speed": 0.18,
+        "shape": "burst_up",
+        "delay": 5,
+        "radius": 0.5,
+        "height": 2
+      }
+    ]
+  }
+}

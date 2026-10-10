@@ -1,0 +1,30 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.canine"
+  },
+  "ancestry": "runic_roots:bestial",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.canine.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.canine.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.canine.backstory"
+  },
+  "genes": [
+    "runic_roots:canine/howl_of_the_pack",
+    "runic_roots:canine/pack_hunter",
+    "runic_roots:canine/ravenous"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biome_tags": {
+      "#minecraft:is_taiga": 4,
+      "#minecraft:is_forest": 2
+    }
+  }
+}

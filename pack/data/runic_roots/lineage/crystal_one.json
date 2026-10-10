@@ -1,0 +1,45 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.crystal_one"
+  },
+  "ancestry": "runic_roots:dwarf",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.crystal_one.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.crystal_one.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.crystal_one.backstory"
+  },
+  "genes": [
+    "runic_roots:crystal_one/prism_reprisal",
+    "runic_roots:crystal_one/faceted_body",
+    "runic_roots:crystal_one/fracture_lines",
+    "runic_roots:crystal_one/stature",
+    "runic_roots:crystal_one/ambience"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biomes": {
+      "minecraft:dripstone_caves": 3
+    }
+  },
+  "overrides": [
+    {
+      "requires": {
+        "namespace": "townstead_classic"
+      },
+      "ancestry": "townstead_classic:dwarf",
+      "genes": [
+        "runic_roots:crystal_one/prism_reprisal",
+        "runic_roots:crystal_one/faceted_body",
+        "runic_roots:crystal_one/fracture_lines",
+        "runic_roots:crystal_one/ambience"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.chelon"
+  },
+  "ancestry": "runic_roots:bestial",
+  "lineage": "runic_roots:chelon",
+  "icon": "runic_roots:textures/root/chelon.png"
+}

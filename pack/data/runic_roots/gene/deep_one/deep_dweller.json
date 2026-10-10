@@ -1,0 +1,36 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:ability",
+  "display_name": {
+    "translate": "gene.runic_roots.deep_one.deep_dweller"
+  },
+  "description": {
+    "translate": "gene.runic_roots.deep_one.deep_dweller.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "ability": "night_vision",
+  "mode": "passive",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.armor",
+      "amount": 2,
+      "operation": "add"
+    },
+    "part_2": {
+      "type": "pheno:effect_immunity",
+      "effects": [
+        "minecraft:mining_fatigue"
+      ]
+    },
+    "part_3": {
+      "type": "pheno:modifier",
+      "target": "break_speed",
+      "modify": {
+        "operation": "multiply",
+        "value": 1.2
+      }
+    }
+  }
+}

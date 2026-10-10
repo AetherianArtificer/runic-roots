@@ -1,0 +1,62 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.sprite.phase_shift"
+  },
+  "description": {
+    "translate": "gene.runic_roots.sprite.phase_shift.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/sprite/phase_shift.png",
+  "cooldown": 1800,
+  "ai_trigger": "never",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:add_velocity",
+        "x": 0.0,
+        "y": 0.4,
+        "z": 1.2,
+        "relative": true
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:invisibility",
+        "duration": 60,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:speed",
+        "duration": 100,
+        "amplifier": 1
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:block.amethyst_block.resonate",
+        "volume": 1.0,
+        "pitch": 1.6
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:fae_sparkle",
+        "count": 24,
+        "speed": 0.12,
+        "shape": "orbit",
+        "radius": 1.1
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:fae_sparkle",
+        "count": 20,
+        "speed": 0.14,
+        "shape": "dome",
+        "delay": 6,
+        "radius": 0.6
+      }
+    ]
+  }
+}

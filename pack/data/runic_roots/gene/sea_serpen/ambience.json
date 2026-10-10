@@ -1,0 +1,38 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.sea_serpen.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.sea_serpen.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "minecraft:bubble",
+  "count": 1,
+  "spread": 0.4,
+  "speed": 0.02,
+  "y_offset": 0.8,
+  "condition": {
+    "type": "pheno:submerged_in",
+    "fluid": "minecraft:water"
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:particle",
+      "particle": "minecraft:dripping_water",
+      "count": 1,
+      "spread": 0.4,
+      "speed": 0.0,
+      "y_offset": 1.2,
+      "condition": {
+        "type": "pheno:not",
+        "condition": {
+          "type": "pheno:submerged_in",
+          "fluid": "minecraft:water"
+        }
+      }
+    }
+  }
+}

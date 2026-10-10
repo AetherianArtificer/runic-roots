@@ -1,0 +1,30 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.feline.hydrophobia"
+  },
+  "description": {
+    "translate": "gene.runic_roots.feline.hydrophobia.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.max_health",
+  "amount": -3,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:damage_modifier",
+      "modifier": 1.3,
+      "damage_condition": {
+        "type": "pheno:constant",
+        "value": true
+      },
+      "condition": {
+        "type": "pheno:submerged_in",
+        "fluid": "minecraft:water"
+      }
+    }
+  },
+  "drawback": true
+}

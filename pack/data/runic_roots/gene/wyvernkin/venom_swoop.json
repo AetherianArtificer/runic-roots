@@ -1,0 +1,87 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.wyvernkin.venom_swoop"
+  },
+  "description": {
+    "translate": "gene.runic_roots.wyvernkin.venom_swoop.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/wyvernkin/venom_swoop.png",
+  "cooldown": 700,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:if_else",
+        "condition": {
+          "type": "pheno:movement",
+          "movement": "fall_flying"
+        },
+        "if_action": {
+          "type": "pheno:dash",
+          "distance": 5,
+          "ticks": 10,
+          "horizontal": false,
+          "on_hit": {
+            "type": "pheno:and",
+            "actions": [
+              {
+                "type": "pheno:damage",
+                "amount": 5,
+                "source": "other"
+              },
+              {
+                "type": "pheno:apply_effect",
+                "effect": "minecraft:poison",
+                "duration": 60,
+                "amplifier": 0
+              }
+            ]
+          },
+          "max_hits": 1
+        },
+        "else_action": {
+          "type": "pheno:dash",
+          "distance": 3,
+          "ticks": 10,
+          "horizontal": true,
+          "on_hit": {
+            "type": "pheno:and",
+            "actions": [
+              {
+                "type": "pheno:damage",
+                "amount": 5,
+                "source": "other"
+              },
+              {
+                "type": "pheno:apply_effect",
+                "effect": "minecraft:poison",
+                "duration": 60,
+                "amplifier": 0
+              }
+            ]
+          },
+          "max_hits": 1
+        }
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:venom_drip",
+        "count": 14,
+        "speed": 0.05,
+        "shape": "line",
+        "length": 3
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.phantom.swoop",
+        "volume": 1.0,
+        "pitch": 1.2
+      }
+    ]
+  }
+}

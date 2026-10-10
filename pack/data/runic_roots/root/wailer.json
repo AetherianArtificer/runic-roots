@@ -1,0 +1,9 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.wailer"
+  },
+  "ancestry": "runic_roots:revenant",
+  "lineage": "runic_roots:wailer",
+  "icon": "runic_roots:textures/root/wailer.png"
+}

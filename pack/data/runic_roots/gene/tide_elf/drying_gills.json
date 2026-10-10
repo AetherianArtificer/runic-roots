@@ -1,0 +1,71 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.tide_elf.drying_gills"
+  },
+  "description": {
+    "translate": "gene.runic_roots.tide_elf.drying_gills.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.max_health",
+  "amount": -2,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:action_over_time",
+      "interval": 20,
+      "action": {
+        "type": "pheno:if_else",
+        "condition": {
+          "type": "pheno:or",
+          "conditions": [
+            {
+              "type": "pheno:or",
+              "conditions": [
+                {
+                  "type": "pheno:in_fluid",
+                  "fluid": "minecraft:water"
+                },
+                {
+                  "type": "pheno:environment",
+                  "exposure": [
+                    "rain"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "pheno:submerged_in",
+              "fluid": "minecraft:water"
+            }
+          ]
+        },
+        "if_action": {
+          "type": "pheno:set_state",
+          "state": "runic_roots:dry_seconds",
+          "amount": 0,
+          "duration": 0
+        },
+        "else_action": {
+          "type": "pheno:add_state",
+          "state": "runic_roots:dry_seconds",
+          "amount": 1
+        }
+      }
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": -0.08,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:state",
+        "state": "runic_roots:dry_seconds",
+        "min": 60
+      }
+    }
+  },
+  "drawback": true
+}

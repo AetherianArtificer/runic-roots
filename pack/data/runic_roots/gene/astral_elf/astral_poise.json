@@ -1,0 +1,30 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:damage_modifier",
+  "display_name": {
+    "translate": "gene.runic_roots.astral_elf.astral_poise"
+  },
+  "description": {
+    "translate": "gene.runic_roots.astral_elf.astral_poise.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "modifier": 0.7,
+  "damage_condition": {
+    "type": "pheno:in_tag",
+    "tag": "minecraft:is_fall"
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:ability",
+      "ability": "night_vision",
+      "mode": "passive",
+      "condition": {
+        "type": "pheno:environment",
+        "time": [
+          "night"
+        ]
+      }
+    }
+  }
+}

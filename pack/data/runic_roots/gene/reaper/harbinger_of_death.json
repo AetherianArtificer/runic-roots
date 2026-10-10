@@ -1,0 +1,106 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:effect_immunity",
+  "display_name": {
+    "translate": "gene.runic_roots.reaper.harbinger_of_death"
+  },
+  "description": {
+    "translate": "gene.runic_roots.reaper.harbinger_of_death.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "effects": [
+    "minecraft:wither"
+  ],
+  "companions": {
+    "part_1": {
+      "type": "pheno:ability",
+      "ability": "night_vision",
+      "mode": "passive"
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": 0.15,
+      "operation": "multiply_total"
+    },
+    "part_3": {
+      "type": "pheno:prevent",
+      "what": "death",
+      "set_health": 6,
+      "condition": {
+        "type": "pheno:compare_resource",
+        "resource": "defiance",
+        "comparison": ">=",
+        "compare_to": 1
+      },
+      "action": {
+        "type": "pheno:and",
+        "actions": [
+          {
+            "type": "pheno:change_resource",
+            "resource": "defiance",
+            "amount": -1
+          },
+          {
+            "type": "pheno:apply_effect",
+            "effect": "minecraft:resistance",
+            "duration": 600,
+            "amplifier": 4
+          },
+          {
+            "type": "pheno:apply_effect",
+            "effect": "minecraft:glowing",
+            "duration": 600,
+            "amplifier": 0
+          },
+          {
+            "type": "pheno:and",
+            "actions": [
+              {
+                "type": "pheno:spawn_particles",
+                "particle": "runic_roots:soul_wisp",
+                "count": 48,
+                "speed": 0.12,
+                "shape": "dome",
+                "radius": 1.2
+              },
+              {
+                "type": "pheno:spawn_particles",
+                "particle": "runic_roots:soul_wisp",
+                "count": 40,
+                "speed": 0.04,
+                "shape": "helix",
+                "delay": 4,
+                "radius": 0.9,
+                "height": 2.2
+              },
+              {
+                "type": "pheno:screen_effect",
+                "effect": "flash",
+                "intensity": 0.6,
+                "duration": 14,
+                "color": "#9B59D9"
+              },
+              {
+                "type": "pheno:play_sound",
+                "sound": "minecraft:item.totem.use",
+                "volume": 0.8,
+                "pitch": 1.2
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "resources": {
+    "defiance": {
+      "min": 0,
+      "max": 1,
+      "start": 1,
+      "regen": 1,
+      "regen_interval": 36000
+    }
+  }
+}

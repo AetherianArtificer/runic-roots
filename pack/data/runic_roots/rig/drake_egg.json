@@ -1,0 +1,25 @@
+{
+  "schema": "townstead:rig/v1",
+  "model": {
+    "type": "geometry",
+    "file": "runic_roots:geo/drake_egg.geo.json"
+  },
+  "texture": "runic_roots:textures/entity/drake_egg.png",
+  "bones": {
+    "head": "egg",
+    "body": "egg"
+  },
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.8
+  },
+  "equipment": {
+    "disabled": [
+      "head",
+      "chest",
+      "legs",
+      "feet"
+    ]
+  },
+  "hair": false
+}

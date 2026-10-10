@@ -1,0 +1,21 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.chelon.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.chelon.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "minecraft:wax_on",
+  "count": 1,
+  "spread": 0.3,
+  "speed": 0.0,
+  "y_offset": 0.6,
+  "condition": {
+    "type": "pheno:in_fluid",
+    "fluid": "minecraft:water"
+  }
+}

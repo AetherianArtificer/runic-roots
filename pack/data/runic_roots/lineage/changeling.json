@@ -1,0 +1,31 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.changeling"
+  },
+  "ancestry": "runic_roots:fae",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.changeling.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.changeling.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.changeling.backstory"
+  },
+  "genes": [
+    "runic_roots:changeling/mirror_shift",
+    "runic_roots:changeling/manyfaces",
+    "runic_roots:changeling/hollow_identity",
+    "runic_roots:changeling/stature",
+    "runic_roots:changeling/ambience"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biome_tags": {
+      "#minecraft:is_forest": 2
+    }
+  }
+}

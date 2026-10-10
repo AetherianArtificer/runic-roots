@@ -1,0 +1,84 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.wraith.spectral_phase"
+  },
+  "description": {
+    "translate": "gene.runic_roots.wraith.spectral_phase.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/wraith/spectral_phase.png",
+  "cooldown": 900,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:invisibility",
+        "duration": 100,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:resistance",
+        "duration": 100,
+        "amplifier": 1
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:slow_falling",
+        "duration": 100,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:speed",
+        "duration": 100,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 5,
+        "target": "hostile",
+        "action": {
+          "type": "pheno:apply_effect",
+          "effect": "minecraft:wither",
+          "duration": 60,
+          "amplifier": 0
+        }
+      },
+      {
+        "type": "pheno:heal",
+        "amount": 2
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.wither.ambient",
+        "volume": 1.0,
+        "pitch": 1.4
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:soul_wisp",
+        "count": 24,
+        "speed": 0.06,
+        "shape": "ring_in",
+        "radius": 1.6,
+        "anchor": "feet"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:soul_wisp",
+        "count": 12,
+        "speed": 0.02,
+        "shape": "helix",
+        "delay": 4,
+        "radius": 0.6,
+        "height": 1.8
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.runic_one.rune_of_warding"
+  },
+  "description": {
+    "translate": "gene.runic_roots.runic_one.rune_of_warding.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/runic_one/rune_of_warding.png",
+  "cooldown": 1200,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:resistance",
+        "duration": 160,
+        "amplifier": 1
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:regeneration",
+        "duration": 160,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 6,
+        "target": "hostile",
+        "action": {
+          "type": "pheno:apply_effect",
+          "effect": "minecraft:slowness",
+          "duration": 80,
+          "amplifier": 1
+        }
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:block.anvil.land",
+        "volume": 1.0,
+        "pitch": 0.8
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:rune_glyph",
+        "count": 24,
+        "speed": 0.16,
+        "shape": "ring",
+        "radius": 0.6,
+        "anchor": "feet"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:rune_glyph",
+        "count": 14,
+        "speed": 0.22,
+        "shape": "burst_up",
+        "delay": 2,
+        "radius": 0.8
+      },
+      {
+        "type": "pheno:screen_effect",
+        "effect": "shake",
+        "intensity": 0.25,
+        "duration": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:damage_modifier",
+  "display_name": {
+    "translate": "gene.runic_roots.forge_one.ironhand_smith"
+  },
+  "description": {
+    "translate": "gene.runic_roots.forge_one.ironhand_smith.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "modifier": 0.5,
+  "damage_condition": {
+    "type": "pheno:in_tag",
+    "tag": "minecraft:is_fire"
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.armor",
+      "amount": 2,
+      "operation": "add"
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": 0.1,
+      "operation": "multiply_total"
+    },
+    "part_3": {
+      "type": "pheno:trigger",
+      "trigger": "when_craft",
+      "item_condition": {
+        "type": "pheno:is_damageable"
+      },
+      "item_action": {
+        "type": "pheno:chance",
+        "chance": 0.25,
+        "action": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:chance",
+              "chance": 0.3,
+              "action": {
+                "type": "pheno:enchant",
+                "enchantment": "minecraft:unbreaking",
+                "level": 2
+              },
+              "else_action": {
+                "type": "pheno:enchant",
+                "enchantment": "minecraft:unbreaking",
+                "level": 1
+              }
+            },
+            {
+              "type": "pheno:holder_action",
+              "action": {
+                "type": "pheno:change_resource",
+                "resource": "smithing_focus",
+                "amount": -1
+              }
+            }
+          ]
+        }
+      },
+      "condition": {
+        "type": "pheno:compare_resource",
+        "resource": "smithing_focus",
+        "comparison": ">=",
+        "compare_to": 1
+      }
+    }
+  },
+  "resources": {
+    "smithing_focus": {
+      "min": 0,
+      "max": 1,
+      "start": 1,
+      "regen": 1,
+      "regen_interval": 12000
+    }
+  }
+}

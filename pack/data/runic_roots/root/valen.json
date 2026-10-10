@@ -1,0 +1,9 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.valen"
+  },
+  "ancestry": "townstead_roots:human",
+  "lineage": "runic_roots:valen",
+  "icon": "runic_roots:textures/root/valen.png"
+}

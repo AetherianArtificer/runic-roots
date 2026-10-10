@@ -1,0 +1,21 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.wind_wyrm.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.wind_wyrm.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "minecraft:cloud",
+  "count": 1,
+  "spread": 0.4,
+  "speed": 0.0,
+  "y_offset": 0.3,
+  "condition": {
+    "type": "pheno:movement",
+    "movement": "fall_flying"
+  }
+}

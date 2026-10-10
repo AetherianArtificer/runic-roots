@@ -1,0 +1,9 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.nightborn"
+  },
+  "ancestry": "runic_roots:revenant",
+  "lineage": "runic_roots:nightborn",
+  "icon": "runic_roots:textures/root/nightborn.png"
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.volt_drake.grounded"
+  },
+  "description": {
+    "translate": "gene.runic_roots.volt_drake.grounded.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.max_health",
+  "amount": -3,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:damage_modifier",
+      "modifier": 1.25,
+      "damage_condition": {
+        "type": "pheno:constant",
+        "value": true
+      },
+      "condition": {
+        "type": "pheno:submerged_in",
+        "fluid": "minecraft:water"
+      }
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": -0.1,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:not",
+        "condition": {
+          "type": "pheno:environment",
+          "exposure": [
+            "sky"
+          ]
+        }
+      }
+    }
+  },
+  "drawback": true
+}

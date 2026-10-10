@@ -1,0 +1,81 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:damage_modifier",
+  "display_name": {
+    "translate": "gene.runic_roots.sky_one.sure_footed_sentinel"
+  },
+  "description": {
+    "translate": "gene.runic_roots.sky_one.sure_footed_sentinel.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "modifier": 0,
+  "damage_condition": {
+    "type": "pheno:in_tag",
+    "tag": "minecraft:is_fall"
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.armor",
+      "amount": 1,
+      "operation": "add"
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 0.1,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:or",
+        "conditions": [
+          {
+            "type": "pheno:biome",
+            "biome_tag": "minecraft:is_mountain"
+          },
+          {
+            "type": "pheno:or",
+            "conditions": [
+              {
+                "type": "pheno:biome",
+                "biome_tag": "forge:is_mountain"
+              },
+              {
+                "type": "pheno:biome",
+                "biome_tag": "c:is_mountain"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "part_3": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": 0.05,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:or",
+        "conditions": [
+          {
+            "type": "pheno:biome",
+            "biome_tag": "minecraft:is_mountain"
+          },
+          {
+            "type": "pheno:or",
+            "conditions": [
+              {
+                "type": "pheno:biome",
+                "biome_tag": "forge:is_mountain"
+              },
+              {
+                "type": "pheno:biome",
+                "biome_tag": "c:is_mountain"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

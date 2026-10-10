@@ -1,0 +1,62 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.valen.unbreakable_stand"
+  },
+  "description": {
+    "translate": "gene.runic_roots.valen.unbreakable_stand.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/valen/unbreakable_stand.png",
+  "cooldown": 1200,
+  "ai_trigger": "when_hurt",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:resistance",
+        "duration": 120,
+        "amplifier": 2
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:absorption",
+        "duration": 120,
+        "amplifier": 1
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:slowness",
+        "duration": 120,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:block.amethyst_block.chime",
+        "volume": 1.0,
+        "pitch": 1.2
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:rune_glyph",
+        "count": 18,
+        "speed": 0.06,
+        "shape": "dome",
+        "radius": 0.8
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:rune_glyph",
+        "count": 12,
+        "speed": 0.12,
+        "shape": "ring",
+        "delay": 3,
+        "radius": 1.0,
+        "anchor": "feet"
+      }
+    ]
+  }
+}

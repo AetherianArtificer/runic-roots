@@ -1,0 +1,33 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.faerie"
+  },
+  "ancestry": "runic_roots:fae",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.faerie.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.faerie.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.faerie.backstory"
+  },
+  "genes": [
+    "runic_roots:faerie/faerie_bargain",
+    "runic_roots:faerie/pixie_flight",
+    "runic_roots:faerie/cold_iron",
+    "runic_roots:faerie/stature",
+    "runic_roots:faerie/wings",
+    "runic_roots:faerie/ambience"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biomes": {
+      "minecraft:flower_forest": 4,
+      "minecraft:dark_forest": 2
+    }
+  }
+}

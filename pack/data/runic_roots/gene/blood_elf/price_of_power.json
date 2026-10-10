@@ -1,0 +1,53 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.blood_elf.price_of_power"
+  },
+  "description": {
+    "translate": "gene.runic_roots.blood_elf.price_of_power.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.max_health",
+  "amount": -3,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:modifier",
+      "target": "healing",
+      "modify": {
+        "operation": "multiply",
+        "value": 0.7
+      }
+    },
+    "part_2": {
+      "type": "pheno:action_over_time",
+      "interval": 30,
+      "action": {
+        "type": "pheno:and",
+        "actions": [
+          {
+            "type": "pheno:screen_effect",
+            "effect": "vignette",
+            "intensity": 0.5,
+            "duration": 24,
+            "color": "#8A0F1A"
+          },
+          {
+            "type": "pheno:play_sound",
+            "sound": "minecraft:entity.warden.heartbeat",
+            "volume": 0.6,
+            "pitch": 1.2
+          }
+        ]
+      },
+      "condition": {
+        "type": "pheno:health",
+        "max": 0.2,
+        "relative": true
+      }
+    }
+  },
+  "drawback": true
+}

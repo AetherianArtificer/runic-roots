@@ -1,0 +1,13 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:scale",
+  "display_name": {
+    "translate": "gene.runic_roots.feline.stature"
+  },
+  "description": {
+    "translate": "gene.runic_roots.feline.stature.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "scale": 0.85
+}

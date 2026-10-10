@@ -1,0 +1,9 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.canine"
+  },
+  "ancestry": "runic_roots:bestial",
+  "lineage": "runic_roots:canine",
+  "icon": "runic_roots:textures/root/canine.png"
+}

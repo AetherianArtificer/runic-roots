@@ -1,0 +1,9 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.zephyr"
+  },
+  "ancestry": "runic_roots:fae",
+  "lineage": "runic_roots:zephyr",
+  "icon": "runic_roots:textures/root/zephyr.png"
+}

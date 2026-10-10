@@ -1,0 +1,9 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.faerie"
+  },
+  "ancestry": "runic_roots:fae",
+  "lineage": "runic_roots:faerie",
+  "icon": "runic_roots:textures/root/faerie.png"
+}

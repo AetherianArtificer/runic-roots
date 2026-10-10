@@ -1,0 +1,34 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.wind_wyrm"
+  },
+  "ancestry": "runic_roots:draconic",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.wind_wyrm.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.wind_wyrm.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.wind_wyrm.backstory"
+  },
+  "genes": [
+    "runic_roots:wind_wyrm/galeforce_breath",
+    "runic_roots:wind_wyrm/skylord",
+    "runic_roots:wind_wyrm/untethered",
+    "runic_roots:wind_wyrm/stature",
+    "runic_roots:wind_wyrm/wings",
+    "runic_roots:wind_wyrm/ambience",
+    "runic_roots:wind_wyrm/complexion"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biomes": {
+      "minecraft:jagged_peaks": 3,
+      "minecraft:windswept_hills": 3
+    }
+  }
+}

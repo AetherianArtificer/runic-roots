@@ -1,0 +1,51 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.fire_drake.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.fire_drake.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "ember": {
+      "display_name": {
+        "translate": "gene.runic_roots.fire_drake.complexion.ember"
+      },
+      "weight": 5,
+      "tint": "#C0603A",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "crimson": {
+      "display_name": {
+        "translate": "gene.runic_roots.fire_drake.complexion.crimson"
+      },
+      "weight": 3,
+      "tint": "#A3382A",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "ochre": {
+      "display_name": {
+        "translate": "gene.runic_roots.fire_drake.complexion.ochre"
+      },
+      "weight": 2,
+      "tint": "#C98A3A",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "char": {
+      "display_name": {
+        "translate": "gene.runic_roots.fire_drake.complexion.char"
+      },
+      "weight": 1,
+      "tint": "#5B3326",
+      "blend": "color",
+      "strength": 0.45
+    }
+  }
+}

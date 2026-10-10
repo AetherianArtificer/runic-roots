@@ -1,0 +1,142 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.chelon.shellfast"
+  },
+  "description": {
+    "translate": "gene.runic_roots.chelon.shellfast.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/chelon/shellfast.png",
+  "cooldown": 900,
+  "ai_trigger": "when_hurt",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:set_state",
+        "state": "runic_roots:shell",
+        "amount": 1,
+        "duration": 100
+      },
+      {
+        "type": "pheno:ward",
+        "id": "shell",
+        "amount": 12,
+        "duration": 100,
+        "fraction": 0.5,
+        "damage_condition": {
+          "type": "pheno:or",
+          "conditions": [
+            {
+              "type": "pheno:or",
+              "conditions": [
+                {
+                  "type": "pheno:name",
+                  "name": "player"
+                },
+                {
+                  "type": "pheno:name",
+                  "name": "mob"
+                },
+                {
+                  "type": "pheno:name",
+                  "name": "arrow"
+                },
+                {
+                  "type": "pheno:name",
+                  "name": "trident"
+                },
+                {
+                  "type": "pheno:name",
+                  "name": "thrown"
+                },
+                {
+                  "type": "pheno:name",
+                  "name": "mob_projectile"
+                },
+                {
+                  "type": "pheno:name",
+                  "name": "sting"
+                }
+              ]
+            },
+            {
+              "type": "pheno:projectile"
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:slowness",
+        "duration": 100,
+        "amplifier": 3
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.turtle.egg_crack",
+        "volume": 1.0,
+        "pitch": 0.6
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:wax_on",
+        "count": 16,
+        "speed": 0.25,
+        "shape": "cone",
+        "length": 2.5,
+        "radius": 1.0
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:wax_on",
+        "count": 14,
+        "speed": 0.1,
+        "shape": "ring",
+        "delay": 3,
+        "radius": 0.8,
+        "anchor": "feet"
+      }
+    ]
+  },
+  "slot": 1,
+  "companions": {
+    "part_1": {
+      "type": "pheno:active_ability",
+      "cooldown": 10,
+      "slot": 1,
+      "condition": {
+        "type": "pheno:state",
+        "state": "runic_roots:shell"
+      },
+      "action": {
+        "type": "pheno:and",
+        "actions": [
+          {
+            "type": "pheno:clear_state",
+            "state": "runic_roots:shell"
+          },
+          {
+            "type": "pheno:clear_ward",
+            "id": "shell"
+          },
+          {
+            "type": "pheno:clear_effect",
+            "effect": "minecraft:slowness"
+          }
+        ]
+      }
+    },
+    "part_2": {
+      "type": "pheno:prevent",
+      "what": "item_use",
+      "condition": {
+        "type": "pheno:state",
+        "state": "runic_roots:shell"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.forge_one.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.forge_one.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "runic_roots:ember_scale",
+  "count": 1,
+  "spread": 0.4,
+  "speed": 0.0,
+  "y_offset": 0.6,
+  "condition": {
+    "type": "pheno:block_in_radius",
+    "radius": 3,
+    "block_condition": {
+      "type": "pheno:in_tag",
+      "tag": "minecraft:campfires"
+    }
+  }
+}

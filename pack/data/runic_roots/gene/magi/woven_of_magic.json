@@ -1,0 +1,16 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attack_modifier",
+  "display_name": {
+    "translate": "gene.runic_roots.magi.woven_of_magic"
+  },
+  "description": {
+    "translate": "gene.runic_roots.magi.woven_of_magic.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "modifier": 1.15,
+  "damage_condition": {
+    "type": "pheno:magic"
+  }
+}

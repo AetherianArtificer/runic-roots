@@ -1,0 +1,114 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:ability",
+  "display_name": {
+    "translate": "gene.runic_roots.feline.nine_lives"
+  },
+  "description": {
+    "translate": "gene.runic_roots.feline.nine_lives.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "ability": "night_vision",
+  "mode": "passive",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "amount": 0.15,
+      "operation": "multiply_total"
+    },
+    "part_2": {
+      "type": "pheno:damage_modifier",
+      "modifier": 0,
+      "damage_condition": {
+        "type": "pheno:in_tag",
+        "tag": "minecraft:is_fall"
+      }
+    },
+    "part_3": {
+      "type": "pheno:prevent",
+      "what": "death",
+      "set_health": 2,
+      "condition": {
+        "type": "pheno:compare_resource",
+        "resource": "lives",
+        "comparison": ">=",
+        "compare_to": 1
+      },
+      "action": {
+        "type": "pheno:and",
+        "actions": [
+          {
+            "type": "pheno:change_resource",
+            "resource": "lives",
+            "amount": -1
+          },
+          {
+            "type": "pheno:apply_effect",
+            "effect": "minecraft:resistance",
+            "duration": 40,
+            "amplifier": 4
+          },
+          {
+            "type": "pheno:apply_effect",
+            "effect": "minecraft:regeneration",
+            "duration": 60,
+            "amplifier": 1
+          },
+          {
+            "type": "pheno:apply_effect",
+            "effect": "minecraft:weakness",
+            "duration": 100,
+            "amplifier": 1
+          },
+          {
+            "type": "pheno:and",
+            "actions": [
+              {
+                "type": "pheno:spawn_particles",
+                "particle": "runic_roots:fae_sparkle",
+                "count": 48,
+                "speed": 0.12,
+                "shape": "dome",
+                "radius": 1.2
+              },
+              {
+                "type": "pheno:spawn_particles",
+                "particle": "runic_roots:fae_sparkle",
+                "count": 40,
+                "speed": 0.04,
+                "shape": "helix",
+                "delay": 4,
+                "radius": 0.9,
+                "height": 2.2
+              },
+              {
+                "type": "pheno:screen_effect",
+                "effect": "flash",
+                "intensity": 0.6,
+                "duration": 14,
+                "color": "#FFE9A8"
+              },
+              {
+                "type": "pheno:play_sound",
+                "sound": "minecraft:item.totem.use",
+                "volume": 0.8,
+                "pitch": 1.2
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "resources": {
+    "lives": {
+      "min": 0,
+      "max": 1,
+      "start": 1,
+      "regen": 1,
+      "regen_interval": 18000
+    }
+  }
+}

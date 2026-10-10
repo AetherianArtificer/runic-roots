@@ -1,0 +1,30 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.grove_elf.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.grove_elf.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "runic_roots:leaf_petal",
+  "count": 1,
+  "spread": 0.5,
+  "speed": 0.0,
+  "y_offset": 1.2,
+  "condition": {
+    "type": "pheno:or",
+    "conditions": [
+      {
+        "type": "pheno:biome",
+        "biome_tag": "minecraft:is_forest"
+      },
+      {
+        "type": "pheno:biome",
+        "biome_tag": "minecraft:is_taiga"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.moss_one.mycelial_respite"
+  },
+  "description": {
+    "translate": "gene.runic_roots.moss_one.mycelial_respite.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/moss_one/mycelial_respite.png",
+  "cooldown": 1100,
+  "ai_trigger": "when_hurt_nearby",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:cloud",
+        "radius": 3,
+        "duration": 160,
+        "wait_time": 0,
+        "reapply_delay": 40,
+        "particle": "runic_roots:pollen_mote",
+        "where": {
+          "type": "pheno:allied"
+        },
+        "do": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:heal",
+              "amount": 1
+            },
+            {
+              "type": "pheno:clear_effect",
+              "effect": "minecraft:poison"
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:block.moss.place",
+        "volume": 1.0,
+        "pitch": 0.8
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:pollen_mote",
+        "count": 24,
+        "speed": 0.16,
+        "shape": "ring",
+        "radius": 0.6,
+        "anchor": "feet"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:pollen_mote",
+        "count": 14,
+        "speed": 0.22,
+        "shape": "burst_up",
+        "delay": 2,
+        "radius": 0.8
+      },
+      {
+        "type": "pheno:screen_effect",
+        "effect": "shake",
+        "intensity": 0.25,
+        "duration": 6
+      }
+    ]
+  }
+}

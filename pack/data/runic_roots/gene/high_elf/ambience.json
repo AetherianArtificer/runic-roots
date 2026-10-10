@@ -1,0 +1,24 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.high_elf.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.high_elf.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "runic_roots:arcane_glint",
+  "count": 1,
+  "spread": 0.4,
+  "speed": 0.0,
+  "y_offset": 0.8,
+  "condition": {
+    "type": "pheno:equipped_item",
+    "slot": "chest",
+    "item_condition": {
+      "type": "pheno:enchantment"
+    }
+  }
+}

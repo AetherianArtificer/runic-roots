@@ -1,0 +1,46 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attack_modifier",
+  "display_name": {
+    "translate": "gene.runic_roots.runic_one.runebound"
+  },
+  "description": {
+    "translate": "gene.runic_roots.runic_one.runebound.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "modifier": 1.1,
+  "damage_condition": {
+    "type": "pheno:magic"
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.armor",
+      "amount": 2,
+      "operation": "add"
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.luck",
+      "amount": 1,
+      "operation": "add"
+    },
+    "part_3": {
+      "type": "pheno:trigger",
+      "trigger": "when_craft",
+      "item_condition": {
+        "type": "pheno:is_damageable"
+      },
+      "item_action": {
+        "type": "pheno:chance",
+        "chance": 0.15,
+        "action": {
+          "type": "pheno:enchant",
+          "enchantment": "minecraft:unbreaking",
+          "level": 1
+        }
+      }
+    }
+  }
+}

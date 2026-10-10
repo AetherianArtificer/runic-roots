@@ -1,0 +1,31 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.serpen"
+  },
+  "ancestry": "runic_roots:bestial",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.serpen.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.serpen.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.serpen.backstory"
+  },
+  "genes": [
+    "runic_roots:serpen/shed_skin",
+    "runic_roots:serpen/venomous_coil",
+    "runic_roots:serpen/cold_blooded",
+    "runic_roots:serpen/stature"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biomes": {
+      "minecraft:desert": 4,
+      "minecraft:jungle": 3
+    }
+  }
+}

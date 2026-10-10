@@ -1,0 +1,63 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.avian.wind_burst"
+  },
+  "description": {
+    "translate": "gene.runic_roots.avian.wind_burst.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/avian/wind_burst.png",
+  "cooldown": 400,
+  "ai_trigger": "never",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:add_velocity",
+        "x": 0.0,
+        "y": 1.1,
+        "z": 0.0
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:slow_falling",
+        "duration": 140,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:speed",
+        "duration": 80,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.phantom.flap",
+        "volume": 1.0,
+        "pitch": 1.2
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:feather_down",
+        "count": 16,
+        "speed": 0.25,
+        "shape": "cone",
+        "length": 2.5,
+        "radius": 1.0
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:feather_down",
+        "count": 14,
+        "speed": 0.1,
+        "shape": "ring",
+        "delay": 3,
+        "radius": 0.8,
+        "anchor": "feet"
+      }
+    ]
+  }
+}

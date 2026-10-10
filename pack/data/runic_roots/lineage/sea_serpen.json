@@ -1,0 +1,33 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.sea_serpen"
+  },
+  "ancestry": "runic_roots:draconic",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.sea_serpen.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.sea_serpen.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.sea_serpen.backstory"
+  },
+  "genes": [
+    "runic_roots:sea_serpen/tidal_breath",
+    "runic_roots:sea_serpen/leviathans_gift",
+    "runic_roots:sea_serpen/landbound_coils",
+    "runic_roots:sea_serpen/stature",
+    "runic_roots:sea_serpen/ambience",
+    "runic_roots:sea_serpen/complexion"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biome_tags": {
+      "#minecraft:is_ocean": 2,
+      "#minecraft:is_beach": 3
+    }
+  }
+}

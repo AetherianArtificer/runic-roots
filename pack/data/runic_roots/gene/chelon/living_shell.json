@@ -1,0 +1,29 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.chelon.living_shell"
+  },
+  "description": {
+    "translate": "gene.runic_roots.chelon.living_shell.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.armor",
+  "amount": 3,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:action_over_time",
+      "interval": 20,
+      "action": {
+        "type": "pheno:gain_air",
+        "air": 7
+      },
+      "condition": {
+        "type": "pheno:submerged_in",
+        "fluid": "minecraft:water"
+      }
+    }
+  }
+}

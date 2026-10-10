@@ -1,0 +1,46 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.tide_elf"
+  },
+  "ancestry": "runic_roots:elf",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.tide_elf.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.tide_elf.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.tide_elf.backstory"
+  },
+  "genes": [
+    "runic_roots:tide_elf/currentstep",
+    "runic_roots:tide_elf/amphibious_grace",
+    "runic_roots:tide_elf/drying_gills",
+    "runic_roots:tide_elf/stature",
+    "runic_roots:tide_elf/ambience"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biome_tags": {
+      "#minecraft:is_ocean": 2,
+      "#minecraft:is_beach": 4
+    }
+  },
+  "overrides": [
+    {
+      "requires": {
+        "namespace": "townstead_classic"
+      },
+      "ancestry": "townstead_classic:elf",
+      "genes": [
+        "runic_roots:tide_elf/currentstep",
+        "runic_roots:tide_elf/amphibious_grace",
+        "runic_roots:tide_elf/drying_gills",
+        "runic_roots:tide_elf/ambience"
+      ]
+    }
+  ]
+}

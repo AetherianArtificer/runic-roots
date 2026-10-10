@@ -1,0 +1,18 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:damage_modifier",
+  "display_name": {
+    "translate": "gene.runic_roots.ice_elf.cold_blooded"
+  },
+  "description": {
+    "translate": "gene.runic_roots.ice_elf.cold_blooded.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "modifier": 1.25,
+  "damage_condition": {
+    "type": "pheno:in_tag",
+    "tag": "minecraft:is_fire"
+  },
+  "drawback": true
+}

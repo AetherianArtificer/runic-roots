@@ -1,0 +1,47 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:damage_modifier",
+  "display_name": {
+    "translate": "gene.runic_roots.auroran.mortal_vessel"
+  },
+  "description": {
+    "translate": "gene.runic_roots.auroran.mortal_vessel.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "modifier": 1.15,
+  "damage_condition": {
+    "type": "pheno:or",
+    "conditions": [
+      {
+        "type": "pheno:name",
+        "name": "player"
+      },
+      {
+        "type": "pheno:name",
+        "name": "mob"
+      },
+      {
+        "type": "pheno:name",
+        "name": "arrow"
+      },
+      {
+        "type": "pheno:name",
+        "name": "trident"
+      },
+      {
+        "type": "pheno:name",
+        "name": "thrown"
+      },
+      {
+        "type": "pheno:name",
+        "name": "mob_projectile"
+      },
+      {
+        "type": "pheno:name",
+        "name": "sting"
+      }
+    ]
+  },
+  "drawback": true
+}

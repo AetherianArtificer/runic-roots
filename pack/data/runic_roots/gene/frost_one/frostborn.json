@@ -1,0 +1,69 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:damage_modifier",
+  "display_name": {
+    "translate": "gene.runic_roots.frost_one.frostborn"
+  },
+  "description": {
+    "translate": "gene.runic_roots.frost_one.frostborn.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "modifier": 0,
+  "damage_condition": {
+    "type": "pheno:in_tag",
+    "tag": "minecraft:is_freezing"
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "amount": 4,
+      "operation": "add"
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.armor",
+      "amount": 1,
+      "operation": "add"
+    },
+    "part_3": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 0.06,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:or",
+        "conditions": [
+          {
+            "type": "pheno:biome",
+            "biome_tag": "forge:is_cold"
+          },
+          {
+            "type": "pheno:biome",
+            "biome_tag": "c:is_cold"
+          }
+        ]
+      }
+    },
+    "part_4": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "amount": 0.05,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:or",
+        "conditions": [
+          {
+            "type": "pheno:biome",
+            "biome_tag": "forge:is_cold"
+          },
+          {
+            "type": "pheno:biome",
+            "biome_tag": "c:is_cold"
+          }
+        ]
+      }
+    }
+  }
+}

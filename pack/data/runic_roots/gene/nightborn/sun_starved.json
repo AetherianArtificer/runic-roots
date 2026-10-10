@@ -1,0 +1,34 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:modifier",
+  "display_name": {
+    "translate": "gene.runic_roots.nightborn.sun_starved"
+  },
+  "description": {
+    "translate": "gene.runic_roots.nightborn.sun_starved.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "target": "healing",
+  "modify": {
+    "operation": "multiply",
+    "value": 0.8
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:damage_modifier",
+      "modifier": 1.2,
+      "damage_condition": {
+        "type": "pheno:constant",
+        "value": true
+      },
+      "condition": {
+        "type": "pheno:environment",
+        "exposure": [
+          "sun"
+        ]
+      }
+    }
+  },
+  "drawback": true
+}

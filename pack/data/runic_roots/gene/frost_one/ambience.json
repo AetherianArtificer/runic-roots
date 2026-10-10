@@ -1,0 +1,30 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.frost_one.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.frost_one.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "minecraft:cloud",
+  "count": 1,
+  "spread": 0.1,
+  "speed": 0.0,
+  "y_offset": 1.5,
+  "condition": {
+    "type": "pheno:or",
+    "conditions": [
+      {
+        "type": "pheno:biome",
+        "biome_tag": "forge:is_cold"
+      },
+      {
+        "type": "pheno:biome",
+        "biome_tag": "c:is_cold"
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.wailer.keening_cry"
+  },
+  "description": {
+    "translate": "gene.runic_roots.wailer.keening_cry.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/wailer/keening_cry.png",
+  "cooldown": 800,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 6,
+        "target": "hostile",
+        "action": {
+          "type": "pheno:and",
+          "actions": [
+            {
+              "type": "pheno:damage",
+              "amount": 2,
+              "source": "other"
+            },
+            {
+              "type": "pheno:apply_effect",
+              "effect": "minecraft:weakness",
+              "duration": 80,
+              "amplifier": 0
+            },
+            {
+              "type": "pheno:add_velocity",
+              "x": 0.0,
+              "y": 0.2,
+              "z": 0.0,
+              "away_from_other": 0.6
+            }
+          ]
+        },
+        "bientity_condition": {
+          "type": "pheno:and",
+          "conditions": [
+            {
+              "type": "pheno:relative_rotation",
+              "max_angle": 35
+            },
+            {
+              "type": "pheno:can_see"
+            }
+          ]
+        }
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:soul_wisp",
+        "count": 36,
+        "speed": 0.3,
+        "shape": "cone",
+        "length": 6,
+        "radius": 4.2,
+        "anchor": "eyes"
+      },
+      {
+        "type": "pheno:screen_effect",
+        "effect": "shake",
+        "intensity": 0.3,
+        "duration": 8
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.ghast.scream",
+        "volume": 1.0,
+        "pitch": 1.4
+      }
+    ]
+  },
+  "windup": {
+    "ticks": 10,
+    "slow": 0.7,
+    "interruptible": true,
+    "action": {
+      "type": "pheno:play_sound",
+      "sound": "minecraft:entity.allay.hurt",
+      "volume": 0.8,
+      "pitch": 0.6
+    }
+  }
+}

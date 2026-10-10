@@ -1,0 +1,32 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.kitsune.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.kitsune.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "runic_roots:foxfire",
+  "count": 1,
+  "spread": 0.4,
+  "speed": 0.0,
+  "y_offset": 0.8,
+  "condition": {
+    "type": "pheno:and",
+    "conditions": [
+      {
+        "type": "pheno:movement",
+        "movement": "sprinting"
+      },
+      {
+        "type": "pheno:environment",
+        "time": [
+          "night"
+        ]
+      }
+    ]
+  }
+}

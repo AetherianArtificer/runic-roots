@@ -1,0 +1,30 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.terra_drake.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.terra_drake.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "minecraft:poof",
+  "count": 1,
+  "spread": 0.3,
+  "speed": 0.0,
+  "y_offset": 0.05,
+  "condition": {
+    "type": "pheno:and",
+    "conditions": [
+      {
+        "type": "pheno:movement",
+        "movement": "moving"
+      },
+      {
+        "type": "pheno:movement",
+        "movement": "grounded"
+      }
+    ]
+  }
+}

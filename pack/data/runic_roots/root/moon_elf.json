@@ -1,0 +1,17 @@
+{
+  "schema": "townstead:root/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.moon_elf"
+  },
+  "ancestry": "runic_roots:elf",
+  "lineage": "runic_roots:moon_elf",
+  "icon": "runic_roots:textures/root/moon_elf.png",
+  "overrides": [
+    {
+      "requires": {
+        "namespace": "townstead_classic"
+      },
+      "ancestry": "townstead_classic:elf"
+    }
+  ]
+}

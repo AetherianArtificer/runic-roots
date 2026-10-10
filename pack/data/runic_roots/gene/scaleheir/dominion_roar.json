@@ -1,0 +1,64 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.scaleheir.dominion_roar"
+  },
+  "description": {
+    "translate": "gene.runic_roots.scaleheir.dominion_roar.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/scaleheir/dominion_roar.png",
+  "cooldown": 700,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:ward",
+        "id": "dominion",
+        "amount": 4,
+        "duration": 100,
+        "fraction": 1.0
+      },
+      {
+        "type": "pheno:area_of_effect",
+        "radius": 5,
+        "target": "hostile",
+        "action": {
+          "type": "pheno:apply_effect",
+          "effect": "minecraft:weakness",
+          "duration": 60,
+          "amplifier": 0
+        },
+        "bientity_condition": {
+          "type": "pheno:can_see"
+        }
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.ender_dragon.growl",
+        "volume": 1.0,
+        "pitch": 1.5
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:ember_scale",
+        "count": 22,
+        "speed": 0.3,
+        "shape": "cone",
+        "length": 4,
+        "radius": 1.6,
+        "anchor": "eyes"
+      },
+      {
+        "type": "pheno:screen_effect",
+        "effect": "shake",
+        "intensity": 0.3,
+        "duration": 8,
+        "radius": 6
+      }
+    ]
+  }
+}

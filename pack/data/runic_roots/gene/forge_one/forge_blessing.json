@@ -1,0 +1,62 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.forge_one.forge_blessing"
+  },
+  "description": {
+    "translate": "gene.runic_roots.forge_one.forge_blessing.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/forge_one/forge_blessing.png",
+  "cooldown": 1000,
+  "ai_trigger": "when_threatened",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:strength",
+        "duration": 200,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:fire_resistance",
+        "duration": 200,
+        "amplifier": 0
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:block.anvil.use",
+        "volume": 1.0,
+        "pitch": 0.9
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:flame",
+        "count": 24,
+        "speed": 0.16,
+        "shape": "ring",
+        "radius": 0.6,
+        "anchor": "feet"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:flame",
+        "count": 14,
+        "speed": 0.22,
+        "shape": "burst_up",
+        "delay": 2,
+        "radius": 0.8
+      },
+      {
+        "type": "pheno:screen_effect",
+        "effect": "shake",
+        "intensity": 0.25,
+        "duration": 6
+      }
+    ]
+  }
+}

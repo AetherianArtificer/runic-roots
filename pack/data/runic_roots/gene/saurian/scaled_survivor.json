@@ -1,0 +1,29 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.saurian.scaled_survivor"
+  },
+  "description": {
+    "translate": "gene.runic_roots.saurian.scaled_survivor.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.armor",
+  "amount": 2,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:action_over_time",
+      "interval": 20,
+      "action": {
+        "type": "pheno:gain_air",
+        "air": 10
+      },
+      "condition": {
+        "type": "pheno:submerged_in",
+        "fluid": "minecraft:water"
+      }
+    }
+  }
+}

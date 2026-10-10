@@ -1,0 +1,13 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:opacity",
+  "display_name": {
+    "translate": "gene.runic_roots.wailer.translucence"
+  },
+  "description": {
+    "translate": "gene.runic_roots.wailer.translucence.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "alpha": 0.85
+}

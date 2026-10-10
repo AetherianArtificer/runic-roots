@@ -1,0 +1,61 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:life_cycle",
+  "display_name": {
+    "translate": "gene.runic_roots.family.draconic_life_cycle"
+  },
+  "description": {
+    "translate": "gene.runic_roots.family.draconic_life_cycle.desc"
+  },
+  "category": "Lifespan",
+  "dominance": "dominant",
+  "locus": "townstead_roots:life_cycle",
+  "variance": 0.15,
+  "stages": [
+    {
+      "id": "egg",
+      "label": {
+        "translate": "stage.runic_roots.egg"
+      },
+      "presents_as": "toddler",
+      "days": 5,
+      "rig": "runic_roots:drake_egg",
+      "mobile": false,
+      "needs": false,
+      "talkable": false
+    },
+    {
+      "id": "hatchling",
+      "label": {
+        "translate": "stage.runic_roots.hatchling"
+      },
+      "presents_as": "child",
+      "days": 12
+    },
+    {
+      "id": "juvenile",
+      "label": {
+        "translate": "stage.runic_roots.juvenile"
+      },
+      "presents_as": "teen",
+      "days": 10
+    },
+    {
+      "id": "adult",
+      "label": {
+        "translate": "origin.townstead_roots.stage.adult"
+      },
+      "presents_as": "adult",
+      "days": 300
+    },
+    {
+      "id": "elder",
+      "label": {
+        "translate": "stage.runic_roots.elder"
+      },
+      "presents_as": "senior",
+      "days": 80,
+      "on_end": "stay"
+    }
+  ]
+}

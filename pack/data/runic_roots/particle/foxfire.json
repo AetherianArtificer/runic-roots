@@ -1,0 +1,18 @@
+{
+  "texture": "runic_roots:textures/particle/foxfire.png",
+  "frames": 3,
+  "frame_time": 0,
+  "fade_out_fraction": 0.34,
+  "lifetime": [
+    24,
+    31
+  ],
+  "gravity": -0.004,
+  "drag": 0.93,
+  "size": 0.11,
+  "glow": true,
+  "sway": 0.0035,
+  "sway_rate": 0.55,
+  "flicker": 0.25,
+  "flare": 1.6
+}

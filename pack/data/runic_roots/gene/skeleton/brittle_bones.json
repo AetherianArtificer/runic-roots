@@ -1,0 +1,40 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.skeleton.brittle_bones"
+  },
+  "description": {
+    "translate": "gene.runic_roots.skeleton.brittle_bones.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.max_health",
+  "amount": -4,
+  "operation": "add",
+  "companions": {
+    "part_1": {
+      "type": "pheno:damage_modifier",
+      "modifier": 1.25,
+      "damage_condition": {
+        "type": "pheno:in_tag",
+        "tag": "minecraft:is_fall"
+      }
+    },
+    "part_2": {
+      "type": "pheno:damage_modifier",
+      "modifier": 1.2,
+      "damage_condition": {
+        "type": "pheno:constant",
+        "value": true
+      },
+      "condition": {
+        "type": "pheno:environment",
+        "exposure": [
+          "sun"
+        ]
+      }
+    }
+  },
+  "drawback": true
+}

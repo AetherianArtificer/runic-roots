@@ -1,0 +1,31 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.arachnid"
+  },
+  "ancestry": "runic_roots:bestial",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.arachnid.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.arachnid.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.arachnid.backstory"
+  },
+  "genes": [
+    "runic_roots:arachnid/web_snare",
+    "runic_roots:arachnid/weavers_senses",
+    "runic_roots:arachnid/fragile_carapace",
+    "runic_roots:arachnid/stature"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biomes": {
+      "minecraft:dark_forest": 3,
+      "minecraft:jungle": 3
+    }
+  }
+}

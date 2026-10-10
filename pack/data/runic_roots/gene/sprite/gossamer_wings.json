@@ -1,0 +1,117 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:ability",
+  "display_name": {
+    "translate": "gene.runic_roots.sprite.gossamer_wings"
+  },
+  "description": {
+    "translate": "gene.runic_roots.sprite.gossamer_wings.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "ability": "elytra_flight",
+  "mode": "passive",
+  "companions": {
+    "part_1": {
+      "type": "pheno:trigger",
+      "trigger": "press",
+      "target": "self",
+      "action": {
+        "type": "pheno:and",
+        "actions": [
+          {
+            "type": "pheno:add_velocity",
+            "x": 0.0,
+            "y": 0.3,
+            "z": 0.0
+          },
+          {
+            "type": "pheno:change_resource",
+            "resource": "wingbeats",
+            "amount": -1
+          },
+          {
+            "type": "pheno:set_state",
+            "state": "runic_roots:flap_ready",
+            "amount": 1,
+            "duration": 30
+          },
+          {
+            "type": "pheno:spawn_particles",
+            "particle": "runic_roots:fae_sparkle",
+            "count": 10,
+            "speed": 0.08,
+            "shape": "ring",
+            "radius": 0.9
+          },
+          {
+            "type": "pheno:play_sound",
+            "sound": "minecraft:entity.phantom.flap",
+            "volume": 0.7,
+            "pitch": 1.1
+          }
+        ]
+      },
+      "condition": {
+        "type": "pheno:and",
+        "conditions": [
+          {
+            "type": "pheno:movement",
+            "movement": "fall_flying"
+          },
+          {
+            "type": "pheno:compare_resource",
+            "resource": "wingbeats",
+            "comparison": ">=",
+            "compare_to": 1
+          },
+          {
+            "type": "pheno:not",
+            "condition": {
+              "type": "pheno:state",
+              "state": "runic_roots:flap_ready"
+            }
+          }
+        ]
+      },
+      "key": "jump"
+    },
+    "part_2": {
+      "type": "pheno:damage_modifier",
+      "modifier": 0,
+      "damage_condition": {
+        "type": "pheno:in_tag",
+        "tag": "minecraft:is_fall"
+      }
+    },
+    "part_3": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "amount": 0.2,
+      "operation": "multiply_total"
+    },
+    "part_4": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "amount": 0.1,
+      "operation": "multiply_total"
+    }
+  },
+  "resources": {
+    "wingbeats": {
+      "min": 0,
+      "max": 12,
+      "start": 12,
+      "regen": 1,
+      "regen_interval": 40,
+      "color": "#E8E2D0",
+      "display": {
+        "shape": "horizontal",
+        "anchor": "top_right",
+        "visibility": "when_referenced",
+        "segments": 12,
+        "priority": 55
+      }
+    }
+  }
+}

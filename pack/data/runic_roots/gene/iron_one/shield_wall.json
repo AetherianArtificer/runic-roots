@@ -1,0 +1,62 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.iron_one.shield_wall"
+  },
+  "description": {
+    "translate": "gene.runic_roots.iron_one.shield_wall.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/iron_one/shield_wall.png",
+  "cooldown": 900,
+  "ai_trigger": "when_hurt",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:resistance",
+        "duration": 120,
+        "amplifier": 2
+      },
+      {
+        "type": "pheno:apply_effect",
+        "effect": "minecraft:absorption",
+        "duration": 120,
+        "amplifier": 1
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:block.anvil.land",
+        "volume": 1.0,
+        "pitch": 0.8
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:rock_chip",
+        "count": 24,
+        "speed": 0.16,
+        "shape": "ring",
+        "radius": 0.6,
+        "anchor": "feet"
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "runic_roots:rock_chip",
+        "count": 14,
+        "speed": 0.22,
+        "shape": "burst_up",
+        "delay": 2,
+        "radius": 0.8
+      },
+      {
+        "type": "pheno:screen_effect",
+        "effect": "shake",
+        "intensity": 0.25,
+        "duration": 6
+      }
+    ]
+  }
+}

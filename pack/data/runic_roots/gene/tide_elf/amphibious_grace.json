@@ -1,0 +1,61 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:ability",
+  "display_name": {
+    "translate": "gene.runic_roots.tide_elf.amphibious_grace"
+  },
+  "description": {
+    "translate": "gene.runic_roots.tide_elf.amphibious_grace.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "ability": "water_breathing",
+  "mode": "passive",
+  "companions": {
+    "part_1": {
+      "type": "pheno:ability",
+      "ability": "night_vision",
+      "mode": "passive",
+      "condition": {
+        "type": "pheno:submerged_in",
+        "fluid": "minecraft:water"
+      }
+    },
+    "part_2": {
+      "type": "pheno:attribute",
+      "attribute": "neoforge:swim_speed",
+      "amount": 0.2,
+      "operation": "multiply_total"
+    },
+    "part_3": {
+      "type": "pheno:attribute",
+      "attribute": "forge:swim_speed",
+      "amount": 0.2,
+      "operation": "multiply_total"
+    },
+    "part_4": {
+      "type": "pheno:modifier",
+      "target": "break_speed",
+      "modify": {
+        "operation": "multiply",
+        "value": 5
+      },
+      "when": {
+        "type": "pheno:and",
+        "conditions": [
+          {
+            "type": "pheno:submerged_in",
+            "fluid": "minecraft:water"
+          },
+          {
+            "type": "pheno:not",
+            "condition": {
+              "type": "pheno:movement",
+              "movement": "grounded"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

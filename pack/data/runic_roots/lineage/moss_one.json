@@ -1,0 +1,47 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.moss_one"
+  },
+  "ancestry": "runic_roots:dwarf",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.moss_one.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.moss_one.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.moss_one.backstory"
+  },
+  "genes": [
+    "runic_roots:moss_one/mycelial_respite",
+    "runic_roots:moss_one/living_loam",
+    "runic_roots:moss_one/desiccation",
+    "runic_roots:moss_one/stature",
+    "runic_roots:moss_one/ambience"
+  ],
+  "spawn_bias": {
+    "default": 0.25,
+    "biomes": {
+      "minecraft:lush_caves": 6,
+      "minecraft:mushroom_fields": 6,
+      "minecraft:swamp": 2
+    }
+  },
+  "overrides": [
+    {
+      "requires": {
+        "namespace": "townstead_classic"
+      },
+      "ancestry": "townstead_classic:dwarf",
+      "genes": [
+        "runic_roots:moss_one/mycelial_respite",
+        "runic_roots:moss_one/living_loam",
+        "runic_roots:moss_one/desiccation",
+        "runic_roots:moss_one/ambience"
+      ]
+    }
+  ]
+}

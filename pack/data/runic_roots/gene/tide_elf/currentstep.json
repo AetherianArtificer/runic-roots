@@ -1,0 +1,53 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:active_ability",
+  "display_name": {
+    "translate": "gene.runic_roots.tide_elf.currentstep"
+  },
+  "description": {
+    "translate": "gene.runic_roots.tide_elf.currentstep.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "icon": "runic_roots:textures/icon/tide_elf/currentstep.png",
+  "cooldown": 500,
+  "ai_trigger": "never",
+  "action": {
+    "type": "pheno:and",
+    "actions": [
+      {
+        "type": "pheno:if_else",
+        "condition": {
+          "type": "pheno:in_fluid",
+          "fluid": "minecraft:water"
+        },
+        "if_action": {
+          "type": "pheno:dash",
+          "distance": 5,
+          "ticks": 10,
+          "horizontal": false
+        },
+        "else_action": {
+          "type": "pheno:dash",
+          "distance": 2,
+          "ticks": 5,
+          "horizontal": true
+        }
+      },
+      {
+        "type": "pheno:spawn_particles",
+        "particle": "minecraft:bubble",
+        "count": 20,
+        "speed": 0.05,
+        "shape": "line",
+        "length": 4
+      },
+      {
+        "type": "pheno:play_sound",
+        "sound": "minecraft:entity.dolphin.jump",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ]
+  }
+}

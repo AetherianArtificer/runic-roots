@@ -1,0 +1,21 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.saurian.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.saurian.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "minecraft:crit",
+  "count": 1,
+  "spread": 0.3,
+  "speed": 0.0,
+  "y_offset": 0.2,
+  "condition": {
+    "type": "pheno:in_fluid",
+    "fluid_tag": "minecraft:powder_snow"
+  }
+}

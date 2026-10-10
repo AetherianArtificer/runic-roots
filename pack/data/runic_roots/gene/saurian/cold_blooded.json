@@ -1,0 +1,58 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.saurian.cold_blooded"
+  },
+  "description": {
+    "translate": "gene.runic_roots.saurian.cold_blooded.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.movement_speed",
+  "amount": -0.05,
+  "operation": "multiply_total",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "amount": -0.15,
+      "operation": "multiply_total",
+      "condition": {
+        "type": "pheno:or",
+        "conditions": [
+          {
+            "type": "pheno:biome",
+            "biome_tag": "forge:is_cold"
+          },
+          {
+            "type": "pheno:biome",
+            "biome_tag": "c:is_cold"
+          }
+        ]
+      }
+    },
+    "part_2": {
+      "type": "pheno:damage_modifier",
+      "modifier": 1.25,
+      "damage_condition": {
+        "type": "pheno:in_tag",
+        "tag": "minecraft:is_freezing"
+      },
+      "condition": {
+        "type": "pheno:or",
+        "conditions": [
+          {
+            "type": "pheno:biome",
+            "biome_tag": "forge:is_cold"
+          },
+          {
+            "type": "pheno:biome",
+            "biome_tag": "c:is_cold"
+          }
+        ]
+      }
+    }
+  },
+  "drawback": true
+}

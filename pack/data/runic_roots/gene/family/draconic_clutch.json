@@ -1,0 +1,13 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:litter_size",
+  "display_name": {
+    "translate": "gene.runic_roots.family.draconic_clutch"
+  },
+  "description": {
+    "translate": "gene.runic_roots.family.draconic_clutch.desc"
+  },
+  "category": "Reproduction",
+  "dominance": "dominant",
+  "litter_size": 2
+}

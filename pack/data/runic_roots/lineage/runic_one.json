@@ -1,0 +1,40 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.runic_one"
+  },
+  "ancestry": "runic_roots:dwarf",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.runic_one.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.runic_one.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.runic_one.backstory"
+  },
+  "genes": [
+    "runic_roots:runic_one/rune_of_warding",
+    "runic_roots:runic_one/runebound",
+    "runic_roots:runic_one/bound_by_tradition",
+    "runic_roots:runic_one/stature"
+  ],
+  "spawn_bias": {
+    "default": 0.25
+  },
+  "overrides": [
+    {
+      "requires": {
+        "namespace": "townstead_classic"
+      },
+      "ancestry": "townstead_classic:dwarf",
+      "genes": [
+        "runic_roots:runic_one/rune_of_warding",
+        "runic_roots:runic_one/runebound",
+        "runic_roots:runic_one/bound_by_tradition"
+      ]
+    }
+  ]
+}

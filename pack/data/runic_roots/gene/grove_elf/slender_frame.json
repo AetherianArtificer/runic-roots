@@ -1,0 +1,16 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.grove_elf.slender_frame"
+  },
+  "description": {
+    "translate": "gene.runic_roots.grove_elf.slender_frame.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.max_health",
+  "amount": -3,
+  "operation": "add",
+  "drawback": true
+}

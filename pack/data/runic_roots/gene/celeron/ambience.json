@@ -1,0 +1,21 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:particle",
+  "display_name": {
+    "translate": "gene.runic_roots.celeron.ambience"
+  },
+  "description": {
+    "translate": "gene.runic_roots.celeron.ambience.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "particle": "runic_roots:feather_down",
+  "count": 1,
+  "spread": 0.3,
+  "speed": 0.0,
+  "y_offset": 0.3,
+  "condition": {
+    "type": "pheno:movement",
+    "movement": "sprinting"
+  }
+}

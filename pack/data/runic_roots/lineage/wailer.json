@@ -1,0 +1,30 @@
+{
+  "schema": "townstead:lineage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.wailer"
+  },
+  "ancestry": "runic_roots:revenant",
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.wailer.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.wailer.demonym.plural"
+    }
+  },
+  "backstory": {
+    "translate": "lineage.runic_roots.wailer.backstory"
+  },
+  "genes": [
+    "runic_roots:wailer/keening_cry",
+    "runic_roots:wailer/deathwatch",
+    "runic_roots:wailer/fraying_spirit",
+    "runic_roots:wailer/stature",
+    "runic_roots:wailer/ambience",
+    "runic_roots:wailer/complexion",
+    "runic_roots:wailer/translucence"
+  ],
+  "spawn_bias": {
+    "default": 0.25
+  }
+}

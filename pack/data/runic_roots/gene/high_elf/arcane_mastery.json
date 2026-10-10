@@ -1,0 +1,23 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attack_modifier",
+  "display_name": {
+    "translate": "gene.runic_roots.high_elf.arcane_mastery"
+  },
+  "description": {
+    "translate": "gene.runic_roots.high_elf.arcane_mastery.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "modifier": 1.15,
+  "damage_condition": {
+    "type": "pheno:magic"
+  },
+  "companions": {
+    "part_1": {
+      "type": "pheno:ability",
+      "ability": "night_vision",
+      "mode": "passive"
+    }
+  }
+}

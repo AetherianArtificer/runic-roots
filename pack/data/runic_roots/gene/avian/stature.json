@@ -1,0 +1,13 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:scale",
+  "display_name": {
+    "translate": "gene.runic_roots.avian.stature"
+  },
+  "description": {
+    "translate": "gene.runic_roots.avian.stature.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "scale": 0.9
+}

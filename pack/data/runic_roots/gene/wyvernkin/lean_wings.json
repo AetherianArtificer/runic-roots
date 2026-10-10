@@ -1,0 +1,30 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:ability",
+  "display_name": {
+    "translate": "gene.runic_roots.wyvernkin.lean_wings"
+  },
+  "description": {
+    "translate": "gene.runic_roots.wyvernkin.lean_wings.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "ability": "elytra_flight",
+  "mode": "passive",
+  "companions": {
+    "part_1": {
+      "type": "pheno:attribute",
+      "attribute": "minecraft:generic.armor",
+      "amount": 1,
+      "operation": "add"
+    },
+    "part_2": {
+      "type": "pheno:damage_modifier",
+      "modifier": 0.75,
+      "damage_condition": {
+        "type": "pheno:in_tag",
+        "tag": "minecraft:is_fall"
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:attribute",
+  "display_name": {
+    "translate": "gene.runic_roots.colossan.heavy_limbs"
+  },
+  "description": {
+    "translate": "gene.runic_roots.colossan.heavy_limbs.desc"
+  },
+  "category": "Abilities",
+  "dominance": "dominant",
+  "attribute": "minecraft:generic.attack_speed",
+  "amount": -0.12,
+  "operation": "multiply_total",
+  "companions": {
+    "part_1": {
+      "type": "pheno:modifier",
+      "target": "exhaustion",
+      "modify": {
+        "operation": "multiply",
+        "value": 1.15
+      }
+    }
+  },
+  "drawback": true
+}
