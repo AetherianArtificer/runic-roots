@@ -20,9 +20,35 @@
     "runic_roots:colossan/giants_bearing",
     "runic_roots:colossan/heavy_limbs",
     "runic_roots:colossan/stature",
-    "runic_roots:colossan/ambience"
+    "runic_roots:colossan/ambience",
+    "runic_roots:colossan/sprigs",
+    "runic_roots:colossan/build",
+    "runic_roots:colossan/iris",
+    "runic_roots:colossan/thermal"
   ],
   "spawn_bias": {
     "default": 0.25
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#3A2414",
+        "to": "#7A5030",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#2A4A1A",
+        "to": "#6A9A40",
+        "weight": 1,
+        "space": "hsv"
+      },
+      {
+        "from": "#141210",
+        "to": "#3A3430",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
   }
 }

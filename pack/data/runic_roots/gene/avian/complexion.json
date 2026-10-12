@@ -1,0 +1,60 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.avian.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.avian.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "tawny": {
+      "display_name": {
+        "translate": "gene.runic_roots.avian.complexion.tawny"
+      },
+      "weight": 4,
+      "tint": "#B8864A",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "snowy": {
+      "display_name": {
+        "translate": "gene.runic_roots.avian.complexion.snowy"
+      },
+      "weight": 2,
+      "tint": "#EEEAE2",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "barn": {
+      "display_name": {
+        "translate": "gene.runic_roots.avian.complexion.barn"
+      },
+      "weight": 3,
+      "tint": "#D8B080",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "grey": {
+      "display_name": {
+        "translate": "gene.runic_roots.avian.complexion.grey"
+      },
+      "weight": 2,
+      "tint": "#8A8A8A",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "raven": {
+      "display_name": {
+        "translate": "gene.runic_roots.avian.complexion.raven"
+      },
+      "weight": 1,
+      "tint": "#2A2A30",
+      "blend": "color",
+      "strength": 0.5
+    }
+  }
+}

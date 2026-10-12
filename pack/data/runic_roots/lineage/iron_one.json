@@ -20,7 +20,15 @@
     "runic_roots:iron_one/forged_to_endure",
     "runic_roots:iron_one/heavy_as_the_mountain",
     "runic_roots:iron_one/stature",
-    "runic_roots:iron_one/ambience"
+    "runic_roots:iron_one/ambience",
+    "runic_roots:iron_one/beard",
+    "runic_roots:iron_one/braids",
+    "runic_roots:iron_one/nose",
+    "runic_roots:iron_one/brows",
+    "runic_roots:iron_one/scales",
+    "runic_roots:iron_one/build",
+    "runic_roots:iron_one/iris",
+    "runic_roots:iron_one/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -28,17 +36,54 @@
       "#minecraft:is_mountain": 3
     }
   },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#2A1A10",
+        "to": "#5A3A22",
+        "weight": 4,
+        "space": "hsv"
+      },
+      {
+        "from": "#3A3A3E",
+        "to": "#7A7A80",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#4A2010",
+        "to": "#8A4A28",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
+  },
   "overrides": [
     {
       "requires": {
         "namespace": "townstead_classic"
       },
       "ancestry": "townstead_classic:dwarf",
+      "ancestry_genes": false,
       "genes": [
+        "townstead_roots:omnivore",
+        "townstead_roots:water_drinker",
+        "townstead_roots:human_thermal",
+        "townstead_roots:human_chronotype",
+        "runic_roots:family/dwarven_life_cycle",
         "runic_roots:iron_one/shield_wall",
         "runic_roots:iron_one/forged_to_endure",
         "runic_roots:iron_one/heavy_as_the_mountain",
-        "runic_roots:iron_one/ambience"
+        "runic_roots:iron_one/stature",
+        "runic_roots:iron_one/ambience",
+        "runic_roots:iron_one/beard",
+        "runic_roots:iron_one/braids",
+        "runic_roots:iron_one/nose",
+        "runic_roots:iron_one/brows",
+        "runic_roots:iron_one/scales",
+        "runic_roots:iron_one/build",
+        "runic_roots:iron_one/iris",
+        "runic_roots:iron_one/thermal"
       ]
     }
   ]

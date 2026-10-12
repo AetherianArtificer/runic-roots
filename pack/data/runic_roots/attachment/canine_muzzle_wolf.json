@@ -1,0 +1,27 @@
+{
+  "schema": "townstead:attachment/v2",
+  "geometry": "runic_roots:canine_muzzle_wolf",
+  "texture": "runic_roots:canine_muzzle_wolf",
+  "target": {
+    "tag": "snout"
+  },
+  "offset": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1.0,
+  "tint": "skin",
+  "stages": {
+    "baby": {
+      "scale": 0.6
+    },
+    "toddler": {
+      "scale": 0.7
+    },
+    "child": {
+      "scale": 0.85
+    }
+  },
+  "tint_mask": "runic_roots:canine_muzzle_wolf_tint_mask"
+}

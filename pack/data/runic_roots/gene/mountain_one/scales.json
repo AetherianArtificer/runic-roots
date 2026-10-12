@@ -1,0 +1,40 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.mountain_one.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.mountain_one.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "woad": {
+      "display_name": {
+        "translate": "gene.runic_roots.mountain_one.scales.woad"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/mountain_one_scales_woad.png",
+      "tint": "#FFFFFF"
+    },
+    "weathered": {
+      "display_name": {
+        "translate": "gene.runic_roots.mountain_one.scales.weathered"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/mountain_one_scales_weathered.png",
+      "tint": "#FFFFFF"
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.mountain_one.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/mountain_one_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

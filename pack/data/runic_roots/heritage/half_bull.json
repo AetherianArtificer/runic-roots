@@ -1,0 +1,32 @@
+{
+  "schema": "townstead:heritage/v1",
+  "display_name": {
+    "translate": "heritage.runic_roots.half_bull"
+  },
+  "demonym": {
+    "singular": {
+      "translate": "heritage.runic_roots.half_bull.demonym.singular"
+    },
+    "plural": {
+      "translate": "heritage.runic_roots.half_bull.demonym.plural"
+    }
+  },
+  "priority": 15,
+  "match": {
+    "townstead_roots:human": {
+      "min": 0.3,
+      "max": 0.7
+    },
+    "runic_roots:bestial": {
+      "min": 0.3,
+      "max": 0.7
+    }
+  },
+  "lineages": {
+    "runic_roots:bovine": {
+      "min": 0.3,
+      "max": 0.7
+    }
+  },
+  "open_lineages": true
+}

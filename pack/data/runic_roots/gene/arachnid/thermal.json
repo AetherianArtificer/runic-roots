@@ -1,0 +1,17 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:thermal_tolerance",
+  "display_name": {
+    "translate": "gene.runic_roots.arachnid.thermal"
+  },
+  "description": {
+    "translate": "gene.runic_roots.arachnid.thermal.desc"
+  },
+  "category": "Climate",
+  "dominance": "dominant",
+  "locus": "pheno:thermal_tolerance",
+  "neutral": 31.0,
+  "band": 0.5,
+  "cold": 1.3,
+  "heat": 0.8
+}

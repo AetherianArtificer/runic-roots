@@ -1,0 +1,450 @@
+{
+ "meta": {
+  "format_version": "5.0",
+  "model_format": "free",
+  "box_uv": true
+ },
+ "name": "skeleton_grave_shroud",
+ "model_identifier": "skeleton_grave_shroud",
+ "visible_box": [
+  1,
+  1,
+  0
+ ],
+ "resolution": {
+  "width": 64,
+  "height": 64
+ },
+ "elements": [
+  {
+   "name": "shroud",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -4.25,
+    -9.0,
+    0.0
+   ],
+   "to": [
+    4.25,
+    4.25,
+    0.75
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    0,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      1,
+      0,
+      10,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      10,
+      0,
+      19,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      0,
+      1,
+      1,
+      15
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      1,
+      1,
+      10,
+      15
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      10,
+      1,
+      11,
+      15
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      11,
+      1,
+      20,
+      15
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "52ff71fe-7ac2-50f0-858c-916813d146a6"
+  },
+  {
+   "name": "shroud_l",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    3.25,
+    -11.0,
+    0.1
+   ],
+   "to": [
+    4.25,
+    -9.0,
+    0.7
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    32,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      33,
+      0,
+      34,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      34,
+      0,
+      35,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      32,
+      1,
+      33,
+      3
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      33,
+      1,
+      34,
+      3
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      34,
+      1,
+      35,
+      3
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      35,
+      1,
+      36,
+      3
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "3a7dc049-87c5-5de3-a9f1-533dd5dea070"
+  },
+  {
+   "name": "shroud_m",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -1.5,
+    -12.0,
+    0.1
+   ],
+   "to": [
+    0.5,
+    -9.0,
+    0.7
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    20,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      21,
+      0,
+      23,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      23,
+      0,
+      25,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      20,
+      1,
+      21,
+      4
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      21,
+      1,
+      23,
+      4
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      23,
+      1,
+      24,
+      4
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      24,
+      1,
+      26,
+      4
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "2f4ccd33-0d89-54f5-a79d-ce967d5a1dca"
+  },
+  {
+   "name": "shroud_r",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -4.25,
+    -10.5,
+    0.1
+   ],
+   "to": [
+    -3.0,
+    -9.0,
+    0.7
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    26,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      27,
+      0,
+      29,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      29,
+      0,
+      31,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      26,
+      1,
+      27,
+      3
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      27,
+      1,
+      29,
+      3
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      29,
+      1,
+      30,
+      3
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      30,
+      1,
+      32,
+      3
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "ba4c26c1-fae6-5a93-bd74-069ca6074a89"
+  }
+ ],
+ "groups": [
+  {
+   "name": "shroud",
+   "origin": [
+    0.0,
+    4.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "color": 0,
+   "uuid": "6e0f0e95-763c-5ec8-a17f-8974ad8fc981",
+   "export": true,
+   "mirror_uv": false,
+   "isOpen": true,
+   "locked": false,
+   "visibility": true,
+   "autouv": 0,
+   "selected": false
+  }
+ ],
+ "outliner": [
+  {
+   "uuid": "6e0f0e95-763c-5ec8-a17f-8974ad8fc981",
+   "isOpen": true,
+   "children": [
+    "52ff71fe-7ac2-50f0-858c-916813d146a6",
+    "3a7dc049-87c5-5de3-a9f1-533dd5dea070",
+    "2f4ccd33-0d89-54f5-a79d-ce967d5a1dca",
+    "ba4c26c1-fae6-5a93-bd74-069ca6074a89"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "name": "skeleton_grave_shroud.png",
+   "folder": "",
+   "namespace": "",
+   "id": "0",
+   "width": 64,
+   "height": 64,
+   "uv_width": 64,
+   "uv_height": 64,
+   "particle": false,
+   "render_mode": "default",
+   "render_sides": "auto",
+   "visible": true,
+   "internal": true,
+   "saved": true,
+   "uuid": "4de4cba7-7ad0-5db0-8d6b-fbcf3bc0b5f9",
+   "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADxElEQVR4nO2Wy4scVRTGv3tvvfo50+mZngkmi8Gt4Dp/gAiCgsRFXLlQQTcZhGBWSsxOFxEX4l+QndlGRFAQQchOcO+DqCTOTE8/611XvtOZwYALVzM0nB80XKpuVfV3Ht89BgAefHvXp2mGfq+L8fEUly/t4u+DMaIwQFnV6LQT3P/mB8zmS4y2Bnh8cISd7aHsHWz2cXB4jH6vgxsf3DF8388/3vPPXblqPr6172/e+kyukV9+uu/3nn/JfHL7Pf/+h5+eXuf3v/v+Af6996wwX335ue922nj45yM8u3cZv/72By7ubmOxTGGtxXQ6x9ZwgKPxRB44HE8QRyGKskISRziezER8VdUYXtiUPTujCxKUsqxgDPDo8aG8c3dnS9bOWQnecplhNBri0sURfn/4F/K8xLU3b55pECz/JImjSP5Q3XgRXhQl4IEwpNhSBBpj4KxFHEfIs1yEW2PQabeQFwXyPIe1BrPZAnVdw1gjFeScQ5YXEpCXr103/E4URXh7/7YpixJZlqOuG9l/1gQUmBclyqpCGAZwdiUyCkOEUYDj6Qzbw01MJjMJAIVGUYi6aZBm+enae4hQ7z36/S5eePUd8/W9L3ya5njr+kdPKXvtjRvmv9bnQcAMtpIYYRBIplutRERQ+N7gGamG+TLFxkYPh0fHEgQGis8EgZMgtFuJtEPjPV55ff9U0ItX3z1Xcf8Hy8yz3CmGXkCBJ2vSaSUYDjZAk2Sb8EfxVV2D2SVcM3jSNmuGZe32um0xNfYunZ7rwDnpS2aV4ghLfZlmYpAGq8phu/R6HRHP96wbNs0LEVxXtRgYW4IGRl+gW09nc+lt7qHIJInEH9j79AMYoGLAAifBWTdst90SF47iEN1uR5yYxsjji+3A2WCxSCUwzHZV1gie+AXvN00jwSC8v24EFEzTS+IYRVFI1sPASa+vzvGVJ7jAiSEy6wzYyb2mYYtUUhU8HtcNy8wSljpFUORimWG+WEpmmWEKpRlW1Wr4YUBOnmOg6Bf0Cp7164bloELzoiBOdTS3E+GsDA5ALO3xZCazghhk4DgjiUmyFRrfPKmcAOuGLcsSWV6KaM71FLdYLEU8e59twWOOQaBgXp/OFk8J5nHIQPGUWDcsR9IwdCIgy1e9LXNAt4MkieXHtmDG5dhzVoK1GolD2cvBiHtYNeuG5ZnurBMhRVGJiDiOV70PSMYZFN800uM8EkUoDdB7uU8azvLnrUZRFEVRFEVRFEVRFEVRFEVRFEVRFEVRFEVRFEVRFEVRFEVRFAUK/gHT9fconskGPwAAAABJRU5ErkJggg=="
+  },
+  {
+   "name": "skeleton_grave_shroud_glow.png",
+   "folder": "",
+   "namespace": "",
+   "id": "1",
+   "width": 64,
+   "height": 64,
+   "uv_width": 64,
+   "uv_height": 64,
+   "particle": false,
+   "render_mode": "default",
+   "render_sides": "auto",
+   "visible": true,
+   "internal": true,
+   "saved": true,
+   "uuid": "0ac1e912-f511-5ba0-bff9-11ef8403e0ef",
+   "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAJ0lEQVR4nO3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAAAAAAAAAIDODUBAAAENBzWNAAAAAElFTkSuQmCC"
+  }
+ ]
+}

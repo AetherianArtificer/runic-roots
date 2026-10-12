@@ -10,5 +10,6 @@
   "category": "Appearance",
   "dominance": "dominant",
   "locus": "townstead_roots:wings",
-  "attachment": "runic_roots:fire_drake_wings"
+  "attachment": "runic_roots:fire_drake_wings",
+  "penetrance": 0.5
 }

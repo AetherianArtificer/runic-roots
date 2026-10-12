@@ -1,0 +1,60 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.arachnid.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.arachnid.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "teal": {
+      "display_name": {
+        "translate": "gene.runic_roots.arachnid.complexion.teal"
+      },
+      "weight": 4,
+      "tint": "#2A4A4C",
+      "blend": "color",
+      "strength": 0.55
+    },
+    "black": {
+      "display_name": {
+        "translate": "gene.runic_roots.arachnid.complexion.black"
+      },
+      "weight": 3,
+      "tint": "#26262A",
+      "blend": "color",
+      "strength": 0.55
+    },
+    "umber": {
+      "display_name": {
+        "translate": "gene.runic_roots.arachnid.complexion.umber"
+      },
+      "weight": 3,
+      "tint": "#5A4030",
+      "blend": "color",
+      "strength": 0.55
+    },
+    "ash": {
+      "display_name": {
+        "translate": "gene.runic_roots.arachnid.complexion.ash"
+      },
+      "weight": 2,
+      "tint": "#7A7A78",
+      "blend": "color",
+      "strength": 0.55
+    },
+    "plum": {
+      "display_name": {
+        "translate": "gene.runic_roots.arachnid.complexion.plum"
+      },
+      "weight": 1,
+      "tint": "#4A2A4A",
+      "blend": "color",
+      "strength": 0.55
+    }
+  }
+}

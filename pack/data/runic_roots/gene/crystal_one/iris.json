@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.crystal_one.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.crystal_one.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "crystal": {
+      "display_name": {
+        "translate": "gene.runic_roots.crystal_one.iris.crystal"
+      },
+      "weight": 4,
+      "tint": "#60C0E8",
+      "editable": true
+    },
+    "amethyst": {
+      "display_name": {
+        "translate": "gene.runic_roots.crystal_one.iris.amethyst"
+      },
+      "weight": 2,
+      "tint": "#A070D8",
+      "editable": true
+    },
+    "emerald": {
+      "display_name": {
+        "translate": "gene.runic_roots.crystal_one.iris.emerald"
+      },
+      "weight": 2,
+      "tint": "#40B070",
+      "editable": true
+    }
+  },
+  "penetrance": 0.9
+}

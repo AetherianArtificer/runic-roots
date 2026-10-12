@@ -1,0 +1,30 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.celeron.circlet"
+  },
+  "description": {
+    "translate": "gene.runic_roots.celeron.circlet.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:hair",
+  "variants": {
+    "winged": {
+      "display_name": {
+        "translate": "gene.runic_roots.celeron.circlet.winged"
+      },
+      "weight": 4,
+      "attachment": "runic_roots:celeron_circlet_winged"
+    },
+    "feathered": {
+      "display_name": {
+        "translate": "gene.runic_roots.celeron.circlet.feathered"
+      },
+      "weight": 2,
+      "attachment": "runic_roots:celeron_circlet_feathered"
+    }
+  },
+  "penetrance": 0.5
+}

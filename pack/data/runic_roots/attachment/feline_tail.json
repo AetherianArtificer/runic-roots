@@ -46,11 +46,7 @@
           "tail_3",
           "tail_4"
         ],
-        "axis": "x",
-        "stiffness": 0.35,
-        "damping": 0.8,
-        "gravity": 0.15,
-        "max_angle": 24,
+        "preset": "tail",
         "sway": 0.5
       }
     ]

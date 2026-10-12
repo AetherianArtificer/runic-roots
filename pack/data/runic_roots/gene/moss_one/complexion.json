@@ -1,0 +1,44 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.moss_one.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.moss_one.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "natural": {
+      "display_name": {
+        "translate": "gene.runic_roots.moss_one.complexion.natural"
+      },
+      "weight": 2,
+      "tint": "#FFFFFF",
+      "blend": "multiply",
+      "strength": 0.0
+    },
+    "moss": {
+      "display_name": {
+        "translate": "gene.runic_roots.moss_one.complexion.moss"
+      },
+      "weight": 4,
+      "tint": "#9AB878",
+      "blend": "color",
+      "strength": 0.55
+    },
+    "fungal": {
+      "display_name": {
+        "translate": "gene.runic_roots.moss_one.complexion.fungal"
+      },
+      "weight": 3,
+      "tint": "#C8B8A0",
+      "blend": "color",
+      "strength": 0.55
+    }
+  },
+  "penetrance": 0.35,
+  "weight": 2
+}

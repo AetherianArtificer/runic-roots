@@ -1,0 +1,17 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:thermal_tolerance",
+  "display_name": {
+    "translate": "gene.runic_roots.sprite.thermal"
+  },
+  "description": {
+    "translate": "gene.runic_roots.sprite.thermal.desc"
+  },
+  "category": "Climate",
+  "dominance": "dominant",
+  "locus": "pheno:thermal_tolerance",
+  "neutral": 38.0,
+  "band": 0.5,
+  "cold": 1.4,
+  "heat": 1.0
+}

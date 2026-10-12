@@ -21,7 +21,14 @@
     "runic_roots:demon/holy_vulnerability",
     "runic_roots:demon/stature",
     "runic_roots:demon/ambience",
-    "runic_roots:demon/complexion"
+    "runic_roots:demon/horns",
+    "runic_roots:demon/ears",
+    "runic_roots:demon/tail",
+    "runic_roots:demon/scales",
+    "runic_roots:demon/complexion",
+    "runic_roots:demon/eyes",
+    "runic_roots:demon/eye_color",
+    "runic_roots:demon/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -30,19 +37,60 @@
       "minecraft:desert": 2
     }
   },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#0E0A0C",
+        "to": "#2E2428",
+        "weight": 4,
+        "space": "hsv"
+      },
+      {
+        "from": "#4A0A0E",
+        "to": "#B02028",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#D8D0D0",
+        "to": "#FFFFFF",
+        "weight": 1,
+        "space": "hsv"
+      },
+      {
+        "from": "#2A1438",
+        "to": "#7A48A8",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
+  },
   "overrides": [
     {
       "requires": {
         "namespace": "townstead_classic"
       },
       "ancestry": "townstead_classic:tiefling",
+      "ancestry_genes": false,
       "genes": [
+        "townstead_roots:omnivore",
+        "townstead_roots:water_drinker",
+        "townstead_roots:human_thermal",
+        "townstead_roots:human_chronotype",
+        "townstead_roots:human_life_cycle",
         "runic_roots:demon/infernal_wrath",
         "runic_roots:demon/infernal_blood",
         "runic_roots:demon/holy_vulnerability",
         "runic_roots:demon/stature",
         "runic_roots:demon/ambience",
-        "runic_roots:demon/complexion"
+        "runic_roots:demon/horns",
+        "runic_roots:demon/ears",
+        "runic_roots:demon/tail",
+        "runic_roots:demon/scales",
+        "runic_roots:demon/complexion",
+        "runic_roots:demon/eyes",
+        "runic_roots:demon/eye_color",
+        "runic_roots:demon/thermal"
       ]
     }
   ]

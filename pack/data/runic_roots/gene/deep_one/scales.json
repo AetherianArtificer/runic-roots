@@ -1,0 +1,41 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.deep_one.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.deep_one.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "glowworm": {
+      "display_name": {
+        "translate": "gene.runic_roots.deep_one.scales.glowworm"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/deep_one_scales_glowworm.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "soot": {
+      "display_name": {
+        "translate": "gene.runic_roots.deep_one.scales.soot"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/deep_one_scales_soot.png",
+      "tint": "#FFFFFF"
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.deep_one.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/deep_one_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

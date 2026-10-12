@@ -1,0 +1,41 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.sky_one.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.sky_one.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "wind": {
+      "display_name": {
+        "translate": "gene.runic_roots.sky_one.scales.wind"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/sky_one_scales_wind.png",
+      "tint": "#FFFFFF"
+    },
+    "storm": {
+      "display_name": {
+        "translate": "gene.runic_roots.sky_one.scales.storm"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/sky_one_scales_storm.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.sky_one.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/sky_one_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

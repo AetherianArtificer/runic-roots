@@ -1,0 +1,41 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.nymph.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.nymph.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "sheen": {
+      "display_name": {
+        "translate": "gene.runic_roots.nymph.scales.sheen"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/nymph_scales_sheen.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "pearls": {
+      "display_name": {
+        "translate": "gene.runic_roots.nymph.scales.pearls"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/nymph_scales_pearls.png",
+      "tint": "#FFFFFF"
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.nymph.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/nymph_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:eye_color",
+  "display_name": {
+    "translate": "gene.runic_roots.nightborn.eye_color"
+  },
+  "description": {
+    "translate": "gene.runic_roots.nightborn.eye_color.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "pale": {
+      "display_name": {
+        "translate": "gene.runic_roots.nightborn.eye_color.pale"
+      },
+      "weight": 4,
+      "tint": "#F0F0FF"
+    },
+    "crimson": {
+      "display_name": {
+        "translate": "gene.runic_roots.nightborn.eye_color.crimson"
+      },
+      "weight": 3,
+      "tint": "#E83040"
+    },
+    "amber": {
+      "display_name": {
+        "translate": "gene.runic_roots.nightborn.eye_color.amber"
+      },
+      "weight": 2,
+      "tint": "#F0A030"
+    }
+  }
+}

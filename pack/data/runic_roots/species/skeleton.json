@@ -1,0 +1,23 @@
+{
+  "schema": "townstead:species/v2",
+  "display_name": {
+    "translate": "species.runic_roots.skeleton"
+  },
+  "rig": {
+    "base": "runic_roots:skeleton"
+  },
+  "animations": {
+    "providers": [
+      "humanoid"
+    ]
+  },
+  "character_editor": {
+    "native": []
+  },
+  "states": {
+    "townstead_state:vampire": false,
+    "townstead_state:dhampir": false,
+    "townstead_state:werewolf": false,
+    "townstead_state:thrall": false
+  }
+}

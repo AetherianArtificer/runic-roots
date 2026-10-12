@@ -1,0 +1,26 @@
+{
+  "schema": "townstead:attachment/v2",
+  "geometry": "runic_roots:human_circlet_winged",
+  "texture": "runic_roots:human_circlet_winged",
+  "target": {
+    "tag": "horn"
+  },
+  "offset": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1.0,
+  "tint": "#FFFFFF",
+  "stages": {
+    "baby": {
+      "scale": 0.6
+    },
+    "toddler": {
+      "scale": 0.7
+    },
+    "child": {
+      "scale": 0.85
+    }
+  }
+}

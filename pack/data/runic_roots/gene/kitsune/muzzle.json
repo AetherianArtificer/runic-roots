@@ -1,0 +1,29 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.kitsune.muzzle"
+  },
+  "description": {
+    "translate": "gene.runic_roots.kitsune.muzzle.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:snout",
+  "variants": {
+    "fox": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.muzzle.fox"
+      },
+      "weight": 4,
+      "attachment": "runic_roots:kitsune_muzzle_fox"
+    },
+    "fennec": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.muzzle.fennec"
+      },
+      "weight": 2,
+      "attachment": "runic_roots:kitsune_muzzle_fennec"
+    }
+  }
+}

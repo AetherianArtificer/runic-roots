@@ -1,0 +1,56 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.valen.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.valen.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "slash": {
+      "display_name": {
+        "translate": "gene.runic_roots.valen.scales.slash"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/valen_scales_slash.png",
+      "tint": "#FFFFFF"
+    },
+    "tears": {
+      "display_name": {
+        "translate": "gene.runic_roots.valen.scales.tears"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/valen_scales_tears.png",
+      "tint": "#FFFFFF"
+    },
+    "brow": {
+      "display_name": {
+        "translate": "gene.runic_roots.valen.scales.brow"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/valen_scales_brow.png",
+      "tint": "#FFFFFF"
+    },
+    "dots": {
+      "display_name": {
+        "translate": "gene.runic_roots.valen.scales.dots"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/valen_scales_dots.png",
+      "tint": "#FFFFFF"
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.valen.scales.unmarked"
+      },
+      "weight": 4,
+      "texture": "runic_roots:textures/skin/valen_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

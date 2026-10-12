@@ -1,0 +1,35 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:eye_color",
+  "display_name": {
+    "translate": "gene.runic_roots.reaper.eye_color"
+  },
+  "description": {
+    "translate": "gene.runic_roots.reaper.eye_color.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "ember": {
+      "display_name": {
+        "translate": "gene.runic_roots.reaper.eye_color.ember"
+      },
+      "weight": 4,
+      "tint": "#F04020"
+    },
+    "soul": {
+      "display_name": {
+        "translate": "gene.runic_roots.reaper.eye_color.soul"
+      },
+      "weight": 2,
+      "tint": "#60E0FF"
+    },
+    "pale": {
+      "display_name": {
+        "translate": "gene.runic_roots.reaper.eye_color.pale"
+      },
+      "weight": 2,
+      "tint": "#E0E0E0"
+    }
+  }
+}

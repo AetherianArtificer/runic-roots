@@ -47,5 +47,7 @@
       "blend": "color",
       "strength": 0.45
     }
-  }
+  },
+  "penetrance": 0.35,
+  "weight": 2
 }

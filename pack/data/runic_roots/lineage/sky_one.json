@@ -20,7 +20,15 @@
     "runic_roots:sky_one/sure_footed_sentinel",
     "runic_roots:sky_one/thin_air_lungs",
     "runic_roots:sky_one/stature",
-    "runic_roots:sky_one/ambience"
+    "runic_roots:sky_one/ambience",
+    "runic_roots:sky_one/beard",
+    "runic_roots:sky_one/braids",
+    "runic_roots:sky_one/nose",
+    "runic_roots:sky_one/brows",
+    "runic_roots:sky_one/scales",
+    "runic_roots:sky_one/build",
+    "runic_roots:sky_one/iris",
+    "runic_roots:sky_one/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -30,17 +38,54 @@
       "minecraft:windswept_hills": 3
     }
   },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#A03A0A",
+        "to": "#F48A2A",
+        "weight": 4,
+        "space": "hsv"
+      },
+      {
+        "from": "#C89A40",
+        "to": "#F8E0A0",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#6A1A10",
+        "to": "#C8402A",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
+  },
   "overrides": [
     {
       "requires": {
         "namespace": "townstead_classic"
       },
       "ancestry": "townstead_classic:dwarf",
+      "ancestry_genes": false,
       "genes": [
+        "townstead_roots:omnivore",
+        "townstead_roots:water_drinker",
+        "townstead_roots:human_thermal",
+        "townstead_roots:human_chronotype",
+        "runic_roots:family/dwarven_life_cycle",
         "runic_roots:sky_one/mountain_leap",
         "runic_roots:sky_one/sure_footed_sentinel",
         "runic_roots:sky_one/thin_air_lungs",
-        "runic_roots:sky_one/ambience"
+        "runic_roots:sky_one/stature",
+        "runic_roots:sky_one/ambience",
+        "runic_roots:sky_one/beard",
+        "runic_roots:sky_one/braids",
+        "runic_roots:sky_one/nose",
+        "runic_roots:sky_one/brows",
+        "runic_roots:sky_one/scales",
+        "runic_roots:sky_one/build",
+        "runic_roots:sky_one/iris",
+        "runic_roots:sky_one/thermal"
       ]
     }
   ]

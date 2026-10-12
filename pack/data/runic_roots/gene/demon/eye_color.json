@@ -1,0 +1,43 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:eye_color",
+  "display_name": {
+    "translate": "gene.runic_roots.demon.eye_color"
+  },
+  "description": {
+    "translate": "gene.runic_roots.demon.eye_color.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "ember": {
+      "display_name": {
+        "translate": "gene.runic_roots.demon.eye_color.ember"
+      },
+      "weight": 4,
+      "tint": "#FF7A2A"
+    },
+    "gold": {
+      "display_name": {
+        "translate": "gene.runic_roots.demon.eye_color.gold"
+      },
+      "weight": 3,
+      "tint": "#F2C040"
+    },
+    "crimson": {
+      "display_name": {
+        "translate": "gene.runic_roots.demon.eye_color.crimson"
+      },
+      "weight": 3,
+      "tint": "#E8303A"
+    },
+    "violet": {
+      "display_name": {
+        "translate": "gene.runic_roots.demon.eye_color.violet"
+      },
+      "weight": 1,
+      "tint": "#B860F0"
+    }
+  },
+  "penetrance": 0.9
+}

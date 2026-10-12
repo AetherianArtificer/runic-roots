@@ -1,0 +1,17 @@
+{
+  "schema": "townstead:gene/v2",
+  "mods": "vampirism",
+  "display_name": {
+    "translate": "gene.runic_roots.canine.elder_eyes"
+  },
+  "description": {
+    "translate": "gene.runic_roots.canine.elder_eyes.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "type": "townstead_roots:eyes",
+  "texture": "runic_roots:textures/face/draconic_eyes.png",
+  "tint": "eye_color",
+  "glow": true,
+  "row": 11
+}

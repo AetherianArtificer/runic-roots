@@ -1,0 +1,40 @@
+{
+  "schema": "townstead:rig/v1",
+  "model": {
+    "type": "entity_layer",
+    "layer": "minecraft:wither_skeleton#main"
+  },
+  "texture": "runic_roots:textures/entity/wraith.png",
+  "bones": {
+    "head": "head",
+    "headwear": "hat",
+    "body": "body",
+    "right_arm": "right_arm",
+    "left_arm": "left_arm",
+    "right_leg": "right_leg",
+    "left_leg": "left_leg"
+  },
+  "armor": {
+    "type": "layers",
+    "inner": "minecraft:wither_skeleton#inner_armor",
+    "outer": "minecraft:wither_skeleton#outer_armor"
+  },
+  "hold": {
+    "mainhand": {
+      "bone": "right_arm"
+    },
+    "offhand": {
+      "bone": "left_arm"
+    }
+  },
+  "equipment": {
+    "hidden": [
+      "legs",
+      "feet"
+    ]
+  },
+  "skin_parts": [
+    "head",
+    "body"
+  ]
+}

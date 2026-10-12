@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.demon.tail"
+  },
+  "description": {
+    "translate": "gene.runic_roots.demon.tail.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:tail",
+  "attachment": "runic_roots:demon_tail",
+  "size": {
+    "channels": {
+      "length": {
+        "label": {
+          "translate": "gene.runic_roots.demon.tail.length"
+        },
+        "min": 0.85,
+        "max": 1.2,
+        "heritage": {
+          "ancestry": [
+            "runic_roots:fiend",
+            "townstead_classic:tiefling"
+          ],
+          "floor": 0.3
+        }
+      },
+      "girth": {
+        "label": {
+          "translate": "gene.runic_roots.demon.tail.girth"
+        },
+        "min": 0.9,
+        "max": 1.12
+      }
+    }
+  }
+}

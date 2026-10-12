@@ -1,0 +1,40 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.iron_one.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.iron_one.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "tattoos": {
+      "display_name": {
+        "translate": "gene.runic_roots.iron_one.scales.tattoos"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/iron_one_scales_tattoos.png",
+      "tint": "#FFFFFF"
+    },
+    "scars": {
+      "display_name": {
+        "translate": "gene.runic_roots.iron_one.scales.scars"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/iron_one_scales_scars.png",
+      "tint": "#FFFFFF"
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.iron_one.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/iron_one_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

@@ -19,10 +19,38 @@
     "runic_roots:blood_elf/blood_frenzy",
     "runic_roots:blood_elf/bloodcraft",
     "runic_roots:blood_elf/price_of_power",
-    "runic_roots:blood_elf/stature"
+    "runic_roots:blood_elf/stature",
+    "runic_roots:blood_elf/ears",
+    "runic_roots:blood_elf/scales",
+    "runic_roots:blood_elf/complexion",
+    "runic_roots:blood_elf/build",
+    "runic_roots:blood_elf/iris",
+    "runic_roots:blood_elf/thermal"
   ],
   "spawn_bias": {
     "default": 0.25
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#D8D4D4",
+        "to": "#FFFFFF",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#4A0A12",
+        "to": "#A01828",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#1A1416",
+        "to": "#4A3A3E",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
   },
   "overrides": [
     {
@@ -30,10 +58,23 @@
         "namespace": "townstead_classic"
       },
       "ancestry": "townstead_classic:elf",
+      "ancestry_genes": false,
       "genes": [
+        "townstead_roots:omnivore",
+        "townstead_roots:water_drinker",
+        "townstead_roots:human_thermal",
+        "townstead_roots:human_chronotype",
+        "runic_roots:family/elven_life_cycle",
         "runic_roots:blood_elf/blood_frenzy",
         "runic_roots:blood_elf/bloodcraft",
-        "runic_roots:blood_elf/price_of_power"
+        "runic_roots:blood_elf/price_of_power",
+        "runic_roots:blood_elf/stature",
+        "runic_roots:blood_elf/ears",
+        "runic_roots:blood_elf/scales",
+        "runic_roots:blood_elf/complexion",
+        "runic_roots:blood_elf/build",
+        "runic_roots:blood_elf/iris",
+        "runic_roots:blood_elf/thermal"
       ]
     }
   ]

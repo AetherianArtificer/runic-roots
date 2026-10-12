@@ -1,0 +1,14 @@
+{
+  "schema": "townstead:gene/v2",
+  "display_name": {
+    "translate": "gene.runic_roots.feline.kemonomimi.no_markings"
+  },
+  "description": {
+    "translate": "gene.runic_roots.feline.kemonomimi.no_markings.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "type": "townstead_roots:attachment",
+  "none": true,
+  "locus": "runic_roots:scales"
+}

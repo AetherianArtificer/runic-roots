@@ -1,0 +1,450 @@
+{
+ "meta": {
+  "format_version": "5.0",
+  "model_format": "free",
+  "box_uv": true
+ },
+ "name": "skeleton_grave_flame",
+ "model_identifier": "skeleton_grave_flame",
+ "visible_box": [
+  1,
+  1,
+  0
+ ],
+ "resolution": {
+  "width": 64,
+  "height": 64
+ },
+ "elements": [
+  {
+   "name": "flame_core",
+   "box_uv": true,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -1.0,
+    -6.0,
+    -5.5
+   ],
+   "to": [
+    1.0,
+    -3.0,
+    -3.5
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    0,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      2,
+      0,
+      4,
+      2
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      4,
+      0,
+      6,
+      2
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      0,
+      2,
+      2,
+      5
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      2,
+      2,
+      4,
+      5
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      4,
+      2,
+      6,
+      5
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      6,
+      2,
+      8,
+      5
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "0c3022dd-bf43-58a7-be39-6245450de24a"
+  },
+  {
+   "name": "flame_tip",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -0.5,
+    -3.0,
+    -5.0
+   ],
+   "to": [
+    0.5,
+    -1.5,
+    -4.0
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    20,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      21,
+      0,
+      22,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      22,
+      0,
+      23,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      20,
+      1,
+      21,
+      3
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      21,
+      1,
+      22,
+      3
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      22,
+      1,
+      23,
+      3
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      23,
+      1,
+      24,
+      3
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "5497dd08-2c17-5f5c-adb7-bfa09abb9624"
+  },
+  {
+   "name": "flame_l",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    0.75,
+    -5.5,
+    -5.1
+   ],
+   "to": [
+    1.5,
+    -4.0,
+    -3.9
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    8,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      10,
+      0,
+      11,
+      2
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      11,
+      0,
+      12,
+      2
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      8,
+      2,
+      10,
+      4
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      10,
+      2,
+      11,
+      4
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      11,
+      2,
+      13,
+      4
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      13,
+      2,
+      14,
+      4
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "537ab333-0ec8-5198-8a50-7aa2e5549fd7"
+  },
+  {
+   "name": "flame_r",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -1.5,
+    -5.0,
+    -5.1
+   ],
+   "to": [
+    -0.75,
+    -3.75,
+    -3.9
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    14,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      16,
+      0,
+      17,
+      2
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      17,
+      0,
+      18,
+      2
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      14,
+      2,
+      16,
+      4
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      16,
+      2,
+      17,
+      4
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      17,
+      2,
+      19,
+      4
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      19,
+      2,
+      20,
+      4
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "5da9d23b-774b-573e-9624-380e1772f8b0"
+  }
+ ],
+ "groups": [
+  {
+   "name": "flame",
+   "origin": [
+    0.0,
+    -4.5,
+    -4.5
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "color": 0,
+   "uuid": "50245f19-d6a2-5f3f-bfea-64f9220c080e",
+   "export": true,
+   "mirror_uv": false,
+   "isOpen": true,
+   "locked": false,
+   "visibility": true,
+   "autouv": 0,
+   "selected": false
+  }
+ ],
+ "outliner": [
+  {
+   "uuid": "50245f19-d6a2-5f3f-bfea-64f9220c080e",
+   "isOpen": true,
+   "children": [
+    "0c3022dd-bf43-58a7-be39-6245450de24a",
+    "5497dd08-2c17-5f5c-adb7-bfa09abb9624",
+    "537ab333-0ec8-5198-8a50-7aa2e5549fd7",
+    "5da9d23b-774b-573e-9624-380e1772f8b0"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "name": "skeleton_grave_flame.png",
+   "folder": "",
+   "namespace": "",
+   "id": "0",
+   "width": 64,
+   "height": 64,
+   "uv_width": 64,
+   "uv_height": 64,
+   "particle": false,
+   "render_mode": "default",
+   "render_sides": "auto",
+   "visible": true,
+   "internal": true,
+   "saved": true,
+   "uuid": "32eff283-1325-5f6c-acc6-c389fb0c2be6",
+   "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAABS0lEQVR4nO3SsUrDUBQG4D+5t0mTIrQNKjrq7CKuIn0C6ROI+DrOTro5iTgUdHfxFVxdBGtrbJukSW+aXEnUwXZwjfh/0+VwuPCfc4AvSikdKKUve3f64upGY8Hxu9IH57dL9ZNA6f2zn/1H/eVaVZnfjxxACqBmWRBCLHcWDXn264eH9086HqRo7+yh+/Bc+SEYj31fz9QMG+teOQ1/EmOWJHgbDmDZNk7HK5B1B8JxkAwHEJaFNApQb69CBWM0NtegRjFUMEI+T2E3PdjNBqavPrJ4il5ny0CFycl4hJbnlQsOIlWGL67ANEy4rovsJYJ0GtDzrLwArT+XmvhDmFLCEIDWOYTtYD4Ncb3bqnTgRbLV9hCFIaSswXEtFAMpApmiuAcDvc72nwpERERERERERERERERERERERERERERERERERERERIT/6QNM2oBhAMWDKQAAAABJRU5ErkJggg=="
+  },
+  {
+   "name": "skeleton_grave_flame_glow.png",
+   "folder": "",
+   "namespace": "",
+   "id": "1",
+   "width": 64,
+   "height": 64,
+   "uv_width": 64,
+   "uv_height": 64,
+   "particle": false,
+   "render_mode": "default",
+   "render_sides": "auto",
+   "visible": true,
+   "internal": true,
+   "saved": true,
+   "uuid": "4eca5ead-bebd-5dda-86ef-43ae7ea1ede0",
+   "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAc0lEQVR4nO3UvQmGMBAA0EQ+HMLaqZzjm8mprCwcwkYLFSQgIlpc8V51+eHCkeNy2k3zsqSTps75vO6G7bxv7/ev7kZUfZ3wKL6Mo8rlz5f+47sHonfB7+uE0Qt+3AFNMQsAAAAAAAAAAAAAAAAAAIAU0QrruSE+lyfqpQAAAABJRU5ErkJggg=="
+  }
+ ]
+}

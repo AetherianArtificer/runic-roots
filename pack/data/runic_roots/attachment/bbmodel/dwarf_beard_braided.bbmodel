@@ -1,0 +1,2206 @@
+{
+ "meta": {
+  "format_version": "5.0",
+  "model_format": "free",
+  "box_uv": true
+ },
+ "name": "dwarf_beard_braided",
+ "model_identifier": "dwarf_beard_braided",
+ "visible_box": [
+  1,
+  1,
+  0
+ ],
+ "resolution": {
+  "width": 64,
+  "height": 64
+ },
+ "elements": [
+  {
+   "name": "beard_moustache",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -3.0,
+    -4.25,
+    -1.4
+   ],
+   "to": [
+    3.0,
+    -3.25,
+    0.0
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    0,
+    20
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      2,
+      20,
+      8,
+      22
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      8,
+      20,
+      14,
+      22
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      0,
+      22,
+      2,
+      23
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      2,
+      22,
+      8,
+      23
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      8,
+      22,
+      10,
+      23
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      10,
+      22,
+      16,
+      23
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "8e8570fd-4dd3-5415-8816-bbde44b1304c"
+  },
+  {
+   "name": "beard_moustache_l",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    2.25,
+    -5.5,
+    -1.3
+   ],
+   "to": [
+    3.25,
+    -4.25,
+    -0.2
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    40,
+    16
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      42,
+      16,
+      43,
+      18
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      43,
+      16,
+      44,
+      18
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      40,
+      18,
+      42,
+      20
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      42,
+      18,
+      43,
+      20
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      43,
+      18,
+      45,
+      20
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      45,
+      18,
+      46,
+      20
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "d52e8f11-c6ea-5054-9fa4-09a731d55ec8"
+  },
+  {
+   "name": "beard_moustache_r",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -3.25,
+    -5.5,
+    -1.3
+   ],
+   "to": [
+    -2.25,
+    -4.25,
+    -0.2
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    46,
+    16
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      48,
+      16,
+      49,
+      18
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      49,
+      16,
+      50,
+      18
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      46,
+      18,
+      48,
+      20
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      48,
+      18,
+      49,
+      20
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      49,
+      18,
+      51,
+      20
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      51,
+      18,
+      52,
+      20
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "0d3d2a8a-4b76-57f7-9b1e-eca9bcdc76e7"
+  },
+  {
+   "name": "beard_cheek_l",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    2.5,
+    -4.25,
+    -0.6
+   ],
+   "to": [
+    4.25,
+    -3.0,
+    0.25
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    32,
+    20
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      33,
+      20,
+      35,
+      21
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      35,
+      20,
+      37,
+      21
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      32,
+      21,
+      33,
+      23
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      33,
+      21,
+      35,
+      23
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      35,
+      21,
+      36,
+      23
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      36,
+      21,
+      38,
+      23
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "69c88787-2d12-5629-8e97-7fe35e01c7ec"
+  },
+  {
+   "name": "beard_cheek_r",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -4.25,
+    -4.25,
+    -0.6
+   ],
+   "to": [
+    -2.5,
+    -3.0,
+    0.25
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    38,
+    20
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      39,
+      20,
+      41,
+      21
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      41,
+      20,
+      43,
+      21
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      38,
+      21,
+      39,
+      23
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      39,
+      21,
+      41,
+      23
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      41,
+      21,
+      42,
+      23
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      42,
+      21,
+      44,
+      23
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "9e67903a-7598-560b-8079-5c921d66be95"
+  },
+  {
+   "name": "beard_jaw",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -4.25,
+    -4.75,
+    -0.6
+   ],
+   "to": [
+    4.25,
+    -3.9,
+    4.5
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    20,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      26,
+      0,
+      35,
+      6
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      35,
+      0,
+      44,
+      6
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      20,
+      6,
+      26,
+      7
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      26,
+      6,
+      35,
+      7
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      35,
+      6,
+      41,
+      7
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      41,
+      6,
+      50,
+      7
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "4cac6e04-6cdc-5e08-aa04-b6a90d41937e"
+  },
+  {
+   "name": "beard",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -3.5,
+    -7.5,
+    -1.0
+   ],
+   "to": [
+    3.5,
+    -3.5,
+    1.75
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    0,
+    9
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      3,
+      9,
+      10,
+      12
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      10,
+      9,
+      17,
+      12
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      0,
+      12,
+      3,
+      16
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      3,
+      12,
+      10,
+      16
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      10,
+      12,
+      13,
+      16
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      13,
+      12,
+      20,
+      16
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "ae56d3a8-3dad-529d-bd7d-83c92b38f1f5"
+  },
+  {
+   "name": "beard_braid_l_0",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    0.3500000000000001,
+    -8.6,
+    -0.6
+   ],
+   "to": [
+    1.5500000000000003,
+    -7.5,
+    0.6
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    20,
+    9
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      22,
+      9,
+      24,
+      11
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      24,
+      9,
+      26,
+      11
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      20,
+      11,
+      22,
+      13
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      22,
+      11,
+      24,
+      13
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      24,
+      11,
+      26,
+      13
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      26,
+      11,
+      28,
+      13
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "9c99505b-4d56-58cc-88b9-843ba7a76e68"
+  },
+  {
+   "name": "beard_braid_l_1",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    0.6500000000000001,
+    -9.6,
+    -0.6
+   ],
+   "to": [
+    1.85,
+    -8.5,
+    0.6
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    28,
+    9
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      30,
+      9,
+      32,
+      11
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      32,
+      9,
+      34,
+      11
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      28,
+      11,
+      30,
+      13
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      30,
+      11,
+      32,
+      13
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      32,
+      11,
+      34,
+      13
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      34,
+      11,
+      36,
+      13
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "1c70e555-41be-50b2-a995-11b007a057a5"
+  },
+  {
+   "name": "beard_braid_l_2",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    0.3500000000000001,
+    -10.6,
+    -0.6
+   ],
+   "to": [
+    1.5500000000000003,
+    -9.5,
+    0.6
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    36,
+    9
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      38,
+      9,
+      40,
+      11
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      40,
+      9,
+      42,
+      11
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      36,
+      11,
+      38,
+      13
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      38,
+      11,
+      40,
+      13
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      40,
+      11,
+      42,
+      13
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      42,
+      11,
+      44,
+      13
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "6e7dd9d1-9fef-547e-b6b1-89be773ec347"
+  },
+  {
+   "name": "beard_braid_l_3",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    0.6500000000000001,
+    -11.6,
+    -0.6
+   ],
+   "to": [
+    1.85,
+    -10.5,
+    0.6
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    44,
+    9
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      46,
+      9,
+      48,
+      11
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      48,
+      9,
+      50,
+      11
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      44,
+      11,
+      46,
+      13
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      46,
+      11,
+      48,
+      13
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      48,
+      11,
+      50,
+      13
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      50,
+      11,
+      52,
+      13
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "e6234485-5084-574d-aef0-68a5e506eaac"
+  },
+  {
+   "name": "beard_braid_l_4",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    0.3500000000000001,
+    -12.6,
+    -0.6
+   ],
+   "to": [
+    1.5500000000000003,
+    -11.5,
+    0.6
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    52,
+    9
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      54,
+      9,
+      56,
+      11
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      56,
+      9,
+      58,
+      11
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      52,
+      11,
+      54,
+      13
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      54,
+      11,
+      56,
+      13
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      56,
+      11,
+      58,
+      13
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      58,
+      11,
+      60,
+      13
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "c816c22b-f8f0-5ff4-9582-186b291450e8"
+  },
+  {
+   "name": "beard_braid_l_clasp",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    0.3500000000000001,
+    -10.9,
+    -0.75
+   ],
+   "to": [
+    1.85,
+    -10.0,
+    0.75
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    16,
+    20
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      18,
+      20,
+      20,
+      22
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      20,
+      20,
+      22,
+      22
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      16,
+      22,
+      18,
+      23
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      18,
+      22,
+      20,
+      23
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      20,
+      22,
+      22,
+      23
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      22,
+      22,
+      24,
+      23
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "22deb905-04db-5a4f-9eaa-d2259b4b3394"
+  },
+  {
+   "name": "beard_braid_l_tip",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    0.3500000000000001,
+    -13.75,
+    -0.5
+   ],
+   "to": [
+    1.85,
+    -12.5,
+    0.5
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    44,
+    20
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      45,
+      20,
+      47,
+      21
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      47,
+      20,
+      49,
+      21
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      44,
+      21,
+      45,
+      23
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      45,
+      21,
+      47,
+      23
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      47,
+      21,
+      48,
+      23
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      48,
+      21,
+      50,
+      23
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "b1f2b240-597e-5f47-b2a8-125462bc5859"
+  },
+  {
+   "name": "beard_braid_r_0",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -1.85,
+    -8.6,
+    -0.6
+   ],
+   "to": [
+    -0.6500000000000001,
+    -7.5,
+    0.6
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    0,
+    16
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      2,
+      16,
+      4,
+      18
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      4,
+      16,
+      6,
+      18
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      0,
+      18,
+      2,
+      20
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      2,
+      18,
+      4,
+      20
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      4,
+      18,
+      6,
+      20
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      6,
+      18,
+      8,
+      20
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "aab26593-da02-544b-ac80-88d7dc712f76"
+  },
+  {
+   "name": "beard_braid_r_1",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -1.5500000000000003,
+    -9.6,
+    -0.6
+   ],
+   "to": [
+    -0.3500000000000001,
+    -8.5,
+    0.6
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    8,
+    16
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      10,
+      16,
+      12,
+      18
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      12,
+      16,
+      14,
+      18
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      8,
+      18,
+      10,
+      20
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      10,
+      18,
+      12,
+      20
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      12,
+      18,
+      14,
+      20
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      14,
+      18,
+      16,
+      20
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "8e4d052b-70c0-5b81-bfae-9a41028e27d9"
+  },
+  {
+   "name": "beard_braid_r_2",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -1.85,
+    -10.6,
+    -0.6
+   ],
+   "to": [
+    -0.6500000000000001,
+    -9.5,
+    0.6
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    16,
+    16
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      18,
+      16,
+      20,
+      18
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      20,
+      16,
+      22,
+      18
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      16,
+      18,
+      18,
+      20
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      18,
+      18,
+      20,
+      20
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      20,
+      18,
+      22,
+      20
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      22,
+      18,
+      24,
+      20
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "7b2202ee-5c91-5c30-b525-4d13dc2e7cf2"
+  },
+  {
+   "name": "beard_braid_r_3",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -1.5500000000000003,
+    -11.6,
+    -0.6
+   ],
+   "to": [
+    -0.3500000000000001,
+    -10.5,
+    0.6
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    24,
+    16
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      26,
+      16,
+      28,
+      18
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      28,
+      16,
+      30,
+      18
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      24,
+      18,
+      26,
+      20
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      26,
+      18,
+      28,
+      20
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      28,
+      18,
+      30,
+      20
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      30,
+      18,
+      32,
+      20
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "c4f01ed1-d2fe-5ce0-b87d-5a53948d311c"
+  },
+  {
+   "name": "beard_braid_r_4",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -1.85,
+    -12.6,
+    -0.6
+   ],
+   "to": [
+    -0.6500000000000001,
+    -11.5,
+    0.6
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    32,
+    16
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      34,
+      16,
+      36,
+      18
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      36,
+      16,
+      38,
+      18
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      32,
+      18,
+      34,
+      20
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      34,
+      18,
+      36,
+      20
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      36,
+      18,
+      38,
+      20
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      38,
+      18,
+      40,
+      20
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "7edd82dc-cfc2-5d6e-9b60-7c1609bc9b4c"
+  },
+  {
+   "name": "beard_braid_r_clasp",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -1.85,
+    -10.9,
+    -0.75
+   ],
+   "to": [
+    -0.3500000000000001,
+    -10.0,
+    0.75
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    24,
+    20
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      26,
+      20,
+      28,
+      22
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      28,
+      20,
+      30,
+      22
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      24,
+      22,
+      26,
+      23
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      26,
+      22,
+      28,
+      23
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      28,
+      22,
+      30,
+      23
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      30,
+      22,
+      32,
+      23
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "c71ad1d2-20dd-5d7f-8e31-938793e856c2"
+  },
+  {
+   "name": "beard_braid_r_tip",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -1.85,
+    -13.75,
+    -0.5
+   ],
+   "to": [
+    -0.3500000000000001,
+    -12.5,
+    0.5
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    50,
+    20
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      51,
+      20,
+      53,
+      21
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      53,
+      20,
+      55,
+      21
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      50,
+      21,
+      51,
+      23
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      51,
+      21,
+      53,
+      23
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      53,
+      21,
+      54,
+      23
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      54,
+      21,
+      56,
+      23
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "65ebe9b0-0f10-5b11-9b15-6eb70da0e2f4"
+  },
+  {
+   "name": "cheeks_l",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    4.0,
+    -4.25,
+    0.0
+   ],
+   "to": [
+    4.6,
+    0.5,
+    3.5
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    0,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      4,
+      0,
+      5,
+      4
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      5,
+      0,
+      6,
+      4
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      0,
+      4,
+      4,
+      9
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      4,
+      4,
+      5,
+      9
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      5,
+      4,
+      9,
+      9
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      9,
+      4,
+      10,
+      9
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "296079ba-254b-53f7-a60e-b29776052b73"
+  },
+  {
+   "name": "cheeks_r",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -4.6,
+    -4.25,
+    0.0
+   ],
+   "to": [
+    -4.0,
+    0.5,
+    3.5
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    10,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      14,
+      0,
+      15,
+      4
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      15,
+      0,
+      16,
+      4
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      10,
+      4,
+      14,
+      9
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      14,
+      4,
+      15,
+      9
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      15,
+      4,
+      19,
+      9
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      19,
+      4,
+      20,
+      9
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "c36c89a6-a332-58e1-b718-f5c24d3f92e5"
+  }
+ ],
+ "groups": [
+  {
+   "name": "beard",
+   "origin": [
+    0.0,
+    -3.5,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "color": 0,
+   "uuid": "cdda4f76-7bdf-56a6-a2b4-631ca478e72b",
+   "export": true,
+   "mirror_uv": false,
+   "isOpen": true,
+   "locked": false,
+   "visibility": true,
+   "autouv": 0,
+   "selected": false
+  },
+  {
+   "name": "cheeks",
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "color": 0,
+   "uuid": "0401b6a4-5c84-5ded-bd7a-c2f2a48ff325",
+   "export": true,
+   "mirror_uv": false,
+   "isOpen": true,
+   "locked": false,
+   "visibility": true,
+   "autouv": 0,
+   "selected": false
+  }
+ ],
+ "outliner": [
+  {
+   "uuid": "cdda4f76-7bdf-56a6-a2b4-631ca478e72b",
+   "isOpen": true,
+   "children": [
+    "8e8570fd-4dd3-5415-8816-bbde44b1304c",
+    "d52e8f11-c6ea-5054-9fa4-09a731d55ec8",
+    "0d3d2a8a-4b76-57f7-9b1e-eca9bcdc76e7",
+    "69c88787-2d12-5629-8e97-7fe35e01c7ec",
+    "9e67903a-7598-560b-8079-5c921d66be95",
+    "4cac6e04-6cdc-5e08-aa04-b6a90d41937e",
+    "ae56d3a8-3dad-529d-bd7d-83c92b38f1f5",
+    "9c99505b-4d56-58cc-88b9-843ba7a76e68",
+    "1c70e555-41be-50b2-a995-11b007a057a5",
+    "6e7dd9d1-9fef-547e-b6b1-89be773ec347",
+    "e6234485-5084-574d-aef0-68a5e506eaac",
+    "c816c22b-f8f0-5ff4-9582-186b291450e8",
+    "22deb905-04db-5a4f-9eaa-d2259b4b3394",
+    "b1f2b240-597e-5f47-b2a8-125462bc5859",
+    "aab26593-da02-544b-ac80-88d7dc712f76",
+    "8e4d052b-70c0-5b81-bfae-9a41028e27d9",
+    "7b2202ee-5c91-5c30-b525-4d13dc2e7cf2",
+    "c4f01ed1-d2fe-5ce0-b87d-5a53948d311c",
+    "7edd82dc-cfc2-5d6e-9b60-7c1609bc9b4c",
+    "c71ad1d2-20dd-5d7f-8e31-938793e856c2",
+    "65ebe9b0-0f10-5b11-9b15-6eb70da0e2f4"
+   ]
+  },
+  {
+   "uuid": "0401b6a4-5c84-5ded-bd7a-c2f2a48ff325",
+   "isOpen": true,
+   "children": [
+    "296079ba-254b-53f7-a60e-b29776052b73",
+    "c36c89a6-a332-58e1-b718-f5c24d3f92e5"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "name": "dwarf_beard_braided.png",
+   "folder": "",
+   "namespace": "",
+   "id": "0",
+   "width": 64,
+   "height": 64,
+   "uv_width": 64,
+   "uv_height": 64,
+   "particle": false,
+   "render_mode": "default",
+   "render_sides": "auto",
+   "visible": true,
+   "internal": true,
+   "saved": true,
+   "uuid": "0557a975-909e-59f9-92b2-69f9c8681f60",
+   "source": "data:image/png;base64,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"
+  },
+  {
+   "name": "dwarf_beard_braided_glow.png",
+   "folder": "",
+   "namespace": "",
+   "id": "1",
+   "width": 64,
+   "height": 64,
+   "uv_width": 64,
+   "uv_height": 64,
+   "particle": false,
+   "render_mode": "default",
+   "render_sides": "auto",
+   "visible": true,
+   "internal": true,
+   "saved": true,
+   "uuid": "b3e86366-e069-52e8-9736-87b4430f4f7a",
+   "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAJ0lEQVR4nO3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAAAAAAAAAIDODUBAAAENBzWNAAAAAElFTkSuQmCC"
+  },
+  {
+   "name": "dwarf_beard_braided_tint_mask.png",
+   "folder": "",
+   "namespace": "",
+   "id": "2",
+   "width": 64,
+   "height": 64,
+   "uv_width": 64,
+   "uv_height": 64,
+   "particle": false,
+   "render_mode": "default",
+   "render_sides": "auto",
+   "visible": true,
+   "internal": true,
+   "saved": true,
+   "uuid": "e464d2d9-5ba8-5db1-8b9e-c2f8f23383a6",
+   "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAx0lEQVR4nO3V0Q6DIAxA0bbh/3+ZZQ8mppFZGQyy3vOiAgJiCypOrbW+r6qqvq6nnW//reh4USbJmSRnkpyOys27HGUPyBIBq/SeDmWXiaxikpyeH3rT4eqv+758m9X1B5PkdHQE7L6p+kjQ3Sc8ewHK7AF2Z5KcSXK6y7EUrY+WR5kkp/92CjyNBJPk9Lh5GgkXK+3fD9e38n9U+cfvkMYkfrUAs1PwbhFK7wROu2+zyV0XPeMCAAAAAAAAAAAAAAAAAABAYl4eYoYso1gbAAAAAABJRU5ErkJggg=="
+  }
+ ]
+}

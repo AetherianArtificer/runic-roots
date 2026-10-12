@@ -1,0 +1,42 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.astral_elf.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.astral_elf.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "stars": {
+      "display_name": {
+        "translate": "gene.runic_roots.astral_elf.scales.stars"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/astral_elf_scales_stars.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "constellation": {
+      "display_name": {
+        "translate": "gene.runic_roots.astral_elf.scales.constellation"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/astral_elf_scales_constellation.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.astral_elf.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/astral_elf_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

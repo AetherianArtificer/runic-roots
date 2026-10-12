@@ -27,7 +27,8 @@
     "runic_roots:fire_drake/scales",
     "runic_roots:fire_drake/complexion",
     "runic_roots:fire_drake/eyes",
-    "runic_roots:fire_drake/eye_color"
+    "runic_roots:fire_drake/eye_color",
+    "runic_roots:fire_drake/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,

@@ -1,0 +1,43 @@
+{
+  "schema": "townstead:rig/v1",
+  "model": {
+    "type": "entity_layer",
+    "layer": "minecraft:zombie#main"
+  },
+  "texture": "runic_roots:textures/entity/zombie.png",
+  "bones": {
+    "head": "head",
+    "headwear": "hat",
+    "body": "body",
+    "right_arm": "right_arm",
+    "left_arm": "left_arm",
+    "right_leg": "right_leg",
+    "left_leg": "left_leg"
+  },
+  "armor": {
+    "type": "layers",
+    "inner": "minecraft:zombie#inner_armor",
+    "outer": "minecraft:zombie#outer_armor"
+  },
+  "hold": {
+    "mainhand": {
+      "bone": "right_arm"
+    },
+    "offhand": {
+      "bone": "left_arm"
+    }
+  },
+  "face": {
+    "bone": "head",
+    "center": [
+      0,
+      -4,
+      -4
+    ],
+    "size": [
+      8,
+      8
+    ],
+    "forward": -1
+  }
+}

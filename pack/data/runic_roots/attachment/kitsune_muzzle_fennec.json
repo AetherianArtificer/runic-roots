@@ -1,0 +1,27 @@
+{
+  "schema": "townstead:attachment/v2",
+  "geometry": "runic_roots:kitsune_muzzle_fennec",
+  "texture": "runic_roots:kitsune_muzzle_fennec",
+  "target": {
+    "tag": "snout"
+  },
+  "offset": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1.0,
+  "tint": "skin",
+  "stages": {
+    "baby": {
+      "scale": 0.6
+    },
+    "toddler": {
+      "scale": 0.7
+    },
+    "child": {
+      "scale": 0.85
+    }
+  },
+  "tint_mask": "runic_roots:kitsune_muzzle_fennec_tint_mask"
+}

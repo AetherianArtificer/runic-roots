@@ -1,0 +1,44 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.tide_elf.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.tide_elf.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "seafoam": {
+      "display_name": {
+        "translate": "gene.runic_roots.tide_elf.complexion.seafoam"
+      },
+      "weight": 4,
+      "tint": "#C4E8E0",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "pearl": {
+      "display_name": {
+        "translate": "gene.runic_roots.tide_elf.complexion.pearl"
+      },
+      "weight": 3,
+      "tint": "#ECF2F2",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "coral": {
+      "display_name": {
+        "translate": "gene.runic_roots.tide_elf.complexion.coral"
+      },
+      "weight": 2,
+      "tint": "#F0C8B8",
+      "blend": "color",
+      "strength": 0.45
+    }
+  },
+  "penetrance": 0.35,
+  "weight": 2
+}

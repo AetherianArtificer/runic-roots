@@ -1,0 +1,16 @@
+{
+  "schema": "pheno:state_effect/v1",
+  "mods": "vampirism",
+  "state": "townstead_state:vampire",
+  "min_tier": "fledgling",
+  "priority": 26,
+  "condition": {
+    "type": "pheno:rig",
+    "rig": "none"
+  },
+  "genes": {
+    "grant": [
+      "runic_roots:aspect/vampire_eyes"
+    ]
+  }
+}

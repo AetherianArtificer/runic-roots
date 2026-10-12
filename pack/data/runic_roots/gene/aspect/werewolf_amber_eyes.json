@@ -1,0 +1,22 @@
+{
+  "schema": "townstead:gene/v2",
+  "mods": "werewolves",
+  "display_name": {
+    "translate": "gene.runic_roots.aspect.werewolf_amber_eyes"
+  },
+  "description": {
+    "translate": "gene.runic_roots.aspect.werewolf_amber_eyes.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "type": "townstead_roots:eye_color",
+  "variants": {
+    "werewolf_amber": {
+      "tint": "#D1A75D",
+      "weight": 1,
+      "display_name": {
+        "translate": "gene.runic_roots.aspect.werewolf_amber_eyes"
+      }
+    }
+  }
+}

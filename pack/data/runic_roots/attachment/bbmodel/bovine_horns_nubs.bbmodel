@@ -1,0 +1,280 @@
+{
+ "meta": {
+  "format_version": "5.0",
+  "model_format": "free",
+  "box_uv": true
+ },
+ "name": "bovine_horns_nubs",
+ "model_identifier": "bovine_horns_nubs",
+ "visible_box": [
+  1,
+  1,
+  0
+ ],
+ "resolution": {
+  "width": 32,
+  "height": 32
+ },
+ "elements": [
+  {
+   "name": "horn_l0",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    4.0,
+    -2.0,
+    -1.0
+   ],
+   "to": [
+    5.0,
+    1.5,
+    0.0
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    0,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      1,
+      0,
+      2,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      2,
+      0,
+      3,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      0,
+      1,
+      1,
+      5
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      1,
+      1,
+      2,
+      5
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      2,
+      1,
+      3,
+      5
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      3,
+      1,
+      4,
+      5
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "ae8ab0f5-5435-5463-9f34-294d7ea0ccc2"
+  },
+  {
+   "name": "horn_r0",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -5.0,
+    -2.0,
+    -1.0
+   ],
+   "to": [
+    -4.0,
+    1.5,
+    0.0
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": true,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    4,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      5,
+      0,
+      6,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      6,
+      0,
+      7,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      4,
+      1,
+      5,
+      5
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      5,
+      1,
+      6,
+      5
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      6,
+      1,
+      7,
+      5
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      7,
+      1,
+      8,
+      5
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "d08bf5fe-6e3f-57aa-9a41-670dc153ce3d"
+  }
+ ],
+ "groups": [
+  {
+   "name": "horn_l",
+   "origin": [
+    4.5,
+    -2.0,
+    -0.5
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "color": 0,
+   "uuid": "007d903c-a6d3-52bd-b0fc-f208cabf6749",
+   "export": true,
+   "mirror_uv": false,
+   "isOpen": true,
+   "locked": false,
+   "visibility": true,
+   "autouv": 0,
+   "selected": false
+  },
+  {
+   "name": "horn_r",
+   "origin": [
+    -4.5,
+    -2.0,
+    -0.5
+   ],
+   "rotation": [
+    0.0,
+    -0.0,
+    -0.0
+   ],
+   "color": 0,
+   "uuid": "fe03329a-0a29-52e4-853f-d2376412fbd3",
+   "export": true,
+   "mirror_uv": false,
+   "isOpen": true,
+   "locked": false,
+   "visibility": true,
+   "autouv": 0,
+   "selected": false
+  }
+ ],
+ "outliner": [
+  {
+   "uuid": "007d903c-a6d3-52bd-b0fc-f208cabf6749",
+   "isOpen": true,
+   "children": [
+    "ae8ab0f5-5435-5463-9f34-294d7ea0ccc2"
+   ]
+  },
+  {
+   "uuid": "fe03329a-0a29-52e4-853f-d2376412fbd3",
+   "isOpen": true,
+   "children": [
+    "d08bf5fe-6e3f-57aa-9a41-670dc153ce3d"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "name": "bovine_horns_nubs.png",
+   "folder": "",
+   "namespace": "",
+   "id": "0",
+   "width": 32,
+   "height": 32,
+   "uv_width": 32,
+   "uv_height": 32,
+   "particle": false,
+   "render_mode": "default",
+   "render_sides": "auto",
+   "visible": true,
+   "internal": true,
+   "saved": true,
+   "uuid": "be407436-e25a-5577-9c82-7b8030b08b1c",
+   "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAoUlEQVR4nO3PQQqFIBSF4VNIUI2E5kFralVB22hROjBoVI2aaGDkw96jHcibnA9ErpP7CwBQSoVxHAN+jDFhGIZ3Timbpim0bYt5nlHXNbz36LoOWmsIIdD3fZYyQOz7jqIoEO/jOHCeJ67reub7vlPu/gZIKRGPc+5ZXFUVmqaBtRZlWaYPWJbl+em6ru9jDNm2DXmeJw8gIiIiIiIi/NsHLTBFJMP0+BYAAAAASUVORK5CYII="
+  }
+ ]
+}

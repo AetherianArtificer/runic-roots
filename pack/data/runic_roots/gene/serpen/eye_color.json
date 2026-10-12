@@ -1,0 +1,42 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:eye_color",
+  "display_name": {
+    "translate": "gene.runic_roots.serpen.eye_color"
+  },
+  "description": {
+    "translate": "gene.runic_roots.serpen.eye_color.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "gold": {
+      "display_name": {
+        "translate": "gene.runic_roots.serpen.eye_color.gold"
+      },
+      "weight": 4,
+      "tint": "#E8B040"
+    },
+    "yellow": {
+      "display_name": {
+        "translate": "gene.runic_roots.serpen.eye_color.yellow"
+      },
+      "weight": 3,
+      "tint": "#F2D84A"
+    },
+    "green": {
+      "display_name": {
+        "translate": "gene.runic_roots.serpen.eye_color.green"
+      },
+      "weight": 2,
+      "tint": "#8AD040"
+    },
+    "red": {
+      "display_name": {
+        "translate": "gene.runic_roots.serpen.eye_color.red"
+      },
+      "weight": 1,
+      "tint": "#D84A3A"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.zephyr.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.zephyr.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "pale_green": {
+      "display_name": {
+        "translate": "gene.runic_roots.zephyr.iris.pale_green"
+      },
+      "weight": 4,
+      "tint": "#90D0A0",
+      "editable": true
+    },
+    "silver": {
+      "display_name": {
+        "translate": "gene.runic_roots.zephyr.iris.silver"
+      },
+      "weight": 3,
+      "tint": "#C8D0D0",
+      "editable": true
+    },
+    "sky": {
+      "display_name": {
+        "translate": "gene.runic_roots.zephyr.iris.sky"
+      },
+      "weight": 2,
+      "tint": "#90C8F0",
+      "editable": true
+    }
+  },
+  "penetrance": 0.9
+}

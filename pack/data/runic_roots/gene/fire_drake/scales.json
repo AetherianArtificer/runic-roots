@@ -27,5 +27,6 @@
       "texture": "runic_roots:textures/skin/fire_drake_scales_streaked.png",
       "tint": "#A3261A"
     }
-  }
+  },
+  "penetrance": 0.4
 }

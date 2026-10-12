@@ -20,7 +20,15 @@
     "runic_roots:forge_one/ironhand_smith",
     "runic_roots:forge_one/stone_heavy",
     "runic_roots:forge_one/stature",
-    "runic_roots:forge_one/ambience"
+    "runic_roots:forge_one/ambience",
+    "runic_roots:forge_one/beard",
+    "runic_roots:forge_one/braids",
+    "runic_roots:forge_one/nose",
+    "runic_roots:forge_one/brows",
+    "runic_roots:forge_one/scales",
+    "runic_roots:forge_one/build",
+    "runic_roots:forge_one/iris",
+    "runic_roots:forge_one/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -31,17 +39,54 @@
       "#minecraft:is_mountain": 3
     }
   },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#7A2A0A",
+        "to": "#E07A2A",
+        "weight": 4,
+        "space": "hsv"
+      },
+      {
+        "from": "#4A1A0A",
+        "to": "#A0441A",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#141210",
+        "to": "#3A3430",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
+  },
   "overrides": [
     {
       "requires": {
         "namespace": "townstead_classic"
       },
       "ancestry": "townstead_classic:dwarf",
+      "ancestry_genes": false,
       "genes": [
+        "townstead_roots:omnivore",
+        "townstead_roots:water_drinker",
+        "townstead_roots:human_thermal",
+        "townstead_roots:human_chronotype",
+        "runic_roots:family/dwarven_life_cycle",
         "runic_roots:forge_one/forge_blessing",
         "runic_roots:forge_one/ironhand_smith",
         "runic_roots:forge_one/stone_heavy",
-        "runic_roots:forge_one/ambience"
+        "runic_roots:forge_one/stature",
+        "runic_roots:forge_one/ambience",
+        "runic_roots:forge_one/beard",
+        "runic_roots:forge_one/braids",
+        "runic_roots:forge_one/nose",
+        "runic_roots:forge_one/brows",
+        "runic_roots:forge_one/scales",
+        "runic_roots:forge_one/build",
+        "runic_roots:forge_one/iris",
+        "runic_roots:forge_one/thermal"
       ]
     }
   ]

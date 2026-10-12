@@ -1,0 +1,17 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:thermal_tolerance",
+  "display_name": {
+    "translate": "gene.runic_roots.colossan.thermal"
+  },
+  "description": {
+    "translate": "gene.runic_roots.colossan.thermal.desc"
+  },
+  "category": "Climate",
+  "dominance": "dominant",
+  "locus": "pheno:thermal_tolerance",
+  "neutral": 37.0,
+  "band": 0.6,
+  "cold": 0.7,
+  "heat": 1.1
+}

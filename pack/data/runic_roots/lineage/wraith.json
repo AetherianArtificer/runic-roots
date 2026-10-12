@@ -3,7 +3,7 @@
   "display_name": {
     "translate": "lineage.runic_roots.wraith"
   },
-  "ancestry": "runic_roots:revenant",
+  "ancestry": "runic_roots:wraiths",
   "demonym": {
     "singular": {
       "translate": "lineage.runic_roots.wraith.demonym.singular"
@@ -21,7 +21,9 @@
     "runic_roots:wraith/half_bound",
     "runic_roots:wraith/stature",
     "runic_roots:wraith/ambience",
+    "runic_roots:wraith/tail",
     "runic_roots:wraith/complexion",
+    "runic_roots:wraith/thermal",
     "runic_roots:wraith/translucence"
   ],
   "spawn_bias": {

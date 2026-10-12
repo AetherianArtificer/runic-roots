@@ -10,7 +10,33 @@
   "category": "Appearance",
   "dominance": "dominant",
   "locus": "townstead_roots:skin",
-  "tint": "#8A8A98",
-  "blend": "color",
-  "strength": 0.5
+  "variants": {
+    "grave": {
+      "display_name": {
+        "translate": "gene.runic_roots.reaper.complexion.grave"
+      },
+      "weight": 4,
+      "tint": "#5A5A64",
+      "blend": "color",
+      "strength": 0.7
+    },
+    "ash": {
+      "display_name": {
+        "translate": "gene.runic_roots.reaper.complexion.ash"
+      },
+      "weight": 3,
+      "tint": "#7A7A82",
+      "blend": "color",
+      "strength": 0.7
+    },
+    "black": {
+      "display_name": {
+        "translate": "gene.runic_roots.reaper.complexion.black"
+      },
+      "weight": 2,
+      "tint": "#303036",
+      "blend": "color",
+      "strength": 0.7
+    }
+  }
 }

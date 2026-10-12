@@ -9,5 +9,6 @@
   },
   "category": "Reproduction",
   "dominance": "dominant",
-  "litter_size": 2
+  "litter_size": 2,
+  "penetrance": 0.0
 }

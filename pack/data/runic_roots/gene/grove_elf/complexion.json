@@ -1,0 +1,53 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.grove_elf.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.grove_elf.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "natural": {
+      "display_name": {
+        "translate": "gene.runic_roots.grove_elf.complexion.natural"
+      },
+      "weight": 2,
+      "tint": "#FFFFFF",
+      "blend": "multiply",
+      "strength": 0.0
+    },
+    "fawn": {
+      "display_name": {
+        "translate": "gene.runic_roots.grove_elf.complexion.fawn"
+      },
+      "weight": 4,
+      "tint": "#D8B490",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "bark": {
+      "display_name": {
+        "translate": "gene.runic_roots.grove_elf.complexion.bark"
+      },
+      "weight": 3,
+      "tint": "#8A6A4A",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "moss": {
+      "display_name": {
+        "translate": "gene.runic_roots.grove_elf.complexion.moss"
+      },
+      "weight": 2,
+      "tint": "#A8B88A",
+      "blend": "color",
+      "strength": 0.45
+    }
+  },
+  "penetrance": 0.35,
+  "weight": 2
+}

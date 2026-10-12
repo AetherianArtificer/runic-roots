@@ -21,7 +21,15 @@
     "runic_roots:avian/hollow_bones",
     "runic_roots:avian/stature",
     "runic_roots:avian/wings",
-    "runic_roots:avian/ambience"
+    "runic_roots:avian/ambience",
+    "runic_roots:avian/horns",
+    "runic_roots:avian/tail",
+    "runic_roots:avian/beak",
+    "runic_roots:avian/scales",
+    "runic_roots:avian/complexion",
+    "runic_roots:avian/eyes",
+    "runic_roots:avian/eye_color",
+    "runic_roots:avian/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -29,5 +37,33 @@
       "minecraft:windswept_hills": 4,
       "minecraft:meadow": 3
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#5A3E22",
+        "to": "#B8864A",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#D8D2C4",
+        "to": "#FFFFFF",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#4A4A50",
+        "to": "#9A9AA0",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#101014",
+        "to": "#3A3A48",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
   }
 }

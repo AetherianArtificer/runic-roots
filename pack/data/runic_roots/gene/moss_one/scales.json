@@ -1,0 +1,40 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.moss_one.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.moss_one.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "moss": {
+      "display_name": {
+        "translate": "gene.runic_roots.moss_one.scales.moss"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/moss_one_scales_moss.png",
+      "tint": "#FFFFFF"
+    },
+    "lichen": {
+      "display_name": {
+        "translate": "gene.runic_roots.moss_one.scales.lichen"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/moss_one_scales_lichen.png",
+      "tint": "#FFFFFF"
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.moss_one.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/moss_one_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

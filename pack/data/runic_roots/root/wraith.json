@@ -3,7 +3,7 @@
   "display_name": {
     "translate": "lineage.runic_roots.wraith"
   },
-  "ancestry": "runic_roots:revenant",
+  "ancestry": "runic_roots:wraiths",
   "lineage": "runic_roots:wraith",
   "icon": "runic_roots:textures/root/wraith.png"
 }

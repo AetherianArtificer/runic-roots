@@ -21,7 +21,13 @@
     "runic_roots:faerie/cold_iron",
     "runic_roots:faerie/stature",
     "runic_roots:faerie/wings",
-    "runic_roots:faerie/ambience"
+    "runic_roots:faerie/ambience",
+    "runic_roots:faerie/ears",
+    "runic_roots:faerie/scales",
+    "runic_roots:faerie/complexion",
+    "runic_roots:faerie/build",
+    "runic_roots:faerie/iris",
+    "runic_roots:faerie/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -29,5 +35,27 @@
       "minecraft:flower_forest": 4,
       "minecraft:dark_forest": 2
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#E8E4E0",
+        "to": "#FFFFFF",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#E8B0C8",
+        "to": "#FCE0EC",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#C8D8A0",
+        "to": "#F0F8D8",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
   }
 }

@@ -20,7 +20,13 @@
     "runic_roots:tide_elf/amphibious_grace",
     "runic_roots:tide_elf/drying_gills",
     "runic_roots:tide_elf/stature",
-    "runic_roots:tide_elf/ambience"
+    "runic_roots:tide_elf/ambience",
+    "runic_roots:tide_elf/ears",
+    "runic_roots:tide_elf/scales",
+    "runic_roots:tide_elf/complexion",
+    "runic_roots:tide_elf/build",
+    "runic_roots:tide_elf/iris",
+    "runic_roots:tide_elf/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -29,17 +35,52 @@
       "#minecraft:is_beach": 4
     }
   },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#7AC8E0",
+        "to": "#D8F4FF",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#E06A5A",
+        "to": "#F8B8A8",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#2A6A7A",
+        "to": "#7AC0C8",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
+  },
   "overrides": [
     {
       "requires": {
         "namespace": "townstead_classic"
       },
       "ancestry": "townstead_classic:elf",
+      "ancestry_genes": false,
       "genes": [
+        "townstead_roots:omnivore",
+        "townstead_roots:water_drinker",
+        "townstead_roots:human_thermal",
+        "townstead_roots:human_chronotype",
+        "runic_roots:family/elven_life_cycle",
         "runic_roots:tide_elf/currentstep",
         "runic_roots:tide_elf/amphibious_grace",
         "runic_roots:tide_elf/drying_gills",
-        "runic_roots:tide_elf/ambience"
+        "runic_roots:tide_elf/stature",
+        "runic_roots:tide_elf/ambience",
+        "runic_roots:tide_elf/ears",
+        "runic_roots:tide_elf/scales",
+        "runic_roots:tide_elf/complexion",
+        "runic_roots:tide_elf/build",
+        "runic_roots:tide_elf/iris",
+        "runic_roots:tide_elf/thermal"
       ]
     }
   ]

@@ -20,7 +20,16 @@
     "runic_roots:kitsune/spirit_of_the_fox",
     "runic_roots:kitsune/untamed_spirit",
     "runic_roots:kitsune/stature",
-    "runic_roots:kitsune/ambience"
+    "runic_roots:kitsune/ambience",
+    "runic_roots:kitsune/ears",
+    "runic_roots:kitsune/whiskers",
+    "runic_roots:kitsune/tail",
+    "runic_roots:kitsune/muzzle",
+    "runic_roots:kitsune/scales",
+    "runic_roots:kitsune/complexion",
+    "runic_roots:kitsune/eyes",
+    "runic_roots:kitsune/eye_color",
+    "runic_roots:kitsune/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -30,5 +39,36 @@
     "biome_tags": {
       "#minecraft:is_taiga": 2
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "stops": [
+          "#A8401A",
+          "#E8782A",
+          "#F6EEE4"
+        ],
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#3A3A40",
+        "to": "#D8DCE2",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#E8E4DC",
+        "to": "#FFFFFF",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#141212",
+        "to": "#3A3230",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
   }
 }

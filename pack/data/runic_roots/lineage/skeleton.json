@@ -3,7 +3,7 @@
   "display_name": {
     "translate": "lineage.runic_roots.skeleton"
   },
-  "ancestry": "runic_roots:revenant",
+  "ancestry": "runic_roots:skeletons",
   "demonym": {
     "singular": {
       "translate": "lineage.runic_roots.skeleton.demonym.singular"
@@ -20,7 +20,8 @@
     "runic_roots:skeleton/marrow_deep_aim",
     "runic_roots:skeleton/brittle_bones",
     "runic_roots:skeleton/stature",
-    "runic_roots:skeleton/complexion"
+    "runic_roots:skeleton/grave",
+    "runic_roots:skeleton/thermal"
   ],
   "spawn_bias": {
     "default": 0.25
@@ -35,7 +36,9 @@
         "runic_roots:skeleton/conscript_the_dead",
         "runic_roots:skeleton/marrow_deep_aim",
         "runic_roots:skeleton/brittle_bones",
-        "runic_roots:skeleton/stature"
+        "runic_roots:skeleton/stature",
+        "runic_roots:skeleton/grave",
+        "runic_roots:skeleton/thermal"
       ]
     }
   ]

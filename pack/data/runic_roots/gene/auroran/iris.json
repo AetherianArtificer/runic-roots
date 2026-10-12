@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.auroran.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.auroran.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "rose": {
+      "display_name": {
+        "translate": "gene.runic_roots.auroran.iris.rose"
+      },
+      "weight": 3,
+      "tint": "#D880A0",
+      "editable": true
+    },
+    "lilac": {
+      "display_name": {
+        "translate": "gene.runic_roots.auroran.iris.lilac"
+      },
+      "weight": 3,
+      "tint": "#A890E0",
+      "editable": true
+    },
+    "dawn_gold": {
+      "display_name": {
+        "translate": "gene.runic_roots.auroran.iris.dawn_gold"
+      },
+      "weight": 2,
+      "tint": "#E8B060",
+      "editable": true
+    }
+  },
+  "penetrance": 0.9
+}

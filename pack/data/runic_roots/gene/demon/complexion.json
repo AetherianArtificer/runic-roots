@@ -10,7 +10,62 @@
   "category": "Appearance",
   "dominance": "dominant",
   "locus": "townstead_roots:skin",
-  "tint": "#B5483A",
-  "blend": "color",
-  "strength": 0.55
+  "variants": {
+    "natural": {
+      "display_name": {
+        "translate": "gene.runic_roots.demon.complexion.natural"
+      },
+      "weight": 1,
+      "tint": "#FFFFFF",
+      "blend": "multiply",
+      "strength": 0.0
+    },
+    "crimson": {
+      "display_name": {
+        "translate": "gene.runic_roots.demon.complexion.crimson"
+      },
+      "weight": 4,
+      "tint": "#C0403A",
+      "blend": "color",
+      "strength": 0.6
+    },
+    "ember": {
+      "display_name": {
+        "translate": "gene.runic_roots.demon.complexion.ember"
+      },
+      "weight": 3,
+      "tint": "#D8683A",
+      "blend": "color",
+      "strength": 0.6
+    },
+    "ash": {
+      "display_name": {
+        "translate": "gene.runic_roots.demon.complexion.ash"
+      },
+      "weight": 2,
+      "tint": "#6E686C",
+      "blend": "color",
+      "strength": 0.6
+    },
+    "obsidian": {
+      "display_name": {
+        "translate": "gene.runic_roots.demon.complexion.obsidian"
+      },
+      "weight": 2,
+      "tint": "#34303A",
+      "blend": "color",
+      "strength": 0.6
+    },
+    "violet": {
+      "display_name": {
+        "translate": "gene.runic_roots.demon.complexion.violet"
+      },
+      "weight": 2,
+      "tint": "#7A4A8A",
+      "blend": "color",
+      "strength": 0.6
+    }
+  },
+  "penetrance": 0.35,
+  "weight": 2
 }

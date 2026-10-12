@@ -77,19 +77,29 @@
       "key": "jump"
     },
     "part_2": {
+      "type": "pheno:trigger",
+      "trigger": "ai",
+      "target": "self",
+      "action": {
+        "type": "pheno:keypress",
+        "key": "jump"
+      },
+      "ai_trigger": "when_flying"
+    },
+    "part_3": {
       "type": "pheno:attack_modifier",
       "modifier": 1.15,
       "damage_condition": {
         "type": "pheno:magic"
       }
     },
-    "part_3": {
+    "part_4": {
       "type": "pheno:attribute",
       "attribute": "minecraft:generic.movement_speed",
       "amount": 0.15,
       "operation": "multiply_total"
     },
-    "part_4": {
+    "part_5": {
       "type": "pheno:ability",
       "ability": "night_vision",
       "mode": "passive"

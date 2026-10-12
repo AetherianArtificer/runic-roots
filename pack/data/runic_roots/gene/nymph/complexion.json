@@ -1,0 +1,44 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.nymph.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.nymph.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "spring": {
+      "display_name": {
+        "translate": "gene.runic_roots.nymph.complexion.spring"
+      },
+      "weight": 4,
+      "tint": "#E0F0EC",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "pale": {
+      "display_name": {
+        "translate": "gene.runic_roots.nymph.complexion.pale"
+      },
+      "weight": 3,
+      "tint": "#F0E8E0",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "aqua": {
+      "display_name": {
+        "translate": "gene.runic_roots.nymph.complexion.aqua"
+      },
+      "weight": 2,
+      "tint": "#C0E4E0",
+      "blend": "color",
+      "strength": 0.45
+    }
+  },
+  "penetrance": 0.35,
+  "weight": 2
+}

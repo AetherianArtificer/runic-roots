@@ -1,0 +1,53 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:proportions",
+  "display_name": {
+    "translate": "gene.runic_roots.tide_elf.build"
+  },
+  "description": {
+    "translate": "gene.runic_roots.tide_elf.build.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "width": {
+    "min": 0.45,
+    "max": 0.6
+  },
+  "head": 0.96,
+  "arms": {
+    "lean": [
+      0.9,
+      1.0,
+      0.9
+    ],
+    "stout": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "legs": {
+    "lean": [
+      0.9,
+      1.0,
+      0.9
+    ],
+    "stout": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "body": {
+    "lean": [
+      0.94,
+      1.0,
+      0.8999999999999999
+    ],
+    "stout": [
+      1.02,
+      1.0,
+      0.98
+    ]
+  }
+}

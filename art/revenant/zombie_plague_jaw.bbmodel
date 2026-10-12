@@ -1,0 +1,720 @@
+{
+ "meta": {
+  "format_version": "5.0",
+  "model_format": "free",
+  "box_uv": true
+ },
+ "name": "zombie_plague_jaw",
+ "model_identifier": "zombie_plague_jaw",
+ "visible_box": [
+  1,
+  1,
+  0
+ ],
+ "resolution": {
+  "width": 64,
+  "height": 64
+ },
+ "elements": [
+  {
+   "name": "jaw_under",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -3.5,
+    -4.5,
+    0.5
+   ],
+   "to": [
+    3.5,
+    -3.9,
+    4.0
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    12,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      16,
+      0,
+      23,
+      4
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      23,
+      0,
+      30,
+      4
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      12,
+      4,
+      16,
+      5
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      16,
+      4,
+      23,
+      5
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      23,
+      4,
+      27,
+      5
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      27,
+      4,
+      34,
+      5
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "1bfa896a-7b79-56cd-a5d0-6f4f0aa20bab"
+  },
+  {
+   "name": "jaw_l",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    4.0,
+    -4.5,
+    2.5
+   ],
+   "to": [
+    4.5,
+    4.3,
+    4.5
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    0,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      2,
+      0,
+      3,
+      2
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      3,
+      0,
+      4,
+      2
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      0,
+      2,
+      2,
+      11
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      2,
+      2,
+      3,
+      11
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      3,
+      2,
+      5,
+      11
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      5,
+      2,
+      6,
+      11
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "9c58374c-38be-5b60-aabf-0cf370cd3e3c"
+  },
+  {
+   "name": "jaw_r",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -4.5,
+    -4.5,
+    2.5
+   ],
+   "to": [
+    -4.0,
+    4.3,
+    4.5
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    6,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      8,
+      0,
+      9,
+      2
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      9,
+      0,
+      10,
+      2
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      6,
+      2,
+      8,
+      11
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      8,
+      2,
+      9,
+      11
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      9,
+      2,
+      11,
+      11
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      11,
+      2,
+      12,
+      11
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "d611a60f-4599-5bd7-a9b2-1d8096eea03b"
+  },
+  {
+   "name": "jaw_top",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -4.5,
+    4.0,
+    2.5
+   ],
+   "to": [
+    4.5,
+    4.5,
+    4.5
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    0,
+    11
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      2,
+      11,
+      11,
+      13
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      11,
+      11,
+      20,
+      13
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      0,
+      13,
+      2,
+      14
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      2,
+      13,
+      11,
+      14
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      11,
+      13,
+      13,
+      14
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      13,
+      13,
+      22,
+      14
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "51a48836-d9a2-5e29-9621-a633ca623e16"
+  },
+  {
+   "name": "jaw_knot",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -1.25,
+    4.4,
+    2.75
+   ],
+   "to": [
+    1.25,
+    5.6,
+    4.25
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    34,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      36,
+      0,
+      39,
+      2
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      39,
+      0,
+      42,
+      2
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      34,
+      2,
+      36,
+      4
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      36,
+      2,
+      39,
+      4
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      39,
+      2,
+      41,
+      4
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      41,
+      2,
+      44,
+      4
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "d07f58df-56d3-54c6-aa00-8bd11919670b"
+  },
+  {
+   "name": "jaw_end_l",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    0.5,
+    5.0,
+    3.0
+   ],
+   "to": [
+    2.25,
+    5.5,
+    4.0
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    22,
+    11
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      23,
+      11,
+      25,
+      12
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      25,
+      11,
+      27,
+      12
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      22,
+      12,
+      23,
+      13
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      23,
+      12,
+      25,
+      13
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      25,
+      12,
+      26,
+      13
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      26,
+      12,
+      28,
+      13
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "c23d49e3-6829-5faa-a796-0e720531bb0c"
+  },
+  {
+   "name": "jaw_end_r",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -2.25,
+    5.0,
+    3.0
+   ],
+   "to": [
+    -0.5,
+    5.5,
+    4.0
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    28,
+    11
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      29,
+      11,
+      31,
+      12
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      31,
+      11,
+      33,
+      12
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      28,
+      12,
+      29,
+      13
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      29,
+      12,
+      31,
+      13
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      31,
+      12,
+      32,
+      13
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      32,
+      12,
+      34,
+      13
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "a02de0f5-c824-5217-88df-b2f5224e83dc"
+  }
+ ],
+ "groups": [
+  {
+   "name": "jaw",
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "color": 0,
+   "uuid": "c87bacc5-b02b-5387-814b-37c7be776a7a",
+   "export": true,
+   "mirror_uv": false,
+   "isOpen": true,
+   "locked": false,
+   "visibility": true,
+   "autouv": 0,
+   "selected": false
+  }
+ ],
+ "outliner": [
+  {
+   "uuid": "c87bacc5-b02b-5387-814b-37c7be776a7a",
+   "isOpen": true,
+   "children": [
+    "1bfa896a-7b79-56cd-a5d0-6f4f0aa20bab",
+    "9c58374c-38be-5b60-aabf-0cf370cd3e3c",
+    "d611a60f-4599-5bd7-a9b2-1d8096eea03b",
+    "51a48836-d9a2-5e29-9621-a633ca623e16",
+    "d07f58df-56d3-54c6-aa00-8bd11919670b",
+    "c23d49e3-6829-5faa-a796-0e720531bb0c",
+    "a02de0f5-c824-5217-88df-b2f5224e83dc"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "name": "zombie_plague_jaw.png",
+   "folder": "",
+   "namespace": "",
+   "id": "0",
+   "width": 64,
+   "height": 64,
+   "uv_width": 64,
+   "uv_height": 64,
+   "particle": false,
+   "render_mode": "default",
+   "render_sides": "auto",
+   "visible": true,
+   "internal": true,
+   "saved": true,
+   "uuid": "d0eaa5d7-3fe7-5dc9-bc25-1f0ef4a862f2",
+   "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAEQUlEQVR4nO2X22tcVRTGv3PmPpO532dOZzKJ2hb9owRBQX0QH5Qo1qYltYqFiCbGKo2tFRNo36QPPgj6oqgoWtC2Jm0zSZq5ZSZzv58ja2GKiW0ftDEY1g8O7Nlns2evvW7fUfAnn52bMr79/ireeX9BwV+4dOG08eXXP2D2o0s75rdZnD9lJOJhtDtd9Hp91OpNjI9q0A0DFxevIOD3wGI2Q9d1lCs1uN1OOJ0OvHpi9p77XfzwpJHSorDZrPj4088RjwXRbHbw5vT5e67/t6jbA7/XDYfd9rcFyXgEPq/7vhtk0gn0+wMMhzrK5RrSWgyNZguDwQCRkB+KoqA/GGA9V0I45IdhAKDnPvg8I7xXqbSFZDyMZrMNVd0T2xllcuJpYzyjodfvI5ffhJaM4sbSCtxuF3weN4bDIaq1BnsyX6zg2NTcjtN8deWsYbWa8ftSFslEBFarhY1eu1PAjz9fg9vlxPpGEfFoEN1enz1b2tzCux8s7thn+vSLRsDvRbFUwWPjKSiqgp9+uY5MKoHV9TyCAS9MJhOeev7kQ70N81hGQ6vdueuddruLTDoJu92KeqOFUMgPs9kEr2eED78bm9WC5dtrOHI4g06ny2uXb63B7/XAajGjUKrA73NjqOtwOR24kyuCDN1NNBxAs9XB0cMZ1OtN/r9w0M/BEo0E0Gp1YbY8IHT+IconZ08YJlWFy+Vgz5AHq9U6gkEfqtUGErEQ2t0eKls1OO02DmUtEQHdFuW9qqrwuF0wmVT2cKFYwSNjGs//eu0WtEQYrXYXdpsVN5azOJSM8jqH3coRR/XD0A08+ezk3sX5AzCTl26urOPxI+Oct3QJVAso9/LFMmLRIAxd5zSgEJw4/t6+HHSvUFdWN5CIhZFd3UCpXMVoOoFmq80GUxEqV6q4nd1AWoujUCjjoGEOhwLcvqKRICwWM4c25R+FsHvEyTlNnjcMA5GwHwcN1Waz8ICNh8L5SkbTb4oCupzBYEivoOsPvwjtNyr18MpWnYsfFbJ8YZOLGxXFXKEMh8PO80s3V/liDhoqVWLq8dnVHCs1LRnhVri2nsfYaJIrdb5QRkqL8dxBQ9keLMyfMqjoUSSQEvvt+i08cXQMtUYL3W6Pu8M3313lwjgYDmE2mbg1BgJevjCSulvVBubOXb675/zsMRZZC5e/wMiIE29NX+B35+eOG4+Op3g+HPThtV3i6r9E3R6QEKKcJ+VBqi6dirPxpBGoK1DvD4d8rNCoLuQKm6wWqT6QwOl0e6zWtnnj9ecMSi0SU/FYiL8HZt5+yTgz9YJBgokEUfpQjDXBzJmX9624KJOvPGOQCiM5S4ZQntvtNg59j8fFB6eHtEKj2WYjV7IbGE3FWaVRJNBa6hB0CaQMKVomJmcOlF4QBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQBEEQ8D/hDxWd1q6K8Gu6AAAAAElFTkSuQmCC"
+  },
+  {
+   "name": "zombie_plague_jaw_glow.png",
+   "folder": "",
+   "namespace": "",
+   "id": "1",
+   "width": 64,
+   "height": 64,
+   "uv_width": 64,
+   "uv_height": 64,
+   "particle": false,
+   "render_mode": "default",
+   "render_sides": "auto",
+   "visible": true,
+   "internal": true,
+   "saved": true,
+   "uuid": "48df68c7-233a-50f3-9a24-fd5609df8dec",
+   "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAJ0lEQVR4nO3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAAAAAAAAAIDODUBAAAENBzWNAAAAAElFTkSuQmCC"
+  }
+ ]
+}

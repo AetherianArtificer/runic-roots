@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.ice_elf.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.ice_elf.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "ice": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_elf.iris.ice"
+      },
+      "weight": 4,
+      "tint": "#90D0F8",
+      "editable": true
+    },
+    "violet": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_elf.iris.violet"
+      },
+      "weight": 2,
+      "tint": "#A090E8",
+      "editable": true
+    },
+    "pale": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_elf.iris.pale"
+      },
+      "weight": 2,
+      "tint": "#E0F0FF",
+      "editable": true
+    }
+  },
+  "penetrance": 0.9
+}

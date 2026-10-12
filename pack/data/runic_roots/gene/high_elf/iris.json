@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.high_elf.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.high_elf.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "sapphire": {
+      "display_name": {
+        "translate": "gene.runic_roots.high_elf.iris.sapphire"
+      },
+      "weight": 4,
+      "tint": "#3A70D8",
+      "editable": true
+    },
+    "gold": {
+      "display_name": {
+        "translate": "gene.runic_roots.high_elf.iris.gold"
+      },
+      "weight": 2,
+      "tint": "#E0B040",
+      "editable": true
+    },
+    "ice": {
+      "display_name": {
+        "translate": "gene.runic_roots.high_elf.iris.ice"
+      },
+      "weight": 2,
+      "tint": "#A0D0F0",
+      "editable": true
+    }
+  },
+  "penetrance": 0.9
+}

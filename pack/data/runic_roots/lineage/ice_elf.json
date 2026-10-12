@@ -20,7 +20,13 @@
     "runic_roots:ice_elf/winters_child",
     "runic_roots:ice_elf/cold_blooded",
     "runic_roots:ice_elf/stature",
-    "runic_roots:ice_elf/ambience"
+    "runic_roots:ice_elf/ambience",
+    "runic_roots:ice_elf/ears",
+    "runic_roots:ice_elf/scales",
+    "runic_roots:ice_elf/complexion",
+    "runic_roots:ice_elf/build",
+    "runic_roots:ice_elf/iris",
+    "runic_roots:ice_elf/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -29,17 +35,52 @@
       "#c:is_cold": 4
     }
   },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#B8D8F0",
+        "to": "#FFFFFF",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#6A5AB0",
+        "to": "#C8B8F0",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#E8F0F8",
+        "to": "#FFFFFF",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
+  },
   "overrides": [
     {
       "requires": {
         "namespace": "townstead_classic"
       },
       "ancestry": "townstead_classic:elf",
+      "ancestry_genes": false,
       "genes": [
+        "townstead_roots:omnivore",
+        "townstead_roots:water_drinker",
+        "townstead_roots:human_thermal",
+        "townstead_roots:human_chronotype",
+        "runic_roots:family/elven_life_cycle",
         "runic_roots:ice_elf/frostbind",
         "runic_roots:ice_elf/winters_child",
         "runic_roots:ice_elf/cold_blooded",
-        "runic_roots:ice_elf/ambience"
+        "runic_roots:ice_elf/stature",
+        "runic_roots:ice_elf/ambience",
+        "runic_roots:ice_elf/ears",
+        "runic_roots:ice_elf/scales",
+        "runic_roots:ice_elf/complexion",
+        "runic_roots:ice_elf/build",
+        "runic_roots:ice_elf/iris",
+        "runic_roots:ice_elf/thermal"
       ]
     }
   ]

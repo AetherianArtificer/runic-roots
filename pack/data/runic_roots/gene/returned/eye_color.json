@@ -1,0 +1,35 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:eye_color",
+  "display_name": {
+    "translate": "gene.runic_roots.returned.eye_color"
+  },
+  "description": {
+    "translate": "gene.runic_roots.returned.eye_color.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "starlight": {
+      "display_name": {
+        "translate": "gene.runic_roots.returned.eye_color.starlight"
+      },
+      "weight": 4,
+      "tint": "#E8F0FF"
+    },
+    "blue": {
+      "display_name": {
+        "translate": "gene.runic_roots.returned.eye_color.blue"
+      },
+      "weight": 3,
+      "tint": "#70A0FF"
+    },
+    "violet": {
+      "display_name": {
+        "translate": "gene.runic_roots.returned.eye_color.violet"
+      },
+      "weight": 2,
+      "tint": "#B080FF"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.magi.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.magi.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "mismatched": {
+      "display_name": {
+        "translate": "gene.runic_roots.magi.iris.mismatched"
+      },
+      "weight": 4,
+      "tint": "#40B0A0",
+      "editable": true,
+      "tint_right": "#E0B030"
+    },
+    "arcane": {
+      "display_name": {
+        "translate": "gene.runic_roots.magi.iris.arcane"
+      },
+      "weight": 2,
+      "tint": "#8A60E8",
+      "editable": true,
+      "tint_right": "#40C0E8"
+    },
+    "mana_lit": {
+      "display_name": {
+        "translate": "gene.runic_roots.magi.iris.mana_lit"
+      },
+      "weight": 1,
+      "tint": "#70D0FF",
+      "editable": true,
+      "glow": true
+    }
+  },
+  "penetrance": 0.9
+}

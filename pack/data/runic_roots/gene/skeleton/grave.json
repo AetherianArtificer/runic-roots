@@ -1,0 +1,36 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.skeleton.grave"
+  },
+  "description": {
+    "translate": "gene.runic_roots.skeleton.grave.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:grave_goods",
+  "variants": {
+    "shroud": {
+      "display_name": {
+        "translate": "gene.runic_roots.skeleton.grave.shroud"
+      },
+      "weight": 3,
+      "attachment": "runic_roots:skeleton_grave_shroud"
+    },
+    "crown": {
+      "display_name": {
+        "translate": "gene.runic_roots.skeleton.grave.crown"
+      },
+      "weight": 2,
+      "attachment": "runic_roots:skeleton_grave_crown"
+    },
+    "flame": {
+      "display_name": {
+        "translate": "gene.runic_roots.skeleton.grave.flame"
+      },
+      "weight": 2,
+      "attachment": "runic_roots:skeleton_grave_flame"
+    }
+  }
+}

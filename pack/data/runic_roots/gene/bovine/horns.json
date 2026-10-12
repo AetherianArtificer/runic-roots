@@ -1,0 +1,123 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.bovine.horns"
+  },
+  "description": {
+    "translate": "gene.runic_roots.bovine.horns.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:horns",
+  "variants": {
+    "nubs": {
+      "display_name": {
+        "translate": "gene.runic_roots.bovine.horns.nubs"
+      },
+      "weight": 4,
+      "attachments": [
+        "runic_roots:bovine_horns_nubs_male",
+        "runic_roots:bovine_horns_nubs_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.bovine.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:bestial",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.bovine.horns.color"
+        },
+        "palette": [
+          "#8A8A8A",
+          "#EEE6D2",
+          "#3A3430",
+          "#C8A070"
+        ]
+      }
+    },
+    "curved": {
+      "display_name": {
+        "translate": "gene.runic_roots.bovine.horns.curved"
+      },
+      "weight": 3,
+      "attachments": [
+        "runic_roots:bovine_horns_curved_male",
+        "runic_roots:bovine_horns_curved_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.bovine.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:bestial",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.bovine.horns.color"
+        },
+        "palette": [
+          "#8A8A8A",
+          "#EEE6D2",
+          "#3A3430",
+          "#C8A070"
+        ]
+      }
+    },
+    "longhorn": {
+      "display_name": {
+        "translate": "gene.runic_roots.bovine.horns.longhorn"
+      },
+      "weight": 2,
+      "attachments": [
+        "runic_roots:bovine_horns_longhorn_male",
+        "runic_roots:bovine_horns_longhorn_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.bovine.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:bestial",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.bovine.horns.color"
+        },
+        "palette": [
+          "#8A8A8A",
+          "#EEE6D2",
+          "#3A3430",
+          "#C8A070"
+        ]
+      }
+    }
+  }
+}

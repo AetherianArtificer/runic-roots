@@ -1,0 +1,29 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.canine.muzzle"
+  },
+  "description": {
+    "translate": "gene.runic_roots.canine.muzzle.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:snout",
+  "variants": {
+    "wolf": {
+      "display_name": {
+        "translate": "gene.runic_roots.canine.muzzle.wolf"
+      },
+      "weight": 3,
+      "attachment": "runic_roots:canine_muzzle_wolf"
+    },
+    "short": {
+      "display_name": {
+        "translate": "gene.runic_roots.canine.muzzle.short"
+      },
+      "weight": 2,
+      "attachment": "runic_roots:canine_muzzle_short"
+    }
+  }
+}

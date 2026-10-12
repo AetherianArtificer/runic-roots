@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.blood_elf.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.blood_elf.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "crimson": {
+      "display_name": {
+        "translate": "gene.runic_roots.blood_elf.iris.crimson"
+      },
+      "weight": 4,
+      "tint": "#C82838",
+      "editable": true
+    },
+    "garnet": {
+      "display_name": {
+        "translate": "gene.runic_roots.blood_elf.iris.garnet"
+      },
+      "weight": 2,
+      "tint": "#8A1A2A",
+      "editable": true
+    },
+    "amber": {
+      "display_name": {
+        "translate": "gene.runic_roots.blood_elf.iris.amber"
+      },
+      "weight": 1,
+      "tint": "#E89030",
+      "editable": true
+    }
+  },
+  "penetrance": 0.9
+}

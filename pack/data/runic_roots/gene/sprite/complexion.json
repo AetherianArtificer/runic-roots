@@ -1,0 +1,44 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.sprite.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.sprite.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "twilight": {
+      "display_name": {
+        "translate": "gene.runic_roots.sprite.complexion.twilight"
+      },
+      "weight": 4,
+      "tint": "#D8D0F0",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "starlit": {
+      "display_name": {
+        "translate": "gene.runic_roots.sprite.complexion.starlit"
+      },
+      "weight": 3,
+      "tint": "#E8E4F8",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "violet": {
+      "display_name": {
+        "translate": "gene.runic_roots.sprite.complexion.violet"
+      },
+      "weight": 2,
+      "tint": "#B8A8E0",
+      "blend": "color",
+      "strength": 0.5
+    }
+  },
+  "penetrance": 0.35,
+  "weight": 2
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:thermal_tolerance",
+  "display_name": {
+    "translate": "gene.runic_roots.serpen.thermal"
+  },
+  "description": {
+    "translate": "gene.runic_roots.serpen.thermal.desc"
+  },
+  "category": "Climate",
+  "dominance": "dominant",
+  "locus": "pheno:thermal_tolerance",
+  "neutral": 33.0,
+  "band": 0.4,
+  "cold": 1.7,
+  "heat": 0.5
+}

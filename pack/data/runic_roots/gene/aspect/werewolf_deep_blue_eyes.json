@@ -1,0 +1,22 @@
+{
+  "schema": "townstead:gene/v2",
+  "mods": "werewolves",
+  "display_name": {
+    "translate": "gene.runic_roots.aspect.werewolf_deep_blue_eyes"
+  },
+  "description": {
+    "translate": "gene.runic_roots.aspect.werewolf_deep_blue_eyes.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "type": "townstead_roots:eye_color",
+  "variants": {
+    "werewolf_deep_blue": {
+      "tint": "#044B8F",
+      "weight": 1,
+      "display_name": {
+        "translate": "gene.runic_roots.aspect.werewolf_deep_blue_eyes"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.frost_one.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.frost_one.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "natural": {
+      "display_name": {
+        "translate": "gene.runic_roots.frost_one.complexion.natural"
+      },
+      "weight": 5,
+      "tint": "#FFFFFF",
+      "blend": "multiply",
+      "strength": 0.0
+    },
+    "frost-pale": {
+      "display_name": {
+        "translate": "gene.runic_roots.frost_one.complexion.frost-pale"
+      },
+      "weight": 4,
+      "tint": "#ECE8F0",
+      "blend": "color",
+      "strength": 0.4
+    }
+  },
+  "penetrance": 0.35,
+  "weight": 2
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.zephyr.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.zephyr.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "breeze": {
+      "display_name": {
+        "translate": "gene.runic_roots.zephyr.complexion.breeze"
+      },
+      "weight": 4,
+      "tint": "#E4F0E4",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "pale": {
+      "display_name": {
+        "translate": "gene.runic_roots.zephyr.complexion.pale"
+      },
+      "weight": 3,
+      "tint": "#F0ECE4",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "mint": {
+      "display_name": {
+        "translate": "gene.runic_roots.zephyr.complexion.mint"
+      },
+      "weight": 2,
+      "tint": "#C8E8D0",
+      "blend": "color",
+      "strength": 0.45
+    }
+  },
+  "penetrance": 0.35,
+  "weight": 2
+}

@@ -27,7 +27,8 @@
     "runic_roots:wind_wyrm/scales",
     "runic_roots:wind_wyrm/complexion",
     "runic_roots:wind_wyrm/eyes",
-    "runic_roots:wind_wyrm/eye_color"
+    "runic_roots:wind_wyrm/eye_color",
+    "runic_roots:wind_wyrm/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,

@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.dryad.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.dryad.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "leaf": {
+      "display_name": {
+        "translate": "gene.runic_roots.dryad.iris.leaf"
+      },
+      "weight": 4,
+      "tint": "#5AB040",
+      "editable": true
+    },
+    "amber": {
+      "display_name": {
+        "translate": "gene.runic_roots.dryad.iris.amber"
+      },
+      "weight": 2,
+      "tint": "#D8A030",
+      "editable": true
+    },
+    "blossom": {
+      "display_name": {
+        "translate": "gene.runic_roots.dryad.iris.blossom"
+      },
+      "weight": 1,
+      "tint": "#E080A8",
+      "editable": true
+    }
+  },
+  "penetrance": 0.9
+}

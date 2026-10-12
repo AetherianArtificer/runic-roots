@@ -1,0 +1,60 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.kitsune.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.kitsune.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "russet": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.complexion.russet"
+      },
+      "weight": 5,
+      "tint": "#D9692A",
+      "blend": "color",
+      "strength": 0.55
+    },
+    "gold": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.complexion.gold"
+      },
+      "weight": 3,
+      "tint": "#E8A040",
+      "blend": "color",
+      "strength": 0.55
+    },
+    "silver": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.complexion.silver"
+      },
+      "weight": 2,
+      "tint": "#5A5A60",
+      "blend": "color",
+      "strength": 0.55
+    },
+    "arctic": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.complexion.arctic"
+      },
+      "weight": 2,
+      "tint": "#EEEEF0",
+      "blend": "color",
+      "strength": 0.55
+    },
+    "shadow": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.complexion.shadow"
+      },
+      "weight": 1,
+      "tint": "#2A2622",
+      "blend": "color",
+      "strength": 0.55
+    }
+  }
+}

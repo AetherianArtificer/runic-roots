@@ -1,0 +1,15 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:eyes",
+  "display_name": {
+    "translate": "gene.runic_roots.bovine.eyes"
+  },
+  "description": {
+    "translate": "gene.runic_roots.bovine.eyes.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "texture": "runic_roots:textures/face/cow_eyes.png",
+  "glow": false,
+  "row": 12
+}

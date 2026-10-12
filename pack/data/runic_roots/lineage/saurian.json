@@ -19,7 +19,14 @@
     "runic_roots:saurian/patient_ambush",
     "runic_roots:saurian/scaled_survivor",
     "runic_roots:saurian/cold_blooded",
-    "runic_roots:saurian/ambience"
+    "runic_roots:saurian/ambience",
+    "runic_roots:saurian/horns",
+    "runic_roots:saurian/tail",
+    "runic_roots:saurian/scales",
+    "runic_roots:saurian/complexion",
+    "runic_roots:saurian/eyes",
+    "runic_roots:saurian/eye_color",
+    "runic_roots:saurian/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -27,5 +34,27 @@
       "minecraft:swamp": 4,
       "minecraft:mangrove_swamp": 4
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#2A5A1A",
+        "to": "#9AC83A",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#8A6A2A",
+        "to": "#E8D080",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#5A1A0A",
+        "to": "#C8643A",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
   }
 }

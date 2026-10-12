@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.tide_elf.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.tide_elf.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "sea_green": {
+      "display_name": {
+        "translate": "gene.runic_roots.tide_elf.iris.sea_green"
+      },
+      "weight": 4,
+      "tint": "#40B0A0",
+      "editable": true
+    },
+    "ocean": {
+      "display_name": {
+        "translate": "gene.runic_roots.tide_elf.iris.ocean"
+      },
+      "weight": 3,
+      "tint": "#3A80C0",
+      "editable": true
+    },
+    "pearl": {
+      "display_name": {
+        "translate": "gene.runic_roots.tide_elf.iris.pearl"
+      },
+      "weight": 1,
+      "tint": "#D8E8E8",
+      "editable": true
+    }
+  },
+  "penetrance": 0.9
+}

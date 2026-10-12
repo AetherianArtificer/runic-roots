@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.avian.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.avian.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "barred": {
+      "display_name": {
+        "translate": "gene.runic_roots.avian.scales.barred"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/avian_scales_barred.png",
+      "tint": "#FFFFFF"
+    },
+    "speckled": {
+      "display_name": {
+        "translate": "gene.runic_roots.avian.scales.speckled"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/avian_scales_speckled.png",
+      "tint": "#FFFFFF"
+    },
+    "mottled": {
+      "display_name": {
+        "translate": "gene.runic_roots.avian.scales.mottled"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/avian_scales_mottled.png",
+      "tint": "#FFFFFF"
+    }
+  }
+}

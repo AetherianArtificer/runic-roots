@@ -1,0 +1,41 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.crystal_one.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.crystal_one.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "veins": {
+      "display_name": {
+        "translate": "gene.runic_roots.crystal_one.scales.veins"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/crystal_one_scales_veins.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "gems": {
+      "display_name": {
+        "translate": "gene.runic_roots.crystal_one.scales.gems"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/crystal_one_scales_gems.png",
+      "tint": "#FFFFFF"
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.crystal_one.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/crystal_one_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

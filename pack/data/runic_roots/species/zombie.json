@@ -1,0 +1,28 @@
+{
+  "schema": "townstead:species/v2",
+  "display_name": {
+    "translate": "species.runic_roots.zombie"
+  },
+  "rig": {
+    "base": "runic_roots:zombie"
+  },
+  "animations": {
+    "providers": [
+      "minecraft:zombie"
+    ]
+  },
+  "character_editor": {
+    "native": [
+      "clothes"
+    ]
+  },
+  "states": {
+    "townstead_state:vampire": false,
+    "townstead_state:dhampir": false,
+    "townstead_state:werewolf": false,
+    "townstead_state:thrall": false
+  },
+  "body_clothing": [
+    "runic_roots:zombie_fitted"
+  ]
+}

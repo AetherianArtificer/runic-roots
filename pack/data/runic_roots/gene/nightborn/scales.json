@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.nightborn.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.nightborn.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "veins": {
+      "display_name": {
+        "translate": "gene.runic_roots.nightborn.scales.veins"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/nightborn_scales_veins.png",
+      "tint": "#FFFFFF"
+    },
+    "bloodmark": {
+      "display_name": {
+        "translate": "gene.runic_roots.nightborn.scales.bloodmark"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/nightborn_scales_bloodmark.png",
+      "tint": "#FFFFFF"
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.nightborn.scales.unmarked"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/nightborn_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  }
+}

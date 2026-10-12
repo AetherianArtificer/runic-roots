@@ -20,7 +20,13 @@
     "runic_roots:astral_elf/astral_poise",
     "runic_roots:astral_elf/thin_tether",
     "runic_roots:astral_elf/stature",
-    "runic_roots:astral_elf/ambience"
+    "runic_roots:astral_elf/ambience",
+    "runic_roots:astral_elf/ears",
+    "runic_roots:astral_elf/scales",
+    "runic_roots:astral_elf/complexion",
+    "runic_roots:astral_elf/build",
+    "runic_roots:astral_elf/iris",
+    "runic_roots:astral_elf/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -31,17 +37,52 @@
       "#minecraft:is_mountain": 3
     }
   },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#D8CCA8",
+        "to": "#FFF8E8",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#8A78C8",
+        "to": "#D8CCF4",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#E8E8F4",
+        "to": "#FFFFFF",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
+  },
   "overrides": [
     {
       "requires": {
         "namespace": "townstead_classic"
       },
       "ancestry": "townstead_classic:elf",
+      "ancestry_genes": false,
       "genes": [
+        "townstead_roots:omnivore",
+        "townstead_roots:water_drinker",
+        "townstead_roots:human_thermal",
+        "townstead_roots:human_chronotype",
+        "runic_roots:family/elven_life_cycle",
         "runic_roots:astral_elf/starbound_thread",
         "runic_roots:astral_elf/astral_poise",
         "runic_roots:astral_elf/thin_tether",
-        "runic_roots:astral_elf/ambience"
+        "runic_roots:astral_elf/stature",
+        "runic_roots:astral_elf/ambience",
+        "runic_roots:astral_elf/ears",
+        "runic_roots:astral_elf/scales",
+        "runic_roots:astral_elf/complexion",
+        "runic_roots:astral_elf/build",
+        "runic_roots:astral_elf/iris",
+        "runic_roots:astral_elf/thermal"
       ]
     }
   ]

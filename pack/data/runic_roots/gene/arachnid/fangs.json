@@ -1,0 +1,51 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.arachnid.fangs"
+  },
+  "description": {
+    "translate": "gene.runic_roots.arachnid.fangs.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:snout",
+  "variants": {
+    "fangs": {
+      "display_name": {
+        "translate": "gene.runic_roots.arachnid.fangs.fangs"
+      },
+      "weight": 4,
+      "attachment": "runic_roots:arachnid_fangs_fangs",
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.arachnid.fangs.color"
+        },
+        "palette": [
+          "#2A2A2E",
+          "#5A2A22",
+          "#3A4A4A",
+          "#8A7A5A"
+        ]
+      }
+    },
+    "mandibles": {
+      "display_name": {
+        "translate": "gene.runic_roots.arachnid.fangs.mandibles"
+      },
+      "weight": 2,
+      "attachment": "runic_roots:arachnid_fangs_mandibles",
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.arachnid.fangs.color"
+        },
+        "palette": [
+          "#2A2A2E",
+          "#5A2A22",
+          "#3A4A4A",
+          "#8A7A5A"
+        ]
+      }
+    }
+  }
+}

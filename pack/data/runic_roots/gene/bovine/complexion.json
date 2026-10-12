@@ -1,0 +1,69 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.bovine.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.bovine.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "natural": {
+      "display_name": {
+        "translate": "gene.runic_roots.bovine.complexion.natural"
+      },
+      "weight": 2,
+      "tint": "#FFFFFF",
+      "blend": "multiply",
+      "strength": 0.0
+    },
+    "brown": {
+      "display_name": {
+        "translate": "gene.runic_roots.bovine.complexion.brown"
+      },
+      "weight": 4,
+      "tint": "#5A3E2C",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "russet": {
+      "display_name": {
+        "translate": "gene.runic_roots.bovine.complexion.russet"
+      },
+      "weight": 3,
+      "tint": "#B8662E",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "black": {
+      "display_name": {
+        "translate": "gene.runic_roots.bovine.complexion.black"
+      },
+      "weight": 2,
+      "tint": "#2A2626",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "grey": {
+      "display_name": {
+        "translate": "gene.runic_roots.bovine.complexion.grey"
+      },
+      "weight": 2,
+      "tint": "#8A8A8A",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "white": {
+      "display_name": {
+        "translate": "gene.runic_roots.bovine.complexion.white"
+      },
+      "weight": 1,
+      "tint": "#EEEAE4",
+      "blend": "color",
+      "strength": 0.5
+    }
+  }
+}

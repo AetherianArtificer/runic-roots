@@ -26,7 +26,8 @@
     "runic_roots:scaleheir/scales",
     "runic_roots:scaleheir/complexion",
     "runic_roots:scaleheir/eyes",
-    "runic_roots:scaleheir/eye_color"
+    "runic_roots:scaleheir/eye_color",
+    "runic_roots:scaleheir/thermal"
   ],
   "spawn_bias": {
     "default": 0.25

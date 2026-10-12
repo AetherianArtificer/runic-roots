@@ -1,0 +1,53 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:proportions",
+  "display_name": {
+    "translate": "gene.runic_roots.colossan.build"
+  },
+  "description": {
+    "translate": "gene.runic_roots.colossan.build.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "width": {
+    "min": 0.65,
+    "max": 0.85
+  },
+  "head": 1.0,
+  "arms": {
+    "lean": [
+      1.12,
+      1.0,
+      1.12
+    ],
+    "stout": [
+      1.3,
+      1.0,
+      1.3
+    ]
+  },
+  "legs": {
+    "lean": [
+      1.12,
+      1.0,
+      1.12
+    ],
+    "stout": [
+      1.3,
+      1.0,
+      1.3
+    ]
+  },
+  "body": {
+    "lean": [
+      1.1,
+      1.0,
+      1.1
+    ],
+    "stout": [
+      1.25,
+      1.0,
+      1.35
+    ]
+  }
+}

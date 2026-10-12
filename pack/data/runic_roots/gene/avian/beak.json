@@ -1,0 +1,51 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.avian.beak"
+  },
+  "description": {
+    "translate": "gene.runic_roots.avian.beak.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:snout",
+  "variants": {
+    "hooked": {
+      "display_name": {
+        "translate": "gene.runic_roots.avian.beak.hooked"
+      },
+      "weight": 3,
+      "attachment": "runic_roots:avian_beak_hooked",
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.avian.beak.color"
+        },
+        "palette": [
+          "#E8C45C",
+          "#D88A3A",
+          "#8A8A84",
+          "#3A3634"
+        ]
+      }
+    },
+    "short": {
+      "display_name": {
+        "translate": "gene.runic_roots.avian.beak.short"
+      },
+      "weight": 2,
+      "attachment": "runic_roots:avian_beak_short",
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.avian.beak.color"
+        },
+        "palette": [
+          "#E8C45C",
+          "#D88A3A",
+          "#8A8A84",
+          "#3A3634"
+        ]
+      }
+    }
+  }
+}

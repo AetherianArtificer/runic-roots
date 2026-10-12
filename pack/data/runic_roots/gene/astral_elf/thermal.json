@@ -1,0 +1,17 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:thermal_tolerance",
+  "display_name": {
+    "translate": "gene.runic_roots.astral_elf.thermal"
+  },
+  "description": {
+    "translate": "gene.runic_roots.astral_elf.thermal.desc"
+  },
+  "category": "Climate",
+  "dominance": "dominant",
+  "locus": "pheno:thermal_tolerance",
+  "neutral": 36.5,
+  "band": 0.6,
+  "cold": 0.7,
+  "heat": 0.9
+}

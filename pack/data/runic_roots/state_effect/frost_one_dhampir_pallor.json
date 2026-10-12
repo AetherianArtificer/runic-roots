@@ -1,0 +1,15 @@
+{
+  "schema": "pheno:state_effect/v1",
+  "mods": "vampirism",
+  "state": "townstead_state:dhampir",
+  "priority": 15,
+  "condition": {
+    "type": "pheno:root",
+    "root": "runic_roots:frost_one"
+  },
+  "genes": {
+    "grant": [
+      "runic_roots:frost_one/dhampir_pallor"
+    ]
+  }
+}

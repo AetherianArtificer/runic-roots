@@ -1,0 +1,25 @@
+{
+  "schema": "townstead:heritage/v1",
+  "display_name": {
+    "translate": "heritage.runic_roots.half_beast"
+  },
+  "demonym": {
+    "singular": {
+      "translate": "heritage.runic_roots.half_beast.demonym.singular"
+    },
+    "plural": {
+      "translate": "heritage.runic_roots.half_beast.demonym.plural"
+    }
+  },
+  "priority": 10,
+  "match": {
+    "townstead_roots:human": {
+      "min": 0.3,
+      "max": 0.7
+    },
+    "runic_roots:bestial": {
+      "min": 0.3,
+      "max": 0.7
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.changeling.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.changeling.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "pale": {
+      "display_name": {
+        "translate": "gene.runic_roots.changeling.complexion.pale"
+      },
+      "weight": 4,
+      "tint": "#F0E4DC",
+      "blend": "color",
+      "strength": 0.4
+    },
+    "ashen": {
+      "display_name": {
+        "translate": "gene.runic_roots.changeling.complexion.ashen"
+      },
+      "weight": 3,
+      "tint": "#D8D0D0",
+      "blend": "color",
+      "strength": 0.4
+    },
+    "grey": {
+      "display_name": {
+        "translate": "gene.runic_roots.changeling.complexion.grey"
+      },
+      "weight": 2,
+      "tint": "#B8B4BC",
+      "blend": "color",
+      "strength": 0.4
+    }
+  },
+  "penetrance": 0.35,
+  "weight": 2
+}

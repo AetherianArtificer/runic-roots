@@ -1,0 +1,36 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.zombie.plague"
+  },
+  "description": {
+    "translate": "gene.runic_roots.zombie.plague.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:plague",
+  "variants": {
+    "blooms": {
+      "display_name": {
+        "translate": "gene.runic_roots.zombie.plague.blooms"
+      },
+      "weight": 3,
+      "attachment": "runic_roots:zombie_plague_blooms"
+    },
+    "nails": {
+      "display_name": {
+        "translate": "gene.runic_roots.zombie.plague.nails"
+      },
+      "weight": 2,
+      "attachment": "runic_roots:zombie_plague_nails"
+    },
+    "jaw": {
+      "display_name": {
+        "translate": "gene.runic_roots.zombie.plague.jaw"
+      },
+      "weight": 2,
+      "attachment": "runic_roots:zombie_plague_jaw"
+    }
+  }
+}

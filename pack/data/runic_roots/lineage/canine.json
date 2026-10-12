@@ -21,10 +21,12 @@
     "runic_roots:canine/ravenous",
     "runic_roots:canine/ears",
     "runic_roots:canine/tail",
+    "runic_roots:canine/muzzle",
     "runic_roots:canine/scales",
     "runic_roots:canine/complexion",
     "runic_roots:canine/eyes",
-    "runic_roots:canine/eye_color"
+    "runic_roots:canine/eye_color",
+    "runic_roots:canine/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,

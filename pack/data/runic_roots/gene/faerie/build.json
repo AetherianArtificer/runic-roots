@@ -1,0 +1,53 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:proportions",
+  "display_name": {
+    "translate": "gene.runic_roots.faerie.build"
+  },
+  "description": {
+    "translate": "gene.runic_roots.faerie.build.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "width": {
+    "min": 0.35,
+    "max": 0.5
+  },
+  "head": 1.16,
+  "arms": {
+    "lean": [
+      0.8,
+      1.0,
+      0.8
+    ],
+    "stout": [
+      0.9,
+      1.0,
+      0.9
+    ]
+  },
+  "legs": {
+    "lean": [
+      0.8,
+      1.0,
+      0.8
+    ],
+    "stout": [
+      0.9,
+      1.0,
+      0.9
+    ]
+  },
+  "body": {
+    "lean": [
+      0.84,
+      1.0,
+      0.7899999999999999
+    ],
+    "stout": [
+      0.92,
+      1.0,
+      0.87
+    ]
+  }
+}

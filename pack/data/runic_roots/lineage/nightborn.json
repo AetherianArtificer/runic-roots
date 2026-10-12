@@ -20,9 +20,35 @@
     "runic_roots:nightborn/nocturnal_senses",
     "runic_roots:nightborn/sun_starved",
     "runic_roots:nightborn/ambience",
-    "runic_roots:nightborn/complexion"
+    "runic_roots:nightborn/scales",
+    "runic_roots:nightborn/complexion",
+    "runic_roots:nightborn/eyes",
+    "runic_roots:nightborn/eye_color",
+    "runic_roots:nightborn/thermal"
   ],
   "spawn_bias": {
     "default": 0.25
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#0E0C10",
+        "to": "#2A2430",
+        "weight": 4,
+        "space": "hsv"
+      },
+      {
+        "from": "#D8D4DC",
+        "to": "#FFFFFF",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#3A0A14",
+        "to": "#801828",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
   }
 }

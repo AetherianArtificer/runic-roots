@@ -1,0 +1,9 @@
+{
+  "schema": "townstead:clothing_set/v1",
+  "members": [
+    {
+      "id": "fits_0",
+      "skin": "mca:skins/clothing/normal/*"
+    }
+  ]
+}

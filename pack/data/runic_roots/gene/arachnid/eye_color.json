@@ -1,0 +1,42 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:eye_color",
+  "display_name": {
+    "translate": "gene.runic_roots.arachnid.eye_color"
+  },
+  "description": {
+    "translate": "gene.runic_roots.arachnid.eye_color.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "red": {
+      "display_name": {
+        "translate": "gene.runic_roots.arachnid.eye_color.red"
+      },
+      "weight": 4,
+      "tint": "#D83A30"
+    },
+    "black": {
+      "display_name": {
+        "translate": "gene.runic_roots.arachnid.eye_color.black"
+      },
+      "weight": 3,
+      "tint": "#2A2A2E"
+    },
+    "amber": {
+      "display_name": {
+        "translate": "gene.runic_roots.arachnid.eye_color.amber"
+      },
+      "weight": 2,
+      "tint": "#E89A30"
+    },
+    "violet": {
+      "display_name": {
+        "translate": "gene.runic_roots.arachnid.eye_color.violet"
+      },
+      "weight": 1,
+      "tint": "#9A5AD8"
+    }
+  }
+}

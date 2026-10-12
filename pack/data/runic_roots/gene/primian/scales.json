@@ -1,0 +1,32 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.primian.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.primian.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "freckles": {
+      "display_name": {
+        "translate": "gene.runic_roots.primian.scales.freckles"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/primian_scales_freckles.png",
+      "tint": "#FFFFFF"
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.primian.scales.unmarked"
+      },
+      "weight": 4,
+      "texture": "runic_roots:textures/skin/primian_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

@@ -1,0 +1,45 @@
+{
+  "schema": "townstead:attachment/v2",
+  "geometry": "runic_roots:chelon_shell_flat",
+  "texture": "runic_roots:chelon_shell_flat",
+  "target": {
+    "tag": "back"
+  },
+  "offset": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1.0,
+  "tint": "gene",
+  "stages": {
+    "baby": {
+      "scale": 0.35
+    },
+    "toddler": {
+      "scale": 0.45
+    },
+    "child": {
+      "scale": 0.6
+    },
+    "teen": {
+      "scale": 0.85
+    }
+  },
+  "tint_blend": "multiply",
+  "morph": {
+    "channels": {
+      "size": {
+        "bones": [
+          "shell"
+        ],
+        "axes": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "tint_mask": "runic_roots:chelon_shell_flat_tint_mask"
+}

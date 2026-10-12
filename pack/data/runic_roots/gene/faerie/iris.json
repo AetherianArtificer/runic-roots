@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.faerie.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.faerie.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "rose": {
+      "display_name": {
+        "translate": "gene.runic_roots.faerie.iris.rose"
+      },
+      "weight": 3,
+      "tint": "#E07AA8",
+      "editable": true
+    },
+    "violet": {
+      "display_name": {
+        "translate": "gene.runic_roots.faerie.iris.violet"
+      },
+      "weight": 3,
+      "tint": "#A070E0",
+      "editable": true
+    },
+    "gold": {
+      "display_name": {
+        "translate": "gene.runic_roots.faerie.iris.gold"
+      },
+      "weight": 2,
+      "tint": "#E8C050",
+      "editable": true
+    }
+  },
+  "penetrance": 0.9
+}

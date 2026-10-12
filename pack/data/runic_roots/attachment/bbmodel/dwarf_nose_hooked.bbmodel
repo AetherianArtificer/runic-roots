@@ -1,0 +1,252 @@
+{
+ "meta": {
+  "format_version": "5.0",
+  "model_format": "free",
+  "box_uv": true
+ },
+ "name": "dwarf_nose_hooked",
+ "model_identifier": "dwarf_nose_hooked",
+ "visible_box": [
+  1,
+  1,
+  0
+ ],
+ "resolution": {
+  "width": 16,
+  "height": 16
+ },
+ "elements": [
+  {
+   "name": "nose",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -0.75,
+    -2.75,
+    -1.25
+   ],
+   "to": [
+    0.75,
+    0.0,
+    0.0
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    0,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      2,
+      0,
+      4,
+      2
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      4,
+      0,
+      6,
+      2
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      0,
+      2,
+      2,
+      5
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      2,
+      2,
+      4,
+      5
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      4,
+      2,
+      6,
+      5
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      6,
+      2,
+      8,
+      5
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "3c3b65ca-207e-5b66-9b8e-f035802e084c"
+  },
+  {
+   "name": "nose_tip",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -1.0,
+    -3.5,
+    -1.75
+   ],
+   "to": [
+    1.0,
+    -2.5,
+    -0.25
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    8,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      10,
+      0,
+      12,
+      2
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      12,
+      0,
+      14,
+      2
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      8,
+      2,
+      10,
+      3
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      10,
+      2,
+      12,
+      3
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      12,
+      2,
+      14,
+      3
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      14,
+      2,
+      16,
+      3
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "6ce5c2dc-b62b-5cad-9ee3-767d8e4c6351"
+  }
+ ],
+ "groups": [
+  {
+   "name": "nose",
+   "origin": [
+    0.0,
+    -2.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "color": 0,
+   "uuid": "f85e3555-f043-5bc5-9adb-6919d464dc86",
+   "export": true,
+   "mirror_uv": false,
+   "isOpen": true,
+   "locked": false,
+   "visibility": true,
+   "autouv": 0,
+   "selected": false
+  }
+ ],
+ "outliner": [
+  {
+   "uuid": "f85e3555-f043-5bc5-9adb-6919d464dc86",
+   "isOpen": true,
+   "children": [
+    "3c3b65ca-207e-5b66-9b8e-f035802e084c",
+    "6ce5c2dc-b62b-5cad-9ee3-767d8e4c6351"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "name": "dwarf_nose_hooked.png",
+   "folder": "",
+   "namespace": "",
+   "id": "0",
+   "width": 16,
+   "height": 16,
+   "uv_width": 16,
+   "uv_height": 16,
+   "particle": false,
+   "render_mode": "default",
+   "render_sides": "auto",
+   "visible": true,
+   "internal": true,
+   "saved": true,
+   "uuid": "7e9100ca-bc4d-56dd-bfd1-91533e25d15e",
+   "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAnElEQVR4nO2PSw6EIBBEi5GPK1ecxbu44YLAiTyBCxN3JoAyaSLG4QgT36aToquKZrgIIWSazjkwxjBNE8ODfd8z6dZa5JxhjCnvHA1SSsQYW/nWvPeloMLmec6UOAwDlFJYlqU23kspJWiti3FdV3Rdh23bIIQAP8+zpPd9j+M4ioEWaus4jj+ntHwogHNezNVITWR+fvXl5c/5AoZSQ+3P9r9mAAAAAElFTkSuQmCC"
+  }
+ ]
+}

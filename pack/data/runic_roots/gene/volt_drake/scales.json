@@ -27,5 +27,6 @@
       "texture": "runic_roots:textures/skin/volt_drake_scales_striped.png",
       "tint": "#FFFFFF"
     }
-  }
+  },
+  "penetrance": 0.4
 }

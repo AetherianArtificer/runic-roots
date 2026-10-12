@@ -10,7 +10,33 @@
   "category": "Appearance",
   "dominance": "dominant",
   "locus": "townstead_roots:skin",
-  "tint": "#A7B1C2",
-  "blend": "color",
-  "strength": 0.6
+  "variants": {
+    "ashen": {
+      "display_name": {
+        "translate": "gene.runic_roots.wraith.complexion.ashen"
+      },
+      "weight": 4,
+      "tint": "#FFFFFF",
+      "blend": "color",
+      "strength": 1.0
+    },
+    "violet shade": {
+      "display_name": {
+        "translate": "gene.runic_roots.wraith.complexion.violet shade"
+      },
+      "weight": 3,
+      "tint": "#E4DCF4",
+      "blend": "color",
+      "strength": 1.0
+    },
+    "grave-blue": {
+      "display_name": {
+        "translate": "gene.runic_roots.wraith.complexion.grave-blue"
+      },
+      "weight": 2,
+      "tint": "#DCE4F0",
+      "blend": "color",
+      "strength": 1.0
+    }
+  }
 }

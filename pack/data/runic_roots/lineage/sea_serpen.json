@@ -26,7 +26,8 @@
     "runic_roots:sea_serpen/scales",
     "runic_roots:sea_serpen/complexion",
     "runic_roots:sea_serpen/eyes",
-    "runic_roots:sea_serpen/eye_color"
+    "runic_roots:sea_serpen/eye_color",
+    "runic_roots:sea_serpen/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,

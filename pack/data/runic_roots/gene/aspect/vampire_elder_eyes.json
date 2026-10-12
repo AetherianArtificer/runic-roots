@@ -1,0 +1,22 @@
+{
+  "schema": "townstead:gene/v2",
+  "mods": "vampirism",
+  "display_name": {
+    "translate": "gene.runic_roots.aspect.vampire_elder_eyes"
+  },
+  "description": {
+    "translate": "gene.runic_roots.aspect.vampire_elder_eyes.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "type": "townstead_roots:eye_color",
+  "variants": {
+    "vampire_elder": {
+      "tint": "#FF2A2A",
+      "weight": 1,
+      "display_name": {
+        "translate": "gene.runic_roots.aspect.vampire_elder_eyes"
+      }
+    }
+  }
+}

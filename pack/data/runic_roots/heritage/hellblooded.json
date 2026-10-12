@@ -1,0 +1,30 @@
+{
+  "schema": "townstead:heritage/v1",
+  "display_name": {
+    "translate": "heritage.runic_roots.hellblooded"
+  },
+  "demonym": {
+    "singular": {
+      "translate": "heritage.runic_roots.hellblooded.demonym.singular"
+    },
+    "plural": {
+      "translate": "heritage.runic_roots.hellblooded.demonym.plural"
+    }
+  },
+  "priority": 10,
+  "match": {
+    "townstead_roots:human": {
+      "min": 0.7,
+      "max": 0.9
+    },
+    "runic_roots:fiend": {
+      "min": 0.1,
+      "max": 0.3
+    }
+  },
+  "requires": {
+    "not": {
+      "namespace": "townstead_classic"
+    }
+  }
+}

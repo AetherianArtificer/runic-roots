@@ -20,9 +20,33 @@
     "runic_roots:auroran/inner_radiance",
     "runic_roots:auroran/mortal_vessel",
     "runic_roots:auroran/stature",
-    "runic_roots:auroran/ambience"
+    "runic_roots:auroran/ambience",
+    "runic_roots:auroran/scales",
+    "runic_roots:auroran/iris"
   ],
   "spawn_bias": {
     "default": 0.25
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#E8A8C8",
+        "to": "#FCE0EC",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#B8A0E0",
+        "to": "#E8DCF8",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#E8C890",
+        "to": "#FCF0D8",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
   }
 }

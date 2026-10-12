@@ -19,9 +19,34 @@
     "runic_roots:valen/unbreakable_stand",
     "runic_roots:valen/fortitude",
     "runic_roots:valen/stalwart_not_swift",
-    "runic_roots:valen/stature"
+    "runic_roots:valen/stature",
+    "runic_roots:valen/scales",
+    "runic_roots:valen/build",
+    "runic_roots:valen/iris"
   ],
   "spawn_bias": {
     "default": 0.25
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#6A1A0A",
+        "to": "#C8402A",
+        "weight": 4,
+        "space": "hsv"
+      },
+      {
+        "from": "#8A3A1A",
+        "to": "#E08A4A",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#D8D4D0",
+        "to": "#FFFFFF",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
   }
 }

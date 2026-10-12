@@ -1,0 +1,714 @@
+{
+ "meta": {
+  "format_version": "5.0",
+  "model_format": "free",
+  "box_uv": true
+ },
+ "name": "zombie_plague_nails",
+ "model_identifier": "zombie_plague_nails",
+ "visible_box": [
+  1,
+  1,
+  0
+ ],
+ "resolution": {
+  "width": 64,
+  "height": 64
+ },
+ "elements": [
+  {
+   "name": "crest_nail0",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    3.75,
+    -2.0,
+    0.75
+   ],
+   "to": [
+    4.25,
+    -0.3999999999999999,
+    1.25
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    0,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      1,
+      0,
+      2,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      2,
+      0,
+      3,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      0,
+      1,
+      1,
+      3
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      1,
+      1,
+      2,
+      3
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      2,
+      1,
+      3,
+      3
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      3,
+      1,
+      4,
+      3
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "0dba335d-6051-58d8-99bb-ff795d116d43"
+  },
+  {
+   "name": "crest_nail0_head",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    3.5,
+    -0.3999999999999999,
+    0.5
+   ],
+   "to": [
+    4.5,
+    -0.10000000000000009,
+    1.5
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    12,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      13,
+      0,
+      14,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      14,
+      0,
+      15,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      12,
+      1,
+      13,
+      2
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      13,
+      1,
+      14,
+      2
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      14,
+      1,
+      15,
+      2
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      15,
+      1,
+      16,
+      2
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "4e19fd0c-cf23-5a11-a16b-4b5e9356afe5"
+  },
+  {
+   "name": "crest_nail1",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -4.25,
+    -3.0,
+    1.75
+   ],
+   "to": [
+    -3.75,
+    -1.4,
+    2.25
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    4,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      5,
+      0,
+      6,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      6,
+      0,
+      7,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      4,
+      1,
+      5,
+      3
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      5,
+      1,
+      6,
+      3
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      6,
+      1,
+      7,
+      3
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      7,
+      1,
+      8,
+      3
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "4f9f7219-20bd-5171-bb3c-02be3b917bd7"
+  },
+  {
+   "name": "crest_nail1_head",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -4.5,
+    -1.4,
+    1.5
+   ],
+   "to": [
+    -3.5,
+    -1.1,
+    2.5
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    16,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      17,
+      0,
+      18,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      18,
+      0,
+      19,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      16,
+      1,
+      17,
+      2
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      17,
+      1,
+      18,
+      2
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      18,
+      1,
+      19,
+      2
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      19,
+      1,
+      20,
+      2
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "b24ef8ed-d8f6-5abd-8570-035c6cfcb1f9"
+  },
+  {
+   "name": "crest_nail2",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    1.25,
+    0.0,
+    0.25
+   ],
+   "to": [
+    1.75,
+    1.6,
+    0.75
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    8,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      9,
+      0,
+      10,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      10,
+      0,
+      11,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      8,
+      1,
+      9,
+      3
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      9,
+      1,
+      10,
+      3
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      10,
+      1,
+      11,
+      3
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      11,
+      1,
+      12,
+      3
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "e0091ead-e637-5f70-8a42-86e5260327f6"
+  },
+  {
+   "name": "crest_nail2_head",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    1.0,
+    1.6,
+    0.0
+   ],
+   "to": [
+    2.0,
+    1.9,
+    1.0
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    20,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      21,
+      0,
+      22,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      22,
+      0,
+      23,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      20,
+      1,
+      21,
+      2
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      21,
+      1,
+      22,
+      2
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      22,
+      1,
+      23,
+      2
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      23,
+      1,
+      24,
+      2
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "84efd68d-e5e4-5fd0-a7a4-83207f054bdd"
+  }
+ ],
+ "groups": [
+  {
+   "name": "crest_nail0",
+   "origin": [
+    4.0,
+    -2.0,
+    1.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    -90.0
+   ],
+   "color": 0,
+   "uuid": "67bd063f-3aa9-57f4-ad2f-7df840d911d2",
+   "export": true,
+   "mirror_uv": false,
+   "isOpen": true,
+   "locked": false,
+   "visibility": true,
+   "autouv": 0,
+   "selected": false
+  },
+  {
+   "name": "crest_nail1",
+   "origin": [
+    -4.0,
+    -3.0,
+    2.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    90.0
+   ],
+   "color": 0,
+   "uuid": "818fc1cf-5a55-5f91-bc26-22a245b9ec07",
+   "export": true,
+   "mirror_uv": false,
+   "isOpen": true,
+   "locked": false,
+   "visibility": true,
+   "autouv": 0,
+   "selected": false
+  },
+  {
+   "name": "crest_nail2",
+   "origin": [
+    1.5,
+    0.0,
+    0.5
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    -12.0
+   ],
+   "color": 0,
+   "uuid": "25e41241-71e4-5509-82ae-8d71c26d750d",
+   "export": true,
+   "mirror_uv": false,
+   "isOpen": true,
+   "locked": false,
+   "visibility": true,
+   "autouv": 0,
+   "selected": false
+  },
+  {
+   "name": "crest",
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "color": 0,
+   "uuid": "275c5ac1-c5f9-52d2-9282-0a861ed23487",
+   "export": true,
+   "mirror_uv": false,
+   "isOpen": true,
+   "locked": false,
+   "visibility": true,
+   "autouv": 0,
+   "selected": false
+  }
+ ],
+ "outliner": [
+  {
+   "uuid": "275c5ac1-c5f9-52d2-9282-0a861ed23487",
+   "isOpen": true,
+   "children": [
+    {
+     "uuid": "67bd063f-3aa9-57f4-ad2f-7df840d911d2",
+     "isOpen": true,
+     "children": [
+      "0dba335d-6051-58d8-99bb-ff795d116d43",
+      "4e19fd0c-cf23-5a11-a16b-4b5e9356afe5"
+     ]
+    },
+    {
+     "uuid": "818fc1cf-5a55-5f91-bc26-22a245b9ec07",
+     "isOpen": true,
+     "children": [
+      "4f9f7219-20bd-5171-bb3c-02be3b917bd7",
+      "b24ef8ed-d8f6-5abd-8570-035c6cfcb1f9"
+     ]
+    },
+    {
+     "uuid": "25e41241-71e4-5509-82ae-8d71c26d750d",
+     "isOpen": true,
+     "children": [
+      "e0091ead-e637-5f70-8a42-86e5260327f6",
+      "84efd68d-e5e4-5fd0-a7a4-83207f054bdd"
+     ]
+    }
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "name": "zombie_plague_nails.png",
+   "folder": "",
+   "namespace": "",
+   "id": "0",
+   "width": 64,
+   "height": 64,
+   "uv_width": 64,
+   "uv_height": 64,
+   "particle": false,
+   "render_mode": "default",
+   "render_sides": "auto",
+   "visible": true,
+   "internal": true,
+   "saved": true,
+   "uuid": "ba1d7d18-4281-5231-977c-36c3ed746c42",
+   "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA6UlEQVR4nO3Py0rDUBSF4XVya07ySlJranUsDnwjcVCqeEWdOBURBPG9KqZgTtIcSZD4CgH/D9ZgsfdkSZIebs/94f7c69fl6swXu9OhXyxP/aLYG/rT47WfTXeGfne19Afzv/v9zcovitnQx8ycHB/5KIrknJOMURgECsNIktdXWSrPcwXGqG3bPkEQKEmS/r9LmqbKMqv1+lOVc4rjWJNkoqap5epab+8fRiMWdaOstWqaRt9VJZumiuNI5WbTP3QjM2tljFGz3er55XXUgwAAAAAAAAAAAAAAAAAAAAAAAAAAAABA/9EP0/FR4WmDTGUAAAAASUVORK5CYII="
+  },
+  {
+   "name": "zombie_plague_nails_glow.png",
+   "folder": "",
+   "namespace": "",
+   "id": "1",
+   "width": 64,
+   "height": 64,
+   "uv_width": 64,
+   "uv_height": 64,
+   "particle": false,
+   "render_mode": "default",
+   "render_sides": "auto",
+   "visible": true,
+   "internal": true,
+   "saved": true,
+   "uuid": "d9566ce3-1aa4-520a-b332-3929867d90ce",
+   "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAJ0lEQVR4nO3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAAAAAAAAAIDODUBAAAENBzWNAAAAAElFTkSuQmCC"
+  }
+ ]
+}

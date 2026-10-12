@@ -1,0 +1,45 @@
+{
+  "schema": "townstead:gene/v2",
+  "display_name": {
+    "translate": "gene.runic_roots.canine.kemonomimi.ears"
+  },
+  "description": {
+    "translate": "gene.runic_roots.canine.kemonomimi.ears.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "type": "townstead_roots:attachment",
+  "locus": "townstead_roots:ears",
+  "variants": {
+    "pricked": {
+      "display_name": {
+        "translate": "gene.runic_roots.canine.ears.pricked"
+      },
+      "weight": 4,
+      "attachments": [
+        "runic_roots:canine_ears_pricked_male_hair",
+        "runic_roots:canine_ears_pricked_female_hair"
+      ]
+    },
+    "folded": {
+      "display_name": {
+        "translate": "gene.runic_roots.canine.ears.folded"
+      },
+      "weight": 2,
+      "attachments": [
+        "runic_roots:canine_ears_folded_male_hair",
+        "runic_roots:canine_ears_folded_female_hair"
+      ]
+    },
+    "drooping": {
+      "display_name": {
+        "translate": "gene.runic_roots.canine.ears.drooping"
+      },
+      "weight": 2,
+      "attachments": [
+        "runic_roots:canine_ears_drooping_male_hair",
+        "runic_roots:canine_ears_drooping_female_hair"
+      ]
+    }
+  }
+}

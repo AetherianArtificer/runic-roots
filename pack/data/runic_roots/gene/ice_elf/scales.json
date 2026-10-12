@@ -1,0 +1,41 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.ice_elf.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.ice_elf.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "rime": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_elf.scales.rime"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/ice_elf_scales_rime.png",
+      "tint": "#FFFFFF"
+    },
+    "crystals": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_elf.scales.crystals"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/ice_elf_scales_crystals.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_elf.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/ice_elf_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

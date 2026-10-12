@@ -24,5 +24,6 @@
       "y_offset": 1.6
     }
   },
-  "locus": "runic_roots:ambience"
+  "locus": "runic_roots:ambience",
+  "penetrance": 0.5
 }

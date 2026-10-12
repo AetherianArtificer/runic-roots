@@ -1,0 +1,149 @@
+{
+  "schema": "townstead:attachment/v2",
+  "geometry": "runic_roots:feline_ears_pointed",
+  "texture": "runic_roots:feline_ears_pointed",
+  "target": {
+    "tag": "ear"
+  },
+  "offset": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1.0,
+  "tint": "hair",
+  "tint_mask": "runic_roots:feline_ears_pointed_tint_mask",
+  "when": {
+    "type": "pheno:gender",
+    "is": "female"
+  },
+  "morph": {
+    "channels": {
+      "size": {
+        "bones": [
+          "ear"
+        ],
+        "axes": [
+          0.7,
+          1.0,
+          0.7
+        ]
+      }
+    }
+  },
+  "stages": {
+    "baby": {
+      "scale": 0.55
+    },
+    "toddler": {
+      "scale": 0.65
+    },
+    "child": {
+      "scale": 0.8
+    },
+    "teen": {
+      "scale": 0.9
+    }
+  },
+  "poses": {
+    "sleeping": {
+      "bones": {
+        "ear": {
+          "rotation": [
+            0,
+            0,
+            -25
+          ]
+        }
+      },
+      "transition": 12
+    },
+    "wearing_helmet": {
+      "bones": {
+        "ear": {
+          "rotation": [
+            0,
+            0,
+            -70
+          ]
+        }
+      },
+      "transition": 4
+    },
+    "panicking": {
+      "bones": {
+        "ear": {
+          "rotation": [
+            50,
+            0,
+            0
+          ]
+        }
+      },
+      "transition": 5
+    },
+    "attacking": {
+      "bones": {
+        "ear": {
+          "rotation": [
+            45,
+            0,
+            0
+          ]
+        }
+      },
+      "transition": 5
+    },
+    "when": [
+      {
+        "if": {
+          "type": "pheno:mood",
+          "is": [
+            "happy",
+            "overjoyed"
+          ]
+        },
+        "bones": {
+          "ear": {
+            "rotation": [
+              -12,
+              0,
+              0
+            ]
+          }
+        },
+        "transition": 8
+      },
+      {
+        "if": {
+          "type": "pheno:mood",
+          "is": [
+            "sad",
+            "depressed"
+          ]
+        },
+        "bones": {
+          "ear": {
+            "rotation": [
+              0,
+              0,
+              -35
+            ]
+          }
+        },
+        "transition": 35
+      }
+    ]
+  },
+  "physics": {
+    "chains": [
+      {
+        "bones": [
+          "ear"
+        ],
+        "preset": "ear_stiff",
+        "sway": 0.8
+      }
+    ]
+  }
+}

@@ -20,7 +20,13 @@
     "runic_roots:moon_elf/tidecallers_grace",
     "runic_roots:moon_elf/waning_by_day",
     "runic_roots:moon_elf/stature",
-    "runic_roots:moon_elf/ambience"
+    "runic_roots:moon_elf/ambience",
+    "runic_roots:moon_elf/ears",
+    "runic_roots:moon_elf/scales",
+    "runic_roots:moon_elf/complexion",
+    "runic_roots:moon_elf/build",
+    "runic_roots:moon_elf/iris",
+    "runic_roots:moon_elf/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -28,17 +34,52 @@
       "#minecraft:is_beach": 4
     }
   },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#1A2A3A",
+        "to": "#4A6A8A",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#C8CCD8",
+        "to": "#FFFFFF",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#3A2A5A",
+        "to": "#8A6AB8",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
+  },
   "overrides": [
     {
       "requires": {
         "namespace": "townstead_classic"
       },
       "ancestry": "townstead_classic:elf",
+      "ancestry_genes": false,
       "genes": [
+        "townstead_roots:omnivore",
+        "townstead_roots:water_drinker",
+        "townstead_roots:human_thermal",
+        "townstead_roots:human_chronotype",
+        "runic_roots:family/elven_life_cycle",
         "runic_roots:moon_elf/moonlit_veil",
         "runic_roots:moon_elf/tidecallers_grace",
         "runic_roots:moon_elf/waning_by_day",
-        "runic_roots:moon_elf/ambience"
+        "runic_roots:moon_elf/stature",
+        "runic_roots:moon_elf/ambience",
+        "runic_roots:moon_elf/ears",
+        "runic_roots:moon_elf/scales",
+        "runic_roots:moon_elf/complexion",
+        "runic_roots:moon_elf/build",
+        "runic_roots:moon_elf/iris",
+        "runic_roots:moon_elf/thermal"
       ]
     }
   ]

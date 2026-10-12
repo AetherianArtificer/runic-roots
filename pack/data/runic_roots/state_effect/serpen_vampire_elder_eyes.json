@@ -1,0 +1,25 @@
+{
+  "schema": "pheno:state_effect/v1",
+  "mods": "vampirism",
+  "state": "townstead_state:vampire",
+  "min_tier": "elder",
+  "priority": 42,
+  "condition": {
+    "type": "pheno:and",
+    "conditions": [
+      {
+        "type": "pheno:root",
+        "root": "runic_roots:serpen"
+      },
+      {
+        "type": "pheno:rig",
+        "rig": "none"
+      }
+    ]
+  },
+  "genes": {
+    "grant": [
+      "runic_roots:serpen/elder_eyes"
+    ]
+  }
+}

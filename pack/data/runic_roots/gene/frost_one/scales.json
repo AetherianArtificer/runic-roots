@@ -1,0 +1,41 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.frost_one.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.frost_one.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "frostbite": {
+      "display_name": {
+        "translate": "gene.runic_roots.frost_one.scales.frostbite"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/frost_one_scales_frostbite.png",
+      "tint": "#FFFFFF"
+    },
+    "runes": {
+      "display_name": {
+        "translate": "gene.runic_roots.frost_one.scales.runes"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/frost_one_scales_runes.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.frost_one.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/frost_one_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

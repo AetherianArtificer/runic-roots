@@ -20,7 +20,16 @@
     "runic_roots:frost_one/frostborn",
     "runic_roots:frost_one/forged_for_cold",
     "runic_roots:frost_one/stature",
-    "runic_roots:frost_one/ambience"
+    "runic_roots:frost_one/ambience",
+    "runic_roots:frost_one/beard",
+    "runic_roots:frost_one/braids",
+    "runic_roots:frost_one/nose",
+    "runic_roots:frost_one/brows",
+    "runic_roots:frost_one/scales",
+    "runic_roots:frost_one/complexion",
+    "runic_roots:frost_one/build",
+    "runic_roots:frost_one/iris",
+    "runic_roots:frost_one/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -29,17 +38,55 @@
       "#c:is_cold": 4
     }
   },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#A8A8B0",
+        "to": "#F0F0F4",
+        "weight": 4,
+        "space": "hsv"
+      },
+      {
+        "from": "#C8B898",
+        "to": "#F0E8D0",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#5A5A64",
+        "to": "#9A9AA4",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
+  },
   "overrides": [
     {
       "requires": {
         "namespace": "townstead_classic"
       },
       "ancestry": "townstead_classic:dwarf",
+      "ancestry_genes": false,
       "genes": [
+        "townstead_roots:omnivore",
+        "townstead_roots:water_drinker",
+        "townstead_roots:human_thermal",
+        "townstead_roots:human_chronotype",
+        "runic_roots:family/dwarven_life_cycle",
         "runic_roots:frost_one/glacial_resolve",
         "runic_roots:frost_one/frostborn",
         "runic_roots:frost_one/forged_for_cold",
-        "runic_roots:frost_one/ambience"
+        "runic_roots:frost_one/stature",
+        "runic_roots:frost_one/ambience",
+        "runic_roots:frost_one/beard",
+        "runic_roots:frost_one/braids",
+        "runic_roots:frost_one/nose",
+        "runic_roots:frost_one/brows",
+        "runic_roots:frost_one/scales",
+        "runic_roots:frost_one/complexion",
+        "runic_roots:frost_one/build",
+        "runic_roots:frost_one/iris",
+        "runic_roots:frost_one/thermal"
       ]
     }
   ]

@@ -1,0 +1,40 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.dryad.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.dryad.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "bark": {
+      "display_name": {
+        "translate": "gene.runic_roots.dryad.scales.bark"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/dryad_scales_bark.png",
+      "tint": "#FFFFFF"
+    },
+    "veins": {
+      "display_name": {
+        "translate": "gene.runic_roots.dryad.scales.veins"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/dryad_scales_veins.png",
+      "tint": "#FFFFFF"
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.dryad.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/dryad_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

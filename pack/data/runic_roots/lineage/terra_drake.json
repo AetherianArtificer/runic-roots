@@ -27,7 +27,8 @@
     "runic_roots:terra_drake/scales",
     "runic_roots:terra_drake/complexion",
     "runic_roots:terra_drake/eyes",
-    "runic_roots:terra_drake/eye_color"
+    "runic_roots:terra_drake/eye_color",
+    "runic_roots:terra_drake/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,

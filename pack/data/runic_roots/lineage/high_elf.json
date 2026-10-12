@@ -20,7 +20,13 @@
     "runic_roots:high_elf/arcane_mastery",
     "runic_roots:high_elf/fragile_grace",
     "runic_roots:high_elf/stature",
-    "runic_roots:high_elf/ambience"
+    "runic_roots:high_elf/ambience",
+    "runic_roots:high_elf/ears",
+    "runic_roots:high_elf/scales",
+    "runic_roots:high_elf/complexion",
+    "runic_roots:high_elf/build",
+    "runic_roots:high_elf/iris",
+    "runic_roots:high_elf/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -29,17 +35,52 @@
       "minecraft:meadow": 4
     }
   },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#E0DCD0",
+        "to": "#FFFFFF",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#C89A40",
+        "to": "#F8E0A0",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#9AA0B8",
+        "to": "#E0E4F0",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
+  },
   "overrides": [
     {
       "requires": {
         "namespace": "townstead_classic"
       },
       "ancestry": "townstead_classic:elf",
+      "ancestry_genes": false,
       "genes": [
+        "townstead_roots:omnivore",
+        "townstead_roots:water_drinker",
+        "townstead_roots:human_thermal",
+        "townstead_roots:human_chronotype",
+        "runic_roots:family/elven_life_cycle",
         "runic_roots:high_elf/arcane_reflex",
         "runic_roots:high_elf/arcane_mastery",
         "runic_roots:high_elf/fragile_grace",
-        "runic_roots:high_elf/ambience"
+        "runic_roots:high_elf/stature",
+        "runic_roots:high_elf/ambience",
+        "runic_roots:high_elf/ears",
+        "runic_roots:high_elf/scales",
+        "runic_roots:high_elf/complexion",
+        "runic_roots:high_elf/build",
+        "runic_roots:high_elf/iris",
+        "runic_roots:high_elf/thermal"
       ]
     }
   ]

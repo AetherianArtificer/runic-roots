@@ -1,0 +1,33 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.magi.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.magi.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "veins": {
+      "display_name": {
+        "translate": "gene.runic_roots.magi.scales.veins"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/magi_scales_veins.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.magi.scales.unmarked"
+      },
+      "weight": 4,
+      "texture": "runic_roots:textures/skin/magi_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

@@ -1,0 +1,87 @@
+{
+  "schema": "townstead:attachment/v2",
+  "geometry": "runic_roots:kitsune_tail_three",
+  "texture": "runic_roots:kitsune_tail_three",
+  "target": {
+    "tag": "tail_root"
+  },
+  "offset": [
+    0,
+    0,
+    0
+  ],
+  "tint": "skin",
+  "morph": {
+    "channels": {
+      "length": {
+        "bones": [
+          "tail_2",
+          "tail_3",
+          "tail_4"
+        ],
+        "axes": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "girth": {
+        "bones": [
+          "tail_1",
+          "tail_2"
+        ],
+        "axes": [
+          1.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "physics": {
+    "chains": [
+      {
+        "bones": [
+          "tail_2",
+          "tail_3",
+          "tail_4"
+        ],
+        "preset": "tail_fluffy",
+        "sway": 0.5
+      },
+      {
+        "bones": [
+          "tail_b_2",
+          "tail_b_3",
+          "tail_b_4"
+        ],
+        "preset": "tail_fluffy",
+        "sway": 0.5
+      },
+      {
+        "bones": [
+          "tail_c_2",
+          "tail_c_3",
+          "tail_c_4"
+        ],
+        "preset": "tail_fluffy",
+        "sway": 0.5
+      }
+    ]
+  },
+  "stages": {
+    "baby": {
+      "scale": 0.35
+    },
+    "toddler": {
+      "scale": 0.45
+    },
+    "child": {
+      "scale": 0.6
+    },
+    "teen": {
+      "scale": 0.85
+    }
+  },
+  "tint_mask": "runic_roots:kitsune_tail_three_tint_mask"
+}

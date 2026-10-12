@@ -1,0 +1,86 @@
+{
+  "schema": "townstead:attachment/v2",
+  "geometry": "runic_roots:dwarf_beard_forked",
+  "texture": "runic_roots:dwarf_beard_forked",
+  "target": {
+    "tag": "snout"
+  },
+  "offset": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1.0,
+  "tint": "hair",
+  "stages": {
+    "baby": {
+      "scale": 0.0
+    },
+    "toddler": {
+      "scale": 0.0
+    },
+    "child": {
+      "scale": 0.0
+    },
+    "teen": {
+      "scale": 0.45
+    }
+  },
+  "when": {
+    "type": "pheno:not",
+    "condition": {
+      "type": "pheno:gender",
+      "is": "female"
+    }
+  },
+  "morph": {
+    "channels": {
+      "length": {
+        "bones": [
+          "beard"
+        ],
+        "axes": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "fullness": {
+        "bones": [
+          "beard"
+        ],
+        "axes": [
+          1.0,
+          0.0,
+          0.5
+        ]
+      }
+    }
+  },
+  "physics": {
+    "chains": [
+      {
+        "bones": [
+          "beard"
+        ],
+        "preset": "beard",
+        "sway": 0.5
+      },
+      {
+        "bones": [
+          "beard_fork_l"
+        ],
+        "preset": "beard",
+        "sway": 0.5
+      },
+      {
+        "bones": [
+          "beard_fork_r"
+        ],
+        "preset": "beard",
+        "sway": 0.5
+      }
+    ]
+  },
+  "tint_mask": "runic_roots:dwarf_beard_forked_tint_mask"
+}

@@ -1,0 +1,93 @@
+{
+  "schema": "townstead:attachment/v2",
+  "geometry": "runic_roots:avian_tail",
+  "texture": "runic_roots:avian_tail",
+  "target": {
+    "tag": "tail_root"
+  },
+  "offset": [
+    0,
+    0,
+    0
+  ],
+  "tint": "skin",
+  "morph": {
+    "channels": {
+      "length": {
+        "bones": [
+          "tail_2",
+          "tail_3",
+          "tail_4"
+        ],
+        "axes": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "girth": {
+        "bones": [
+          "tail_1",
+          "tail_2"
+        ],
+        "axes": [
+          1.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "physics": {
+    "chains": [
+      {
+        "bones": [
+          "tail_2",
+          "tail_3",
+          "tail_4"
+        ],
+        "preset": "tail",
+        "limit": 15,
+        "sway": 0.25
+      },
+      {
+        "bones": [
+          "tail_f0"
+        ],
+        "preset": "feather"
+      },
+      {
+        "bones": [
+          "tail_f1"
+        ],
+        "preset": "feather"
+      },
+      {
+        "bones": [
+          "tail_f2"
+        ],
+        "preset": "feather"
+      },
+      {
+        "bones": [
+          "tail_f3"
+        ],
+        "preset": "feather"
+      }
+    ]
+  },
+  "stages": {
+    "baby": {
+      "scale": 0.35
+    },
+    "toddler": {
+      "scale": 0.45
+    },
+    "child": {
+      "scale": 0.6
+    },
+    "teen": {
+      "scale": 0.85
+    }
+  }
+}

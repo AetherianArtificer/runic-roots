@@ -1,0 +1,37 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.dryad.crown"
+  },
+  "description": {
+    "translate": "gene.runic_roots.dryad.crown.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:hair",
+  "variants": {
+    "branches": {
+      "display_name": {
+        "translate": "gene.runic_roots.dryad.crown.branches"
+      },
+      "weight": 3,
+      "attachment": "runic_roots:dryad_crown_branches"
+    },
+    "blossoms": {
+      "display_name": {
+        "translate": "gene.runic_roots.dryad.crown.blossoms"
+      },
+      "weight": 3,
+      "attachment": "runic_roots:dryad_crown_blossoms"
+    },
+    "leaves": {
+      "display_name": {
+        "translate": "gene.runic_roots.dryad.crown.leaves"
+      },
+      "weight": 2,
+      "attachment": "runic_roots:dryad_crown_leaves"
+    }
+  },
+  "penetrance": 0.5
+}

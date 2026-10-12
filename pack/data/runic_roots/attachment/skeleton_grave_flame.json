@@ -1,0 +1,27 @@
+{
+  "schema": "townstead:attachment/v2",
+  "geometry": "runic_roots:skeleton_grave_flame",
+  "texture": "runic_roots:skeleton_grave_flame",
+  "target": {
+    "tag": "back"
+  },
+  "offset": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1.0,
+  "tint": "#FFFFFF",
+  "stages": {
+    "baby": {
+      "scale": 0.6
+    },
+    "toddler": {
+      "scale": 0.7
+    },
+    "child": {
+      "scale": 0.85
+    }
+  },
+  "emissive": "runic_roots:skeleton_grave_flame_glow"
+}

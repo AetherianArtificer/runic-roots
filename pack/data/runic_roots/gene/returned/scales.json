@@ -1,0 +1,33 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.returned.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.returned.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "starfield": {
+      "display_name": {
+        "translate": "gene.runic_roots.returned.scales.starfield"
+      },
+      "weight": 4,
+      "texture": "runic_roots:textures/skin/returned_scales_starfield.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "rift": {
+      "display_name": {
+        "translate": "gene.runic_roots.returned.scales.rift"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/returned_scales_rift.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    }
+  }
+}

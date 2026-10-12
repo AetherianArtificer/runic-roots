@@ -19,7 +19,14 @@
     "runic_roots:serpen/shed_skin",
     "runic_roots:serpen/venomous_coil",
     "runic_roots:serpen/cold_blooded",
-    "runic_roots:serpen/stature"
+    "runic_roots:serpen/stature",
+    "runic_roots:serpen/horns",
+    "runic_roots:serpen/tail",
+    "runic_roots:serpen/scales",
+    "runic_roots:serpen/complexion",
+    "runic_roots:serpen/eyes",
+    "runic_roots:serpen/eye_color",
+    "runic_roots:serpen/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -27,5 +34,27 @@
       "minecraft:desert": 4,
       "minecraft:jungle": 3
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#1A3A14",
+        "to": "#5A9A3A",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#101210",
+        "to": "#3A403A",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#6A4A10",
+        "to": "#E8C050",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
   }
 }

@@ -1,0 +1,630 @@
+{
+ "meta": {
+  "format_version": "5.0",
+  "model_format": "free",
+  "box_uv": true
+ },
+ "name": "skeleton_grave_crown",
+ "model_identifier": "skeleton_grave_crown",
+ "visible_box": [
+  1,
+  1,
+  0
+ ],
+ "resolution": {
+  "width": 64,
+  "height": 64
+ },
+ "elements": [
+  {
+   "name": "crest_band",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -4.3,
+    -1.2,
+    -3.4
+   ],
+   "to": [
+    4.3,
+    -0.4,
+    5.4
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    0,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      9,
+      0,
+      18,
+      9
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      18,
+      0,
+      27,
+      9
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      0,
+      9,
+      9,
+      10
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      9,
+      9,
+      18,
+      10
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      18,
+      9,
+      27,
+      10
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      27,
+      9,
+      36,
+      10
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "cb3efd37-e060-5505-8377-1ffca7b5a132"
+  },
+  {
+   "name": "crest_tine0",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -3.4,
+    -0.5,
+    -3.4
+   ],
+   "to": [
+    -2.6,
+    1.1,
+    -2.6
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    48,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      49,
+      0,
+      50,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      50,
+      0,
+      51,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      48,
+      1,
+      49,
+      3
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      49,
+      1,
+      50,
+      3
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      50,
+      1,
+      51,
+      3
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      51,
+      1,
+      52,
+      3
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "a635f86c-66a4-53c6-8980-1677806b340b"
+  },
+  {
+   "name": "crest_tine1",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -1.9,
+    -0.5,
+    -3.4
+   ],
+   "to": [
+    -1.1,
+    1.7000000000000002,
+    -2.6
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    36,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      37,
+      0,
+      38,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      38,
+      0,
+      39,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      36,
+      1,
+      37,
+      4
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      37,
+      1,
+      38,
+      4
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      38,
+      1,
+      39,
+      4
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      39,
+      1,
+      40,
+      4
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "a0cd8954-fec6-593a-ad88-ef84cfeab26a"
+  },
+  {
+   "name": "crest_tine2",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    -0.4,
+    -0.5,
+    -3.4
+   ],
+   "to": [
+    0.4,
+    2.5,
+    -2.6
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    40,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      41,
+      0,
+      42,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      42,
+      0,
+      43,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      40,
+      1,
+      41,
+      4
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      41,
+      1,
+      42,
+      4
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      42,
+      1,
+      43,
+      4
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      43,
+      1,
+      44,
+      4
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "9f5fff15-9b64-589d-8dda-acaccd0c4bec"
+  },
+  {
+   "name": "crest_tine3",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    1.1,
+    -0.5,
+    -3.4
+   ],
+   "to": [
+    1.9,
+    1.7000000000000002,
+    -2.6
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    44,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      45,
+      0,
+      46,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      46,
+      0,
+      47,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      44,
+      1,
+      45,
+      4
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      45,
+      1,
+      46,
+      4
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      46,
+      1,
+      47,
+      4
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      47,
+      1,
+      48,
+      4
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "4d75dec9-ca16-53da-9061-9e0e25766862"
+  },
+  {
+   "name": "crest_tine4",
+   "box_uv": false,
+   "rescale": false,
+   "locked": false,
+   "render_order": "default",
+   "allow_mirror_modeling": true,
+   "from": [
+    2.6,
+    -0.5,
+    -3.4
+   ],
+   "to": [
+    3.4,
+    1.1,
+    -2.6
+   ],
+   "autouv": 0,
+   "color": 0,
+   "inflate": 0.0,
+   "mirror_uv": false,
+   "origin": [
+    0,
+    0,
+    0
+   ],
+   "uv_offset": [
+    52,
+    0
+   ],
+   "faces": {
+    "up": {
+     "uv": [
+      53,
+      0,
+      54,
+      1
+     ],
+     "texture": 0
+    },
+    "down": {
+     "uv": [
+      54,
+      0,
+      55,
+      1
+     ],
+     "texture": 0
+    },
+    "east": {
+     "uv": [
+      52,
+      1,
+      53,
+      3
+     ],
+     "texture": 0
+    },
+    "north": {
+     "uv": [
+      53,
+      1,
+      54,
+      3
+     ],
+     "texture": 0
+    },
+    "west": {
+     "uv": [
+      54,
+      1,
+      55,
+      3
+     ],
+     "texture": 0
+    },
+    "south": {
+     "uv": [
+      55,
+      1,
+      56,
+      3
+     ],
+     "texture": 0
+    }
+   },
+   "type": "cube",
+   "uuid": "82bd5df6-7262-5a78-a28a-46ce9c029472"
+  }
+ ],
+ "groups": [
+  {
+   "name": "crest",
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rotation": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "color": 0,
+   "uuid": "72762ac8-6f3c-55ae-858c-3fa0d671e366",
+   "export": true,
+   "mirror_uv": false,
+   "isOpen": true,
+   "locked": false,
+   "visibility": true,
+   "autouv": 0,
+   "selected": false
+  }
+ ],
+ "outliner": [
+  {
+   "uuid": "72762ac8-6f3c-55ae-858c-3fa0d671e366",
+   "isOpen": true,
+   "children": [
+    "cb3efd37-e060-5505-8377-1ffca7b5a132",
+    "a635f86c-66a4-53c6-8980-1677806b340b",
+    "a0cd8954-fec6-593a-ad88-ef84cfeab26a",
+    "9f5fff15-9b64-589d-8dda-acaccd0c4bec",
+    "4d75dec9-ca16-53da-9061-9e0e25766862",
+    "82bd5df6-7262-5a78-a28a-46ce9c029472"
+   ]
+  }
+ ],
+ "textures": [
+  {
+   "name": "skeleton_grave_crown.png",
+   "folder": "",
+   "namespace": "",
+   "id": "0",
+   "width": 64,
+   "height": 64,
+   "uv_width": 64,
+   "uv_height": 64,
+   "particle": false,
+   "render_mode": "default",
+   "render_sides": "auto",
+   "visible": true,
+   "internal": true,
+   "saved": true,
+   "uuid": "de548a63-94a2-57d6-9202-348b3b8a8705",
+   "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADdklEQVR4nO2Wy4scVRTGv7r16Krqrn5MMjjJpGFmJOkQEdyIIG6yE9y4cBGIBpKs3CRoNv4VQrJ3ERTCIAkYMQRBxJ2ujIMMo6bVwSSTTCZtd6e6up59wzk9BLLJlATCRM4Piupb93W+c797bxsowerP3+r2/ByicYxbt++ic3ARTqWCX1ZW8cqRQ7BME59e+Ax797SgTIXB4CFm985gHMfo9QZoH9gHpRSOnThjlJmvv3FDf33tO3xw+hy3j3qr+tLyVZz+8BMup1FXf7l8FcdPfsTl4eaKvnb9exw7cXZaP/hNX/nq+uPy0zDKBHTjp2/0vrlZNOoBVn5dw+HOy5hMJuh217Gw0OY2F7+4jHq9Bt/zcGfjHg7Mz/HwN/9cx/z+l2BbFt4/9fGO8/34wxVNydu8v4U4TlGpONgz08T9rR7SNOPy7OwMRqMxBoMharUqz3Vvc4vri6JAq9VEmqTYetDD0bePP3VOVSYBplIsQLkVWJYF161AayDNcgStBhzH3s6mwYkZj2PkRYEoGsP3XP4WxwnKzuX7LhzHgW1bXDYMg59q1eNvNOZoFHEcFA/HZijkeY5q1UezESDLcx5jJ6wyQU30BKZlYhInvALDYYh6sw7LMhH2B6g16siynIWScJq4yItp34lm+7vezsEwBjhxJIyg8Ug0ic/zAlpr2LaNRiNAkqR47Y13Srn4mRJgUFQaULbFFmMH5AWLrvo+4jBi+wVBDWE4glIGTNPkAOk3BR5mUamAXn/r3WcS9F9RZRqRnTzfwyTLeTXJ4oZpotWss3DX92CaipNDViXx5AbXcxEnKVuWkrYbUWUakYA4jlk87bd6UEP/3z7GcQLDAJLtOrInnQf0pqSRAyxT8X6l+t2IKtMozTJeUXroKiRhjm3zAUXCHHt6MJIziKlwk79nefFE3QuZgCRJ2erDhyHbnOyepNMryqr6vB2onpPhOPB9j+toK5B76G1v3xS7DevSxfN6abENt1LBnbubfIXQPv5r/RaWFtp8GodhxNcYJSLLMoyiMa/oP7c32O5BUEXn0BL/QXrQ6/PKLy62ebusrt1E5+ASn+bLn1/Q8/vnuM8f3b/x6pEOB7H2e5f702H55tH3nushKAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIAiCIOB/xCP2pXemi+kTaAAAAABJRU5ErkJggg=="
+  },
+  {
+   "name": "skeleton_grave_crown_glow.png",
+   "folder": "",
+   "namespace": "",
+   "id": "1",
+   "width": 64,
+   "height": 64,
+   "uv_width": 64,
+   "uv_height": 64,
+   "particle": false,
+   "render_mode": "default",
+   "render_sides": "auto",
+   "visible": true,
+   "internal": true,
+   "saved": true,
+   "uuid": "287b39e8-34ef-5ba2-a680-a2ec56bbfdd6",
+   "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAJ0lEQVR4nO3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAAAAAAAAAIDODUBAAAENBzWNAAAAAElFTkSuQmCC"
+  }
+ ]
+}

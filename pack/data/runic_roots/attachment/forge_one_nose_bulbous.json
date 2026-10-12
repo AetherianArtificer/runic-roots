@@ -1,0 +1,40 @@
+{
+  "schema": "townstead:attachment/v2",
+  "geometry": "runic_roots:dwarf_nose_bulbous",
+  "texture": "runic_roots:dwarf_nose_bulbous",
+  "target": {
+    "tag": "snout"
+  },
+  "offset": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1.0,
+  "tint": "skin",
+  "stages": {
+    "baby": {
+      "scale": 0.7
+    },
+    "toddler": {
+      "scale": 0.8
+    },
+    "child": {
+      "scale": 0.9
+    }
+  },
+  "morph": {
+    "channels": {
+      "size": {
+        "bones": [
+          "nose"
+        ],
+        "axes": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  }
+}

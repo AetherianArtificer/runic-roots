@@ -20,12 +20,38 @@
     "runic_roots:changeling/manyfaces",
     "runic_roots:changeling/hollow_identity",
     "runic_roots:changeling/stature",
-    "runic_roots:changeling/ambience"
+    "runic_roots:changeling/ambience",
+    "runic_roots:changeling/scales",
+    "runic_roots:changeling/complexion",
+    "runic_roots:changeling/iris",
+    "runic_roots:changeling/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
     "biome_tags": {
       "#minecraft:is_forest": 2
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#141216",
+        "to": "#3A3640",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#E8E4E8",
+        "to": "#FFFFFF",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#5A4A6A",
+        "to": "#A890C0",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
   }
 }

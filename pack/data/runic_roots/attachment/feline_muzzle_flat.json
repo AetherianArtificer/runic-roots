@@ -1,0 +1,27 @@
+{
+  "schema": "townstead:attachment/v2",
+  "geometry": "runic_roots:feline_muzzle_flat",
+  "texture": "runic_roots:feline_muzzle_flat",
+  "target": {
+    "tag": "snout"
+  },
+  "offset": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1.0,
+  "tint": "skin",
+  "stages": {
+    "baby": {
+      "scale": 0.7
+    },
+    "toddler": {
+      "scale": 0.8
+    },
+    "child": {
+      "scale": 0.9
+    }
+  },
+  "tint_mask": "runic_roots:feline_muzzle_flat_tint_mask"
+}

@@ -1,0 +1,62 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:eyes",
+  "display_name": {
+    "translate": "gene.runic_roots.zombie.eyes"
+  },
+  "description": {
+    "translate": "gene.runic_roots.zombie.eyes.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "hollow": {
+      "display_name": {
+        "translate": "gene.runic_roots.zombie.eyes.hollow"
+      },
+      "weight": 4,
+      "texture": "runic_roots:textures/face/zombie_eyes_hollow.png",
+      "glow": false
+    },
+    "milky": {
+      "display_name": {
+        "translate": "gene.runic_roots.zombie.eyes.milky"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/face/zombie_eyes_milky.png",
+      "glow": false
+    },
+    "staring": {
+      "display_name": {
+        "translate": "gene.runic_roots.zombie.eyes.staring"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/face/zombie_eyes_staring.png",
+      "glow": false
+    },
+    "sunken": {
+      "display_name": {
+        "translate": "gene.runic_roots.zombie.eyes.sunken"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/face/zombie_eyes_sunken.png",
+      "glow": false
+    },
+    "mismatched": {
+      "display_name": {
+        "translate": "gene.runic_roots.zombie.eyes.mismatched"
+      },
+      "weight": 1,
+      "texture": "runic_roots:textures/face/zombie_eyes_mismatched.png",
+      "glow": false
+    },
+    "plague": {
+      "display_name": {
+        "translate": "gene.runic_roots.zombie.eyes.plague"
+      },
+      "weight": 1,
+      "texture": "runic_roots:textures/face/zombie_eyes_plague.png",
+      "glow": true
+    }
+  }
+}

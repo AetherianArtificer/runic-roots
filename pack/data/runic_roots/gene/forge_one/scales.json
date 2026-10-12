@@ -1,0 +1,41 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.forge_one.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.forge_one.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "soot": {
+      "display_name": {
+        "translate": "gene.runic_roots.forge_one.scales.soot"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/forge_one_scales_soot.png",
+      "tint": "#FFFFFF"
+    },
+    "embers": {
+      "display_name": {
+        "translate": "gene.runic_roots.forge_one.scales.embers"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/forge_one_scales_embers.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.forge_one.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/forge_one_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

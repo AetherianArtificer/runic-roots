@@ -1,0 +1,25 @@
+{
+  "schema": "townstead:heritage/v1",
+  "display_name": {
+    "translate": "heritage.runic_roots.fey_touched"
+  },
+  "demonym": {
+    "singular": {
+      "translate": "heritage.runic_roots.fey_touched.demonym.singular"
+    },
+    "plural": {
+      "translate": "heritage.runic_roots.fey_touched.demonym.plural"
+    }
+  },
+  "priority": 10,
+  "match": {
+    "townstead_roots:human": {
+      "min": 0.7,
+      "max": 0.9
+    },
+    "runic_roots:fae": {
+      "min": 0.1,
+      "max": 0.3
+    }
+  }
+}

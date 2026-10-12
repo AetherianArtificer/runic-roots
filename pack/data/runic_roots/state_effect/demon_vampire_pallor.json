@@ -1,0 +1,16 @@
+{
+  "schema": "pheno:state_effect/v1",
+  "mods": "vampirism",
+  "state": "townstead_state:vampire",
+  "priority": 35,
+  "condition": {
+    "type": "pheno:root",
+    "root": "runic_roots:demon"
+  },
+  "genes": {
+    "grant": [
+      "runic_roots:demon/vampire_pallor"
+    ]
+  },
+  "min_tier": "turning"
+}

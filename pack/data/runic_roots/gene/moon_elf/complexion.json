@@ -1,0 +1,44 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.moon_elf.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.moon_elf.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "moonlit": {
+      "display_name": {
+        "translate": "gene.runic_roots.moon_elf.complexion.moonlit"
+      },
+      "weight": 4,
+      "tint": "#DCDCEE",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "silver": {
+      "display_name": {
+        "translate": "gene.runic_roots.moon_elf.complexion.silver"
+      },
+      "weight": 3,
+      "tint": "#C8CCDA",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "lavender": {
+      "display_name": {
+        "translate": "gene.runic_roots.moon_elf.complexion.lavender"
+      },
+      "weight": 2,
+      "tint": "#CCBCE2",
+      "blend": "color",
+      "strength": 0.5
+    }
+  },
+  "penetrance": 0.35,
+  "weight": 2
+}

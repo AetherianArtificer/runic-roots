@@ -3,7 +3,7 @@
   "display_name": {
     "translate": "lineage.runic_roots.zombie"
   },
-  "ancestry": "runic_roots:revenant",
+  "ancestry": "runic_roots:zombies",
   "demonym": {
     "singular": {
       "translate": "lineage.runic_roots.zombie.demonym.singular"
@@ -20,7 +20,10 @@
     "runic_roots:zombie/deathless_flesh",
     "runic_roots:zombie/sunlight_decay",
     "runic_roots:zombie/ambience",
-    "runic_roots:zombie/complexion"
+    "runic_roots:zombie/plague",
+    "runic_roots:zombie/complexion",
+    "runic_roots:zombie/eyes",
+    "runic_roots:zombie/thermal"
   ],
   "spawn_bias": {
     "default": 0.25

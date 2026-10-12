@@ -28,5 +28,6 @@
       "texture": "runic_roots:textures/skin/scaleheir_scales_plated.png",
       "tint": "#FFFFFF"
     }
-  }
+  },
+  "penetrance": 0.4
 }

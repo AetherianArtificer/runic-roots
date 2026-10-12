@@ -19,9 +19,38 @@
     "runic_roots:primian/stroke_of_fortune",
     "runic_roots:primian/boundless_adaptability",
     "runic_roots:primian/jack_of_all_trades",
-    "runic_roots:primian/ambience"
+    "runic_roots:primian/ambience",
+    "runic_roots:primian/scales"
   ],
   "spawn_bias": {
     "default": 0.25
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#3A2414",
+        "to": "#8A6040",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#7A5A30",
+        "to": "#E8D0A0",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#141210",
+        "to": "#3A3430",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#6A2A10",
+        "to": "#C8642A",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
   }
 }

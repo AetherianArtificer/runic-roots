@@ -20,7 +20,13 @@
     "runic_roots:dark_elf/children_of_darkness",
     "runic_roots:dark_elf/sunlight_sensitivity",
     "runic_roots:dark_elf/stature",
-    "runic_roots:dark_elf/ambience"
+    "runic_roots:dark_elf/ambience",
+    "runic_roots:dark_elf/ears",
+    "runic_roots:dark_elf/scales",
+    "runic_roots:dark_elf/complexion",
+    "runic_roots:dark_elf/build",
+    "runic_roots:dark_elf/iris",
+    "runic_roots:dark_elf/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -31,17 +37,52 @@
       "#minecraft:is_forest": 2
     }
   },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#9A9AA4",
+        "to": "#E8E8F0",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#E8E8F0",
+        "to": "#FFFFFF",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#3A2A5A",
+        "to": "#8A6AC0",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
+  },
   "overrides": [
     {
       "requires": {
         "namespace": "townstead_classic"
       },
       "ancestry": "townstead_classic:elf",
+      "ancestry_genes": false,
       "genes": [
+        "townstead_roots:omnivore",
+        "townstead_roots:water_drinker",
+        "townstead_roots:human_thermal",
+        "townstead_roots:human_chronotype",
+        "runic_roots:family/elven_life_cycle",
         "runic_roots:dark_elf/shadowmeld",
         "runic_roots:dark_elf/children_of_darkness",
         "runic_roots:dark_elf/sunlight_sensitivity",
-        "runic_roots:dark_elf/ambience"
+        "runic_roots:dark_elf/stature",
+        "runic_roots:dark_elf/ambience",
+        "runic_roots:dark_elf/ears",
+        "runic_roots:dark_elf/scales",
+        "runic_roots:dark_elf/complexion",
+        "runic_roots:dark_elf/build",
+        "runic_roots:dark_elf/iris",
+        "runic_roots:dark_elf/thermal"
       ]
     }
   ]

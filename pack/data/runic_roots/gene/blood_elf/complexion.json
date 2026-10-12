@@ -1,0 +1,44 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.blood_elf.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.blood_elf.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "ashen": {
+      "display_name": {
+        "translate": "gene.runic_roots.blood_elf.complexion.ashen"
+      },
+      "weight": 4,
+      "tint": "#ECDCD4",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "pale": {
+      "display_name": {
+        "translate": "gene.runic_roots.blood_elf.complexion.pale"
+      },
+      "weight": 3,
+      "tint": "#F4E4DA",
+      "blend": "color",
+      "strength": 0.45
+    },
+    "rose": {
+      "display_name": {
+        "translate": "gene.runic_roots.blood_elf.complexion.rose"
+      },
+      "weight": 2,
+      "tint": "#E4C0B8",
+      "blend": "color",
+      "strength": 0.45
+    }
+  },
+  "penetrance": 0.35,
+  "weight": 2
+}

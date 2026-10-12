@@ -20,7 +20,14 @@
     "runic_roots:bovine/herd_strength",
     "runic_roots:bovine/heavy_appetite",
     "runic_roots:bovine/stature",
-    "runic_roots:bovine/ambience"
+    "runic_roots:bovine/ambience",
+    "runic_roots:bovine/horns",
+    "runic_roots:bovine/ears",
+    "runic_roots:bovine/tail",
+    "runic_roots:bovine/scales",
+    "runic_roots:bovine/complexion",
+    "runic_roots:bovine/eyes",
+    "runic_roots:bovine/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -28,5 +35,33 @@
       "minecraft:plains": 3,
       "minecraft:savanna": 4
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#3A2618",
+        "to": "#8A5A30",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#141212",
+        "to": "#3A3634",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#D8D2C8",
+        "to": "#FFFFFF",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#8A3A1A",
+        "to": "#D07040",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
   }
 }

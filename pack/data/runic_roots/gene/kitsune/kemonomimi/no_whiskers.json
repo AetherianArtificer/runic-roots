@@ -1,0 +1,14 @@
+{
+  "schema": "townstead:gene/v2",
+  "display_name": {
+    "translate": "gene.runic_roots.kitsune.kemonomimi.no_whiskers"
+  },
+  "description": {
+    "translate": "gene.runic_roots.kitsune.kemonomimi.no_whiskers.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "type": "townstead_roots:attachment",
+  "none": true,
+  "locus": "townstead_roots:whiskers"
+}

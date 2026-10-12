@@ -1,0 +1,60 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.saurian.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.saurian.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "lime": {
+      "display_name": {
+        "translate": "gene.runic_roots.saurian.complexion.lime"
+      },
+      "weight": 4,
+      "tint": "#9AC83A",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "emerald": {
+      "display_name": {
+        "translate": "gene.runic_roots.saurian.complexion.emerald"
+      },
+      "weight": 3,
+      "tint": "#3A9A4A",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "sand": {
+      "display_name": {
+        "translate": "gene.runic_roots.saurian.complexion.sand"
+      },
+      "weight": 2,
+      "tint": "#C8B070",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "rust": {
+      "display_name": {
+        "translate": "gene.runic_roots.saurian.complexion.rust"
+      },
+      "weight": 2,
+      "tint": "#B8643A",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "teal": {
+      "display_name": {
+        "translate": "gene.runic_roots.saurian.complexion.teal"
+      },
+      "weight": 2,
+      "tint": "#2A8A8A",
+      "blend": "color",
+      "strength": 0.5
+    }
+  }
+}

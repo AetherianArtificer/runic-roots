@@ -21,7 +21,13 @@
     "runic_roots:sprite/fragile_essence",
     "runic_roots:sprite/stature",
     "runic_roots:sprite/wings",
-    "runic_roots:sprite/ambience"
+    "runic_roots:sprite/ambience",
+    "runic_roots:sprite/ears",
+    "runic_roots:sprite/scales",
+    "runic_roots:sprite/complexion",
+    "runic_roots:sprite/build",
+    "runic_roots:sprite/iris",
+    "runic_roots:sprite/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -29,5 +35,27 @@
       "minecraft:flower_forest": 4,
       "minecraft:cherry_grove": 3
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#2A1A6A",
+        "to": "#7A5AE0",
+        "weight": 4,
+        "space": "hsv"
+      },
+      {
+        "from": "#1A3A8A",
+        "to": "#5AA0F0",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#6A1A6A",
+        "to": "#E06AE0",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
   }
 }

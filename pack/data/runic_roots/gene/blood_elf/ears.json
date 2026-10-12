@@ -1,0 +1,99 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.blood_elf.ears"
+  },
+  "description": {
+    "translate": "gene.runic_roots.blood_elf.ears.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:ears",
+  "variants": {
+    "long": {
+      "display_name": {
+        "translate": "gene.runic_roots.blood_elf.ears.long"
+      },
+      "weight": 4,
+      "attachments": [
+        "runic_roots:blood_elf_ears_long_male",
+        "runic_roots:blood_elf_ears_long_female"
+      ],
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.blood_elf.ears.size"
+            },
+            "min": 0.85,
+            "max": 1.2,
+            "heritage": {
+              "ancestry": [
+                "runic_roots:elf",
+                "townstead_classic:elf"
+              ],
+              "floor": 0.4
+            }
+          }
+        }
+      }
+    },
+    "short": {
+      "display_name": {
+        "translate": "gene.runic_roots.blood_elf.ears.short"
+      },
+      "weight": 3,
+      "attachments": [
+        "runic_roots:blood_elf_ears_short_male",
+        "runic_roots:blood_elf_ears_short_female"
+      ],
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.blood_elf.ears.size"
+            },
+            "min": 0.85,
+            "max": 1.2,
+            "heritage": {
+              "ancestry": [
+                "runic_roots:elf",
+                "townstead_classic:elf"
+              ],
+              "floor": 0.4
+            }
+          }
+        }
+      }
+    },
+    "drooping": {
+      "display_name": {
+        "translate": "gene.runic_roots.blood_elf.ears.drooping"
+      },
+      "weight": 2,
+      "attachments": [
+        "runic_roots:blood_elf_ears_drooping_male",
+        "runic_roots:blood_elf_ears_drooping_female"
+      ],
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.blood_elf.ears.size"
+            },
+            "min": 0.85,
+            "max": 1.2,
+            "heritage": {
+              "ancestry": [
+                "runic_roots:elf",
+                "townstead_classic:elf"
+              ],
+              "floor": 0.4
+            }
+          }
+        }
+      }
+    }
+  }
+}

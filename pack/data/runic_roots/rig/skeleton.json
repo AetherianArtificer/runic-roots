@@ -1,0 +1,36 @@
+{
+  "schema": "townstead:rig/v1",
+  "model": {
+    "type": "entity_layer",
+    "layer": "minecraft:skeleton#main"
+  },
+  "texture": "runic_roots:textures/entity/skeleton.png",
+  "bones": {
+    "head": "head",
+    "headwear": "hat",
+    "body": "body",
+    "right_arm": "right_arm",
+    "left_arm": "left_arm",
+    "right_leg": "right_leg",
+    "left_leg": "left_leg"
+  },
+  "armor": {
+    "type": "layers",
+    "inner": "minecraft:skeleton#inner_armor",
+    "outer": "minecraft:skeleton#outer_armor"
+  },
+  "hold": {
+    "mainhand": {
+      "bone": "right_arm"
+    },
+    "offhand": {
+      "bone": "left_arm"
+    }
+  },
+  "overlays": [
+    {
+      "texture": "runic_roots:textures/entity/skeleton_runes.png",
+      "glow": true
+    }
+  ]
+}

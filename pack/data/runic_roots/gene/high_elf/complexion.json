@@ -1,0 +1,44 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.high_elf.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.high_elf.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "natural": {
+      "display_name": {
+        "translate": "gene.runic_roots.high_elf.complexion.natural"
+      },
+      "weight": 2,
+      "tint": "#FFFFFF",
+      "blend": "multiply",
+      "strength": 0.0
+    },
+    "porcelain": {
+      "display_name": {
+        "translate": "gene.runic_roots.high_elf.complexion.porcelain"
+      },
+      "weight": 4,
+      "tint": "#F6EEE6",
+      "blend": "color",
+      "strength": 0.4
+    },
+    "ivory": {
+      "display_name": {
+        "translate": "gene.runic_roots.high_elf.complexion.ivory"
+      },
+      "weight": 3,
+      "tint": "#EEE2D0",
+      "blend": "color",
+      "strength": 0.4
+    }
+  },
+  "penetrance": 0.35,
+  "weight": 2
+}

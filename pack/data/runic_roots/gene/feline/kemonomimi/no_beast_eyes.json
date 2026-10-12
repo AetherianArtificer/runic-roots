@@ -1,0 +1,14 @@
+{
+  "schema": "townstead:gene/v2",
+  "display_name": {
+    "translate": "gene.runic_roots.feline.kemonomimi.no_beast_eyes"
+  },
+  "description": {
+    "translate": "gene.runic_roots.feline.kemonomimi.no_beast_eyes.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "type": "townstead_roots:attachment",
+  "none": true,
+  "locus": "townstead_roots:eyes"
+}

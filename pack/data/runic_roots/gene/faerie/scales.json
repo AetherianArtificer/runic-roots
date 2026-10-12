@@ -1,0 +1,41 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.faerie.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.faerie.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "pollen": {
+      "display_name": {
+        "translate": "gene.runic_roots.faerie.scales.pollen"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/faerie_scales_pollen.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "petals": {
+      "display_name": {
+        "translate": "gene.runic_roots.faerie.scales.petals"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/faerie_scales_petals.png",
+      "tint": "#FFFFFF"
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.faerie.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/faerie_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

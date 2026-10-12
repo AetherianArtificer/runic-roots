@@ -1,0 +1,44 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.dryad.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.dryad.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "sapling": {
+      "display_name": {
+        "translate": "gene.runic_roots.dryad.complexion.sapling"
+      },
+      "weight": 4,
+      "tint": "#CCE2B4",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "birch": {
+      "display_name": {
+        "translate": "gene.runic_roots.dryad.complexion.birch"
+      },
+      "weight": 3,
+      "tint": "#EEE8DC",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "oak": {
+      "display_name": {
+        "translate": "gene.runic_roots.dryad.complexion.oak"
+      },
+      "weight": 2,
+      "tint": "#B89A78",
+      "blend": "color",
+      "strength": 0.5
+    }
+  },
+  "penetrance": 0.35,
+  "weight": 2
+}

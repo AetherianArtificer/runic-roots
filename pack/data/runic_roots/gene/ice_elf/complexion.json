@@ -1,0 +1,44 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.ice_elf.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.ice_elf.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "frost": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_elf.complexion.frost"
+      },
+      "weight": 4,
+      "tint": "#E0ECF8",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "glacier": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_elf.complexion.glacier"
+      },
+      "weight": 3,
+      "tint": "#BCD4EC",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "twilight": {
+      "display_name": {
+        "translate": "gene.runic_roots.ice_elf.complexion.twilight"
+      },
+      "weight": 2,
+      "tint": "#C8C0E8",
+      "blend": "color",
+      "strength": 0.5
+    }
+  },
+  "penetrance": 0.35,
+  "weight": 2
+}

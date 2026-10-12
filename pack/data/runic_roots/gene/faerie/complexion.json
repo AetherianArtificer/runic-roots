@@ -1,0 +1,44 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.faerie.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.faerie.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "petal": {
+      "display_name": {
+        "translate": "gene.runic_roots.faerie.complexion.petal"
+      },
+      "weight": 4,
+      "tint": "#F8EEEC",
+      "blend": "color",
+      "strength": 0.4
+    },
+    "blush": {
+      "display_name": {
+        "translate": "gene.runic_roots.faerie.complexion.blush"
+      },
+      "weight": 3,
+      "tint": "#F4D8D4",
+      "blend": "color",
+      "strength": 0.4
+    },
+    "dewy": {
+      "display_name": {
+        "translate": "gene.runic_roots.faerie.complexion.dewy"
+      },
+      "weight": 2,
+      "tint": "#E8F0E4",
+      "blend": "color",
+      "strength": 0.4
+    }
+  },
+  "penetrance": 0.35,
+  "weight": 2
+}

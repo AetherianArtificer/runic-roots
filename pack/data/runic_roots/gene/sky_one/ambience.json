@@ -47,5 +47,6 @@
       }
     ]
   },
-  "locus": "runic_roots:ambience"
+  "locus": "runic_roots:ambience",
+  "penetrance": 0.5
 }

@@ -1,0 +1,42 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.sprite.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.sprite.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "stars": {
+      "display_name": {
+        "translate": "gene.runic_roots.sprite.scales.stars"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/sprite_scales_stars.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "wild": {
+      "display_name": {
+        "translate": "gene.runic_roots.sprite.scales.wild"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/sprite_scales_wild.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.sprite.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/sprite_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

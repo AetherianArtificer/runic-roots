@@ -1,0 +1,114 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.chelon.shell"
+  },
+  "description": {
+    "translate": "gene.runic_roots.chelon.shell.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:back",
+  "variants": {
+    "domed": {
+      "display_name": {
+        "translate": "gene.runic_roots.chelon.shell.domed"
+      },
+      "weight": 4,
+      "attachment": "runic_roots:chelon_shell_domed",
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.chelon.shell.size"
+            },
+            "min": 0.9,
+            "max": 1.15,
+            "heritage": {
+              "ancestry": "runic_roots:bestial",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.chelon.shell.color"
+        },
+        "palette": [
+          "#4CB04A",
+          "#9A6038",
+          "#6A8A3A",
+          "#3A4A2E"
+        ]
+      }
+    },
+    "ridged": {
+      "display_name": {
+        "translate": "gene.runic_roots.chelon.shell.ridged"
+      },
+      "weight": 2,
+      "attachment": "runic_roots:chelon_shell_ridged",
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.chelon.shell.size"
+            },
+            "min": 0.9,
+            "max": 1.15,
+            "heritage": {
+              "ancestry": "runic_roots:bestial",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.chelon.shell.color"
+        },
+        "palette": [
+          "#4CB04A",
+          "#9A6038",
+          "#6A8A3A",
+          "#3A4A2E"
+        ]
+      }
+    },
+    "flat": {
+      "display_name": {
+        "translate": "gene.runic_roots.chelon.shell.flat"
+      },
+      "weight": 2,
+      "attachment": "runic_roots:chelon_shell_flat",
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.chelon.shell.size"
+            },
+            "min": 0.9,
+            "max": 1.15,
+            "heritage": {
+              "ancestry": "runic_roots:bestial",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.chelon.shell.color"
+        },
+        "palette": [
+          "#4CB04A",
+          "#9A6038",
+          "#6A8A3A",
+          "#3A4A2E"
+        ]
+      }
+    }
+  }
+}

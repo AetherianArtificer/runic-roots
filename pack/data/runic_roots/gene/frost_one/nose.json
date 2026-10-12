@@ -1,0 +1,72 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.frost_one.nose"
+  },
+  "description": {
+    "translate": "gene.runic_roots.frost_one.nose.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:nose",
+  "variants": {
+    "bulbous": {
+      "display_name": {
+        "translate": "gene.runic_roots.frost_one.nose.bulbous"
+      },
+      "weight": 4,
+      "attachments": [
+        "runic_roots:frost_one_nose_bulbous",
+        "runic_roots:frost_one_nose_bulbous_drunk"
+      ],
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.frost_one.nose.size"
+            },
+            "min": 0.9,
+            "max": 1.15,
+            "heritage": {
+              "ancestry": [
+                "runic_roots:dwarf",
+                "townstead_classic:dwarf"
+              ],
+              "floor": 0.4
+            }
+          }
+        }
+      }
+    },
+    "hooked": {
+      "display_name": {
+        "translate": "gene.runic_roots.frost_one.nose.hooked"
+      },
+      "weight": 2,
+      "attachments": [
+        "runic_roots:frost_one_nose_hooked",
+        "runic_roots:frost_one_nose_hooked_drunk"
+      ],
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.frost_one.nose.size"
+            },
+            "min": 0.9,
+            "max": 1.15,
+            "heritage": {
+              "ancestry": [
+                "runic_roots:dwarf",
+                "townstead_classic:dwarf"
+              ],
+              "floor": 0.4
+            }
+          }
+        }
+      }
+    }
+  },
+  "penetrance": 0.5
+}

@@ -20,9 +20,34 @@
     "runic_roots:celeron/fleet_and_sure",
     "runic_roots:celeron/featherweight_frame",
     "runic_roots:celeron/stature",
-    "runic_roots:celeron/ambience"
+    "runic_roots:celeron/ambience",
+    "runic_roots:celeron/circlet",
+    "runic_roots:celeron/build",
+    "runic_roots:celeron/iris"
   ],
   "spawn_bias": {
     "default": 0.25
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#D8D8D8",
+        "to": "#FFFFFF",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#9AA0A8",
+        "to": "#E0E4E8",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#3A6A3A",
+        "to": "#8AC07A",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
   }
 }

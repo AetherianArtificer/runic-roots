@@ -20,7 +20,14 @@
     "runic_roots:dryad/one_with_the_grove",
     "runic_roots:dryad/kindling",
     "runic_roots:dryad/stature",
-    "runic_roots:dryad/ambience"
+    "runic_roots:dryad/ambience",
+    "runic_roots:dryad/ears",
+    "runic_roots:dryad/crown",
+    "runic_roots:dryad/scales",
+    "runic_roots:dryad/complexion",
+    "runic_roots:dryad/build",
+    "runic_roots:dryad/iris",
+    "runic_roots:dryad/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -30,5 +37,27 @@
     "biome_tags": {
       "#minecraft:is_forest": 4
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#2A5A1A",
+        "to": "#8AC850",
+        "weight": 4,
+        "space": "hsv"
+      },
+      {
+        "from": "#7A3A10",
+        "to": "#E8A040",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#E07090",
+        "to": "#F8C8D8",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
   }
 }

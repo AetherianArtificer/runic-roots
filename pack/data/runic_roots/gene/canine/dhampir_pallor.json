@@ -1,0 +1,17 @@
+{
+  "schema": "townstead:gene/v2",
+  "mods": "vampirism",
+  "display_name": {
+    "translate": "gene.runic_roots.canine.dhampir_pallor"
+  },
+  "description": {
+    "translate": "gene.runic_roots.canine.dhampir_pallor.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "type": "townstead_roots:skin_tone",
+  "locus": "townstead_roots:skin",
+  "tint": "#A2A1A4",
+  "blend": "color",
+  "strength": 0.5
+}

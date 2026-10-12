@@ -1,0 +1,41 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.dark_elf.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.dark_elf.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "warpaint": {
+      "display_name": {
+        "translate": "gene.runic_roots.dark_elf.scales.warpaint"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/dark_elf_scales_warpaint.png",
+      "tint": "#FFFFFF"
+    },
+    "runes": {
+      "display_name": {
+        "translate": "gene.runic_roots.dark_elf.scales.runes"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/dark_elf_scales_runes.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.dark_elf.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/dark_elf_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

@@ -19,10 +19,40 @@
     "runic_roots:runic_one/rune_of_warding",
     "runic_roots:runic_one/runebound",
     "runic_roots:runic_one/bound_by_tradition",
-    "runic_roots:runic_one/stature"
+    "runic_roots:runic_one/stature",
+    "runic_roots:runic_one/beard",
+    "runic_roots:runic_one/braids",
+    "runic_roots:runic_one/nose",
+    "runic_roots:runic_one/brows",
+    "runic_roots:runic_one/scales",
+    "runic_roots:runic_one/build",
+    "runic_roots:runic_one/iris",
+    "runic_roots:runic_one/thermal"
   ],
   "spawn_bias": {
     "default": 0.25
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#3A2414",
+        "to": "#7A4A28",
+        "weight": 4,
+        "space": "hsv"
+      },
+      {
+        "from": "#5A1A0A",
+        "to": "#A04A24",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#6A6A6A",
+        "to": "#B8B8B8",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
   },
   "overrides": [
     {
@@ -30,10 +60,25 @@
         "namespace": "townstead_classic"
       },
       "ancestry": "townstead_classic:dwarf",
+      "ancestry_genes": false,
       "genes": [
+        "townstead_roots:omnivore",
+        "townstead_roots:water_drinker",
+        "townstead_roots:human_thermal",
+        "townstead_roots:human_chronotype",
+        "runic_roots:family/dwarven_life_cycle",
         "runic_roots:runic_one/rune_of_warding",
         "runic_roots:runic_one/runebound",
-        "runic_roots:runic_one/bound_by_tradition"
+        "runic_roots:runic_one/bound_by_tradition",
+        "runic_roots:runic_one/stature",
+        "runic_roots:runic_one/beard",
+        "runic_roots:runic_one/braids",
+        "runic_roots:runic_one/nose",
+        "runic_roots:runic_one/brows",
+        "runic_roots:runic_one/scales",
+        "runic_roots:runic_one/build",
+        "runic_roots:runic_one/iris",
+        "runic_roots:runic_one/thermal"
       ]
     }
   ]

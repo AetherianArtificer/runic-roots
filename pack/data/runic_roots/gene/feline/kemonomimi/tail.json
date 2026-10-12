@@ -1,0 +1,14 @@
+{
+  "schema": "townstead:gene/v2",
+  "display_name": {
+    "translate": "gene.runic_roots.feline.kemonomimi.tail"
+  },
+  "description": {
+    "translate": "gene.runic_roots.feline.kemonomimi.tail.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "type": "townstead_roots:attachment",
+  "locus": "townstead_roots:tail",
+  "attachment": "runic_roots:feline_tail_hair"
+}

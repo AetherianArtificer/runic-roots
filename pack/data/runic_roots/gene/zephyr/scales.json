@@ -1,0 +1,40 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.zephyr.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.zephyr.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "ribbons": {
+      "display_name": {
+        "translate": "gene.runic_roots.zephyr.scales.ribbons"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/zephyr_scales_ribbons.png",
+      "tint": "#FFFFFF"
+    },
+    "wisps": {
+      "display_name": {
+        "translate": "gene.runic_roots.zephyr.scales.wisps"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/zephyr_scales_wisps.png",
+      "tint": "#FFFFFF"
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.zephyr.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/zephyr_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

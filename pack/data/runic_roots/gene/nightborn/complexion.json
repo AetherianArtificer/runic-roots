@@ -10,7 +10,33 @@
   "category": "Appearance",
   "dominance": "dominant",
   "locus": "townstead_roots:skin",
-  "tint": "#C8B6C6",
-  "blend": "color",
-  "strength": 0.45
+  "variants": {
+    "pallid": {
+      "display_name": {
+        "translate": "gene.runic_roots.nightborn.complexion.pallid"
+      },
+      "weight": 4,
+      "tint": "#ECE4E8",
+      "blend": "color",
+      "strength": 0.6
+    },
+    "ashen": {
+      "display_name": {
+        "translate": "gene.runic_roots.nightborn.complexion.ashen"
+      },
+      "weight": 3,
+      "tint": "#CCC4CC",
+      "blend": "color",
+      "strength": 0.6
+    },
+    "grey": {
+      "display_name": {
+        "translate": "gene.runic_roots.nightborn.complexion.grey"
+      },
+      "weight": 2,
+      "tint": "#A09CA8",
+      "blend": "color",
+      "strength": 0.6
+    }
+  }
 }

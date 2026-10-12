@@ -1,0 +1,29 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.feline.muzzle"
+  },
+  "description": {
+    "translate": "gene.runic_roots.feline.muzzle.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:snout",
+  "variants": {
+    "cat": {
+      "display_name": {
+        "translate": "gene.runic_roots.feline.muzzle.cat"
+      },
+      "weight": 4,
+      "attachment": "runic_roots:feline_muzzle_cat"
+    },
+    "flat": {
+      "display_name": {
+        "translate": "gene.runic_roots.feline.muzzle.flat"
+      },
+      "weight": 1,
+      "attachment": "runic_roots:feline_muzzle_flat"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "townstead:heritage/v1",
+  "display_name": {
+    "translate": "lineage.runic_roots.kitsune"
+  },
+  "demonym": {
+    "singular": {
+      "translate": "lineage.runic_roots.kitsune.demonym.singular"
+    },
+    "plural": {
+      "translate": "lineage.runic_roots.kitsune.demonym.plural"
+    }
+  },
+  "priority": 15,
+  "match": {
+    "townstead_roots:human": {
+      "min": 0.1,
+      "max": 0.3
+    },
+    "runic_roots:bestial": {
+      "min": 0.7,
+      "max": 0.9
+    }
+  },
+  "lineages": {
+    "runic_roots:kitsune": {
+      "min": 0.7,
+      "max": 0.9
+    }
+  },
+  "open_lineages": true
+}

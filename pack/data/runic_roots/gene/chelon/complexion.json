@@ -1,0 +1,60 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.chelon.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.chelon.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "sea green": {
+      "display_name": {
+        "translate": "gene.runic_roots.chelon.complexion.sea green"
+      },
+      "weight": 4,
+      "tint": "#4CA846",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "olive": {
+      "display_name": {
+        "translate": "gene.runic_roots.chelon.complexion.olive"
+      },
+      "weight": 3,
+      "tint": "#6A7A3A",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "moss": {
+      "display_name": {
+        "translate": "gene.runic_roots.chelon.complexion.moss"
+      },
+      "weight": 2,
+      "tint": "#4A6A3A",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "grey": {
+      "display_name": {
+        "translate": "gene.runic_roots.chelon.complexion.grey"
+      },
+      "weight": 2,
+      "tint": "#7A7E70",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "sand": {
+      "display_name": {
+        "translate": "gene.runic_roots.chelon.complexion.sand"
+      },
+      "weight": 1,
+      "tint": "#B8A070",
+      "blend": "color",
+      "strength": 0.5
+    }
+  }
+}

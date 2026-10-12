@@ -1,0 +1,50 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.demon.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.demon.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "sigils": {
+      "display_name": {
+        "translate": "gene.runic_roots.demon.scales.sigils"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/demon_scales_sigils.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "veins": {
+      "display_name": {
+        "translate": "gene.runic_roots.demon.scales.veins"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/demon_scales_veins.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "brands": {
+      "display_name": {
+        "translate": "gene.runic_roots.demon.scales.brands"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/demon_scales_brands.png",
+      "tint": "#FFFFFF"
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.demon.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/demon_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

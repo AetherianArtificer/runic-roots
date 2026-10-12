@@ -31,5 +31,6 @@
       "weight": 2,
       "tint": "#F2C84A"
     }
-  }
+  },
+  "penetrance": 0.9
 }

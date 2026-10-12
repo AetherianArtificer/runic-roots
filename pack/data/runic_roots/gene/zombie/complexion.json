@@ -10,7 +10,51 @@
   "category": "Appearance",
   "dominance": "dominant",
   "locus": "townstead_roots:skin",
-  "tint": "#7A9A6B",
-  "blend": "color",
-  "strength": 0.55
+  "variants": {
+    "rotting": {
+      "display_name": {
+        "translate": "gene.runic_roots.zombie.complexion.rotting"
+      },
+      "weight": 4,
+      "tint": "#7EB264",
+      "blend": "color",
+      "strength": 1.0
+    },
+    "sallow": {
+      "display_name": {
+        "translate": "gene.runic_roots.zombie.complexion.sallow"
+      },
+      "weight": 3,
+      "tint": "#A8B86A",
+      "blend": "color",
+      "strength": 1.0
+    },
+    "mouldy": {
+      "display_name": {
+        "translate": "gene.runic_roots.zombie.complexion.mouldy"
+      },
+      "weight": 3,
+      "tint": "#5E9466",
+      "blend": "color",
+      "strength": 1.0
+    },
+    "drowned": {
+      "display_name": {
+        "translate": "gene.runic_roots.zombie.complexion.drowned"
+      },
+      "weight": 2,
+      "tint": "#6AA8A0",
+      "blend": "color",
+      "strength": 1.0
+    },
+    "grave-pale": {
+      "display_name": {
+        "translate": "gene.runic_roots.zombie.complexion.grave-pale"
+      },
+      "weight": 2,
+      "tint": "#B4C4A8",
+      "blend": "color",
+      "strength": 1.0
+    }
+  }
 }

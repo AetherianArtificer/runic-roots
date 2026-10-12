@@ -1,0 +1,14 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:thermal_tolerance",
+  "display_name": {
+    "translate": "gene.runic_roots.wailer.thermal"
+  },
+  "description": {
+    "translate": "gene.runic_roots.wailer.thermal.desc"
+  },
+  "category": "Climate",
+  "dominance": "dominant",
+  "locus": "pheno:thermal_tolerance",
+  "climate": "any"
+}

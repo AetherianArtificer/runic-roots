@@ -20,9 +20,29 @@
     "runic_roots:reaper/harbinger_of_death",
     "runic_roots:reaper/touch_of_the_grave",
     "runic_roots:reaper/stature",
-    "runic_roots:reaper/complexion"
+    "runic_roots:reaper/scales",
+    "runic_roots:reaper/complexion",
+    "runic_roots:reaper/eyes",
+    "runic_roots:reaper/eye_color",
+    "runic_roots:reaper/thermal"
   ],
   "spawn_bias": {
     "default": 0.25
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#0E0E10",
+        "to": "#2A2A2E",
+        "weight": 4,
+        "space": "hsv"
+      },
+      {
+        "from": "#8A8A90",
+        "to": "#D0D0D4",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
   }
 }

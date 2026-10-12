@@ -1,0 +1,40 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.forge_one.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.forge_one.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "amber": {
+      "display_name": {
+        "translate": "gene.runic_roots.forge_one.iris.amber"
+      },
+      "weight": 4,
+      "tint": "#E0902A",
+      "editable": true
+    },
+    "copper": {
+      "display_name": {
+        "translate": "gene.runic_roots.forge_one.iris.copper"
+      },
+      "weight": 3,
+      "tint": "#C0602A",
+      "editable": true
+    },
+    "ember": {
+      "display_name": {
+        "translate": "gene.runic_roots.forge_one.iris.ember"
+      },
+      "weight": 1,
+      "tint": "#F0602A",
+      "editable": true,
+      "glow": true
+    }
+  },
+  "penetrance": 0.9
+}

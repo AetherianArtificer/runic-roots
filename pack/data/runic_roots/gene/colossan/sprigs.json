@@ -1,0 +1,30 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.colossan.sprigs"
+  },
+  "description": {
+    "translate": "gene.runic_roots.colossan.sprigs.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:hair",
+  "variants": {
+    "leaves": {
+      "display_name": {
+        "translate": "gene.runic_roots.colossan.sprigs.leaves"
+      },
+      "weight": 3,
+      "attachment": "runic_roots:colossan_sprigs_leaves"
+    },
+    "none": {
+      "display_name": {
+        "translate": "gene.runic_roots.colossan.sprigs.none"
+      },
+      "weight": 2,
+      "attachment": "runic_roots:colossan_sprigs_none"
+    }
+  },
+  "penetrance": 0.5
+}

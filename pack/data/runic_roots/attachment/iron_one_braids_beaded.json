@@ -1,0 +1,56 @@
+{
+  "schema": "townstead:attachment/v2",
+  "geometry": "runic_roots:dwarf_braids_beaded",
+  "texture": "runic_roots:dwarf_braids_beaded",
+  "target": {
+    "tag": "ear"
+  },
+  "offset": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1.0,
+  "tint": "hair",
+  "stages": {
+    "baby": {
+      "scale": 0.7
+    },
+    "toddler": {
+      "scale": 0.8
+    },
+    "child": {
+      "scale": 0.9
+    }
+  },
+  "when": {
+    "type": "pheno:gender",
+    "is": "female"
+  },
+  "morph": {
+    "channels": {
+      "length": {
+        "bones": [
+          "braid"
+        ],
+        "axes": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "physics": {
+    "chains": [
+      {
+        "bones": [
+          "braid"
+        ],
+        "preset": "braid",
+        "sway": 0.4
+      }
+    ]
+  },
+  "tint_mask": "runic_roots:dwarf_braids_beaded_tint_mask"
+}

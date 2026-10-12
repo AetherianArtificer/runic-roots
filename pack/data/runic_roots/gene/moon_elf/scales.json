@@ -1,0 +1,42 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.moon_elf.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.moon_elf.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "crescent": {
+      "display_name": {
+        "translate": "gene.runic_roots.moon_elf.scales.crescent"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/moon_elf_scales_crescent.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "silvered": {
+      "display_name": {
+        "translate": "gene.runic_roots.moon_elf.scales.silvered"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/moon_elf_scales_silvered.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.moon_elf.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/moon_elf_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

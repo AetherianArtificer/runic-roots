@@ -24,10 +24,12 @@
     "runic_roots:feline/ears",
     "runic_roots:feline/whiskers",
     "runic_roots:feline/tail",
+    "runic_roots:feline/muzzle",
     "runic_roots:feline/scales",
     "runic_roots:feline/complexion",
     "runic_roots:feline/eyes",
-    "runic_roots:feline/eye_color"
+    "runic_roots:feline/eye_color",
+    "runic_roots:feline/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,

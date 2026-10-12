@@ -1,0 +1,33 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.auroran.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.auroran.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "dawn": {
+      "display_name": {
+        "translate": "gene.runic_roots.auroran.scales.dawn"
+      },
+      "weight": 4,
+      "texture": "runic_roots:textures/skin/auroran_scales_dawn.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.auroran.scales.unmarked"
+      },
+      "weight": 4,
+      "texture": "runic_roots:textures/skin/auroran_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

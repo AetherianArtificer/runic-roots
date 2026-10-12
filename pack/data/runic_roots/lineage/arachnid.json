@@ -19,7 +19,14 @@
     "runic_roots:arachnid/web_snare",
     "runic_roots:arachnid/weavers_senses",
     "runic_roots:arachnid/fragile_carapace",
-    "runic_roots:arachnid/stature"
+    "runic_roots:arachnid/stature",
+    "runic_roots:arachnid/legs",
+    "runic_roots:arachnid/fangs",
+    "runic_roots:arachnid/scales",
+    "runic_roots:arachnid/complexion",
+    "runic_roots:arachnid/eyes",
+    "runic_roots:arachnid/eye_color",
+    "runic_roots:arachnid/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -27,5 +34,27 @@
       "minecraft:dark_forest": 3,
       "minecraft:jungle": 3
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#0E0E10",
+        "to": "#2A2A30",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#122626",
+        "to": "#3A6A6A",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#C8C8C4",
+        "to": "#FFFFFF",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
   }
 }

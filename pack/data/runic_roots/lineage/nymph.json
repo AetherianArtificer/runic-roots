@@ -20,7 +20,13 @@
     "runic_roots:nymph/spirit_of_spring",
     "runic_roots:nymph/bound_to_water",
     "runic_roots:nymph/stature",
-    "runic_roots:nymph/ambience"
+    "runic_roots:nymph/ambience",
+    "runic_roots:nymph/ears",
+    "runic_roots:nymph/scales",
+    "runic_roots:nymph/complexion",
+    "runic_roots:nymph/build",
+    "runic_roots:nymph/iris",
+    "runic_roots:nymph/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -30,5 +36,27 @@
     "biome_tags": {
       "#minecraft:is_river": 4
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#1A7A6A",
+        "to": "#5AD0B0",
+        "weight": 4,
+        "space": "hsv"
+      },
+      {
+        "from": "#2A5A8A",
+        "to": "#8AC8F0",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#D8E8E4",
+        "to": "#FFFFFF",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
   }
 }

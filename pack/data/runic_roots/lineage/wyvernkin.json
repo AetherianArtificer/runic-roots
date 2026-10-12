@@ -27,7 +27,8 @@
     "runic_roots:wyvernkin/scales",
     "runic_roots:wyvernkin/complexion",
     "runic_roots:wyvernkin/eyes",
-    "runic_roots:wyvernkin/eye_color"
+    "runic_roots:wyvernkin/eye_color",
+    "runic_roots:wyvernkin/thermal"
   ],
   "spawn_bias": {
     "default": 0.25

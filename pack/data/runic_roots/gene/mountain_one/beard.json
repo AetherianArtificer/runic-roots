@@ -1,0 +1,144 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.mountain_one.beard"
+  },
+  "description": {
+    "translate": "gene.runic_roots.mountain_one.beard.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:beard",
+  "variants": {
+    "full": {
+      "display_name": {
+        "translate": "gene.runic_roots.mountain_one.beard.full"
+      },
+      "weight": 4,
+      "attachment": "runic_roots:mountain_one_beard_full",
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.mountain_one.beard.length"
+            },
+            "min": 0.75,
+            "max": 1.35,
+            "heritage": {
+              "ancestry": [
+                "runic_roots:dwarf",
+                "townstead_classic:dwarf"
+              ],
+              "floor": 0.3
+            }
+          },
+          "fullness": {
+            "label": {
+              "translate": "gene.runic_roots.mountain_one.beard.fullness"
+            },
+            "min": 0.85,
+            "max": 1.2
+          }
+        }
+      }
+    },
+    "braided": {
+      "display_name": {
+        "translate": "gene.runic_roots.mountain_one.beard.braided"
+      },
+      "weight": 3,
+      "attachment": "runic_roots:mountain_one_beard_braided",
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.mountain_one.beard.length"
+            },
+            "min": 0.75,
+            "max": 1.35,
+            "heritage": {
+              "ancestry": [
+                "runic_roots:dwarf",
+                "townstead_classic:dwarf"
+              ],
+              "floor": 0.3
+            }
+          },
+          "fullness": {
+            "label": {
+              "translate": "gene.runic_roots.mountain_one.beard.fullness"
+            },
+            "min": 0.85,
+            "max": 1.2
+          }
+        }
+      }
+    },
+    "forked": {
+      "display_name": {
+        "translate": "gene.runic_roots.mountain_one.beard.forked"
+      },
+      "weight": 2,
+      "attachment": "runic_roots:mountain_one_beard_forked",
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.mountain_one.beard.length"
+            },
+            "min": 0.75,
+            "max": 1.35,
+            "heritage": {
+              "ancestry": [
+                "runic_roots:dwarf",
+                "townstead_classic:dwarf"
+              ],
+              "floor": 0.3
+            }
+          },
+          "fullness": {
+            "label": {
+              "translate": "gene.runic_roots.mountain_one.beard.fullness"
+            },
+            "min": 0.85,
+            "max": 1.2
+          }
+        }
+      }
+    },
+    "short": {
+      "display_name": {
+        "translate": "gene.runic_roots.mountain_one.beard.short"
+      },
+      "weight": 2,
+      "attachment": "runic_roots:mountain_one_beard_short",
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.mountain_one.beard.length"
+            },
+            "min": 0.75,
+            "max": 1.35,
+            "heritage": {
+              "ancestry": [
+                "runic_roots:dwarf",
+                "townstead_classic:dwarf"
+              ],
+              "floor": 0.3
+            }
+          },
+          "fullness": {
+            "label": {
+              "translate": "gene.runic_roots.mountain_one.beard.fullness"
+            },
+            "min": 0.85,
+            "max": 1.2
+          }
+        }
+      }
+    }
+  },
+  "penetrance": 0.6
+}

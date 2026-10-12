@@ -3,7 +3,7 @@
   "display_name": {
     "translate": "lineage.runic_roots.wailer"
   },
-  "ancestry": "runic_roots:revenant",
+  "ancestry": "runic_roots:wailers",
   "lineage": "runic_roots:wailer",
   "icon": "runic_roots:textures/root/wailer.png"
 }

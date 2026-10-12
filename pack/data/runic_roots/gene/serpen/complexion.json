@@ -1,0 +1,60 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.serpen.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.serpen.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "green": {
+      "display_name": {
+        "translate": "gene.runic_roots.serpen.complexion.green"
+      },
+      "weight": 4,
+      "tint": "#4A9A3A",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "olive": {
+      "display_name": {
+        "translate": "gene.runic_roots.serpen.complexion.olive"
+      },
+      "weight": 3,
+      "tint": "#7A8A3A",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "sand": {
+      "display_name": {
+        "translate": "gene.runic_roots.serpen.complexion.sand"
+      },
+      "weight": 2,
+      "tint": "#C8A86A",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "black": {
+      "display_name": {
+        "translate": "gene.runic_roots.serpen.complexion.black"
+      },
+      "weight": 2,
+      "tint": "#2E302C",
+      "blend": "color",
+      "strength": 0.5
+    },
+    "coral": {
+      "display_name": {
+        "translate": "gene.runic_roots.serpen.complexion.coral"
+      },
+      "weight": 1,
+      "tint": "#C8603A",
+      "blend": "color",
+      "strength": 0.5
+    }
+  }
+}

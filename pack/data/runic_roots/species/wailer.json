@@ -1,0 +1,28 @@
+{
+  "schema": "townstead:species/v2",
+  "display_name": {
+    "translate": "species.runic_roots.wailer"
+  },
+  "rig": {
+    "base": "runic_roots:wailer"
+  },
+  "animations": {
+    "providers": [
+      "humanoid"
+    ]
+  },
+  "character_editor": {
+    "native": [
+      "clothes"
+    ]
+  },
+  "states": {
+    "townstead_state:vampire": false,
+    "townstead_state:dhampir": false,
+    "townstead_state:werewolf": false,
+    "townstead_state:thrall": false
+  },
+  "body_clothing": [
+    "runic_roots:ghost_fitted"
+  ]
+}

@@ -14,5 +14,6 @@
   "spread": 0.4,
   "speed": 0.0,
   "y_offset": 1.0,
-  "locus": "runic_roots:ambience"
+  "locus": "runic_roots:ambience",
+  "penetrance": 0.5
 }

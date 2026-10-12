@@ -5,7 +5,7 @@
   "bone": "body",
   "offset": [
     0,
-    -24,
+    -22.8,
     2
   ],
   "rotation": [
@@ -21,14 +21,14 @@
           "rotation": [
             0,
             0,
-            63.0
+            40.0
           ]
         },
         "right_feather_arm": {
           "rotation": [
             0,
             0,
-            -63.0
+            -40.0
           ]
         }
       },
@@ -77,16 +77,36 @@
   },
   "stages": {
     "baby": {
-      "scale": 0.3
+      "scale": 0.3,
+      "offset": [
+        0,
+        15.96,
+        0
+      ]
     },
     "toddler": {
-      "scale": 0.4
+      "scale": 0.4,
+      "offset": [
+        0,
+        13.68,
+        0
+      ]
     },
     "child": {
-      "scale": 0.55
+      "scale": 0.55,
+      "offset": [
+        0,
+        10.26,
+        0
+      ]
     },
     "teen": {
-      "scale": 0.75
+      "scale": 0.75,
+      "offset": [
+        0,
+        5.7,
+        0
+      ]
     }
   }
 }

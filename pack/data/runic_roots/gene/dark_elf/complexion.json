@@ -1,0 +1,53 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_tone",
+  "display_name": {
+    "translate": "gene.runic_roots.dark_elf.complexion"
+  },
+  "description": {
+    "translate": "gene.runic_roots.dark_elf.complexion.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:skin",
+  "variants": {
+    "slate": {
+      "display_name": {
+        "translate": "gene.runic_roots.dark_elf.complexion.slate"
+      },
+      "weight": 4,
+      "tint": "#6A6E80",
+      "blend": "color",
+      "strength": 0.75
+    },
+    "obsidian": {
+      "display_name": {
+        "translate": "gene.runic_roots.dark_elf.complexion.obsidian"
+      },
+      "weight": 3,
+      "tint": "#3E3E50",
+      "blend": "color",
+      "strength": 0.75
+    },
+    "ash": {
+      "display_name": {
+        "translate": "gene.runic_roots.dark_elf.complexion.ash"
+      },
+      "weight": 2,
+      "tint": "#8A8E9C",
+      "blend": "color",
+      "strength": 0.75
+    },
+    "dusk": {
+      "display_name": {
+        "translate": "gene.runic_roots.dark_elf.complexion.dusk"
+      },
+      "weight": 2,
+      "tint": "#5A4E70",
+      "blend": "color",
+      "strength": 0.75
+    }
+  },
+  "penetrance": 0.35,
+  "weight": 2
+}

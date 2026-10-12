@@ -10,7 +10,33 @@
   "category": "Appearance",
   "dominance": "dominant",
   "locus": "townstead_roots:skin",
-  "tint": "#9AA08E",
-  "blend": "color",
-  "strength": 0.5
+  "variants": {
+    "void": {
+      "display_name": {
+        "translate": "gene.runic_roots.returned.complexion.void"
+      },
+      "weight": 4,
+      "tint": "#3A3A8A",
+      "blend": "color",
+      "strength": 0.75
+    },
+    "dusk": {
+      "display_name": {
+        "translate": "gene.runic_roots.returned.complexion.dusk"
+      },
+      "weight": 3,
+      "tint": "#6A5AB0",
+      "blend": "color",
+      "strength": 0.75
+    },
+    "deep": {
+      "display_name": {
+        "translate": "gene.runic_roots.returned.complexion.deep"
+      },
+      "weight": 2,
+      "tint": "#24245A",
+      "blend": "color",
+      "strength": 0.75
+    }
+  }
 }

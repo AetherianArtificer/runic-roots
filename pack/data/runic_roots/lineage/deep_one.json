@@ -19,7 +19,16 @@
     "runic_roots:deep_one/tremorsense",
     "runic_roots:deep_one/deep_dweller",
     "runic_roots:deep_one/sunlight_blindness",
-    "runic_roots:deep_one/stature"
+    "runic_roots:deep_one/stature",
+    "runic_roots:deep_one/beard",
+    "runic_roots:deep_one/braids",
+    "runic_roots:deep_one/nose",
+    "runic_roots:deep_one/brows",
+    "runic_roots:deep_one/scales",
+    "runic_roots:deep_one/complexion",
+    "runic_roots:deep_one/build",
+    "runic_roots:deep_one/iris",
+    "runic_roots:deep_one/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -29,16 +38,54 @@
       "minecraft:deep_dark": 2
     }
   },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#C8C4BC",
+        "to": "#FFFFFF",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#B8A880",
+        "to": "#F0E4C0",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#6A6A6A",
+        "to": "#B0B0B0",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
+  },
   "overrides": [
     {
       "requires": {
         "namespace": "townstead_classic"
       },
       "ancestry": "townstead_classic:dwarf",
+      "ancestry_genes": false,
       "genes": [
+        "townstead_roots:omnivore",
+        "townstead_roots:water_drinker",
+        "townstead_roots:human_thermal",
+        "townstead_roots:human_chronotype",
+        "runic_roots:family/dwarven_life_cycle",
         "runic_roots:deep_one/tremorsense",
         "runic_roots:deep_one/deep_dweller",
-        "runic_roots:deep_one/sunlight_blindness"
+        "runic_roots:deep_one/sunlight_blindness",
+        "runic_roots:deep_one/stature",
+        "runic_roots:deep_one/beard",
+        "runic_roots:deep_one/braids",
+        "runic_roots:deep_one/nose",
+        "runic_roots:deep_one/brows",
+        "runic_roots:deep_one/scales",
+        "runic_roots:deep_one/complexion",
+        "runic_roots:deep_one/build",
+        "runic_roots:deep_one/iris",
+        "runic_roots:deep_one/thermal"
       ]
     }
   ]

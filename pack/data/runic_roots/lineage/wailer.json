@@ -3,7 +3,7 @@
   "display_name": {
     "translate": "lineage.runic_roots.wailer"
   },
-  "ancestry": "runic_roots:revenant",
+  "ancestry": "runic_roots:wailers",
   "demonym": {
     "singular": {
       "translate": "lineage.runic_roots.wailer.demonym.singular"
@@ -21,7 +21,9 @@
     "runic_roots:wailer/fraying_spirit",
     "runic_roots:wailer/stature",
     "runic_roots:wailer/ambience",
+    "runic_roots:wailer/tail",
     "runic_roots:wailer/complexion",
+    "runic_roots:wailer/thermal",
     "runic_roots:wailer/translucence"
   ],
   "spawn_bias": {

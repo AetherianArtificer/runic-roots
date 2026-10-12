@@ -20,9 +20,35 @@
     "runic_roots:returned/stubborn_remnant",
     "runic_roots:returned/imperfect_return",
     "runic_roots:returned/ambience",
-    "runic_roots:returned/complexion"
+    "runic_roots:returned/scales",
+    "runic_roots:returned/complexion",
+    "runic_roots:returned/eyes",
+    "runic_roots:returned/eye_color",
+    "runic_roots:returned/thermal"
   ],
   "spawn_bias": {
     "default": 0.25
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#14143A",
+        "to": "#4A4AA0",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#C8D0F0",
+        "to": "#FFFFFF",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#3A1A5A",
+        "to": "#8A5AC0",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
   }
 }

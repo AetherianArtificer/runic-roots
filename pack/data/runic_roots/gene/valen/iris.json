@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.valen.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.valen.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "amber": {
+      "display_name": {
+        "translate": "gene.runic_roots.valen.iris.amber"
+      },
+      "weight": 3,
+      "tint": "#D88A2A",
+      "editable": true
+    },
+    "brown": {
+      "display_name": {
+        "translate": "gene.runic_roots.valen.iris.brown"
+      },
+      "weight": 3,
+      "tint": "#6A3A1A",
+      "editable": true
+    },
+    "green": {
+      "display_name": {
+        "translate": "gene.runic_roots.valen.iris.green"
+      },
+      "weight": 2,
+      "tint": "#4A8A4A",
+      "editable": true
+    }
+  },
+  "penetrance": 0.9
+}

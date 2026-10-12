@@ -1,0 +1,30 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.crystal_one.brows"
+  },
+  "description": {
+    "translate": "gene.runic_roots.crystal_one.brows.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:brows",
+  "variants": {
+    "bushy": {
+      "display_name": {
+        "translate": "gene.runic_roots.crystal_one.brows.bushy"
+      },
+      "weight": 4,
+      "attachment": "runic_roots:crystal_one_brows_bushy"
+    },
+    "flared": {
+      "display_name": {
+        "translate": "gene.runic_roots.crystal_one.brows.flared"
+      },
+      "weight": 2,
+      "attachment": "runic_roots:crystal_one_brows_flared"
+    }
+  },
+  "penetrance": 0.6
+}

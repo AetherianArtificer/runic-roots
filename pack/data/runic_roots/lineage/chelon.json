@@ -20,12 +20,40 @@
     "runic_roots:chelon/living_shell",
     "runic_roots:chelon/unhurried",
     "runic_roots:chelon/stature",
-    "runic_roots:chelon/ambience"
+    "runic_roots:chelon/ambience",
+    "runic_roots:chelon/tail",
+    "runic_roots:chelon/shell",
+    "runic_roots:chelon/scales",
+    "runic_roots:chelon/complexion",
+    "runic_roots:chelon/eyes",
+    "runic_roots:chelon/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
     "biome_tags": {
       "#minecraft:is_beach": 6
     }
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#2A3A1A",
+        "to": "#6A7A3A",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#3A2A1A",
+        "to": "#8A6A40",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#5A5E54",
+        "to": "#B8BCB0",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
   }
 }

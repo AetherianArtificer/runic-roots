@@ -9,6 +9,7 @@
   },
   "category": "Appearance",
   "dominance": "dominant",
-  "scale": 0.45,
-  "locus": "runic_roots:stature"
+  "scale": 0.3,
+  "locus": "runic_roots:stature",
+  "penetrance": 0.3
 }

@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.moon_elf.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.moon_elf.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "silver": {
+      "display_name": {
+        "translate": "gene.runic_roots.moon_elf.iris.silver"
+      },
+      "weight": 4,
+      "tint": "#C8D0E0",
+      "editable": true
+    },
+    "moon_violet": {
+      "display_name": {
+        "translate": "gene.runic_roots.moon_elf.iris.moon_violet"
+      },
+      "weight": 2,
+      "tint": "#B0A0E0",
+      "editable": true
+    },
+    "pale_blue": {
+      "display_name": {
+        "translate": "gene.runic_roots.moon_elf.iris.pale_blue"
+      },
+      "weight": 2,
+      "tint": "#A0C0E8",
+      "editable": true
+    }
+  },
+  "penetrance": 0.9
+}

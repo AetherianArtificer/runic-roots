@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.nymph.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.nymph.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "spring": {
+      "display_name": {
+        "translate": "gene.runic_roots.nymph.iris.spring"
+      },
+      "weight": 4,
+      "tint": "#40C0A8",
+      "editable": true
+    },
+    "aqua": {
+      "display_name": {
+        "translate": "gene.runic_roots.nymph.iris.aqua"
+      },
+      "weight": 3,
+      "tint": "#60C8E0",
+      "editable": true
+    },
+    "pearl": {
+      "display_name": {
+        "translate": "gene.runic_roots.nymph.iris.pearl"
+      },
+      "weight": 1,
+      "tint": "#D8E8E4",
+      "editable": true
+    }
+  },
+  "penetrance": 0.9
+}

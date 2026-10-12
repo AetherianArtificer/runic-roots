@@ -1,0 +1,40 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.sprite.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.sprite.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "violet": {
+      "display_name": {
+        "translate": "gene.runic_roots.sprite.iris.violet"
+      },
+      "weight": 4,
+      "tint": "#A060F0",
+      "editable": true
+    },
+    "cyan": {
+      "display_name": {
+        "translate": "gene.runic_roots.sprite.iris.cyan"
+      },
+      "weight": 3,
+      "tint": "#50D0F0",
+      "editable": true
+    },
+    "starlit": {
+      "display_name": {
+        "translate": "gene.runic_roots.sprite.iris.starlit"
+      },
+      "weight": 1,
+      "tint": "#D8C8FF",
+      "editable": true,
+      "glow": true
+    }
+  },
+  "penetrance": 0.9
+}

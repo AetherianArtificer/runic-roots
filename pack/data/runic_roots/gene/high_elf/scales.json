@@ -1,0 +1,41 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.high_elf.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.high_elf.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "gilded": {
+      "display_name": {
+        "translate": "gene.runic_roots.high_elf.scales.gilded"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/high_elf_scales_gilded.png",
+      "tint": "#FFFFFF"
+    },
+    "runes": {
+      "display_name": {
+        "translate": "gene.runic_roots.high_elf.scales.runes"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/high_elf_scales_runes.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    },
+    "unmarked": {
+      "display_name": {
+        "translate": "gene.runic_roots.high_elf.scales.unmarked"
+      },
+      "weight": 3,
+      "texture": "runic_roots:textures/skin/high_elf_scales_unmarked.png",
+      "tint": "#FFFFFF"
+    }
+  },
+  "penetrance": 0.4
+}

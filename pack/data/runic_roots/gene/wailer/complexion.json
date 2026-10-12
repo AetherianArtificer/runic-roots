@@ -10,7 +10,33 @@
   "category": "Appearance",
   "dominance": "dominant",
   "locus": "townstead_roots:skin",
-  "tint": "#B6C2D2",
-  "blend": "color",
-  "strength": 0.55
+  "variants": {
+    "stray-pale": {
+      "display_name": {
+        "translate": "gene.runic_roots.wailer.complexion.stray-pale"
+      },
+      "weight": 4,
+      "tint": "#FFFFFF",
+      "blend": "color",
+      "strength": 1.0
+    },
+    "mist": {
+      "display_name": {
+        "translate": "gene.runic_roots.wailer.complexion.mist"
+      },
+      "weight": 3,
+      "tint": "#EEF2F8",
+      "blend": "color",
+      "strength": 1.0
+    },
+    "frost": {
+      "display_name": {
+        "translate": "gene.runic_roots.wailer.complexion.frost"
+      },
+      "weight": 2,
+      "tint": "#E2ECF8",
+      "blend": "color",
+      "strength": 1.0
+    }
+  }
 }

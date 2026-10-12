@@ -19,9 +19,33 @@
     "runic_roots:magi/arcane_overflow",
     "runic_roots:magi/woven_of_magic",
     "runic_roots:magi/volatile_vessel",
-    "runic_roots:magi/ambience"
+    "runic_roots:magi/ambience",
+    "runic_roots:magi/scales",
+    "runic_roots:magi/iris"
   ],
   "spawn_bias": {
     "default": 0.25
+  },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#0E0E12",
+        "to": "#2A2A34",
+        "weight": 4,
+        "space": "hsv"
+      },
+      {
+        "from": "#1A1A2A",
+        "to": "#5A70C0",
+        "weight": 1,
+        "space": "hsv"
+      },
+      {
+        "from": "#141414",
+        "to": "#E0E0E8",
+        "weight": 1,
+        "space": "hsv"
+      }
+    ]
   }
 }

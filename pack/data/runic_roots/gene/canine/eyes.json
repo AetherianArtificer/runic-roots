@@ -11,5 +11,6 @@
   "dominance": "dominant",
   "texture": "runic_roots:textures/face/draconic_eyes.png",
   "tint": "eye_color",
-  "glow": false
+  "glow": false,
+  "row": 11
 }

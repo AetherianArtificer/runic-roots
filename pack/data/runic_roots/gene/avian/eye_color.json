@@ -1,0 +1,42 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:eye_color",
+  "display_name": {
+    "translate": "gene.runic_roots.avian.eye_color"
+  },
+  "description": {
+    "translate": "gene.runic_roots.avian.eye_color.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "yellow": {
+      "display_name": {
+        "translate": "gene.runic_roots.avian.eye_color.yellow"
+      },
+      "weight": 4,
+      "tint": "#F2D040"
+    },
+    "orange": {
+      "display_name": {
+        "translate": "gene.runic_roots.avian.eye_color.orange"
+      },
+      "weight": 3,
+      "tint": "#F08A30"
+    },
+    "black": {
+      "display_name": {
+        "translate": "gene.runic_roots.avian.eye_color.black"
+      },
+      "weight": 2,
+      "tint": "#2A2A2A"
+    },
+    "amber": {
+      "display_name": {
+        "translate": "gene.runic_roots.avian.eye_color.amber"
+      },
+      "weight": 2,
+      "tint": "#E8A33A"
+    }
+  }
+}

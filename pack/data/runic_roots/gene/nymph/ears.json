@@ -1,0 +1,90 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.nymph.ears"
+  },
+  "description": {
+    "translate": "gene.runic_roots.nymph.ears.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:ears",
+  "variants": {
+    "leaf": {
+      "display_name": {
+        "translate": "gene.runic_roots.nymph.ears.leaf"
+      },
+      "weight": 4,
+      "attachments": [
+        "runic_roots:nymph_ears_leaf_male",
+        "runic_roots:nymph_ears_leaf_female"
+      ],
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.nymph.ears.size"
+            },
+            "min": 0.85,
+            "max": 1.2,
+            "heritage": {
+              "ancestry": "runic_roots:fae",
+              "floor": 0.4
+            }
+          }
+        }
+      }
+    },
+    "tall": {
+      "display_name": {
+        "translate": "gene.runic_roots.nymph.ears.tall"
+      },
+      "weight": 3,
+      "attachments": [
+        "runic_roots:nymph_ears_tall_male",
+        "runic_roots:nymph_ears_tall_female"
+      ],
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.nymph.ears.size"
+            },
+            "min": 0.85,
+            "max": 1.2,
+            "heritage": {
+              "ancestry": "runic_roots:fae",
+              "floor": 0.4
+            }
+          }
+        }
+      }
+    },
+    "curled": {
+      "display_name": {
+        "translate": "gene.runic_roots.nymph.ears.curled"
+      },
+      "weight": 2,
+      "attachments": [
+        "runic_roots:nymph_ears_curled_male",
+        "runic_roots:nymph_ears_curled_female"
+      ],
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.nymph.ears.size"
+            },
+            "min": 0.85,
+            "max": 1.2,
+            "heritage": {
+              "ancestry": "runic_roots:fae",
+              "floor": 0.4
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "pheno:proportions",
+  "display_name": {
+    "translate": "gene.runic_roots.dark_elf.build"
+  },
+  "description": {
+    "translate": "gene.runic_roots.dark_elf.build.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "width": {
+    "min": 0.4,
+    "max": 0.55
+  },
+  "head": 0.96,
+  "arms": {
+    "lean": [
+      0.86,
+      1.0,
+      0.86
+    ],
+    "stout": [
+      0.96,
+      1.0,
+      0.96
+    ]
+  },
+  "legs": {
+    "lean": [
+      0.86,
+      1.0,
+      0.86
+    ],
+    "stout": [
+      0.96,
+      1.0,
+      0.96
+    ]
+  },
+  "body": {
+    "lean": [
+      0.9,
+      1.0,
+      0.86
+    ],
+    "stout": [
+      0.98,
+      1.0,
+      0.94
+    ]
+  }
+}

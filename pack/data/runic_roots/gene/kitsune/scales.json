@@ -1,0 +1,40 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:skin_overlay",
+  "display_name": {
+    "translate": "gene.runic_roots.kitsune.scales"
+  },
+  "description": {
+    "translate": "gene.runic_roots.kitsune.scales.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:scales",
+  "variants": {
+    "red": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.scales.red"
+      },
+      "weight": 4,
+      "texture": "runic_roots:textures/skin/kitsune_scales_red.png",
+      "tint": "#FFFFFF"
+    },
+    "frosted": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.scales.frosted"
+      },
+      "weight": 2,
+      "texture": "runic_roots:textures/skin/kitsune_scales_frosted.png",
+      "tint": "#FFFFFF"
+    },
+    "foxfire": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.scales.foxfire"
+      },
+      "weight": 1,
+      "texture": "runic_roots:textures/skin/kitsune_scales_foxfire.png",
+      "tint": "#FFFFFF",
+      "glow": true
+    }
+  }
+}

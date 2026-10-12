@@ -20,7 +20,13 @@
     "runic_roots:grove_elf/canopy_strider",
     "runic_roots:grove_elf/slender_frame",
     "runic_roots:grove_elf/stature",
-    "runic_roots:grove_elf/ambience"
+    "runic_roots:grove_elf/ambience",
+    "runic_roots:grove_elf/ears",
+    "runic_roots:grove_elf/scales",
+    "runic_roots:grove_elf/complexion",
+    "runic_roots:grove_elf/build",
+    "runic_roots:grove_elf/iris",
+    "runic_roots:grove_elf/thermal"
   ],
   "spawn_bias": {
     "default": 0.25,
@@ -28,17 +34,52 @@
       "#minecraft:is_forest": 4
     }
   },
+  "hair": {
+    "gradients": [
+      {
+        "from": "#2A5A1A",
+        "to": "#8AC040",
+        "weight": 3,
+        "space": "hsv"
+      },
+      {
+        "from": "#7A3A10",
+        "to": "#E8A030",
+        "weight": 2,
+        "space": "hsv"
+      },
+      {
+        "from": "#4A2A14",
+        "to": "#9A6A3A",
+        "weight": 2,
+        "space": "hsv"
+      }
+    ]
+  },
   "overrides": [
     {
       "requires": {
         "namespace": "townstead_classic"
       },
       "ancestry": "townstead_classic:elf",
+      "ancestry_genes": false,
       "genes": [
+        "townstead_roots:omnivore",
+        "townstead_roots:water_drinker",
+        "townstead_roots:human_thermal",
+        "townstead_roots:human_chronotype",
+        "runic_roots:family/elven_life_cycle",
         "runic_roots:grove_elf/stillleaf_aim",
         "runic_roots:grove_elf/canopy_strider",
         "runic_roots:grove_elf/slender_frame",
-        "runic_roots:grove_elf/ambience"
+        "runic_roots:grove_elf/stature",
+        "runic_roots:grove_elf/ambience",
+        "runic_roots:grove_elf/ears",
+        "runic_roots:grove_elf/scales",
+        "runic_roots:grove_elf/complexion",
+        "runic_roots:grove_elf/build",
+        "runic_roots:grove_elf/iris",
+        "runic_roots:grove_elf/thermal"
       ]
     }
   ]

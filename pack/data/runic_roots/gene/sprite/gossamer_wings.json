@@ -77,6 +77,16 @@
       "key": "jump"
     },
     "part_2": {
+      "type": "pheno:trigger",
+      "trigger": "ai",
+      "target": "self",
+      "action": {
+        "type": "pheno:keypress",
+        "key": "jump"
+      },
+      "ai_trigger": "when_flying"
+    },
+    "part_3": {
       "type": "pheno:damage_modifier",
       "modifier": 0,
       "damage_condition": {
@@ -84,13 +94,13 @@
         "tag": "minecraft:is_fall"
       }
     },
-    "part_3": {
+    "part_4": {
       "type": "pheno:attribute",
       "attribute": "minecraft:generic.movement_speed",
       "amount": 0.2,
       "operation": "multiply_total"
     },
-    "part_4": {
+    "part_5": {
       "type": "pheno:attribute",
       "attribute": "minecraft:generic.attack_speed",
       "amount": 0.1,

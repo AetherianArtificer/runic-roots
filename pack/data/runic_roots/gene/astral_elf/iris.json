@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.astral_elf.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.astral_elf.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "violet": {
+      "display_name": {
+        "translate": "gene.runic_roots.astral_elf.iris.violet"
+      },
+      "weight": 4,
+      "tint": "#9A6AE8",
+      "editable": true
+    },
+    "starlight": {
+      "display_name": {
+        "translate": "gene.runic_roots.astral_elf.iris.starlight"
+      },
+      "weight": 2,
+      "tint": "#D8D8F8",
+      "editable": true
+    },
+    "lilac": {
+      "display_name": {
+        "translate": "gene.runic_roots.astral_elf.iris.lilac"
+      },
+      "weight": 2,
+      "tint": "#C0A0F0",
+      "editable": true
+    }
+  },
+  "penetrance": 0.9
+}
