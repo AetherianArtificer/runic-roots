@@ -1,0 +1,46 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.kitsune.half_blood.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.kitsune.half_blood.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "amber": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.eye_color.amber"
+      },
+      "weight": 4,
+      "tint": "#E8A33A",
+      "editable": true
+    },
+    "gold": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.eye_color.gold"
+      },
+      "weight": 3,
+      "tint": "#F2D04A",
+      "editable": true
+    },
+    "violet": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.eye_color.violet"
+      },
+      "weight": 2,
+      "tint": "#B080F0",
+      "editable": true
+    },
+    "ice": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.eye_color.ice"
+      },
+      "weight": 2,
+      "tint": "#8AD0F0",
+      "editable": true
+    }
+  }
+}

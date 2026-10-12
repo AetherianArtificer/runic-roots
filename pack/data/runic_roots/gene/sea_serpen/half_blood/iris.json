@@ -1,0 +1,38 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.sea_serpen.half_blood.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.sea_serpen.half_blood.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "abyss": {
+      "display_name": {
+        "translate": "gene.runic_roots.sea_serpen.eye_color.abyss"
+      },
+      "weight": 4,
+      "tint": "#1E2A3A",
+      "editable": true
+    },
+    "sea": {
+      "display_name": {
+        "translate": "gene.runic_roots.sea_serpen.eye_color.sea"
+      },
+      "weight": 3,
+      "tint": "#2A8AB0",
+      "editable": true
+    },
+    "coral": {
+      "display_name": {
+        "translate": "gene.runic_roots.sea_serpen.eye_color.coral"
+      },
+      "weight": 2,
+      "tint": "#E05080",
+      "editable": true
+    }
+  }
+}

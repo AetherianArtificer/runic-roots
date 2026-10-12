@@ -5,7 +5,7 @@
       "loop": true,
       "animation_length": 0.4,
       "bones": {
-        "left_forewing": {
+        "left_wing_root": {
           "rotation": {
             "0.0": [
               0,
@@ -24,45 +24,7 @@
             ]
           }
         },
-        "left_hindwing": {
-          "rotation": {
-            "0.0": [
-              0,
-              25.0,
-              0
-            ],
-            "0.16": [
-              0,
-              -30.0,
-              0
-            ],
-            "0.4": [
-              0,
-              25.0,
-              0
-            ]
-          }
-        },
-        "right_forewing": {
-          "rotation": {
-            "0.0": [
-              0,
-              -25.0,
-              0
-            ],
-            "0.16": [
-              0,
-              30.0,
-              0
-            ],
-            "0.4": [
-              0,
-              -25.0,
-              0
-            ]
-          }
-        },
-        "right_hindwing": {
+        "right_wing_root": {
           "rotation": {
             "0.0": [
               0,
@@ -87,7 +49,7 @@
       "loop": false,
       "animation_length": 0.45,
       "bones": {
-        "left_forewing": {
+        "left_wing_root": {
           "rotation": {
             "0.0": [
               0,
@@ -116,65 +78,7 @@
             ]
           }
         },
-        "left_hindwing": {
-          "rotation": {
-            "0.0": [
-              0,
-              0,
-              0
-            ],
-            "0.1": [
-              0,
-              18.0,
-              0
-            ],
-            "0.2": [
-              0,
-              2,
-              0
-            ],
-            "0.3": [
-              0,
-              14.4,
-              0
-            ],
-            "0.45": [
-              0,
-              0,
-              0
-            ]
-          }
-        },
-        "right_forewing": {
-          "rotation": {
-            "0.0": [
-              0,
-              0,
-              0
-            ],
-            "0.1": [
-              0,
-              -18.0,
-              0
-            ],
-            "0.2": [
-              0,
-              -2,
-              0
-            ],
-            "0.3": [
-              0,
-              -14.4,
-              0
-            ],
-            "0.45": [
-              0,
-              0,
-              0
-            ]
-          }
-        },
-        "right_hindwing": {
+        "right_wing_root": {
           "rotation": {
             "0.0": [
               0,
@@ -253,7 +157,7 @@
       "loop": true,
       "animation_length": 0.4,
       "bones": {
-        "left_forewing": {
+        "left_wing_root": {
           "rotation": {
             "0.0": [
               0,
@@ -272,45 +176,7 @@
             ]
           }
         },
-        "left_hindwing": {
-          "rotation": {
-            "0.0": [
-              0,
-              25.0,
-              0
-            ],
-            "0.16": [
-              0,
-              -30.0,
-              0
-            ],
-            "0.4": [
-              0,
-              25.0,
-              0
-            ]
-          }
-        },
-        "right_forewing": {
-          "rotation": {
-            "0.0": [
-              0,
-              -25.0,
-              0
-            ],
-            "0.16": [
-              0,
-              30.0,
-              0
-            ],
-            "0.4": [
-              0,
-              -25.0,
-              0
-            ]
-          }
-        },
-        "right_hindwing": {
+        "right_wing_root": {
           "rotation": {
             "0.0": [
               0,
@@ -335,7 +201,7 @@
       "loop": false,
       "animation_length": 0.45,
       "bones": {
-        "left_forewing": {
+        "left_wing_root": {
           "rotation": {
             "0.0": [
               0,
@@ -364,65 +230,7 @@
             ]
           }
         },
-        "left_hindwing": {
-          "rotation": {
-            "0.0": [
-              0,
-              0,
-              0
-            ],
-            "0.1": [
-              0,
-              18.0,
-              0
-            ],
-            "0.2": [
-              0,
-              2,
-              0
-            ],
-            "0.3": [
-              0,
-              14.4,
-              0
-            ],
-            "0.45": [
-              0,
-              0,
-              0
-            ]
-          }
-        },
-        "right_forewing": {
-          "rotation": {
-            "0.0": [
-              0,
-              0,
-              0
-            ],
-            "0.1": [
-              0,
-              -18.0,
-              0
-            ],
-            "0.2": [
-              0,
-              -2,
-              0
-            ],
-            "0.3": [
-              0,
-              -14.4,
-              0
-            ],
-            "0.45": [
-              0,
-              0,
-              0
-            ]
-          }
-        },
-        "right_hindwing": {
+        "right_wing_root": {
           "rotation": {
             "0.0": [
               0,
@@ -457,7 +265,7 @@
       "loop": true,
       "animation_length": 0.4,
       "bones": {
-        "left_forewing": {
+        "left_wing_root": {
           "rotation": {
             "0.0": [
               0,
@@ -476,45 +284,7 @@
             ]
           }
         },
-        "left_hindwing": {
-          "rotation": {
-            "0.0": [
-              0,
-              25.0,
-              0
-            ],
-            "0.16": [
-              0,
-              -30.0,
-              0
-            ],
-            "0.4": [
-              0,
-              25.0,
-              0
-            ]
-          }
-        },
-        "right_forewing": {
-          "rotation": {
-            "0.0": [
-              0,
-              -25.0,
-              0
-            ],
-            "0.16": [
-              0,
-              30.0,
-              0
-            ],
-            "0.4": [
-              0,
-              -25.0,
-              0
-            ]
-          }
-        },
-        "right_hindwing": {
+        "right_wing_root": {
           "rotation": {
             "0.0": [
               0,
@@ -539,7 +309,7 @@
       "loop": false,
       "animation_length": 0.45,
       "bones": {
-        "left_forewing": {
+        "left_wing_root": {
           "rotation": {
             "0.0": [
               0,
@@ -568,65 +338,7 @@
             ]
           }
         },
-        "left_hindwing": {
-          "rotation": {
-            "0.0": [
-              0,
-              0,
-              0
-            ],
-            "0.1": [
-              0,
-              18.0,
-              0
-            ],
-            "0.2": [
-              0,
-              2,
-              0
-            ],
-            "0.3": [
-              0,
-              14.4,
-              0
-            ],
-            "0.45": [
-              0,
-              0,
-              0
-            ]
-          }
-        },
-        "right_forewing": {
-          "rotation": {
-            "0.0": [
-              0,
-              0,
-              0
-            ],
-            "0.1": [
-              0,
-              -18.0,
-              0
-            ],
-            "0.2": [
-              0,
-              -2,
-              0
-            ],
-            "0.3": [
-              0,
-              -14.4,
-              0
-            ],
-            "0.45": [
-              0,
-              0,
-              0
-            ]
-          }
-        },
-        "right_hindwing": {
+        "right_wing_root": {
           "rotation": {
             "0.0": [
               0,

@@ -1,0 +1,14 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.half_blood.no_coat"
+  },
+  "description": {
+    "translate": "gene.runic_roots.half_blood.no_coat.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "none": true,
+  "locus": "townstead_roots:skin"
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "townstead:heritage/v1",
+  "display_name": {
+    "translate": "heritage.runic_roots.half_dragon"
+  },
+  "demonym": {
+    "singular": {
+      "translate": "heritage.runic_roots.half_dragon.demonym.singular"
+    },
+    "plural": {
+      "translate": "heritage.runic_roots.half_dragon.demonym.plural"
+    }
+  },
+  "priority": 12,
+  "match": {
+    "townstead_roots:human": {
+      "min": 0.3,
+      "max": 0.7
+    },
+    "runic_roots:draconic": {
+      "min": 0.3,
+      "max": 0.7
+    }
+  },
+  "lineages": {
+    "runic_roots:fire_drake": {
+      "min": 0.3,
+      "max": 0.7
+    }
+  },
+  "open_lineages": true,
+  "genes": [
+    "runic_roots:fire_drake/horns",
+    "runic_roots:half_blood/no_coat",
+    "runic_roots:half_blood/no_markings",
+    "runic_roots:half_blood/no_beast_eyes",
+    "runic_roots:fire_drake/half_blood/iris"
+  ]
+}

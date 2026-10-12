@@ -16,21 +16,30 @@
       },
       "bones": [
         {
+          "name": "left_wing_root",
+          "pivot": [
+            1.5,
+            21,
+            0
+          ]
+        },
+        {
           "name": "left_forewing",
           "pivot": [
             1.5,
             21,
             0
           ],
+          "parent": "left_wing_root",
           "rotation": [
             15.0,
             -0.0,
-            -145.0
+            125.0
           ],
           "cubes": [
             {
               "origin": [
-                -6.5,
+                -2.5,
                 5,
                 0
               ],
@@ -53,15 +62,16 @@
             20,
             0.2
           ],
+          "parent": "left_wing_root",
           "rotation": [
             19.5837,
             6.8755,
-            -35.0
+            35.0
           ],
           "cubes": [
             {
               "origin": [
-                1.5,
+                -1.5,
                 11,
                 0.2
               ],
@@ -78,21 +88,30 @@
           ]
         },
         {
+          "name": "right_wing_root",
+          "pivot": [
+            -1.5,
+            21,
+            0
+          ]
+        },
+        {
           "name": "right_forewing",
           "pivot": [
             -1.5,
             21,
             0
           ],
+          "parent": "right_wing_root",
           "rotation": [
             15.0,
             -0.0,
-            145.0
+            -125.0
           ],
           "cubes": [
             {
               "origin": [
-                -1.5,
+                -5.5,
                 5,
                 0
               ],
@@ -116,15 +135,16 @@
             20,
             0.2
           ],
+          "parent": "right_wing_root",
           "rotation": [
             19.5837,
             -6.8755,
-            35.0
+            -35.0
           ],
           "cubes": [
             {
               "origin": [
-                -7.5,
+                -4.5,
                 11,
                 0.2
               ],

@@ -1,0 +1,43 @@
+{
+  "schema": "townstead:heritage/v1",
+  "display_name": {
+    "translate": "heritage.runic_roots.half_elf"
+  },
+  "demonym": {
+    "singular": {
+      "translate": "heritage.runic_roots.half_elf.demonym.singular"
+    },
+    "plural": {
+      "translate": "heritage.runic_roots.half_elf.demonym.plural"
+    }
+  },
+  "priority": 12,
+  "match": {
+    "townstead_roots:human": {
+      "min": 0.3,
+      "max": 0.7
+    },
+    "runic_roots:elf": {
+      "min": 0.3,
+      "max": 0.7
+    }
+  },
+  "lineages": {
+    "runic_roots:high_elf": {
+      "min": 0.3,
+      "max": 0.7
+    }
+  },
+  "open_lineages": true,
+  "requires": {
+    "not": {
+      "namespace": "townstead_classic"
+    }
+  },
+  "genes": [
+    "runic_roots:high_elf/ears",
+    "runic_roots:high_elf/iris",
+    "runic_roots:half_blood/no_coat",
+    "runic_roots:half_blood/no_markings"
+  ]
+}

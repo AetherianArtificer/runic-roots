@@ -1,0 +1,87 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.serpen.horns"
+  },
+  "description": {
+    "translate": "gene.runic_roots.serpen.horns.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:horns",
+  "variants": {
+    "hood": {
+      "display_name": {
+        "translate": "gene.runic_roots.serpen.horns.hood"
+      },
+      "weight": 4,
+      "attachments": [
+        "runic_roots:serpen_horns_hood_male",
+        "runic_roots:serpen_horns_hood_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.serpen.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:bestial",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.serpen.horns.color"
+        },
+        "palette": [
+          "#5A9A3A",
+          "#D8B048",
+          "#7A6A48",
+          "#2A2E28"
+        ]
+      }
+    },
+    "viper": {
+      "display_name": {
+        "translate": "gene.runic_roots.serpen.horns.viper"
+      },
+      "weight": 3,
+      "attachments": [
+        "runic_roots:serpen_horns_viper_male",
+        "runic_roots:serpen_horns_viper_female"
+      ],
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.serpen.horns.length"
+            },
+            "min": 0.8,
+            "max": 1.25,
+            "heritage": {
+              "ancestry": "runic_roots:bestial",
+              "floor": 0.4
+            }
+          }
+        }
+      },
+      "tint": {
+        "label": {
+          "translate": "gene.runic_roots.serpen.horns.color"
+        },
+        "palette": [
+          "#5A9A3A",
+          "#D8B048",
+          "#7A6A48",
+          "#2A2E28"
+        ]
+      }
+    }
+  }
+}

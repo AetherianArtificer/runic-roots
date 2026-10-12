@@ -13,10 +13,6 @@
   },
   "priority": 15,
   "match": {
-    "townstead_roots:human": {
-      "min": 0.7,
-      "max": 0.9
-    },
     "runic_roots:bestial": {
       "min": 0.1,
       "max": 0.3
@@ -28,5 +24,14 @@
       "max": 0.3
     }
   },
-  "open_lineages": true
+  "open_lineages": true,
+  "genes": [
+    "runic_roots:half_blood/no_muzzle",
+    "runic_roots:half_blood/no_whiskers",
+    "runic_roots:half_blood/no_beast_eyes",
+    "runic_roots:half_blood/no_markings",
+    "runic_roots:half_blood/no_coat",
+    "runic_roots:chelon/half_blood/shell",
+    "runic_roots:chelon/half_blood/tail"
+  ]
 }

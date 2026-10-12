@@ -1,0 +1,38 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.scaleheir.half_blood.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.scaleheir.half_blood.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "sapphire": {
+      "display_name": {
+        "translate": "gene.runic_roots.scaleheir.eye_color.sapphire"
+      },
+      "weight": 5,
+      "tint": "#3FA0FF",
+      "editable": true
+    },
+    "cyan": {
+      "display_name": {
+        "translate": "gene.runic_roots.scaleheir.eye_color.cyan"
+      },
+      "weight": 3,
+      "tint": "#40E8FF",
+      "editable": true
+    },
+    "violet": {
+      "display_name": {
+        "translate": "gene.runic_roots.scaleheir.eye_color.violet"
+      },
+      "weight": 2,
+      "tint": "#9A6AFF",
+      "editable": true
+    }
+  }
+}

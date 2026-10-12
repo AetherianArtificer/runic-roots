@@ -1,0 +1,59 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.arachnid.legs"
+  },
+  "description": {
+    "translate": "gene.runic_roots.arachnid.legs.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "runic_roots:back",
+  "variants": {
+    "long": {
+      "display_name": {
+        "translate": "gene.runic_roots.arachnid.legs.long"
+      },
+      "weight": 4,
+      "attachment": "runic_roots:arachnid_legs_long_hair",
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.arachnid.legs.size"
+            },
+            "min": 0.9,
+            "max": 1.15,
+            "heritage": {
+              "ancestry": "runic_roots:bestial",
+              "floor": 0.4
+            }
+          }
+        }
+      }
+    },
+    "hunter": {
+      "display_name": {
+        "translate": "gene.runic_roots.arachnid.legs.hunter"
+      },
+      "weight": 2,
+      "attachment": "runic_roots:arachnid_legs_hunter_hair",
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.arachnid.legs.size"
+            },
+            "min": 0.9,
+            "max": 1.15,
+            "heritage": {
+              "ancestry": "runic_roots:bestial",
+              "floor": 0.4
+            }
+          }
+        }
+      }
+    }
+  }
+}

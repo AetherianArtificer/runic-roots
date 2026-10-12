@@ -13,10 +13,6 @@
   },
   "priority": 15,
   "match": {
-    "townstead_roots:human": {
-      "min": 0.3,
-      "max": 0.7
-    },
     "runic_roots:bestial": {
       "min": 0.3,
       "max": 0.7
@@ -30,13 +26,13 @@
   },
   "open_lineages": true,
   "genes": [
-    "runic_roots:kitsune/kemonomimi/no_muzzle",
-    "runic_roots:kitsune/kemonomimi/no_whiskers",
-    "runic_roots:kitsune/kemonomimi/no_beast_eyes",
-    "runic_roots:kitsune/kemonomimi/no_markings",
-    "runic_roots:kitsune/kemonomimi/no_coat",
-    "runic_roots:kitsune/kemonomimi/ears",
-    "runic_roots:kitsune/kemonomimi/tail",
-    "runic_roots:kitsune/kemonomimi/iris"
+    "runic_roots:half_blood/no_muzzle",
+    "runic_roots:half_blood/no_whiskers",
+    "runic_roots:half_blood/no_beast_eyes",
+    "runic_roots:half_blood/no_markings",
+    "runic_roots:half_blood/no_coat",
+    "runic_roots:kitsune/half_blood/ears",
+    "runic_roots:kitsune/half_blood/tail",
+    "runic_roots:kitsune/half_blood/iris"
   ]
 }

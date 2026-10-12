@@ -1,0 +1,174 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.kitsune.ears"
+  },
+  "description": {
+    "translate": "gene.runic_roots.kitsune.ears.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:ears",
+  "variants": {
+    "fox": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.ears.fox"
+      },
+      "weight": 5.0,
+      "attachments": [
+        "runic_roots:kitsune_ears_fox_male_hair",
+        "runic_roots:kitsune_ears_fox_female_hair"
+      ],
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.kitsune.ears.size"
+            },
+            "min": 0.85,
+            "max": 1.2,
+            "heritage": {
+              "ancestry": "runic_roots:bestial",
+              "floor": 0.4
+            }
+          }
+        }
+      }
+    },
+    "fennec": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.ears.fennec"
+      },
+      "weight": 2.5,
+      "attachments": [
+        "runic_roots:kitsune_ears_fennec_male_hair",
+        "runic_roots:kitsune_ears_fennec_female_hair"
+      ],
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.kitsune.ears.size"
+            },
+            "min": 0.85,
+            "max": 1.2,
+            "heritage": {
+              "ancestry": "runic_roots:bestial",
+              "floor": 0.4
+            }
+          }
+        }
+      }
+    },
+    "tufted": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.ears.tufted"
+      },
+      "weight": 2.5,
+      "attachments": [
+        "runic_roots:kitsune_ears_tufted_male_hair",
+        "runic_roots:kitsune_ears_tufted_female_hair"
+      ],
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.kitsune.ears.size"
+            },
+            "min": 0.85,
+            "max": 1.2,
+            "heritage": {
+              "ancestry": "runic_roots:bestial",
+              "floor": 0.4
+            }
+          }
+        }
+      }
+    },
+    "tide_elf_long": {
+      "display_name": {
+        "translate": "gene.runic_roots.tide_elf.ears.long"
+      },
+      "weight": 4.444,
+      "attachments": [
+        "runic_roots:tide_elf_ears_long_male",
+        "runic_roots:tide_elf_ears_long_female"
+      ],
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.tide_elf.ears.size"
+            },
+            "min": 0.85,
+            "max": 1.2,
+            "heritage": {
+              "ancestry": [
+                "runic_roots:elf",
+                "townstead_classic:elf"
+              ],
+              "floor": 0.4
+            }
+          }
+        }
+      }
+    },
+    "tide_elf_short": {
+      "display_name": {
+        "translate": "gene.runic_roots.tide_elf.ears.short"
+      },
+      "weight": 3.333,
+      "attachments": [
+        "runic_roots:tide_elf_ears_short_male",
+        "runic_roots:tide_elf_ears_short_female"
+      ],
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.tide_elf.ears.size"
+            },
+            "min": 0.85,
+            "max": 1.2,
+            "heritage": {
+              "ancestry": [
+                "runic_roots:elf",
+                "townstead_classic:elf"
+              ],
+              "floor": 0.4
+            }
+          }
+        }
+      }
+    },
+    "tide_elf_drooping": {
+      "display_name": {
+        "translate": "gene.runic_roots.tide_elf.ears.drooping"
+      },
+      "weight": 2.222,
+      "attachments": [
+        "runic_roots:tide_elf_ears_drooping_male",
+        "runic_roots:tide_elf_ears_drooping_female"
+      ],
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.tide_elf.ears.size"
+            },
+            "min": 0.85,
+            "max": 1.2,
+            "heritage": {
+              "ancestry": [
+                "runic_roots:elf",
+                "townstead_classic:elf"
+              ],
+              "floor": 0.4
+            }
+          }
+        }
+      }
+    }
+  }
+}

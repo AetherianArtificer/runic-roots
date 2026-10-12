@@ -1,0 +1,43 @@
+{
+  "schema": "townstead:heritage/v1",
+  "display_name": {
+    "translate": "heritage.runic_roots.elfblooded"
+  },
+  "demonym": {
+    "singular": {
+      "translate": "heritage.runic_roots.elfblooded.demonym.singular"
+    },
+    "plural": {
+      "translate": "heritage.runic_roots.elfblooded.demonym.plural"
+    }
+  },
+  "priority": 12,
+  "match": {
+    "townstead_roots:human": {
+      "min": 0.7,
+      "max": 0.9
+    },
+    "runic_roots:elf": {
+      "min": 0.1,
+      "max": 0.3
+    }
+  },
+  "lineages": {
+    "runic_roots:moon_elf": {
+      "min": 0.1,
+      "max": 0.3
+    }
+  },
+  "open_lineages": true,
+  "requires": {
+    "not": {
+      "namespace": "townstead_classic"
+    }
+  },
+  "genes": [
+    "runic_roots:moon_elf/ears",
+    "runic_roots:moon_elf/iris",
+    "runic_roots:half_blood/no_coat",
+    "runic_roots:half_blood/no_markings"
+  ]
+}

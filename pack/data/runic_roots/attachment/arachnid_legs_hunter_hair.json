@@ -1,0 +1,46 @@
+{
+  "schema": "townstead:attachment/v2",
+  "geometry": "runic_roots:arachnid_legs_hunter",
+  "texture": "runic_roots:arachnid_legs_hunter",
+  "target": {
+    "tag": "back"
+  },
+  "offset": [
+    0,
+    0,
+    0
+  ],
+  "scale": 1.0,
+  "tint": "hair",
+  "stages": {
+    "baby": {
+      "scale": 0.35
+    },
+    "toddler": {
+      "scale": 0.45
+    },
+    "child": {
+      "scale": 0.6
+    },
+    "teen": {
+      "scale": 0.85
+    }
+  },
+  "morph": {
+    "channels": {
+      "size": {
+        "bones": [
+          "leg_l1",
+          "leg_l2",
+          "leg_r1",
+          "leg_r2"
+        ],
+        "axes": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  }
+}

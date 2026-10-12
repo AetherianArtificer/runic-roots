@@ -1,0 +1,42 @@
+{
+  "schema": "townstead:heritage/v1",
+  "display_name": {
+    "translate": "heritage.runic_roots.half_bull"
+  },
+  "demonym": {
+    "singular": {
+      "translate": "heritage.runic_roots.half_bull.demonym.singular"
+    },
+    "plural": {
+      "translate": "heritage.runic_roots.half_bull.demonym.plural"
+    }
+  },
+  "priority": 16,
+  "match": {
+    "runic_roots:bestial": {
+      "min": 0.3,
+      "max": 0.7
+    }
+  },
+  "lineages": {
+    "runic_roots:bovine": {
+      "min": 0.3,
+      "max": 0.7
+    },
+    "runic_roots:sprite": {
+      "min": 0.3,
+      "max": 0.7
+    }
+  },
+  "open_lineages": true,
+  "genes": [
+    "runic_roots:half_blood/no_muzzle",
+    "runic_roots:half_blood/no_whiskers",
+    "runic_roots:half_blood/no_beast_eyes",
+    "runic_roots:half_blood/no_markings",
+    "runic_roots:sprite/complexion",
+    "runic_roots:bovine/half_blood/ears_sprite",
+    "runic_roots:bovine/half_blood/horns",
+    "runic_roots:bovine/half_blood/tail"
+  ]
+}

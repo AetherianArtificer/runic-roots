@@ -21,40 +21,7 @@
           "rotation": [
             0,
             0,
-            25
-          ]
-        },
-        "left_hindwing": {
-          "rotation": [
-            0,
-            0,
-            -25
-          ]
-        },
-        "right_forewing": {
-          "rotation": [
-            0,
-            0,
-            -25
-          ]
-        },
-        "right_hindwing": {
-          "rotation": [
-            0,
-            0,
-            25
-          ]
-        }
-      },
-      "transition": 6
-    },
-    "sneaking": {
-      "bones": {
-        "left_forewing": {
-          "rotation": [
-            0,
-            0,
-            -30
+            -35
           ]
         },
         "left_hindwing": {
@@ -68,7 +35,7 @@
           "rotation": [
             0,
             0,
-            30
+            35
           ]
         },
         "right_hindwing": {
@@ -76,6 +43,39 @@
             0,
             0,
             -35
+          ]
+        }
+      },
+      "transition": 6
+    },
+    "sneaking": {
+      "bones": {
+        "left_forewing": {
+          "rotation": [
+            0,
+            0,
+            20
+          ]
+        },
+        "left_hindwing": {
+          "rotation": [
+            0,
+            0,
+            -20
+          ]
+        },
+        "right_forewing": {
+          "rotation": [
+            0,
+            0,
+            -20
+          ]
+        },
+        "right_hindwing": {
+          "rotation": [
+            0,
+            0,
+            20
           ]
         }
       },

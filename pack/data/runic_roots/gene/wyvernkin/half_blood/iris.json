@@ -1,0 +1,38 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.wyvernkin.half_blood.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.wyvernkin.half_blood.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "bone": {
+      "display_name": {
+        "translate": "gene.runic_roots.wyvernkin.eye_color.bone"
+      },
+      "weight": 4,
+      "tint": "#F0F0E8",
+      "editable": true
+    },
+    "venom": {
+      "display_name": {
+        "translate": "gene.runic_roots.wyvernkin.eye_color.venom"
+      },
+      "weight": 3,
+      "tint": "#B8F060",
+      "editable": true
+    },
+    "amber": {
+      "display_name": {
+        "translate": "gene.runic_roots.wyvernkin.eye_color.amber"
+      },
+      "weight": 2,
+      "tint": "#F2B640",
+      "editable": true
+    }
+  }
+}

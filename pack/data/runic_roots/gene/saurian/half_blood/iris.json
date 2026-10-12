@@ -1,0 +1,46 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.saurian.half_blood.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.saurian.half_blood.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "yellow": {
+      "display_name": {
+        "translate": "gene.runic_roots.saurian.eye_color.yellow"
+      },
+      "weight": 4,
+      "tint": "#F2D04A",
+      "editable": true
+    },
+    "orange": {
+      "display_name": {
+        "translate": "gene.runic_roots.saurian.eye_color.orange"
+      },
+      "weight": 3,
+      "tint": "#F08A30",
+      "editable": true
+    },
+    "red": {
+      "display_name": {
+        "translate": "gene.runic_roots.saurian.eye_color.red"
+      },
+      "weight": 2,
+      "tint": "#D84A3A",
+      "editable": true
+    },
+    "gold": {
+      "display_name": {
+        "translate": "gene.runic_roots.saurian.eye_color.gold"
+      },
+      "weight": 2,
+      "tint": "#E8B040",
+      "editable": true
+    }
+  }
+}

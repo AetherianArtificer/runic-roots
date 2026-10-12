@@ -1,0 +1,44 @@
+{
+  "schema": "townstead:heritage/v1",
+  "display_name": {
+    "translate": "heritage.runic_roots.half_dwarf"
+  },
+  "demonym": {
+    "singular": {
+      "translate": "heritage.runic_roots.half_dwarf.demonym.singular"
+    },
+    "plural": {
+      "translate": "heritage.runic_roots.half_dwarf.demonym.plural"
+    }
+  },
+  "priority": 12,
+  "match": {
+    "townstead_roots:human": {
+      "min": 0.3,
+      "max": 0.7
+    },
+    "runic_roots:dwarf": {
+      "min": 0.3,
+      "max": 0.7
+    }
+  },
+  "lineages": {
+    "runic_roots:mountain_one": {
+      "min": 0.3,
+      "max": 0.7
+    }
+  },
+  "open_lineages": true,
+  "requires": {
+    "not": {
+      "namespace": "townstead_classic"
+    }
+  },
+  "genes": [
+    "runic_roots:mountain_one/beard",
+    "runic_roots:mountain_one/brows",
+    "runic_roots:mountain_one/iris",
+    "runic_roots:half_blood/no_coat",
+    "runic_roots:half_blood/no_markings"
+  ]
+}

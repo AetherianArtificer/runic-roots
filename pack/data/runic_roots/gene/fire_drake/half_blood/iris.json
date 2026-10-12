@@ -1,0 +1,46 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.fire_drake.half_blood.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.fire_drake.half_blood.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "amber": {
+      "display_name": {
+        "translate": "gene.runic_roots.fire_drake.eye_color.amber"
+      },
+      "weight": 4,
+      "tint": "#E8A33A",
+      "editable": true
+    },
+    "gold": {
+      "display_name": {
+        "translate": "gene.runic_roots.fire_drake.eye_color.gold"
+      },
+      "weight": 2,
+      "tint": "#F2D04A",
+      "editable": true
+    },
+    "ember": {
+      "display_name": {
+        "translate": "gene.runic_roots.fire_drake.eye_color.ember"
+      },
+      "weight": 2,
+      "tint": "#D8452A",
+      "editable": true
+    },
+    "soot": {
+      "display_name": {
+        "translate": "gene.runic_roots.fire_drake.eye_color.soot"
+      },
+      "weight": 3,
+      "tint": "#3A2A22",
+      "editable": true
+    }
+  }
+}

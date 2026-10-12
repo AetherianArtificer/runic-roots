@@ -1,0 +1,38 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.volt_drake.half_blood.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.volt_drake.half_blood.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "lightning": {
+      "display_name": {
+        "translate": "gene.runic_roots.volt_drake.eye_color.lightning"
+      },
+      "weight": 4,
+      "tint": "#FFF7A0",
+      "editable": true
+    },
+    "arc": {
+      "display_name": {
+        "translate": "gene.runic_roots.volt_drake.eye_color.arc"
+      },
+      "weight": 3,
+      "tint": "#A0E8FF",
+      "editable": true
+    },
+    "violet": {
+      "display_name": {
+        "translate": "gene.runic_roots.volt_drake.eye_color.violet"
+      },
+      "weight": 3,
+      "tint": "#D9A0FF",
+      "editable": true
+    }
+  }
+}

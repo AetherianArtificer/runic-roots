@@ -1,0 +1,46 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.arachnid.half_blood.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.arachnid.half_blood.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "red": {
+      "display_name": {
+        "translate": "gene.runic_roots.arachnid.eye_color.red"
+      },
+      "weight": 4,
+      "tint": "#D83A30",
+      "editable": true
+    },
+    "black": {
+      "display_name": {
+        "translate": "gene.runic_roots.arachnid.eye_color.black"
+      },
+      "weight": 3,
+      "tint": "#2A2A2E",
+      "editable": true
+    },
+    "amber": {
+      "display_name": {
+        "translate": "gene.runic_roots.arachnid.eye_color.amber"
+      },
+      "weight": 2,
+      "tint": "#E89A30",
+      "editable": true
+    },
+    "violet": {
+      "display_name": {
+        "translate": "gene.runic_roots.arachnid.eye_color.violet"
+      },
+      "weight": 1,
+      "tint": "#9A5AD8",
+      "editable": true
+    }
+  }
+}

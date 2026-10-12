@@ -1,0 +1,38 @@
+{
+  "schema": "townstead:heritage/v1",
+  "display_name": {
+    "translate": "heritage.runic_roots.half_fae"
+  },
+  "demonym": {
+    "singular": {
+      "translate": "heritage.runic_roots.half_fae.demonym.singular"
+    },
+    "plural": {
+      "translate": "heritage.runic_roots.half_fae.demonym.plural"
+    }
+  },
+  "priority": 12,
+  "match": {
+    "townstead_roots:human": {
+      "min": 0.3,
+      "max": 0.7
+    },
+    "runic_roots:fae": {
+      "min": 0.3,
+      "max": 0.7
+    }
+  },
+  "lineages": {
+    "runic_roots:faerie": {
+      "min": 0.3,
+      "max": 0.7
+    }
+  },
+  "open_lineages": true,
+  "genes": [
+    "runic_roots:faerie/ears",
+    "runic_roots:faerie/iris",
+    "runic_roots:half_blood/no_coat",
+    "runic_roots:half_blood/no_markings"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.bovine.ears"
+  },
+  "description": {
+    "translate": "gene.runic_roots.bovine.ears.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:ears",
+  "variants": {
+    "cow": {
+      "display_name": {
+        "translate": "gene.runic_roots.bovine.ears.cow"
+      },
+      "weight": 4,
+      "attachments": [
+        "runic_roots:bovine_ears_cow_male_hair",
+        "runic_roots:bovine_ears_cow_female_hair"
+      ],
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.bovine.ears.size"
+            },
+            "min": 0.85,
+            "max": 1.2,
+            "heritage": {
+              "ancestry": "runic_roots:bestial",
+              "floor": 0.4
+            }
+          }
+        }
+      }
+    },
+    "floppy": {
+      "display_name": {
+        "translate": "gene.runic_roots.bovine.ears.floppy"
+      },
+      "weight": 2,
+      "attachments": [
+        "runic_roots:bovine_ears_floppy_male_hair",
+        "runic_roots:bovine_ears_floppy_female_hair"
+      ],
+      "size": {
+        "channels": {
+          "size": {
+            "label": {
+              "translate": "gene.runic_roots.bovine.ears.size"
+            },
+            "min": 0.85,
+            "max": 1.2,
+            "heritage": {
+              "ancestry": "runic_roots:bestial",
+              "floor": 0.4
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -25,14 +25,18 @@ born into:
 | Fiend | Demon |
 
 Revenants are ageless and bear no children. The Draconic hatch from eggs in clutches of two.
-Half-human children are named Half-Elf, Half-Dwarf, Half-Fae, Drakeblood or Beastblooded.
+Half-human children are named Half-Elf, Half-Dwarf, Half-Fae, Half-Demon, Half-Dragon, Half-Cat and
+so on, and look it: a human body with their other side's mark, such as an elf's ears, a dwarf's
+beard, a demon's horns and tail. Half-beasts, whatever their other half, have a person's face and
+the beast's ears, tail, horns or wings, in the colour of their hair where the beast's were fur; a
+half-cat half-elf has either cat ears or elf ears. They still carry the rest of that blood, so their
+children can take after it.
 
 ## With Classic Fantasy
 
 Install alongside Townstead's Classic Fantasy pack in any order and the races adapt on their own:
-Runic elves and dwarves become lineages of the Classic Elf and Dwarf ancestries (taking their
-ears, beards and stature), the Demon becomes a Tiefling lineage, and Half-Elf and Half-Dwarf
-become Classic's own. Where both packs have a race of the same name, Townstead tells them apart:
+Runic elves and dwarves are filed under the Classic Elf and Dwarf ancestries (keeping their own
+looks), the Demon under Tiefling, and Half-Elf, Half-Dwarf and Half-Demon take Classic's names. Where both packs have a race of the same name, Townstead tells them apart:
 **Classic High Elf** and **Runic High Elf**.
 
 With Skeleton Folk installed, the Skeleton joins the Skeletownies and wears their skeleton body.

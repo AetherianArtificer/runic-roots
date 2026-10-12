@@ -1,0 +1,46 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:iris",
+  "display_name": {
+    "translate": "gene.runic_roots.canine.half_blood.iris"
+  },
+  "description": {
+    "translate": "gene.runic_roots.canine.half_blood.iris.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "variants": {
+    "amber": {
+      "display_name": {
+        "translate": "gene.runic_roots.canine.eye_color.amber"
+      },
+      "weight": 4,
+      "tint": "#E8A33A",
+      "editable": true
+    },
+    "brown": {
+      "display_name": {
+        "translate": "gene.runic_roots.canine.eye_color.brown"
+      },
+      "weight": 3,
+      "tint": "#8A5A2A",
+      "editable": true
+    },
+    "ice": {
+      "display_name": {
+        "translate": "gene.runic_roots.canine.eye_color.ice"
+      },
+      "weight": 2,
+      "tint": "#8AC8F0",
+      "editable": true
+    },
+    "hazel": {
+      "display_name": {
+        "translate": "gene.runic_roots.canine.eye_color.hazel"
+      },
+      "weight": 2,
+      "tint": "#A89A4A",
+      "editable": true
+    }
+  }
+}

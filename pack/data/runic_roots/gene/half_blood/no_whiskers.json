@@ -1,0 +1,14 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.half_blood.no_whiskers"
+  },
+  "description": {
+    "translate": "gene.runic_roots.half_blood.no_whiskers.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "none": true,
+  "locus": "townstead_roots:whiskers"
+}

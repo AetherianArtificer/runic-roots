@@ -1,0 +1,102 @@
+{
+  "schema": "townstead:gene/v2",
+  "type": "townstead_roots:attachment",
+  "display_name": {
+    "translate": "gene.runic_roots.kitsune.tail"
+  },
+  "description": {
+    "translate": "gene.runic_roots.kitsune.tail.desc"
+  },
+  "category": "Appearance",
+  "dominance": "dominant",
+  "locus": "townstead_roots:tail",
+  "variants": {
+    "one": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.tail.one"
+      },
+      "weight": 6,
+      "attachment": "runic_roots:kitsune_tail_one_hair",
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.kitsune.tail.length"
+            },
+            "min": 0.85,
+            "max": 1.2,
+            "heritage": {
+              "ancestry": "runic_roots:bestial",
+              "floor": 0.3
+            }
+          },
+          "girth": {
+            "label": {
+              "translate": "gene.runic_roots.kitsune.tail.girth"
+            },
+            "min": 0.9,
+            "max": 1.12
+          }
+        }
+      }
+    },
+    "three": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.tail.three"
+      },
+      "weight": 2,
+      "attachment": "runic_roots:kitsune_tail_three_hair",
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.kitsune.tail.length"
+            },
+            "min": 0.85,
+            "max": 1.2,
+            "heritage": {
+              "ancestry": "runic_roots:bestial",
+              "floor": 0.3
+            }
+          },
+          "girth": {
+            "label": {
+              "translate": "gene.runic_roots.kitsune.tail.girth"
+            },
+            "min": 0.9,
+            "max": 1.12
+          }
+        }
+      }
+    },
+    "five": {
+      "display_name": {
+        "translate": "gene.runic_roots.kitsune.tail.five"
+      },
+      "weight": 1,
+      "attachment": "runic_roots:kitsune_tail_five_hair",
+      "size": {
+        "channels": {
+          "length": {
+            "label": {
+              "translate": "gene.runic_roots.kitsune.tail.length"
+            },
+            "min": 0.85,
+            "max": 1.2,
+            "heritage": {
+              "ancestry": "runic_roots:bestial",
+              "floor": 0.3
+            }
+          },
+          "girth": {
+            "label": {
+              "translate": "gene.runic_roots.kitsune.tail.girth"
+            },
+            "min": 0.9,
+            "max": 1.12
+          }
+        }
+      }
+    }
+  }
+}
